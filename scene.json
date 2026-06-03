@@ -19,21 +19,21 @@
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        0.8181346800104228,
-        -6.93889390390723e-18,
-        0.5750266475253505,
+        0.31387627828868664,
         0,
-        0.09971597228216217,
-        0.9848495363310499,
-        -0.14187359042590866,
+        -0.949463891850366,
         0,
-        -0.5663147271933394,
-        0.17341104575117303,
-        0.8057395602646165,
+        -0.12177283185969516,
+        0.991741313635368,
+        -0.04025598402305414,
         0,
-        -12.330190705651686,
-        3.7756236274753903,
-        17.543111559870972,
+        0.9416225673530306,
+        0.1282543053031514,
+        0.31128407254900237,
+        0,
+        6.6583771054742025,
+        0.9069085212237012,
+        2.20114386997479,
         1
       ],
       "up": [
@@ -66,21 +66,28 @@
     },
     "geometries": [
       {
-        "uuid": "16065d4d-2766-4992-bac1-cd5b76f4435c",
-        "type": "BoxGeometry",
-        "width": 1,
-        "height": 1,
-        "depth": 1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
+        "uuid": "ad4a94e2-e65c-49f9-9e1a-306f497f0202",
+        "type": "ExtrudeGeometry",
+        "shapes": [
+          "fe2eedd2-0299-4341-8863-88ee716b812c"
+        ],
+        "options": {
+          "depth": 0.5,
+          "bevelEnabled": true,
+          "bevelSize": 0.02,
+          "bevelThickness": 0.02,
+          "curveSegments": 12,
+          "steps": 1,
+          "bevelOffset": 0,
+          "bevelSegments": 3
+        }
       }
     ],
     "materials": [
       {
-        "uuid": "cbacef21-5c78-470a-8f9f-ff9588678079",
+        "uuid": "82fb3343-46c9-4ca4-a49e-a71ea828f915",
         "type": "MeshStandardMaterial",
-        "color": 16720418,
+        "color": 9127187,
         "roughness": 1,
         "metalness": 0,
         "emissive": 0,
@@ -92,6 +99,89 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0
+      }
+    ],
+    "shapes": [
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0,
+              -0.1
+            ],
+            "v2": [
+              0,
+              0.1
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0,
+              0.1
+            ],
+            "v2": [
+              0.2,
+              0.1
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.2,
+              0.1
+            ],
+            "v2": [
+              0.2,
+              -0.1
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.2,
+              -0.1
+            ],
+            "v2": [
+              0,
+              -0.1
+            ]
+          }
+        ],
+        "currentPoint": [
+          0.2,
+          -0.1
+        ],
+        "uuid": "fe2eedd2-0299-4341-8863-88ee716b812c",
+        "holes": []
       }
     ],
     "object": {
@@ -124,9 +214,9 @@
       ],
       "children": [
         {
-          "uuid": "7e46a24b-7cab-4296-8caa-4b205db0a8cc",
+          "uuid": "cccbd533-e844-4561-ac78-fe0389e2bb15",
           "type": "Mesh",
-          "name": "Red Cube",
+          "name": "Gothic Window",
           "layers": 1,
           "matrix": [
             1,
@@ -142,7 +232,7 @@
             1,
             0,
             0,
-            0.5,
+            1.119999997317791,
             0,
             1
           ],
@@ -151,8 +241,8 @@
             1,
             0
           ],
-          "geometry": "16065d4d-2766-4992-bac1-cd5b76f4435c",
-          "material": "cbacef21-5c78-470a-8f9f-ff9588678079"
+          "geometry": "ad4a94e2-e65c-49f9-9e1a-306f497f0202",
+          "material": "82fb3343-46c9-4ca4-a49e-a71ea828f915"
         }
       ],
       "backgroundRotation": [
