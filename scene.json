@@ -19,21 +19,21 @@
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        0.6453099284153727,
+        0.9991958922218774,
+        -4.3368086899420163e-19,
+        -0.040094500457365824,
         0,
-        0.7639208704365564,
+        -0.0035536319507486875,
+        0.9960644928216728,
+        -0.08856013685548206,
         0,
-        0.6382881496331867,
-        0.5494262257123179,
-        -0.5391836983230847,
+        0.039936708263004425,
+        0.08863140605847958,
+        0.9952635496154832,
         0,
-        -0.419718160586826,
-        0.8355422326247286,
-        0.3545501983839443,
-        0,
-        -3.9944880813995587,
-        9.949259400809515,
-        3.3849048840572253,
+        0.9881087382710033,
+        3.6929064918141252,
+        29.624678723676368,
         1
       ],
       "up": [
@@ -54,8 +54,8 @@
   "controls": {
     "center": [
       0,
-      1.9973435602867604,
-      0.010625010814666824
+      1.5,
+      5
     ]
   },
   "scene": {
@@ -789,6 +789,54 @@
         "widthSegments": 1,
         "heightSegments": 1,
         "depthSegments": 1
+      },
+      {
+        "uuid": "b2cc65cc-dc7c-4447-912b-ecd4f44877d7",
+        "type": "BoxGeometry",
+        "width": 12,
+        "height": 3,
+        "depth": 0.2,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "a2f9b9e2-6a1b-448e-805f-99ddcef80309",
+        "type": "BoxGeometry",
+        "width": 12,
+        "height": 3,
+        "depth": 0.2,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "7137ce77-5a39-4b96-acce-9e553256d042",
+        "type": "BoxGeometry",
+        "width": 0.2,
+        "height": 3,
+        "depth": 10,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "083fe419-a6b2-4bde-9a53-6d4195032d11",
+        "type": "BoxGeometry",
+        "width": 0.2,
+        "height": 3,
+        "depth": 10,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "97e8e046-f910-4285-bf4d-ac0232b8c4f9",
+        "type": "PlaneGeometry",
+        "width": 14,
+        "height": 12,
+        "widthSegments": 1,
+        "heightSegments": 1
       }
     ],
     "materials": [
@@ -1056,6 +1104,38 @@
         "metalness": 0.1,
         "emissive": 0,
         "map": "e1a32257-8614-4f6f-9d50-000889d0a064",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "e6697f13-a427-42c4-bb46-90bef2b907ab",
+        "type": "MeshStandardMaterial",
+        "color": 14540253,
+        "roughness": 0.8,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "2f4461cd-1094-43d6-b0a4-ac20bb453753",
+        "type": "MeshStandardMaterial",
+        "color": 9127187,
+        "roughness": 0.7,
+        "metalness": 0,
+        "emissive": 0,
         "envMapRotation": [
           0,
           0,
@@ -4716,6 +4796,486 @@
                 1,
                 0
               ]
+            }
+          ]
+        },
+        {
+          "uuid": "b57ed089-4cc7-4a2f-af7a-9e48f2108fe3",
+          "type": "Mesh",
+          "name": "Front Wall",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "24:6185",
+              "bbox": {
+                "center": [
+                  0,
+                  1.5,
+                  -5
+                ],
+                "size": [
+                  12,
+                  3,
+                  0.2
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "flat",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 7.2,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "light gray",
+                "base": "gray",
+                "hex": "#dddddd"
+              },
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1.5,
+            -5,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "b2cc65cc-dc7c-4447-912b-ecd4f44877d7",
+          "material": "e6697f13-a427-42c4-bb46-90bef2b907ab"
+        },
+        {
+          "uuid": "6ee1f6ac-1169-4406-abf9-6ec81135144a",
+          "type": "Mesh",
+          "name": "Back Wall",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "24:6185",
+              "bbox": {
+                "center": [
+                  0,
+                  1.5,
+                  5
+                ],
+                "size": [
+                  12,
+                  3,
+                  0.2
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "flat",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 7.2,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "light gray",
+                "base": "gray",
+                "hex": "#dddddd"
+              },
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1.5,
+            5,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "a2f9b9e2-6a1b-448e-805f-99ddcef80309",
+          "material": "e6697f13-a427-42c4-bb46-90bef2b907ab"
+        },
+        {
+          "uuid": "7d0ac15e-aabd-4500-acf7-5660f378e6c4",
+          "type": "Mesh",
+          "name": "Left Wall",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "24:5221",
+              "bbox": {
+                "center": [
+                  -6,
+                  1.5,
+                  0
+                ],
+                "size": [
+                  0.2,
+                  3,
+                  10
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "flat",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 6,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "light gray",
+                "base": "gray",
+                "hex": "#dddddd"
+              },
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -6,
+            1.5,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "7137ce77-5a39-4b96-acce-9e553256d042",
+          "material": "e6697f13-a427-42c4-bb46-90bef2b907ab"
+        },
+        {
+          "uuid": "dfc49704-0881-4d22-94d5-0bae7d3f060f",
+          "type": "Mesh",
+          "name": "Right Wall",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "24:5221",
+              "bbox": {
+                "center": [
+                  6,
+                  1.5,
+                  0
+                ],
+                "size": [
+                  0.2,
+                  3,
+                  10
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "flat",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 6,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "light gray",
+                "base": "gray",
+                "hex": "#dddddd"
+              },
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            6,
+            1.5,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "083fe419-a6b2-4bde-9a53-6d4195032d11",
+          "material": "e6697f13-a427-42c4-bb46-90bef2b907ab"
+        },
+        {
+          "uuid": "5fa154b8-35d3-46ea-9714-c50247ee847d",
+          "type": "Group",
+          "name": "Roof",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:2",
+              "bbox": {
+                "center": [
+                  0,
+                  3.8,
+                  -1.25
+                ],
+                "size": [
+                  10.8083,
+                  4.8083,
+                  7.5
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 389.7747,
+              "role": "group",
+              "childCount": 2,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "brown",
+                "base": "brown",
+                "hex": "#8b4513"
+              },
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "uuid": "59003a93-509a-4322-8fb2-2f7d762a8632",
+          "type": "Group",
+          "name": "Roof",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:1",
+              "bbox": {
+                "center": [
+                  0,
+                  4,
+                  0
+                ],
+                "size": [
+                  14,
+                  12,
+                  0
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 0,
+              "role": "group",
+              "childCount": 1,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "brown",
+                "base": "brown",
+                "hex": "#8b4513"
+              },
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "a213d657-f95f-4774-b924-f1297d6d96b4",
+              "type": "Mesh",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "4:9220",
+                  "bbox": {
+                    "center": [
+                      0,
+                      4,
+                      0
+                    ],
+                    "size": [
+                      14,
+                      12,
+                      0
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Roof",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#8b4513"
+                  },
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                -0.1365162329688161,
+                0.9906378339918196,
+                0,
+                0,
+                -0.9906378339918196,
+                -0.1365162329688161,
+                0,
+                0,
+                4,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "97e8e046-f910-4285-bf4d-ac0232b8c4f9",
+              "material": "2f4461cd-1094-43d6-b0a4-ac20bb453753"
             }
           ]
         }
