@@ -19,21 +19,21 @@
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        0.18802226437101002,
-        2.77555756156289e-17,
-        -0.9821647662692841,
+        0.6453099284153727,
         0,
-        -0.41136840432214916,
-        0.908060748034171,
-        -0.07875096066125148,
+        0.7639208704365564,
         0,
-        0.891865272351293,
-        0.41883848662655276,
-        0.17073563803181804,
+        0.6382881496331867,
+        0.5494262257123179,
+        -0.5391836983230847,
         0,
-        16.893468496808083,
-        9.930867825025091,
-        3.244652853124075,
+        -0.419718160586826,
+        0.8355422326247286,
+        0.3545501983839443,
+        0,
+        -3.9944880813995587,
+        9.949259400809515,
+        3.3849048840572253,
         1
       ],
       "up": [
@@ -781,37 +781,7 @@
         "depthSegments": 1
       },
       {
-        "uuid": "55015fc9-fa92-4f5c-b430-77fe41fd621f",
-        "type": "BoxGeometry",
-        "width": 0.1,
-        "height": 0.65,
-        "depth": 0.1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "9b17acac-92c5-43c1-9471-6bc6ca942fb0",
-        "type": "BoxGeometry",
-        "width": 0.1,
-        "height": 0.65,
-        "depth": 0.1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
         "uuid": "c102dc7c-8bcf-4b05-bbb6-a228e2f1106c",
-        "type": "BoxGeometry",
-        "width": 0.1,
-        "height": 0.65,
-        "depth": 0.1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "81523c21-fe7a-48de-86ef-d0fd1951e59f",
         "type": "BoxGeometry",
         "width": 0.1,
         "height": 0.65,
@@ -1079,58 +1049,7 @@
         "blendColor": 0
       },
       {
-        "uuid": "291f9b8d-05a8-499f-a291-5e3dd03cd1a0",
-        "type": "MeshStandardMaterial",
-        "color": 9132587,
-        "roughness": 0.7,
-        "metalness": 0.1,
-        "emissive": 0,
-        "map": "e1a32257-8614-4f6f-9d50-000889d0a064",
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "24ad3c11-bca2-41e9-b99e-438a98988645",
-        "type": "MeshStandardMaterial",
-        "color": 9132587,
-        "roughness": 0.7,
-        "metalness": 0.1,
-        "emissive": 0,
-        "map": "e1a32257-8614-4f6f-9d50-000889d0a064",
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
         "uuid": "3c262e58-61e1-4b86-9c87-4d15b93555fe",
-        "type": "MeshStandardMaterial",
-        "color": 9132587,
-        "roughness": 0.7,
-        "metalness": 0.1,
-        "emissive": 0,
-        "map": "e1a32257-8614-4f6f-9d50-000889d0a064",
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "18606177-57b4-4c5e-adb1-721a7c3e5d88",
         "type": "MeshStandardMaterial",
         "color": 9132587,
         "roughness": 0.7,
@@ -1151,7 +1070,7 @@
       {
         "uuid": "e1a32257-8614-4f6f-9d50-000889d0a064",
         "name": "",
-        "image": "75fa569e-ebec-4a8b-9182-b0b0e798a28f",
+        "image": "5b5f17f0-b6b9-4654-85f4-cfd2025d7c48",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -1187,7 +1106,7 @@
     ],
     "images": [
       {
-        "uuid": "75fa569e-ebec-4a8b-9182-b0b0e798a28f",
+        "uuid": "5b5f17f0-b6b9-4654-85f4-cfd2025d7c48",
         "url": "data:image/png;base64,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"
       }
     ],
@@ -4489,7 +4408,7 @@
               "far": 500
             }
           },
-          "target": "88674032-2c40-4db4-90ec-e7461820f778"
+          "target": "0b16720a-700a-47d9-a94e-4df8b8f275d7"
         },
         {
           "uuid": "16c69360-aaa4-45dd-8d37-f07879430736",
@@ -4558,154 +4477,6 @@
             0
           ],
           "children": [
-            {
-              "uuid": "788ab687-1f9a-4207-a6b3-57b2dfdac49a",
-              "type": "Mesh",
-              "name": "Leg 1",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "24:333",
-                  "bbox": {
-                    "center": [
-                      -0.9,
-                      0.325,
-                      -3.65
-                    ],
-                    "size": [
-                      0.1,
-                      0.65,
-                      0.1
-                    ]
-                  },
-                  "region": {
-                    "x": "left",
-                    "y": "center",
-                    "z": "back"
-                  },
-                  "shape": "elongated",
-                  "orientation": "vertical",
-                  "sizeRank": "smallest",
-                  "volume": 0.0065,
-                  "role": "leaf",
-                  "childCount": 0,
-                  "depth": 1,
-                  "parentName": "Kitchen Table",
-                  "adjacency": [],
-                  "color": {
-                    "name": "brown",
-                    "base": "brown",
-                    "hex": "#8b5a2b"
-                  },
-                  "pair": {
-                    "mateUuid": "1eee9d1f-b69a-4eca-a2e7-08fe5bc98ccb",
-                    "mateName": "Leg 2",
-                    "axis": "x",
-                    "side": "left"
-                  }
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                -0.9,
-                0.325,
-                -0.65,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "geometry": "55015fc9-fa92-4f5c-b430-77fe41fd621f",
-              "material": "291f9b8d-05a8-499f-a291-5e3dd03cd1a0"
-            },
-            {
-              "uuid": "1eee9d1f-b69a-4eca-a2e7-08fe5bc98ccb",
-              "type": "Mesh",
-              "name": "Leg 2",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "24:333",
-                  "bbox": {
-                    "center": [
-                      0.9,
-                      0.325,
-                      -3.65
-                    ],
-                    "size": [
-                      0.1,
-                      0.65,
-                      0.1
-                    ]
-                  },
-                  "region": {
-                    "x": "right",
-                    "y": "center",
-                    "z": "back"
-                  },
-                  "shape": "elongated",
-                  "orientation": "vertical",
-                  "sizeRank": "smallest",
-                  "volume": 0.0065,
-                  "role": "leaf",
-                  "childCount": 0,
-                  "depth": 1,
-                  "parentName": "Kitchen Table",
-                  "adjacency": [],
-                  "color": {
-                    "name": "brown",
-                    "base": "brown",
-                    "hex": "#8b5a2b"
-                  },
-                  "pair": {
-                    "mateUuid": "788ab687-1f9a-4207-a6b3-57b2dfdac49a",
-                    "mateName": "Leg 1",
-                    "axis": "x",
-                    "side": "right"
-                  }
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0.9,
-                0.325,
-                -0.65,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "geometry": "9b17acac-92c5-43c1-9471-6bc6ca942fb0",
-              "material": "24ad3c11-bca2-41e9-b99e-438a98988645"
-            },
             {
               "uuid": "81f2779d-2dca-4643-a478-a9e2a0ea34b2",
               "type": "Mesh",
@@ -4779,80 +4550,6 @@
               ],
               "geometry": "c102dc7c-8bcf-4b05-bbb6-a228e2f1106c",
               "material": "3c262e58-61e1-4b86-9c87-4d15b93555fe"
-            },
-            {
-              "uuid": "2e5cb27d-6bc3-4b50-93db-cf997018b01e",
-              "type": "Mesh",
-              "name": "Leg 4",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "24:333",
-                  "bbox": {
-                    "center": [
-                      0.9,
-                      0.325,
-                      -2.35
-                    ],
-                    "size": [
-                      0.1,
-                      0.65,
-                      0.1
-                    ]
-                  },
-                  "region": {
-                    "x": "right",
-                    "y": "center",
-                    "z": "front"
-                  },
-                  "shape": "elongated",
-                  "orientation": "vertical",
-                  "sizeRank": "smallest",
-                  "volume": 0.0065,
-                  "role": "leaf",
-                  "childCount": 0,
-                  "depth": 1,
-                  "parentName": "Kitchen Table",
-                  "adjacency": [],
-                  "color": {
-                    "name": "brown",
-                    "base": "brown",
-                    "hex": "#8b5a2b"
-                  },
-                  "pair": {
-                    "mateUuid": "81f2779d-2dca-4643-a478-a9e2a0ea34b2",
-                    "mateName": "Leg 3",
-                    "axis": "x",
-                    "side": "right"
-                  }
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0.9,
-                0.325,
-                0.65,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "geometry": "81523c21-fe7a-48de-86ef-d0fd1951e59f",
-              "material": "18606177-57b4-4c5e-adb1-721a7c3e5d88"
             }
           ]
         },
