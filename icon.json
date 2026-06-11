@@ -1,0 +1,971 @@
+{
+  "metadata": {},
+  "project": {
+    "renderer": "WebGLRenderer",
+    "shadows": true,
+    "shadowType": 1,
+    "toneMapping": 7,
+    "toneMappingExposure": 1
+  },
+  "camera": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "9c8a07a7-0afb-41e5-8ef4-76cfe8ee3064",
+      "type": "PerspectiveCamera",
+      "name": "Camera",
+      "layers": 1,
+      "matrix": [
+        0.9999133549805035,
+        -4.336808689942018e-19,
+        0.013163682297652983,
+        0,
+        0.006349272993892728,
+        0.8759881685011564,
+        -0.4822907995996173,
+        0,
+        -0.011531229946652132,
+        0.4823325913163957,
+        0.8759122684892179,
+        0,
+        -0.12892307012447712,
+        5.392642309735425,
+        9.792996873339685,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "fov": 50,
+      "zoom": 1,
+      "near": 0.001,
+      "far": 10000000000,
+      "focus": 10,
+      "aspect": 1.3774509803921569,
+      "filmGauge": 35,
+      "filmOffset": 0
+    }
+  },
+  "controls": {
+    "center": [
+      0,
+      0,
+      0
+    ]
+  },
+  "scene": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "geometries": [
+      {
+        "uuid": "9a05dde9-8770-483a-a5f3-b3fdfc765d7f",
+        "type": "BoxGeometry",
+        "width": 2.4,
+        "height": 0.4,
+        "depth": 2.4,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "90310210-0c3c-4d09-b4c7-95b52e1b6ead",
+        "type": "BoxGeometry",
+        "width": 2.15,
+        "height": 0.4,
+        "depth": 2.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "bbcf4ba4-2d85-4546-97a3-893f975d8460",
+        "type": "BoxGeometry",
+        "width": 1.9,
+        "height": 0.4,
+        "depth": 1.9,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "0a96f17f-2ecb-412b-8ed9-13af4b2ffd09",
+        "type": "BoxGeometry",
+        "width": 1.65,
+        "height": 0.4,
+        "depth": 1.65,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "f78f4c93-8886-466f-9ce0-73e0dd662de9",
+        "type": "BoxGeometry",
+        "width": 1.4,
+        "height": 0.4,
+        "depth": 1.4,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "dafd0b60-a6f7-418d-be49-4b9d1db95972",
+        "type": "SphereGeometry",
+        "radius": 0.35,
+        "widthSegments": 32,
+        "heightSegments": 24,
+        "phiStart": 0,
+        "phiLength": 6.283185307179586,
+        "thetaStart": 0,
+        "thetaLength": 3.141592653589793
+      },
+      {
+        "uuid": "a0e99863-1b16-44ee-b8f7-e03918e6dc61",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.05,
+        "radiusBottom": 0.05,
+        "height": 0.4,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      }
+    ],
+    "materials": [
+      {
+        "uuid": "8ec4948e-cfc2-478d-96cb-09d9158aebb3",
+        "type": "MeshStandardMaterial",
+        "color": 3900150,
+        "roughness": 0.35,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "07f7281e-b933-461a-a357-608184caed87",
+        "type": "MeshStandardMaterial",
+        "color": 440020,
+        "roughness": 0.35,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "3a790f75-7d1a-4ee0-bc12-4c91bffed8ee",
+        "type": "MeshStandardMaterial",
+        "color": 1096065,
+        "roughness": 0.35,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "39e39093-1dca-45ab-a73b-c6f246be531a",
+        "type": "MeshStandardMaterial",
+        "color": 16096779,
+        "roughness": 0.35,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "76c861d9-ab44-4c60-8396-51cb4c5f5ec0",
+        "type": "MeshStandardMaterial",
+        "color": 15680580,
+        "roughness": 0.35,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "23bfc895-d55f-4db4-a3cc-d2ac437f56df",
+        "type": "MeshStandardMaterial",
+        "color": 16777215,
+        "roughness": 0.25,
+        "metalness": 0.1,
+        "emissive": 6333946,
+        "emissiveIntensity": 0.6,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "9e1a778b-5fa3-4bf5-859d-a818a2f8c3f4",
+        "type": "MeshStandardMaterial",
+        "color": 9741240,
+        "roughness": 0.5,
+        "metalness": 0.4,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      }
+    ],
+    "object": {
+      "uuid": "363f6535-e392-473c-99f5-286bb52391dc",
+      "type": "Scene",
+      "name": "Scene",
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "children": [
+        {
+          "uuid": "1f2e4575-73ec-4d43-a637-00df24de46d5",
+          "type": "Group",
+          "name": "Strata Icon",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:7",
+              "bbox": {
+                "center": [
+                  0,
+                  1.425,
+                  0
+                ],
+                "size": [
+                  2.4,
+                  2.85,
+                  2.4
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "vertical",
+              "sizeRank": "medium",
+              "volume": 16.416,
+              "role": "group",
+              "childCount": 7,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "blue",
+                "base": "blue",
+                "hex": "#3b82f6"
+              },
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "3d892bc7-6cb0-4b29-a007-a7bfcbe81560",
+              "type": "Mesh",
+              "name": "Stratum Layer 1",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1709",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.2,
+                      0
+                    ],
+                    "size": [
+                      2.4,
+                      0.4,
+                      2.4
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "largest",
+                  "volume": 2.304,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Strata Icon",
+                  "adjacency": [
+                    "Stratum Layer 2"
+                  ],
+                  "color": {
+                    "name": "blue",
+                    "base": "blue",
+                    "hex": "#3b82f6"
+                  },
+                  "pair": {
+                    "mateUuid": "a1081024-97a5-4151-8338-217a0c727664",
+                    "mateName": "Stratum Layer 2",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.2,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9a05dde9-8770-483a-a5f3-b3fdfc765d7f",
+              "material": "8ec4948e-cfc2-478d-96cb-09d9158aebb3"
+            },
+            {
+              "uuid": "a1081024-97a5-4151-8338-217a0c727664",
+              "type": "Mesh",
+              "name": "Stratum Layer 2",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1533",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.6,
+                      0
+                    ],
+                    "size": [
+                      2.15,
+                      0.4,
+                      2.15
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 1.849,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Strata Icon",
+                  "adjacency": [
+                    "Stratum Layer 1",
+                    "Stratum Layer 3"
+                  ],
+                  "color": {
+                    "name": "cyan",
+                    "base": "cyan",
+                    "hex": "#06b6d4"
+                  },
+                  "pair": {
+                    "mateUuid": "3d892bc7-6cb0-4b29-a007-a7bfcbe81560",
+                    "mateName": "Stratum Layer 1",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.6000000000000001,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "90310210-0c3c-4d09-b4c7-95b52e1b6ead",
+              "material": "07f7281e-b933-461a-a357-608184caed87"
+            },
+            {
+              "uuid": "ae97cbfc-8c38-4aaf-aafe-7f7a86a93e91",
+              "type": "Mesh",
+              "name": "Stratum Layer 3",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1358",
+                  "bbox": {
+                    "center": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "size": [
+                      1.9,
+                      0.4,
+                      1.9
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 1.444,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Strata Icon",
+                  "adjacency": [
+                    "Stratum Layer 2",
+                    "Stratum Layer 4"
+                  ],
+                  "color": {
+                    "name": "green",
+                    "base": "green",
+                    "hex": "#10b981"
+                  },
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "bbcf4ba4-2d85-4546-97a3-893f975d8460",
+              "material": "3a790f75-7d1a-4ee0-bc12-4c91bffed8ee"
+            },
+            {
+              "uuid": "6d16b7f1-f9fd-4fb3-970a-b41a8499fb61",
+              "type": "Mesh",
+              "name": "Stratum Layer 4",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1184",
+                  "bbox": {
+                    "center": [
+                      0,
+                      1.4,
+                      0
+                    ],
+                    "size": [
+                      1.65,
+                      0.4,
+                      1.65
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 1.089,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Strata Icon",
+                  "adjacency": [
+                    "Stratum Layer 3",
+                    "Stratum Layer 5"
+                  ],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#f59e0b"
+                  },
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.4000000000000001,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "0a96f17f-2ecb-412b-8ed9-13af4b2ffd09",
+              "material": "39e39093-1dca-45ab-a73b-c6f246be531a"
+            },
+            {
+              "uuid": "8a0303f3-631c-47d6-8e91-c8a1f029e399",
+              "type": "Mesh",
+              "name": "Stratum Layer 5",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1010",
+                  "bbox": {
+                    "center": [
+                      0,
+                      1.8,
+                      0
+                    ],
+                    "size": [
+                      1.4,
+                      0.4,
+                      1.4
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.784,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Strata Icon",
+                  "adjacency": [
+                    "Stratum Layer 4",
+                    "Version Thread"
+                  ],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ef4444"
+                  },
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.8,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "f78f4c93-8886-466f-9ce0-73e0dd662de9",
+              "material": "76c861d9-ab44-4c60-8396-51cb4c5f5ec0"
+            },
+            {
+              "uuid": "996b8304-4261-4683-9012-40ac5c53b207",
+              "type": "Mesh",
+              "name": "Version Node",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "825:350",
+                  "bbox": {
+                    "center": [
+                      0,
+                      2.5,
+                      0
+                    ],
+                    "size": [
+                      0.7,
+                      0.7,
+                      0.7
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.343,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Strata Icon",
+                  "adjacency": [
+                    "Version Thread"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                2.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "dafd0b60-a6f7-418d-be49-4b9d1db95972",
+              "material": "23bfc895-d55f-4db4-a3cc-d2ac437f56df"
+            },
+            {
+              "uuid": "092cd3f6-8274-4ece-a89b-adf0a729c763",
+              "type": "Mesh",
+              "name": "Version Thread",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "100:206",
+                  "bbox": {
+                    "center": [
+                      0,
+                      2.1,
+                      0
+                    ],
+                    "size": [
+                      0.1,
+                      0.4,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "center"
+                  },
+                  "shape": "elongated",
+                  "orientation": "vertical",
+                  "sizeRank": "smallest",
+                  "volume": 0.004,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Strata Icon",
+                  "adjacency": [
+                    "Stratum Layer 5",
+                    "Version Node"
+                  ],
+                  "color": {
+                    "name": "blue",
+                    "base": "blue",
+                    "hex": "#94a3b8"
+                  },
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                2.1,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "a0e99863-1b16-44ee-b8f7-e03918e6dc61",
+              "material": "9e1a778b-5fa3-4bf5-859d-a818a2f8c3f4"
+            }
+          ]
+        },
+        {
+          "uuid": "70c58446-98ea-4e16-ba35-a3f85acf9c96",
+          "type": "DirectionalLight",
+          "name": "Key Light",
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            4,
+            6,
+            5,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 16777215,
+          "intensity": 1.1,
+          "shadow": {
+            "camera": {
+              "uuid": "d355e5cf-9a95-4212-8924-a574f7a64faf",
+              "type": "OrthographicCamera",
+              "layers": 1,
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "zoom": 1,
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          },
+          "target": "a52680a5-2728-4998-b874-ff4fb2c9b263"
+        },
+        {
+          "uuid": "c3126186-1ed6-46ac-8d1b-cd84faf533c8",
+          "type": "AmbientLight",
+          "name": "Ambient Light",
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 16777215,
+          "intensity": 0.5
+        }
+      ],
+      "backgroundRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "environmentRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
+    }
+  },
+  "scripts": {},
+  "history": {
+    "undos": [],
+    "redos": []
+  },
+  "backgroundType": "Default",
+  "environmentType": "Default"
+}
