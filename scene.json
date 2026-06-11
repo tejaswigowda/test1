@@ -19,21 +19,21 @@
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        0.9991958922218774,
-        -4.3368086899420163e-19,
-        -0.040094500457365824,
+        -0.9192242909612819,
         0,
-        -0.0035536319507486875,
-        0.9960644928216728,
-        -0.08856013685548206,
+        -0.39373430496557965,
         0,
-        0.039936708263004425,
-        0.08863140605847958,
-        0.9952635496154832,
+        -0.2030716924084327,
+        0.8567342000930639,
+        0.4740974563665913,
         0,
-        0.9881087382710033,
-        3.6929064918141252,
-        29.624678723676368,
+        0.3373256448138844,
+        0.5157581898437454,
+        -0.7875308876228277,
+        0,
+        8.346066358009487,
+        14.26082071820464,
+        -14.484984756224783,
         1
       ],
       "up": [
@@ -837,6 +837,170 @@
         "height": 12,
         "widthSegments": 1,
         "heightSegments": 1
+      },
+      {
+        "uuid": "e514e1dc-43ba-4652-bb6c-6ae1af1ec5ab",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.25,
+        "radiusBottom": 0.3,
+        "height": 0.4,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "415c43ca-609b-4572-95fe-a6c70bb7f725",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": [
+                -3,
+                9,
+                -2,
+                -3,
+                8,
+                -2
+              ],
+              "normalized": false
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.5,
+            "center": [
+              -3,
+              8.5,
+              -2
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "b097d31c-a322-4b7e-865a-018a90bf1759",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.25,
+        "radiusBottom": 0.3,
+        "height": 0.4,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "90fce3bc-2d71-453b-90ae-93a516ab4903",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": [
+                3,
+                9,
+                -2,
+                3,
+                8,
+                -2
+              ],
+              "normalized": false
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.5,
+            "center": [
+              3,
+              8.5,
+              -2
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "fe4d5525-3738-4c60-9d58-243b5f7afbee",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.25,
+        "radiusBottom": 0.3,
+        "height": 0.4,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "8c51ff38-478c-4265-9b13-6d725aa51ff0",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": [
+                -3,
+                9,
+                2,
+                -3,
+                8,
+                2
+              ],
+              "normalized": false
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.5,
+            "center": [
+              -3,
+              8.5,
+              2
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "abb80f76-13c5-41a8-9c76-0791f0092762",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.25,
+        "radiusBottom": 0.3,
+        "height": 0.4,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "41249246-071e-45fe-a4d2-4d9597bc97a2",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": [
+                3,
+                9,
+                2,
+                3,
+                8,
+                2
+              ],
+              "normalized": false
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.5,
+            "center": [
+              3,
+              8.5,
+              2
+            ]
+          }
+        }
       }
     ],
     "materials": [
@@ -1144,13 +1308,101 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0
+      },
+      {
+        "uuid": "e0c5c6e6-2b7d-4c3e-a250-7f676f8a8dd2",
+        "type": "MeshStandardMaterial",
+        "color": 16777198,
+        "roughness": 0.3,
+        "metalness": 0.1,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "4e809e06-4d36-466a-8456-1e7c0a7a62e2",
+        "type": "LineBasicMaterial",
+        "color": 4473924,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b5db111f-f890-40ad-9cb6-4d7140f2aa3f",
+        "type": "MeshStandardMaterial",
+        "color": 16777198,
+        "roughness": 0.3,
+        "metalness": 0.1,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "2de63a64-1330-42ec-95dc-7e9207a9b597",
+        "type": "LineBasicMaterial",
+        "color": 4473924,
+        "blendColor": 0
+      },
+      {
+        "uuid": "74a3a8b2-f5e9-45c1-aca7-35c8dcbbfafb",
+        "type": "MeshStandardMaterial",
+        "color": 16777198,
+        "roughness": 0.3,
+        "metalness": 0.1,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "7822e72f-94cc-41d1-ba04-5afee65fdfdd",
+        "type": "LineBasicMaterial",
+        "color": 4473924,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b2917fd9-962f-4610-8a90-8d5cf91e3948",
+        "type": "MeshStandardMaterial",
+        "color": 16777198,
+        "roughness": 0.3,
+        "metalness": 0.1,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "752690af-3e51-4760-b432-2e7609d41e35",
+        "type": "LineBasicMaterial",
+        "color": 4473924,
+        "blendColor": 0
       }
     ],
     "textures": [
       {
         "uuid": "e1a32257-8614-4f6f-9d50-000889d0a064",
         "name": "",
-        "image": "5b5f17f0-b6b9-4654-85f4-cfd2025d7c48",
+        "image": "72cafc4b-dce4-4a58-a2bd-ec555337ab6a",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -1186,7 +1438,7 @@
     ],
     "images": [
       {
-        "uuid": "5b5f17f0-b6b9-4654-85f4-cfd2025d7c48",
+        "uuid": "72cafc4b-dce4-4a58-a2bd-ec555337ab6a",
         "url": "data:image/png;base64,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"
       }
     ],
@@ -4488,7 +4740,7 @@
               "far": 500
             }
           },
-          "target": "0b16720a-700a-47d9-a94e-4df8b8f275d7"
+          "target": "0e36da09-2a93-4eb6-9958-e89724ec587b"
         },
         {
           "uuid": "16c69360-aaa4-45dd-8d37-f07879430736",
@@ -4497,17 +4749,17 @@
           "userData": {
             "descriptors": {
               "v": 1,
-              "geomHash": "grp:4",
+              "geomHash": "grp:1",
               "bbox": {
                 "center": [
-                  0,
+                  -0.9,
                   0.325,
-                  -3
+                  -2.35
                 ],
                 "size": [
-                  1.9,
+                  0.1,
                   0.65,
-                  1.4
+                  0.1
                 ]
               },
               "region": {
@@ -4516,11 +4768,11 @@
                 "z": "center"
               },
               "shape": "blocky",
-              "orientation": "horizontal",
+              "orientation": "vertical",
               "sizeRank": "medium",
-              "volume": 1.729,
+              "volume": 0.0065,
               "role": "group",
-              "childCount": 4,
+              "childCount": 1,
               "depth": 0,
               "parentName": "Scene",
               "adjacency": [],
@@ -5276,6 +5528,859 @@
               ],
               "geometry": "97e8e046-f910-4285-bf4d-ac0232b8c4f9",
               "material": "2f4461cd-1094-43d6-b0a4-ac20bb453753"
+            }
+          ]
+        },
+        {
+          "uuid": "96d34dee-a232-4f7d-a068-26db08ee33b3",
+          "type": "Group",
+          "name": "Ceiling Lights",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:12",
+              "bbox": {
+                "center": [
+                  0,
+                  8.3,
+                  0
+                ],
+                "size": [
+                  6.6,
+                  1.4,
+                  4.6
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 42.504,
+              "role": "group",
+              "childCount": 12,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "yellow",
+                "base": "yellow",
+                "hex": "#ffffee"
+              },
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "0b8abdea-a4ca-4a86-9ee8-c2a1aeb67b7c",
+              "type": "Mesh",
+              "name": "Light Shade 1",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "100:361",
+                  "bbox": {
+                    "center": [
+                      -3,
+                      7.8,
+                      -2
+                    ],
+                    "size": [
+                      0.6,
+                      0.4,
+                      0.6
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "largest",
+                  "volume": 0.144,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Ceiling Lights",
+                  "adjacency": [
+                    "Wire 1"
+                  ],
+                  "color": {
+                    "name": "light yellow",
+                    "base": "yellow",
+                    "hex": "#ffffee"
+                  },
+                  "pair": {
+                    "mateUuid": "7fdc6c20-c08c-436f-9978-270ff9fcf9fe",
+                    "mateName": "Light Shade 2",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3,
+                7.8,
+                -2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "e514e1dc-43ba-4652-bb6c-6ae1af1ec5ab",
+              "material": "e0c5c6e6-2b7d-4c3e-a250-7f676f8a8dd2"
+            },
+            {
+              "uuid": "7bf29768-9114-4181-96fa-a7db58894513",
+              "type": "Line",
+              "name": "Wire 1",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:0",
+                  "bbox": {
+                    "center": [
+                      -3,
+                      8.5,
+                      -2
+                    ],
+                    "size": [
+                      0,
+                      1,
+                      0
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "group",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Ceiling Lights",
+                  "adjacency": [
+                    "Light Shade 1"
+                  ],
+                  "color": null,
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "415c43ca-609b-4572-95fe-a6c70bb7f725",
+              "material": "4e809e06-4d36-466a-8456-1e7c0a7a62e2"
+            },
+            {
+              "uuid": "2a5f6184-50d4-499d-a37a-5f3d612cfaf8",
+              "type": "PointLight",
+              "name": "Point Light 1",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3,
+                7.7,
+                -2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "color": 16777181,
+              "intensity": 1.5,
+              "distance": 15,
+              "decay": 2,
+              "shadow": {
+                "camera": {
+                  "uuid": "1539eaa7-2761-499d-a116-fb72a0daf9e0",
+                  "type": "PerspectiveCamera",
+                  "layers": 1,
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "fov": 90,
+                  "zoom": 1,
+                  "near": 0.5,
+                  "far": 500,
+                  "focus": 10,
+                  "aspect": 1,
+                  "filmGauge": 35,
+                  "filmOffset": 0
+                }
+              }
+            },
+            {
+              "uuid": "7fdc6c20-c08c-436f-9978-270ff9fcf9fe",
+              "type": "Mesh",
+              "name": "Light Shade 2",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "100:361",
+                  "bbox": {
+                    "center": [
+                      3,
+                      7.8,
+                      -2
+                    ],
+                    "size": [
+                      0.6,
+                      0.4,
+                      0.6
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "largest",
+                  "volume": 0.144,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Ceiling Lights",
+                  "adjacency": [
+                    "Wire 2"
+                  ],
+                  "color": {
+                    "name": "light yellow",
+                    "base": "yellow",
+                    "hex": "#ffffee"
+                  },
+                  "pair": {
+                    "mateUuid": "0b8abdea-a4ca-4a86-9ee8-c2a1aeb67b7c",
+                    "mateName": "Light Shade 1",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3,
+                7.8,
+                -2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "b097d31c-a322-4b7e-865a-018a90bf1759",
+              "material": "b5db111f-f890-40ad-9cb6-4d7140f2aa3f"
+            },
+            {
+              "uuid": "9e2aa02a-b57e-4516-bf93-ea392e85bdbd",
+              "type": "Line",
+              "name": "Wire 2",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:0",
+                  "bbox": {
+                    "center": [
+                      3,
+                      8.5,
+                      -2
+                    ],
+                    "size": [
+                      0,
+                      1,
+                      0
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "group",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Ceiling Lights",
+                  "adjacency": [
+                    "Light Shade 2"
+                  ],
+                  "color": null,
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "90fce3bc-2d71-453b-90ae-93a516ab4903",
+              "material": "2de63a64-1330-42ec-95dc-7e9207a9b597"
+            },
+            {
+              "uuid": "5f78ab83-a8ae-451d-90bb-63ea81c5e538",
+              "type": "PointLight",
+              "name": "Point Light 2",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3,
+                7.7,
+                -2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "color": 16777181,
+              "intensity": 1.5,
+              "distance": 15,
+              "decay": 2,
+              "shadow": {
+                "camera": {
+                  "uuid": "851316f7-3ed6-48fd-a7a0-d343e9fad165",
+                  "type": "PerspectiveCamera",
+                  "layers": 1,
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "fov": 90,
+                  "zoom": 1,
+                  "near": 0.5,
+                  "far": 500,
+                  "focus": 10,
+                  "aspect": 1,
+                  "filmGauge": 35,
+                  "filmOffset": 0
+                }
+              }
+            },
+            {
+              "uuid": "6a634ed1-64b0-4452-b9fa-5c6bef321a4b",
+              "type": "Mesh",
+              "name": "Light Shade 3",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "100:361",
+                  "bbox": {
+                    "center": [
+                      -3,
+                      7.8,
+                      2
+                    ],
+                    "size": [
+                      0.6,
+                      0.4,
+                      0.6
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "bottom",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "largest",
+                  "volume": 0.144,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Ceiling Lights",
+                  "adjacency": [
+                    "Wire 3"
+                  ],
+                  "color": {
+                    "name": "light yellow",
+                    "base": "yellow",
+                    "hex": "#ffffee"
+                  },
+                  "pair": {
+                    "mateUuid": "fae144e6-654f-4dba-ac4a-4cd6fc6a7fc6",
+                    "mateName": "Light Shade 4",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3,
+                7.8,
+                2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "fe4d5525-3738-4c60-9d58-243b5f7afbee",
+              "material": "74a3a8b2-f5e9-45c1-aca7-35c8dcbbfafb"
+            },
+            {
+              "uuid": "09a1bc5d-cd58-4b8d-980f-83903e473a7c",
+              "type": "Line",
+              "name": "Wire 3",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:0",
+                  "bbox": {
+                    "center": [
+                      -3,
+                      8.5,
+                      2
+                    ],
+                    "size": [
+                      0,
+                      1,
+                      0
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "group",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Ceiling Lights",
+                  "adjacency": [
+                    "Light Shade 3"
+                  ],
+                  "color": null,
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "8c51ff38-478c-4265-9b13-6d725aa51ff0",
+              "material": "7822e72f-94cc-41d1-ba04-5afee65fdfdd"
+            },
+            {
+              "uuid": "79020928-17bb-433c-8e8c-e05882cbaf98",
+              "type": "PointLight",
+              "name": "Point Light 3",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3,
+                7.7,
+                2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "color": 16777181,
+              "intensity": 1.5,
+              "distance": 15,
+              "decay": 2,
+              "shadow": {
+                "camera": {
+                  "uuid": "06286307-956e-40a1-868c-4f96fa242f4a",
+                  "type": "PerspectiveCamera",
+                  "layers": 1,
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "fov": 90,
+                  "zoom": 1,
+                  "near": 0.5,
+                  "far": 500,
+                  "focus": 10,
+                  "aspect": 1,
+                  "filmGauge": 35,
+                  "filmOffset": 0
+                }
+              }
+            },
+            {
+              "uuid": "fae144e6-654f-4dba-ac4a-4cd6fc6a7fc6",
+              "type": "Mesh",
+              "name": "Light Shade 4",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "100:361",
+                  "bbox": {
+                    "center": [
+                      3,
+                      7.8,
+                      2
+                    ],
+                    "size": [
+                      0.6,
+                      0.4,
+                      0.6
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "bottom",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "largest",
+                  "volume": 0.144,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Ceiling Lights",
+                  "adjacency": [
+                    "Wire 4"
+                  ],
+                  "color": {
+                    "name": "light yellow",
+                    "base": "yellow",
+                    "hex": "#ffffee"
+                  },
+                  "pair": {
+                    "mateUuid": "6a634ed1-64b0-4452-b9fa-5c6bef321a4b",
+                    "mateName": "Light Shade 3",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3,
+                7.8,
+                2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "abb80f76-13c5-41a8-9c76-0791f0092762",
+              "material": "b2917fd9-962f-4610-8a90-8d5cf91e3948"
+            },
+            {
+              "uuid": "1914064a-84a5-4900-b230-05a970c8b26c",
+              "type": "Line",
+              "name": "Wire 4",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:0",
+                  "bbox": {
+                    "center": [
+                      3,
+                      8.5,
+                      2
+                    ],
+                    "size": [
+                      0,
+                      1,
+                      0
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "group",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Ceiling Lights",
+                  "adjacency": [
+                    "Light Shade 4"
+                  ],
+                  "color": null,
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "41249246-071e-45fe-a4d2-4d9597bc97a2",
+              "material": "752690af-3e51-4760-b432-2e7609d41e35"
+            },
+            {
+              "uuid": "08573719-f603-4ae2-a81c-9b50ddf41552",
+              "type": "PointLight",
+              "name": "Point Light 4",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3,
+                7.7,
+                2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "color": 16777181,
+              "intensity": 1.5,
+              "distance": 15,
+              "decay": 2,
+              "shadow": {
+                "camera": {
+                  "uuid": "99ae6a6d-d44b-408c-bfd7-0570931513d9",
+                  "type": "PerspectiveCamera",
+                  "layers": 1,
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "fov": 90,
+                  "zoom": 1,
+                  "near": 0.5,
+                  "far": 500,
+                  "focus": 10,
+                  "aspect": 1,
+                  "filmGauge": 35,
+                  "filmOffset": 0
+                }
+              }
             }
           ]
         }
