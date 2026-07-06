@@ -19,21 +19,21 @@
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        1,
+        0.9871930320708001,
         0,
+        0.15953030254738496,
         0,
+        0.09013609916013662,
+        0.8250845588432044,
+        -0.5577732105315822,
         0,
+        -0.13162598929943206,
+        0.5650092660819952,
+        0.8145177273592215,
         0,
-        0.8944271909999159,
-        -0.4472135954999579,
-        0,
-        0,
-        0.4472135954999579,
-        0.8944271909999159,
-        0,
-        0,
-        5,
-        10,
+        -28.810684276646864,
+        123.67089254263684,
+        178.28403953944462,
         1
       ],
       "up": [
@@ -64,6 +64,1196 @@
       "type": "Object",
       "generator": "Object3D.toJSON"
     },
+    "geometries": [
+      {
+        "uuid": "fe5d8809-5f11-4542-b98f-0b3963313ec7",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-549a6d32e04548c0a8a445dfdf661a96a91382f5.bin",
+                "dtype": "Float32Array",
+                "length": 87600
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-6eadbfea9d76bc9f034d8f75069cf4adc245a8d8.bin",
+                "dtype": "Uint16Array",
+                "length": 58400
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-5e9aa47d4c9fbea069b9a74ce7acf546d7d4335e.bin",
+                "dtype": "Int16Array",
+                "length": 87600
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-771698f0d377649e284990090429a5dee9e2d0f6.bin",
+                "dtype": "Int16Array",
+                "length": 116800
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-af71a3b1850300daa422c4c4e4fc0105b11e5557.bin",
+              "dtype": "Uint16Array",
+              "length": 43950
+            }
+          },
+          "boundingSphere": {
+            "radius": 10.067787734561,
+            "center": [
+              0.005181312561035156,
+              0.7384569644927979,
+              39.93787956237793
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "47d03568-659a-4f01-841e-1c6d8e16ce36",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-d886f058010014d4fb56ae7a1213c466dfe0eea2.bin",
+                "dtype": "Float32Array",
+                "length": 86115
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-036d504284caaae688eae85285d734e2746c6c53.bin",
+                "dtype": "Uint16Array",
+                "length": 57410
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-07b74e9d428f6a3d1696fcf736ef4ac620e9348d.bin",
+                "dtype": "Int16Array",
+                "length": 86115
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-4436a3f73b88d6c84118bfb2f249625d7a296723.bin",
+                "dtype": "Int16Array",
+                "length": 114820
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-cbb251263c131540cd609845dc730637c489a8a4.bin",
+              "dtype": "Uint16Array",
+              "length": 43179
+            }
+          },
+          "boundingSphere": {
+            "radius": 12.063182128570864,
+            "center": [
+              0.6884951591491699,
+              -1.0085620880126953,
+              32.84168243408203
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "028826bc-5982-4d0c-b232-cc4549c5e0a4",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-65cd3c1c0aff423503c5ddb39ccee1fab5c97826.bin",
+                "dtype": "Float32Array",
+                "length": 83784
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-887ce1b857a348d04c41670ee40effb4169d078e.bin",
+                "dtype": "Uint16Array",
+                "length": 55856
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-2885d497f7e6e00064dc78f940ac8052fc4a5878.bin",
+                "dtype": "Int16Array",
+                "length": 83784
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-636a635161834a80fe245c22b9a3ea936b044c7f.bin",
+                "dtype": "Int16Array",
+                "length": 111712
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-5f7b7499bc9399d06d773ce98a93130d01b01d99.bin",
+              "dtype": "Uint16Array",
+              "length": 41964
+            }
+          },
+          "boundingSphere": {
+            "radius": 13.139271688029824,
+            "center": [
+              -0.11808490753173828,
+              0.7433333396911621,
+              24.476101875305176
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "b937f367-1f06-4ee4-88ad-8939a91aeb64",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-3ecce4e248e91fe10f2b8065b42c6852486f620d.bin",
+                "dtype": "Float32Array",
+                "length": 81669
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-07ea834a7a1ef869371c386a5804d3b0bc2d71dd.bin",
+                "dtype": "Uint16Array",
+                "length": 54446
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-a9c3dec92ce5166ade4b56edeaa1b29bbe8f692b.bin",
+                "dtype": "Int16Array",
+                "length": 81669
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-662962e45843d14e6b937f9e5a27d0de6813ff18.bin",
+                "dtype": "Int16Array",
+                "length": 108892
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-2b6c9cc26142099eaf02d1b0b473aaaad0e9785e.bin",
+              "dtype": "Uint16Array",
+              "length": 40908
+            }
+          },
+          "boundingSphere": {
+            "radius": 11.096028321310719,
+            "center": [
+              -0.5656123161315918,
+              -1.207047462463379,
+              16.92517375946045
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "9a78983f-0860-460c-b8ca-9e871c22fc77",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-d65e7c50b3310768649bed3d6e24aa1ff3f52967.bin",
+                "dtype": "Float32Array",
+                "length": 82911
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-1fe9eafa20c16d83b9a101573d1e89eedd6594ab.bin",
+                "dtype": "Uint16Array",
+                "length": 55274
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-486774f5299089d6862897a432e35a1af40ef2c5.bin",
+                "dtype": "Int16Array",
+                "length": 82911
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-0b4893b9fb4fc5b322f1a3057be513d093c2af90.bin",
+                "dtype": "Int16Array",
+                "length": 110548
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-e1861bf91ae7044cbbcea60b0094d955afecaf71.bin",
+              "dtype": "Uint16Array",
+              "length": 41520
+            }
+          },
+          "boundingSphere": {
+            "radius": 11.863495348777025,
+            "center": [
+              -0.3773016929626465,
+              0.6272106170654297,
+              19.619451999664307
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "7aaebfc3-530c-40f6-8ad4-0df0b67b07b0",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-c6870e55487b37313d61a40ddc324b878b04f39d.bin",
+                "dtype": "Float32Array",
+                "length": 83355
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-52841e80a13e5eaf51d19fceab84d9951f941a89.bin",
+                "dtype": "Uint16Array",
+                "length": 55570
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-a0f60154d0b36b889abdc573aabc933e09d00365.bin",
+                "dtype": "Int16Array",
+                "length": 83355
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-1a4f8421342357a888d906d1eeb41d1ff85f1b30.bin",
+                "dtype": "Int16Array",
+                "length": 111140
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-595aeb984716d50b34dde14d023524295635717b.bin",
+              "dtype": "Uint16Array",
+              "length": 41772
+            }
+          },
+          "boundingSphere": {
+            "radius": 12.596400788740043,
+            "center": [
+              0.9752511978149414,
+              -0.5976366996765137,
+              24.522263526916504
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "c2f16632-1d9a-4c3c-86c0-49300a69bf05",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-2db9e9430cd0190f868f76ad606b6dee0e623926.bin",
+                "dtype": "Float32Array",
+                "length": 34047
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-6fd3209aa01ed73fba9226e05e81176711f67cdd.bin",
+                "dtype": "Uint16Array",
+                "length": 22698
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-3da2c5455195d3a8d1e1a15793b4a55ed1251cc2.bin",
+                "dtype": "Int16Array",
+                "length": 34047
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-e3312cdba0a247e00df7be13040bec8520b94b66.bin",
+                "dtype": "Int16Array",
+                "length": 45396
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-3cfed8d20b8d0a1a1e4396394a5af7db868f1578.bin",
+              "dtype": "Uint16Array",
+              "length": 17067
+            }
+          },
+          "boundingSphere": {
+            "radius": 11.719848545773326,
+            "center": [
+              -1.4063315391540527,
+              -1.4255650043487549,
+              26.75360107421875
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "1ab9dc46-4c55-4546-8bb2-4c708c0aa25f",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-a5cf98c9e59f1ff67fad55b98e9715fa9627ba8e.bin",
+                "dtype": "Float32Array",
+                "length": 95109
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-47536756355f8a58bdaa3887f3b8cad13c80ba24.bin",
+                "dtype": "Uint16Array",
+                "length": 63406
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-da32b2828850a21feb4edce224b037256c598a02.bin",
+                "dtype": "Int16Array",
+                "length": 95109
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-6073eae08007cee4c3c3950afbad077c381eaba6.bin",
+                "dtype": "Int16Array",
+                "length": 126812
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-fb16279448970f68eed9b2c0e269825a17046cab.bin",
+              "dtype": "Uint16Array",
+              "length": 79908
+            }
+          },
+          "boundingSphere": {
+            "radius": 9.876877748258961,
+            "center": [
+              0.0387721061706543,
+              0.7625453472137451,
+              39.6145076751709
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "f61897bb-dffc-46d7-9e6f-3492f2526e6b",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-eb33eb206f195e2a6e4bd4baa96ff5c72025d5c8.bin",
+                "dtype": "Float32Array",
+                "length": 96798
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-f88abdbb061061a166db0697b8ea935982760935.bin",
+                "dtype": "Uint16Array",
+                "length": 64532
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-01d2c7528544bbb9212c45d76e695871e637107a.bin",
+                "dtype": "Int16Array",
+                "length": 96798
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-1cfeb151c931466f1864010adf1a800fcac31c54.bin",
+                "dtype": "Int16Array",
+                "length": 129064
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-dc730e89ab8c25bd24f893cf0663ab5bae76eab8.bin",
+              "dtype": "Uint16Array",
+              "length": 79779
+            }
+          },
+          "boundingSphere": {
+            "radius": 11.289912478737953,
+            "center": [
+              0.7010846138000488,
+              0.6380119323730469,
+              30.755451202392578
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "491919ea-4527-4a62-addf-da8dbe34e2e7",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-22412f2195a754eaebc5a6776e7ca7fcfeb9c1bb.bin",
+                "dtype": "Float32Array",
+                "length": 97380
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-04fcd2e5c35e3df0d387242734f51fff4978d74b.bin",
+                "dtype": "Uint16Array",
+                "length": 64920
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-846d02f4659028bccf2c0a5e314238821f1d4cdd.bin",
+                "dtype": "Int16Array",
+                "length": 97380
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-fba35ebc518fe44f711eb8f692d09625983bf809.bin",
+                "dtype": "Int16Array",
+                "length": 129840
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-b235b68d495577903f376c30248133522ed4ac4a.bin",
+              "dtype": "Uint16Array",
+              "length": 82317
+            }
+          },
+          "boundingSphere": {
+            "radius": 17.697997782544316,
+            "center": [
+              -0.43866777420043945,
+              -0.11464786529541016,
+              29.393341541290283
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "b94fda11-7ae4-4a66-9fd4-4ab35b56ec72",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-f666579e690a14f04fa55c4261a6f02d9c8269d9.bin",
+                "dtype": "Float32Array",
+                "length": 98124
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-281ad7c76f1ec771ac71d359f680a30839473ee7.bin",
+                "dtype": "Uint16Array",
+                "length": 65416
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-bf930b37b307c3586060f0a042632a044cb4ad84.bin",
+                "dtype": "Int16Array",
+                "length": 98124
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-8cd9c628328d51109e75a96073c5e464580add1d.bin",
+                "dtype": "Int16Array",
+                "length": 130832
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-f97259b0220a562cc068a6dc79962ba9afdc7a25.bin",
+              "dtype": "Uint16Array",
+              "length": 88062
+            }
+          },
+          "boundingSphere": {
+            "radius": 23.00584433743353,
+            "center": [
+              -0.4851055145263672,
+              -0.23834609985351562,
+              22.961069107055664
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "9d7bd77c-ef09-4c41-94ee-1b74e574962b",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-8a8dcee8740834e1981376995061a3299239521a.bin",
+                "dtype": "Float32Array",
+                "length": 96882
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-88c37ab573cb76193bc05e782f43569abe9fc343.bin",
+                "dtype": "Uint16Array",
+                "length": 64588
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-cf9ea35e00714d68507e14ca18a095ea850e62a5.bin",
+                "dtype": "Int16Array",
+                "length": 96882
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-8076ffd4442c44306c8ccf11b06b3c4f96f1f291.bin",
+                "dtype": "Int16Array",
+                "length": 129176
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-b8a8039d8bad7f92597fcea0177fa852d1915d0b.bin",
+              "dtype": "Uint16Array",
+              "length": 79962
+            }
+          },
+          "boundingSphere": {
+            "radius": 10.971834585320964,
+            "center": [
+              0.7401351928710938,
+              0.3001523017883301,
+              18.178060054779053
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "520204c0-2fc8-4dc1-af20-dc28db05d2ae",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-f789945fd07d4ca78ce34e6c43e1ab003059c2c2.bin",
+                "dtype": "Float32Array",
+                "length": 93750
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Uint16Array",
+              "array": {
+                "$bin": "assets/geo-cec22962e9fb048e59d71eeb8fb16745bdebef1e.bin",
+                "dtype": "Uint16Array",
+                "length": 62500
+              },
+              "normalized": true
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-25dbb228f396a35b3ba18f93bb5ab5a386fc3b1c.bin",
+                "dtype": "Int16Array",
+                "length": 93750
+              },
+              "normalized": true
+            },
+            "tangent": {
+              "itemSize": 4,
+              "type": "Int16Array",
+              "array": {
+                "$bin": "assets/geo-75db2d459a01f2ac698b53a6894d6f800e2e7688.bin",
+                "dtype": "Int16Array",
+                "length": 125000
+              },
+              "normalized": true
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-ee31906a7819f9bbb4199bcfe30f077447d27580.bin",
+              "dtype": "Uint16Array",
+              "length": 77649
+            }
+          },
+          "boundingSphere": {
+            "radius": 11.87963446037842,
+            "center": [
+              -1.0696616172790527,
+              -0.6722650527954102,
+              23.521011352539062
+            ]
+          }
+        }
+      }
+    ],
+    "materials": [
+      {
+        "uuid": "6fe16ef0-19da-452b-998e-5c7387c15d62",
+        "type": "MeshPhysicalMaterial",
+        "name": "Green_Leaf_Red",
+        "color": 16777215,
+        "roughness": 1,
+        "metalness": 0,
+        "sheen": 0,
+        "sheenColor": 0,
+        "sheenRoughness": 1,
+        "emissive": 0,
+        "specularIntensity": 0.5775255696017358,
+        "specularColor": 16777215,
+        "clearcoat": 0,
+        "clearcoatRoughness": 0,
+        "dispersion": 0,
+        "iridescence": 0,
+        "iridescenceIOR": 1.3,
+        "iridescenceThicknessRange": [
+          100,
+          400
+        ],
+        "anisotropy": 0,
+        "anisotropyRotation": 0,
+        "map": "b0a28c56-666e-4232-9738-3c032fe2729f",
+        "normalMap": "7840d8c4-2d37-47aa-8f30-8b217042638b",
+        "normalMapType": 0,
+        "normalScale": [
+          1,
+          1
+        ],
+        "roughnessMap": "9f2366de-ec24-413c-b477-802d5bc74a43",
+        "metalnessMap": "9f2366de-ec24-413c-b477-802d5bc74a43",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "reflectivity": 0.5,
+        "transmission": 0,
+        "thickness": 0,
+        "attenuationColor": 16777215,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "24b964eb-0ba1-4414-9216-529eb497ae00",
+        "type": "MeshStandardMaterial",
+        "name": "Tree_Bark.001",
+        "color": 16777215,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "map": "3c04d8c0-224c-4df5-a066-be12ae58f2dd",
+        "normalMap": "26806ae0-eb9d-476b-82e5-6b9e031ee73d",
+        "normalMapType": 0,
+        "normalScale": [
+          1,
+          1
+        ],
+        "roughnessMap": "3d597b30-abc7-400a-afb9-4ef9bbca7c14",
+        "metalnessMap": "3d597b30-abc7-400a-afb9-4ef9bbca7c14",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      }
+    ],
+    "textures": [
+      {
+        "uuid": "b0a28c56-666e-4232-9738-3c032fe2729f",
+        "name": "",
+        "image": "0d0b60b0-c599-47f8-b47d-33c32cfe99ed",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "srgb",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": false,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4,
+        "userData": {
+          "mimeType": "image/jpeg"
+        }
+      },
+      {
+        "uuid": "7840d8c4-2d37-47aa-8f30-8b217042638b",
+        "name": "",
+        "image": "e0a03d01-b262-4b38-a524-f8637387a0e8",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": false,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4,
+        "userData": {
+          "mimeType": "image/png"
+        }
+      },
+      {
+        "uuid": "9f2366de-ec24-413c-b477-802d5bc74a43",
+        "name": "",
+        "image": "9b1df61f-f6b9-41ae-99af-d1608b2af4ad",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": false,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4,
+        "userData": {
+          "mimeType": "image/png"
+        }
+      },
+      {
+        "uuid": "3c04d8c0-224c-4df5-a066-be12ae58f2dd",
+        "name": "",
+        "image": "6a2204fb-b42e-49c5-a8c6-e9ff301499df",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "srgb",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": false,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4,
+        "userData": {
+          "mimeType": "image/jpeg"
+        }
+      },
+      {
+        "uuid": "26806ae0-eb9d-476b-82e5-6b9e031ee73d",
+        "name": "",
+        "image": "8508c161-8d97-4021-973e-61fe90887313",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": false,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4,
+        "userData": {
+          "mimeType": "image/png"
+        }
+      },
+      {
+        "uuid": "3d597b30-abc7-400a-afb9-4ef9bbca7c14",
+        "name": "",
+        "image": "53c423d3-bbda-451c-9175-0677cba574fc",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": false,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4,
+        "userData": {
+          "mimeType": "image/png"
+        }
+      }
+    ],
+    "images": [
+      {
+        "uuid": "0d0b60b0-c599-47f8-b47d-33c32cfe99ed",
+        "url": {
+          "$img": "assets/img-46183673a29ca38ad2ce2e7d51025bf5f1aea6f5.png",
+          "mime": "image/png"
+        }
+      },
+      {
+        "uuid": "e0a03d01-b262-4b38-a524-f8637387a0e8",
+        "url": {
+          "$img": "assets/img-c96e2abeac16bc3e47da470710367f92b8b69ea7.png",
+          "mime": "image/png"
+        }
+      },
+      {
+        "uuid": "9b1df61f-f6b9-41ae-99af-d1608b2af4ad",
+        "url": {
+          "$img": "assets/img-7e04dddd550577438c261804320b1689d483fd9e.png",
+          "mime": "image/png"
+        }
+      },
+      {
+        "uuid": "6a2204fb-b42e-49c5-a8c6-e9ff301499df",
+        "url": {
+          "$img": "assets/img-67b5174f534cfa617d7ad6ff8f0ceaa0676a14f9.png",
+          "mime": "image/png"
+        }
+      },
+      {
+        "uuid": "8508c161-8d97-4021-973e-61fe90887313",
+        "url": {
+          "$img": "assets/img-2e94ece9ad9443236a484f013387cbfccd0dc0f4.png",
+          "mime": "image/png"
+        }
+      },
+      {
+        "uuid": "53c423d3-bbda-451c-9175-0677cba574fc",
+        "url": {
+          "$img": "assets/img-04c6fba018b9fec55b4900a4fa756e73794fc9f1.png",
+          "mime": "image/png"
+        }
+      }
+    ],
     "object": {
       "uuid": "3395fa32-9d98-4653-b30f-f2a978d3e227",
       "type": "Scene",
@@ -91,6 +1281,1541 @@
         0,
         1,
         0
+      ],
+      "children": [
+        {
+          "uuid": "b51867f1-ba18-40da-95d4-96bc4b7c1f04",
+          "type": "Group",
+          "name": "tree.glb",
+          "userData": {
+            "imported": true,
+            "importNormalize": {
+              "original": {
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "applied": {
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "position": [
+                  0.3773,
+                  0,
+                  -0.25554
+                ]
+              },
+              "scaleFactor": 1,
+              "autoscaled": false
+            },
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:1",
+              "bbox": {
+                "center": [
+                  0,
+                  23.3174,
+                  0
+                ],
+                "size": [
+                  22.7651,
+                  46.6347,
+                  23.4405
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "vertical",
+              "sizeRank": "medium",
+              "volume": 24885.4765,
+              "role": "group",
+              "childCount": 1,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "lime",
+                "base": "lime",
+                "hex": "#70a717"
+              },
+              "materials": [
+                "Green_Leaf_Red",
+                "Tree_Bark.001"
+              ],
+              "pair": null
+            },
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.3773,
+            0,
+            -0.25554,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "c41bb0d3-6e94-4ecc-9f10-4fd80128bd43",
+              "type": "Object3D",
+              "name": "Sketchfab_model",
+              "userData": {
+                "name": "Sketchfab_model",
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:1",
+                  "bbox": {
+                    "center": [
+                      0,
+                      23.3174,
+                      0
+                    ],
+                    "size": [
+                      22.7651,
+                      46.6347,
+                      23.4405
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 24885.4765,
+                  "role": "group",
+                  "childCount": 1,
+                  "depth": 1,
+                  "parentName": "tree.glb",
+                  "adjacency": [],
+                  "color": {
+                    "name": "lime",
+                    "base": "lime",
+                    "hex": "#70a717"
+                  },
+                  "materials": [
+                    "Green_Leaf_Red",
+                    "Tree_Bark.001"
+                  ],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                2.220446049250313e-16,
+                -1,
+                0,
+                0,
+                1,
+                2.220446049250313e-16,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "children": [
+                {
+                  "uuid": "1bad655b-fe73-4317-8a05-a86c755fb954",
+                  "type": "Object3D",
+                  "name": "4bd9b1e300854385b71c806bb727975bfbx",
+                  "userData": {
+                    "name": "4bd9b1e300854385b71c806bb727975b.fbx",
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "grp:1",
+                      "bbox": {
+                        "center": [
+                          0,
+                          23.3174,
+                          0
+                        ],
+                        "size": [
+                          22.7651,
+                          46.6347,
+                          23.4405
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "blocky",
+                      "orientation": "vertical",
+                      "sizeRank": "medium",
+                      "volume": 24885.4765,
+                      "role": "group",
+                      "childCount": 1,
+                      "depth": 2,
+                      "parentName": "Sketchfab_model",
+                      "adjacency": [],
+                      "color": {
+                        "name": "lime",
+                        "base": "lime",
+                        "hex": "#70a717"
+                      },
+                      "materials": [
+                        "Green_Leaf_Red",
+                        "Tree_Bark.001"
+                      ],
+                      "pair": null
+                    },
+                    "classes": {}
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    0.009999999776482582,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2.2204459996194763e-18,
+                    0.009999999776482582,
+                    0,
+                    0,
+                    -0.009999999776482582,
+                    2.2204459996194763e-18,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "uuid": "3018a24d-6869-42c1-87e9-9ddb181665cd",
+                      "type": "Object3D",
+                      "name": "RootNode",
+                      "userData": {
+                        "name": "RootNode",
+                        "descriptors": {
+                          "v": 1,
+                          "geomHash": "grp:2",
+                          "bbox": {
+                            "center": [
+                              0,
+                              23.3174,
+                              0
+                            ],
+                            "size": [
+                              22.7651,
+                              46.6347,
+                              23.4405
+                            ]
+                          },
+                          "region": {
+                            "x": "center",
+                            "y": "center",
+                            "z": "center"
+                          },
+                          "shape": "blocky",
+                          "orientation": "vertical",
+                          "sizeRank": "medium",
+                          "volume": 24885.4765,
+                          "role": "group",
+                          "childCount": 2,
+                          "depth": 3,
+                          "parentName": "4bd9b1e300854385b71c806bb727975bfbx",
+                          "adjacency": [],
+                          "color": {
+                            "name": "lime",
+                            "base": "lime",
+                            "hex": "#70a717"
+                          },
+                          "materials": [
+                            "Green_Leaf_Red",
+                            "Tree_Bark.001"
+                          ],
+                          "pair": null
+                        },
+                        "classes": {}
+                      },
+                      "layers": 1,
+                      "matrix": [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      "up": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "uuid": "10c3798d-5392-44ce-99b4-c0b2b15dd24d",
+                          "type": "Object3D",
+                          "name": "leaves",
+                          "userData": {
+                            "name": "leaves",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:7",
+                              "bbox": {
+                                "center": [
+                                  0,
+                                  29.5166,
+                                  0
+                                ],
+                                "size": [
+                                  22.7651,
+                                  34.2363,
+                                  23.4405
+                                ]
+                              },
+                              "region": {
+                                "x": "center",
+                                "y": "top",
+                                "z": "center"
+                              },
+                              "shape": "blocky",
+                              "orientation": "vertical",
+                              "sizeRank": "smallest",
+                              "volume": 18269.3816,
+                              "role": "group",
+                              "childCount": 7,
+                              "depth": 4,
+                              "parentName": "RootNode",
+                              "adjacency": [
+                                "tree"
+                              ],
+                              "color": {
+                                "name": "lime",
+                                "base": "lime",
+                                "hex": "#70a717"
+                              },
+                              "materials": [
+                                "Green_Leaf_Red"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {}
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            100,
+                            0,
+                            0,
+                            0,
+                            0,
+                            -0.000016292067894774224,
+                            -99.99999999999866,
+                            0,
+                            0,
+                            99.99999999999866,
+                            -0.000016292067894774224,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "b44ae60b-5ac3-4be5-af71-ec53bd4c7458",
+                              "type": "Mesh",
+                              "name": "leaves_Green_Leaf_Red_0",
+                              "userData": {
+                                "name": "leaves_Green Leaf Red_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "29200:10068",
+                                  "bbox": {
+                                    "center": [
+                                      0.3825,
+                                      39.9379,
+                                      -0.994
+                                    ],
+                                    "size": [
+                                      16.3751,
+                                      13.3937,
+                                      16.3109
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "top",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 3577.3816,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "leaves",
+                                  "adjacency": [
+                                    "leaves_Green_Leaf_Red_0_1"
+                                  ],
+                                  "color": {
+                                    "name": "lime",
+                                    "base": "lime",
+                                    "hex": "#70a717"
+                                  },
+                                  "materials": [
+                                    "Green_Leaf_Red"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "fe5d8809-5f11-4542-b98f-0b3963313ec7",
+                              "material": "6fe16ef0-19da-452b-998e-5c7387c15d62"
+                            },
+                            {
+                              "uuid": "3abc7f3c-398d-4045-b7c4-257307589c9b",
+                              "type": "Mesh",
+                              "name": "leaves_Green_Leaf_Red_0_1",
+                              "userData": {
+                                "name": "leaves_Green Leaf Red_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "28705:12063",
+                                  "bbox": {
+                                    "center": [
+                                      1.0658,
+                                      32.8417,
+                                      0.753
+                                    ],
+                                    "size": [
+                                      19.4517,
+                                      8.5685,
+                                      18.5183
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 3086.4736,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "leaves",
+                                  "adjacency": [
+                                    "leaves_Green_Leaf_Red_0",
+                                    "leaves_Green_Leaf_Red_0_2",
+                                    "leaves_Green_Leaf_Red_0_6"
+                                  ],
+                                  "color": {
+                                    "name": "lime",
+                                    "base": "lime",
+                                    "hex": "#70a717"
+                                  },
+                                  "materials": [
+                                    "Green_Leaf_Red"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "47d03568-659a-4f01-841e-1c6d8e16ce36",
+                              "material": "6fe16ef0-19da-452b-998e-5c7387c15d62"
+                            },
+                            {
+                              "uuid": "b08f4cc4-93fb-4d2c-a8dc-7641e0514ecd",
+                              "type": "Mesh",
+                              "name": "leaves_Green_Leaf_Red_0_2",
+                              "userData": {
+                                "name": "leaves_Green Leaf Red_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "27928:13139",
+                                  "bbox": {
+                                    "center": [
+                                      0.2592,
+                                      24.4761,
+                                      -0.9989
+                                    ],
+                                    "size": [
+                                      16.2607,
+                                      14.8125,
+                                      21.4427
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "bottom",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "largest",
+                                  "volume": 5164.7471,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "leaves",
+                                  "adjacency": [
+                                    "leaves_Green_Leaf_Red_0_1",
+                                    "leaves_Green_Leaf_Red_0_3",
+                                    "leaves_Green_Leaf_Red_0_4",
+                                    "leaves_Green_Leaf_Red_0_5",
+                                    "leaves_Green_Leaf_Red_0_6"
+                                  ],
+                                  "color": {
+                                    "name": "lime",
+                                    "base": "lime",
+                                    "hex": "#70a717"
+                                  },
+                                  "materials": [
+                                    "Green_Leaf_Red"
+                                  ],
+                                  "pair": {
+                                    "mateUuid": "adf1165d-314c-4773-86e0-5fdda6144713",
+                                    "mateName": "leaves_Green_Leaf_Red_0_5",
+                                    "axis": "x",
+                                    "side": "right"
+                                  }
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "028826bc-5982-4d0c-b232-cc4549c5e0a4",
+                              "material": "6fe16ef0-19da-452b-998e-5c7387c15d62"
+                            },
+                            {
+                              "uuid": "e8dd4e00-81f5-4942-bade-a0452e98b5ce",
+                              "type": "Mesh",
+                              "name": "leaves_Green_Leaf_Red_0_3",
+                              "userData": {
+                                "name": "leaves_Green Leaf Red_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "27223:11096",
+                                  "bbox": {
+                                    "center": [
+                                      -0.1883,
+                                      16.9252,
+                                      0.9515
+                                    ],
+                                    "size": [
+                                      18.0522,
+                                      9.0536,
+                                      17.4548
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "bottom",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 2852.7561,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "leaves",
+                                  "adjacency": [
+                                    "leaves_Green_Leaf_Red_0_2",
+                                    "leaves_Green_Leaf_Red_0_4",
+                                    "leaves_Green_Leaf_Red_0_5"
+                                  ],
+                                  "color": {
+                                    "name": "lime",
+                                    "base": "lime",
+                                    "hex": "#70a717"
+                                  },
+                                  "materials": [
+                                    "Green_Leaf_Red"
+                                  ],
+                                  "pair": {
+                                    "mateUuid": "9e6c68e6-fc58-4330-8220-ce19f2720268",
+                                    "mateName": "leaves_Green_Leaf_Red_0_4",
+                                    "axis": "x",
+                                    "side": "left"
+                                  }
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "b937f367-1f06-4ee4-88ad-8939a91aeb64",
+                              "material": "6fe16ef0-19da-452b-998e-5c7387c15d62"
+                            },
+                            {
+                              "uuid": "9e6c68e6-fc58-4330-8220-ce19f2720268",
+                              "type": "Mesh",
+                              "name": "leaves_Green_Leaf_Red_0_4",
+                              "userData": {
+                                "name": "leaves_Green Leaf Red_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "27637:11863",
+                                  "bbox": {
+                                    "center": [
+                                      0,
+                                      19.6195,
+                                      -0.8828
+                                    ],
+                                    "size": [
+                                      22.7651,
+                                      10.7872,
+                                      18.7791
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "bottom",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 4611.6209,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "leaves",
+                                  "adjacency": [
+                                    "leaves_Green_Leaf_Red_0_2",
+                                    "leaves_Green_Leaf_Red_0_3",
+                                    "leaves_Green_Leaf_Red_0_5",
+                                    "leaves_Green_Leaf_Red_0_6"
+                                  ],
+                                  "color": {
+                                    "name": "lime",
+                                    "base": "lime",
+                                    "hex": "#70a717"
+                                  },
+                                  "materials": [
+                                    "Green_Leaf_Red"
+                                  ],
+                                  "pair": {
+                                    "mateUuid": "e8dd4e00-81f5-4942-bade-a0452e98b5ce",
+                                    "mateName": "leaves_Green_Leaf_Red_0_3",
+                                    "axis": "x",
+                                    "side": "right"
+                                  }
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "9a78983f-0860-460c-b8ca-9e871c22fc77",
+                              "material": "6fe16ef0-19da-452b-998e-5c7387c15d62"
+                            },
+                            {
+                              "uuid": "adf1165d-314c-4773-86e0-5fdda6144713",
+                              "type": "Mesh",
+                              "name": "leaves_Green_Leaf_Red_0_5",
+                              "userData": {
+                                "name": "leaves_Green Leaf Red_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "27785:12596",
+                                  "bbox": {
+                                    "center": [
+                                      1.3526,
+                                      24.5223,
+                                      0.3421
+                                    ],
+                                    "size": [
+                                      17.5912,
+                                      7.5832,
+                                      22.7563
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "bottom",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 3035.6263,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "leaves",
+                                  "adjacency": [
+                                    "leaves_Green_Leaf_Red_0_2",
+                                    "leaves_Green_Leaf_Red_0_3",
+                                    "leaves_Green_Leaf_Red_0_4",
+                                    "leaves_Green_Leaf_Red_0_6"
+                                  ],
+                                  "color": {
+                                    "name": "lime",
+                                    "base": "lime",
+                                    "hex": "#70a717"
+                                  },
+                                  "materials": [
+                                    "Green_Leaf_Red"
+                                  ],
+                                  "pair": {
+                                    "mateUuid": "b08f4cc4-93fb-4d2c-a8dc-7641e0514ecd",
+                                    "mateName": "leaves_Green_Leaf_Red_0_2",
+                                    "axis": "x",
+                                    "side": "left"
+                                  }
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "7aaebfc3-530c-40f6-8ad4-0df0b67b07b0",
+                              "material": "6fe16ef0-19da-452b-998e-5c7387c15d62"
+                            },
+                            {
+                              "uuid": "dafc565a-850c-47eb-ba5c-d53a4e2b5e82",
+                              "type": "Mesh",
+                              "name": "leaves_Green_Leaf_Red_0_6",
+                              "userData": {
+                                "name": "leaves_Green Leaf Red_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "11349:11720",
+                                  "bbox": {
+                                    "center": [
+                                      -1.029,
+                                      26.7536,
+                                      1.17
+                                    ],
+                                    "size": [
+                                      20.0446,
+                                      5.0272,
+                                      14.7578
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "smallest",
+                                  "volume": 1487.1269,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "leaves",
+                                  "adjacency": [
+                                    "leaves_Green_Leaf_Red_0_1",
+                                    "leaves_Green_Leaf_Red_0_2",
+                                    "leaves_Green_Leaf_Red_0_4",
+                                    "leaves_Green_Leaf_Red_0_5"
+                                  ],
+                                  "color": {
+                                    "name": "lime",
+                                    "base": "lime",
+                                    "hex": "#70a717"
+                                  },
+                                  "materials": [
+                                    "Green_Leaf_Red"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "c2f16632-1d9a-4c3c-86c0-49300a69bf05",
+                              "material": "6fe16ef0-19da-452b-998e-5c7387c15d62"
+                            }
+                          ]
+                        },
+                        {
+                          "uuid": "6e313af0-1a61-4b6a-9471-95324748ee3d",
+                          "type": "Object3D",
+                          "name": "tree",
+                          "userData": {
+                            "name": "tree",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:6",
+                              "bbox": {
+                                "center": [
+                                  0.0051,
+                                  23.0571,
+                                  -0.0652
+                                ],
+                                "size": [
+                                  22.6379,
+                                  46.1143,
+                                  23.1407
+                                ]
+                              },
+                              "region": {
+                                "x": "center",
+                                "y": "center",
+                                "z": "center"
+                              },
+                              "shape": "blocky",
+                              "orientation": "vertical",
+                              "sizeRank": "largest",
+                              "volume": 24157.3346,
+                              "role": "group",
+                              "childCount": 6,
+                              "depth": 4,
+                              "parentName": "RootNode",
+                              "adjacency": [
+                                "leaves"
+                              ],
+                              "color": {
+                                "name": "orange",
+                                "base": "orange",
+                                "hex": "#7a6f65"
+                              },
+                              "materials": [
+                                "Tree_Bark.001"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {}
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            100,
+                            0,
+                            0,
+                            0,
+                            0,
+                            -0.000016292067894774224,
+                            -99.99999999999866,
+                            0,
+                            0,
+                            99.99999999999866,
+                            -0.000016292067894774224,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "d3124718-eb42-4bcd-aa9c-8a103e2185ad",
+                              "type": "Mesh",
+                              "name": "tree_Tree_Bark001_0",
+                              "userData": {
+                                "name": "tree_Tree Bark.001_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "31703:9877",
+                                  "bbox": {
+                                    "center": [
+                                      0.4161,
+                                      39.6145,
+                                      -1.0181
+                                    ],
+                                    "size": [
+                                      16.114,
+                                      12.4799,
+                                      15.987
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "top",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "smallest",
+                                  "volume": 3214.999,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "tree",
+                                  "adjacency": [
+                                    "tree_Tree_Bark001_0_1",
+                                    "tree_Tree_Bark001_0_2",
+                                    "tree_Tree_Bark001_0_3"
+                                  ],
+                                  "color": {
+                                    "name": "orange",
+                                    "base": "orange",
+                                    "hex": "#7a6f65"
+                                  },
+                                  "materials": [
+                                    "Tree_Bark.001"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "1ab9dc46-4c55-4546-8bb2-4c708c0aa25f",
+                              "material": "24b964eb-0ba1-4414-9216-529eb497ae00"
+                            },
+                            {
+                              "uuid": "dcefac11-b07b-4a87-bd15-fc8b0b47523c",
+                              "type": "Mesh",
+                              "name": "tree_Tree_Bark001_0_1",
+                              "userData": {
+                                "name": "tree_Tree Bark.001_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "32266:11290",
+                                  "bbox": {
+                                    "center": [
+                                      1.0784,
+                                      30.7555,
+                                      -0.8936
+                                    ],
+                                    "size": [
+                                      19.1447,
+                                      9.3478,
+                                      21.484
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "top",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 3844.776,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "tree",
+                                  "adjacency": [
+                                    "tree_Tree_Bark001_0",
+                                    "tree_Tree_Bark001_0_2",
+                                    "tree_Tree_Bark001_0_3",
+                                    "tree_Tree_Bark001_0_5"
+                                  ],
+                                  "color": {
+                                    "name": "orange",
+                                    "base": "orange",
+                                    "hex": "#7a6f65"
+                                  },
+                                  "materials": [
+                                    "Tree_Bark.001"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "f61897bb-dffc-46d7-9e6f-3492f2526e6b",
+                              "material": "24b964eb-0ba1-4414-9216-529eb497ae00"
+                            },
+                            {
+                              "uuid": "62bc5fb1-4738-444d-90c6-4bd0cf1a2f9f",
+                              "type": "Mesh",
+                              "name": "tree_Tree_Bark001_0_2",
+                              "userData": {
+                                "name": "tree_Tree Bark.001_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "32460:17698",
+                                  "bbox": {
+                                    "center": [
+                                      -0.0614,
+                                      29.3933,
+                                      -0.1409
+                                    ],
+                                    "size": [
+                                      21.7122,
+                                      33.4419,
+                                      21.6378
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "top",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "medium",
+                                  "volume": 15711.1528,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "tree",
+                                  "adjacency": [
+                                    "tree_Tree_Bark001_0",
+                                    "tree_Tree_Bark001_0_1",
+                                    "tree_Tree_Bark001_0_3",
+                                    "tree_Tree_Bark001_0_4",
+                                    "tree_Tree_Bark001_0_5"
+                                  ],
+                                  "color": {
+                                    "name": "orange",
+                                    "base": "orange",
+                                    "hex": "#7a6f65"
+                                  },
+                                  "materials": [
+                                    "Tree_Bark.001"
+                                  ],
+                                  "pair": {
+                                    "mateUuid": "043c96c6-6272-41af-9c6d-32e6c014d8e8",
+                                    "mateName": "tree_Tree_Bark001_0_3",
+                                    "axis": "x",
+                                    "side": "left"
+                                  }
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "491919ea-4527-4a62-addf-da8dbe34e2e7",
+                              "material": "24b964eb-0ba1-4414-9216-529eb497ae00"
+                            },
+                            {
+                              "uuid": "043c96c6-6272-41af-9c6d-32e6c014d8e8",
+                              "type": "Mesh",
+                              "name": "tree_Tree_Bark001_0_3",
+                              "userData": {
+                                "name": "tree_Tree Bark.001_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "32708:23006",
+                                  "bbox": {
+                                    "center": [
+                                      -0.1078,
+                                      22.9611,
+                                      -0.0172
+                                    ],
+                                    "size": [
+                                      21.2836,
+                                      45.9221,
+                                      22.0597
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "largest",
+                                  "volume": 21560.9262,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "tree",
+                                  "adjacency": [
+                                    "tree_Tree_Bark001_0",
+                                    "tree_Tree_Bark001_0_1",
+                                    "tree_Tree_Bark001_0_2",
+                                    "tree_Tree_Bark001_0_4",
+                                    "tree_Tree_Bark001_0_5"
+                                  ],
+                                  "color": {
+                                    "name": "orange",
+                                    "base": "orange",
+                                    "hex": "#7a6f65"
+                                  },
+                                  "materials": [
+                                    "Tree_Bark.001"
+                                  ],
+                                  "pair": {
+                                    "mateUuid": "62bc5fb1-4738-444d-90c6-4bd0cf1a2f9f",
+                                    "mateName": "tree_Tree_Bark001_0_2",
+                                    "axis": "x",
+                                    "side": "right"
+                                  }
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "b94fda11-7ae4-4a66-9fd4-4ab35b56ec72",
+                              "material": "24b964eb-0ba1-4414-9216-529eb497ae00"
+                            },
+                            {
+                              "uuid": "c1f48933-406f-426b-9ee2-ba17732f450c",
+                              "type": "Mesh",
+                              "name": "tree_Tree_Bark001_0_4",
+                              "userData": {
+                                "name": "tree_Tree Bark.001_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "32294:10972",
+                                  "bbox": {
+                                    "center": [
+                                      1.1174,
+                                      18.1781,
+                                      -0.5557
+                                    ],
+                                    "size": [
+                                      20.4132,
+                                      9.7296,
+                                      20.2159
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 4015.1365,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "tree",
+                                  "adjacency": [
+                                    "tree_Tree_Bark001_0_2",
+                                    "tree_Tree_Bark001_0_3",
+                                    "tree_Tree_Bark001_0_5"
+                                  ],
+                                  "color": {
+                                    "name": "orange",
+                                    "base": "orange",
+                                    "hex": "#7a6f65"
+                                  },
+                                  "materials": [
+                                    "Tree_Bark.001"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "9d7bd77c-ef09-4c41-94ee-1b74e574962b",
+                              "material": "24b964eb-0ba1-4414-9216-529eb497ae00"
+                            },
+                            {
+                              "uuid": "e6c2e9a5-b566-4a57-9eb6-1f268d3658ec",
+                              "type": "Mesh",
+                              "name": "tree_Tree_Bark001_0_5",
+                              "userData": {
+                                "name": "tree_Tree Bark.001_0",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "31250:11880",
+                                  "bbox": {
+                                    "center": [
+                                      -0.6924,
+                                      23.521,
+                                      0.4167
+                                    ],
+                                    "size": [
+                                      21.2431,
+                                      9.6068,
+                                      22.1768
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 4525.7845,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "tree",
+                                  "adjacency": [
+                                    "tree_Tree_Bark001_0_1",
+                                    "tree_Tree_Bark001_0_2",
+                                    "tree_Tree_Bark001_0_3",
+                                    "tree_Tree_Bark001_0_4"
+                                  ],
+                                  "color": {
+                                    "name": "orange",
+                                    "base": "orange",
+                                    "hex": "#7a6f65"
+                                  },
+                                  "materials": [
+                                    "Tree_Bark.001"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {}
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "520204c0-2fc8-4dc1-af20-dc28db05d2ae",
+                              "material": "24b964eb-0ba1-4414-9216-529eb497ae00"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ],
       "backgroundRotation": [
         0,
