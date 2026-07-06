@@ -1,0 +1,3402 @@
+{
+  "metadata": {},
+  "project": {
+    "renderer": "WebGLRenderer",
+    "shadows": true,
+    "shadowType": 1,
+    "toneMapping": 7,
+    "toneMappingExposure": 1
+  },
+  "camera": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "0db85551-9fd1-4d1c-beca-7bd149f9c284",
+      "type": "PerspectiveCamera",
+      "name": "Camera",
+      "layers": 1,
+      "matrix": [
+        -0.8595072088278775,
+        5.551115123125784e-17,
+        -0.5111236229846082,
+        0,
+        -0.34663541884170973,
+        0.7348929453675103,
+        0.5829032897947118,
+        0,
+        0.3756211447420715,
+        0.6781831307612017,
+        -0.6316457842601263,
+        0,
+        -0.20907217017096466,
+        0.3686516157911733,
+        0.07795767149468637,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "fov": 50,
+      "zoom": 1,
+      "near": 0.001,
+      "far": 10000000000,
+      "focus": 10,
+      "aspect": 0.10455764075067024,
+      "filmGauge": 35,
+      "filmOffset": 0
+    }
+  },
+  "controls": {
+    "center": [
+      -0.20914921566862874,
+      0.3685125103186827,
+      0.07808723146349252
+    ]
+  },
+  "scene": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "geometries": [
+      {
+        "uuid": "39128538-fa1d-48b3-a18c-8edc7bc80a2b",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-bf291eb155e15560fddfab3aa27f04da6dd2980c.bin",
+                "dtype": "Float32Array",
+                "length": 107175
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-938c750719161f45a60434d10095be04eea42c3b.bin",
+                "dtype": "Float32Array",
+                "length": 107175
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-852368f1d45174ad0eaa342c8ee2cc6e92647d4d.bin",
+              "dtype": "Uint32Array",
+              "length": 205440
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.00933586593201654,
+            "center": [
+              0.004337896127253771,
+              -0.004048280417919159,
+              -0.0003467198694124818
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "43d7992c-2e9b-4d0a-946e-f9f75b9b1746",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-788add1796612142a6327edd3a7a8f9e6b2f1ae0.bin",
+                "dtype": "Float32Array",
+                "length": 445464
+              },
+              "normalized": false
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-346a7655ead81d569f026ea8f52df02e9e4a535e.bin",
+                "dtype": "Float32Array",
+                "length": 445464
+              },
+              "normalized": false
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.009710724819052084,
+            "center": [
+              -0.0043325634323991835,
+              -0.004048280417919159,
+              0.0005781897343695164
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "2320a329-17c2-430d-a869-ddd5e40b2f24",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-dbc113a6920db9f69f1869377f1455315791cca3.bin",
+                "dtype": "Float32Array",
+                "length": 164085
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-7384425bc8322a3bb7015264be208733eaf161a9.bin",
+                "dtype": "Float32Array",
+                "length": 164085
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-340c5773506b83ef94752e0ba0457faf3e76e28d.bin",
+              "dtype": "Uint32Array",
+              "length": 324702
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.007074349217760644,
+            "center": [
+              -0.011473444290459156,
+              -0.015972642228007317,
+              -0.004202614014502615
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "7304e5a1-e7e2-4a90-a90b-ecb39c45ab97",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-60bfe6edd3fd2987f8b6006219bb2eabbbea4870.bin",
+                "dtype": "Float32Array",
+                "length": 164502
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-ef82bc32cd73edc1ad65bb50778b00afe269d7ce.bin",
+                "dtype": "Float32Array",
+                "length": 164502
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-10365ef2d020e144e4c32d5d40afec831bb9f038.bin",
+              "dtype": "Uint32Array",
+              "length": 325536
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.007074349217760644,
+            "center": [
+              0.011473444290459156,
+              -0.015972642228007317,
+              -0.004202614014502615
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "8aa4ad5e-6025-4294-bd9c-5afa219d6cb6",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-fe8bca944363a2bbf01fbb258b9979afb91d795f.bin",
+                "dtype": "Float32Array",
+                "length": 33114
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-9384b8af6c576bc3cbadc33d0ec206aeeb042491.bin",
+                "dtype": "Float32Array",
+                "length": 33114
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-43c06f1d0744e9b740c39551369321339e797bd8.bin",
+              "dtype": "Uint32Array",
+              "length": 59292
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.010523429611629316,
+            "center": [
+              -0.000002666376531124115,
+              -0.021221413277089596,
+              0.000002993270754814148
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "783f821b-a854-42d3-975a-857425220b33",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-fb82c67f319a6ab736daee6422d8d919bc6d1e32.bin",
+                "dtype": "Float32Array",
+                "length": 116844
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-bc99b69094ad6faa00e46ca680f31cb52cad0209.bin",
+                "dtype": "Float32Array",
+                "length": 116844
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-98eadb56d4b5888b4e2f824e6b65911cb1f51bf3.bin",
+              "dtype": "Uint32Array",
+              "length": 223488
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.00818450633205259,
+            "center": [
+              -0.007761305198073387,
+              -0.011488733114674687,
+              -0.0008426556596532464
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "8143844a-266c-4c3a-b626-e6acac7f3a7d",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-bd6881c0a34eb7a649004819fe6da40e5f449b89.bin",
+                "dtype": "Float32Array",
+                "length": 116844
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-c84427d338e50f74de73fea8879bded95c3aa263.bin",
+                "dtype": "Float32Array",
+                "length": 116844
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-6bce80ab1645f726a811ef030293bd66ed84f6c6.bin",
+              "dtype": "Uint32Array",
+              "length": 223488
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.00818450633205259,
+            "center": [
+              0.007761305198073387,
+              -0.011488733114674687,
+              -0.0008426556596532464
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "025529b4-3bda-4008-8133-edd17361daa7",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-8a76c1692fcc3faab49fc90a0b0f39c95560a133.bin",
+                "dtype": "Float32Array",
+                "length": 196599
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-8f63a21517a3a1bc28da0ec38edccdf107437a82.bin",
+                "dtype": "Float32Array",
+                "length": 196599
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-4449a08ff048f6ff42421e9d0ff328332c0dde32.bin",
+              "dtype": "Uint32Array",
+              "length": 68289
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.012724975143345276,
+            "center": [
+              0,
+              -0.009220000152708963,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "87c8fb94-d495-44a6-ab93-d34d8b9c7d80",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-7b9f98b4db130e6b4173bc0301df97007a6ef484.bin",
+                "dtype": "Float32Array",
+                "length": 196602
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-f77496ff6cdb043a48fd62af88f2f15b41599858.bin",
+                "dtype": "Float32Array",
+                "length": 196602
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-aeb78757ccba969e2e020bde254ddcacc8e9a9b4.bin",
+              "dtype": "Uint32Array",
+              "length": 65670
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.0127230424744376,
+            "center": [
+              0,
+              -0.009222630607837345,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "77beaf9c-593b-475e-9d47-3985cef2157c",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-4b50e76105371b38a6c7cc38cbc4ff9946236bff.bin",
+                "dtype": "Float32Array",
+                "length": 40131
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-a8eb1fa012ab8bfe6c80fdbfd5d3c92e0b4649ee.bin",
+                "dtype": "Float32Array",
+                "length": 40131
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-6746fe59974c020a05184f11e4ddf0fdd6e10377.bin",
+              "dtype": "Uint32Array",
+              "length": 13593
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.012654480120057376,
+            "center": [
+              0,
+              -0.009316169878729852,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "c7fe2220-2f17-4dfd-aed3-9980b028d0ea",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-5a8533aff5536e346e7298f9203785bfedf0fccf.bin",
+                "dtype": "Float32Array",
+                "length": 196599
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-6947ed141c57c2d708c01e23128f33d2c4ab81aa.bin",
+                "dtype": "Float32Array",
+                "length": 196599
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-b2e66b76148cc0e439f843bc476ff9d63fdb672a.bin",
+              "dtype": "Uint32Array",
+              "length": 65559
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.0037107951687220487,
+            "center": [
+              0,
+              0.004529999918304384,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "85aa0a63-f3b4-42e1-9e67-c53cc328aad9",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-328fed11c48e6ae208ae4b8c190c7aaecce2cf60.bin",
+                "dtype": "Float32Array",
+                "length": 196599
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-bf87edf0598dfe9c299e58f5ff11cde8b414c1e6.bin",
+                "dtype": "Float32Array",
+                "length": 196599
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-3e490ea3326f84c514b76dd2d806bb07d7869a85.bin",
+              "dtype": "Uint32Array",
+              "length": 65535
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.008878948868959948,
+            "center": [
+              0,
+              0.0007588043808937073,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "93349ead-1856-46b5-81b2-9cd28defff32",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-da5114fae87576c4793b63d78e43ea575e020134.bin",
+                "dtype": "Float32Array",
+                "length": 196596
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-b886cac5e1c1ac6a13ec186ad64e64ba2acd4e94.bin",
+                "dtype": "Float32Array",
+                "length": 196596
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-884b249c361c704c628377a554a8e1eb7a4cb666.bin",
+              "dtype": "Uint32Array",
+              "length": 65532
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.006704179951638833,
+            "center": [
+              -6.310874596238136e-7,
+              -0.0007199998944997787,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "c8cd4ec1-294f-424d-b7cf-016f2f2e2f6d",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-3197d50beafbef6541a136cec037284a084593d6.bin",
+                "dtype": "Float32Array",
+                "length": 196599
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-9f671156c40d6d5b6891d3a921c5fcb4a43aaa56.bin",
+                "dtype": "Float32Array",
+                "length": 196599
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-369c8c7fc4cc7fef8dd72ca0dd2e6f234d3e6b7a.bin",
+              "dtype": "Uint32Array",
+              "length": 67044
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.009286017812777478,
+            "center": [
+              0,
+              0.00023000012151896954,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "3c2c3502-74cc-407c-8f58-e6931038c1dc",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-8744571389fec48723be6fc7fe3afb3998337c82.bin",
+                "dtype": "Float32Array",
+                "length": 33066
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-508345fb06ea69e8ec154f784617e5ab14c3f532.bin",
+                "dtype": "Float32Array",
+                "length": 33066
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-e48ee6007d3aa7f6cc9c2216d4eedb76f3a873a3.bin",
+              "dtype": "Uint32Array",
+              "length": 11022
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.007056458106863173,
+            "center": [
+              0.0000019238796085119247,
+              -0.003376177395693958,
+              -0.000014696503058075905
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "fa9441e1-ca58-4827-bbce-87cbcff8c008",
+        "type": "SphereGeometry",
+        "radius": 1,
+        "widthSegments": 32,
+        "heightSegments": 16,
+        "phiStart": 0,
+        "phiLength": 6.283185307179586,
+        "thetaStart": 0,
+        "thetaLength": 3.141592653589793
+      }
+    ],
+    "materials": [
+      {
+        "uuid": "fff6b9e5-f44a-4417-8d23-84b04b16791b",
+        "type": "MeshStandardMaterial",
+        "name": "Materiais.001",
+        "color": 526344,
+        "roughness": 0.5,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "8ca816e4-0cd5-49d2-ae7e-e746da3ad8eb",
+        "type": "MeshStandardMaterial",
+        "name": "Materiais.001",
+        "color": 16711680,
+        "roughness": 0.5,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b1598726-fd6f-43d0-9862-c950e5ec0980",
+        "type": "MeshStandardMaterial",
+        "name": "Materiais.002",
+        "color": 16711680,
+        "roughness": 0.224638,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "587be78c-6465-40e8-9f8e-25eee4bf1853",
+        "type": "MeshStandardMaterial",
+        "name": "Materiais.002",
+        "color": 657930,
+        "roughness": 0.224638,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b2093b5e-1a6e-4f08-80b1-46bf3a5f6da9",
+        "type": "MeshStandardMaterial",
+        "name": "Materiais.001",
+        "color": 16711680,
+        "roughness": 0.5,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "fd84816c-d09a-4d1c-a6f3-652aebcffb85",
+        "type": "MeshStandardMaterial",
+        "name": "Materiais",
+        "color": 1118481,
+        "roughness": 0.5,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "4e067568-6ba2-44ec-9578-c5a52e9c7be7",
+        "type": "MeshStandardMaterial",
+        "name": "Materiais",
+        "color": 1118481,
+        "roughness": 0.5,
+        "metalness": 0,
+        "emissive": 16711680,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b6da1aa8-6eb4-4b65-84b5-f618363eebeb",
+        "type": "MeshStandardMaterial",
+        "name": "Materiais",
+        "color": 12910592,
+        "roughness": 0.5,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "78b12f58-acaa-4864-867f-f54e2555f401",
+        "type": "MeshStandardMaterial",
+        "name": "Materiais.002",
+        "color": 16769280,
+        "roughness": 0.224638,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b00b0fc3-7b20-4bd2-97f9-ae16133e5302",
+        "type": "MeshStandardMaterial",
+        "name": "Materiais.002",
+        "color": 16759552,
+        "roughness": 0.224638,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "41d1121f-3c03-4bef-9366-ea6f176ff920",
+        "type": "MeshStandardMaterial",
+        "color": 855052,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      }
+    ],
+    "animations": [
+      {
+        "name": "Spin Y",
+        "duration": 4,
+        "tracks": [
+          {
+            "name": "ba1bdb6f-b1f4-4e80-a3ac-1d3216557c58.quaternion",
+            "times": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "values": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0.7071067690849304,
+              0,
+              0.7071067690849304,
+              0,
+              1,
+              0,
+              6.123234262925839e-17,
+              0,
+              0.7071067690849304,
+              0,
+              -0.7071067690849304,
+              0,
+              1.2246468525851679e-16,
+              0,
+              -1
+            ],
+            "type": "quaternion"
+          }
+        ],
+        "uuid": "a133425a-e724-4e36-acfa-aa8dba9302c3",
+        "blendMode": 2500,
+        "userData": "{}"
+      }
+    ],
+    "object": {
+      "uuid": "3395fa32-9d98-4653-b30f-f2a978d3e227",
+      "type": "Scene",
+      "name": "Scene",
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "children": [
+        {
+          "uuid": "ba1bdb6f-b1f4-4e80-a3ac-1d3216557c58",
+          "type": "Group",
+          "name": "generic_legoman_figure.glb",
+          "userData": {
+            "imported": true,
+            "importNormalize": {
+              "original": {
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "applied": {
+                "scale": [
+                  48.24409,
+                  48.24409,
+                  48.24409
+                ],
+                "position": [
+                  0,
+                  0.0038,
+                  0.09467
+                ]
+              },
+              "scaleFactor": 48.24409,
+              "autoscaled": true
+            },
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:1",
+              "bbox": {
+                "center": [
+                  0,
+                  1,
+                  0
+                ],
+                "size": [
+                  1.4115,
+                  2,
+                  0.6841
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "vertical",
+              "sizeRank": "medium",
+              "volume": 1.9312,
+              "role": "group",
+              "childCount": 1,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "yellow",
+                "base": "yellow",
+                "hex": "#0301a2"
+              },
+              "materials": [
+                "Materiais.001",
+                "Materiais.002",
+                "Materiais"
+              ],
+              "pair": null
+            },
+            "classes": {},
+            "labelPass": {
+              "v": 1,
+              "mergedMesh": false,
+              "labeled": 27,
+              "lowConfidence": 0,
+              "total": 27
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            48.24409,
+            0,
+            0,
+            0,
+            0,
+            48.24409,
+            0,
+            0,
+            0,
+            0,
+            48.24409,
+            0,
+            0,
+            0.0038,
+            0.09467,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "587637e1-a7c1-492d-b0c4-1ef98710a5ff",
+              "type": "Object3D",
+              "name": "Sketchfab_model",
+              "userData": {
+                "name": "Sketchfab_model",
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:1",
+                  "bbox": {
+                    "center": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "size": [
+                      1.4115,
+                      2,
+                      0.6841
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 1.9312,
+                  "role": "group",
+                  "childCount": 1,
+                  "depth": 1,
+                  "parentName": "generic_legoman_figure.glb",
+                  "adjacency": [],
+                  "color": {
+                    "name": "yellow",
+                    "base": "yellow",
+                    "hex": "#0301a2"
+                  },
+                  "materials": [
+                    "Materiais.001",
+                    "Materiais.002",
+                    "Materiais"
+                  ],
+                  "pair": null
+                },
+                "classes": {},
+                "label": "Lego Figure (root)",
+                "labelConfidence": 0.9
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                2.220446049250313e-16,
+                -1,
+                0,
+                0,
+                1,
+                2.220446049250313e-16,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "children": [
+                {
+                  "uuid": "09fc0dce-1166-4910-b79c-d940ee567029",
+                  "type": "Object3D",
+                  "name": "root",
+                  "userData": {
+                    "name": "root",
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "grp:1",
+                      "bbox": {
+                        "center": [
+                          0,
+                          1,
+                          0
+                        ],
+                        "size": [
+                          1.4115,
+                          2,
+                          0.6841
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "blocky",
+                      "orientation": "vertical",
+                      "sizeRank": "medium",
+                      "volume": 1.9312,
+                      "role": "group",
+                      "childCount": 1,
+                      "depth": 2,
+                      "parentName": "Sketchfab_model",
+                      "adjacency": [],
+                      "color": {
+                        "name": "yellow",
+                        "base": "yellow",
+                        "hex": "#0301a2"
+                      },
+                      "materials": [
+                        "Materiais.001",
+                        "Materiais.002",
+                        "Materiais"
+                      ],
+                      "pair": null
+                    },
+                    "classes": {},
+                    "label": "Lego Figure (assembly)",
+                    "labelConfidence": 0.9
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "uuid": "218a062c-886c-4a7b-8904-0c40b7629e00",
+                      "type": "Object3D",
+                      "name": "GLTF_SceneRootNode",
+                      "userData": {
+                        "name": "GLTF_SceneRootNode",
+                        "descriptors": {
+                          "v": 1,
+                          "geomHash": "grp:9",
+                          "bbox": {
+                            "center": [
+                              0,
+                              1,
+                              0
+                            ],
+                            "size": [
+                              1.4115,
+                              2,
+                              0.6841
+                            ]
+                          },
+                          "region": {
+                            "x": "center",
+                            "y": "center",
+                            "z": "center"
+                          },
+                          "shape": "blocky",
+                          "orientation": "vertical",
+                          "sizeRank": "medium",
+                          "volume": 1.9312,
+                          "role": "group",
+                          "childCount": 9,
+                          "depth": 3,
+                          "parentName": "root",
+                          "adjacency": [],
+                          "color": {
+                            "name": "yellow",
+                            "base": "yellow",
+                            "hex": "#0301a2"
+                          },
+                          "materials": [
+                            "Materiais.001",
+                            "Materiais.002",
+                            "Materiais"
+                          ],
+                          "pair": null
+                        },
+                        "classes": {},
+                        "label": "Lego Figure (scene)",
+                        "labelConfidence": 0.9
+                      },
+                      "layers": 1,
+                      "matrix": [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.220446049250313e-16,
+                        1,
+                        0,
+                        0,
+                        -1,
+                        2.220446049250313e-16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      "up": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "uuid": "2a1b829d-f551-4ff8-91a3-06b4d81fc0b7",
+                          "type": "Object3D",
+                          "name": "LEGOMAN_-_PERNA_(1)001_0",
+                          "userData": {
+                            "name": "LEGOMAN - PERNA (1).001_0",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:1",
+                              "bbox": {
+                                "center": [
+                                  0.2091,
+                                  0.3685,
+                                  0.0781
+                                ],
+                                "size": [
+                                  0.3539,
+                                  0.737,
+                                  0.3782
+                                ]
+                              },
+                              "region": {
+                                "x": "right",
+                                "y": "bottom",
+                                "z": "center"
+                              },
+                              "shape": "blocky",
+                              "orientation": "vertical",
+                              "sizeRank": "medium",
+                              "volume": 0.0987,
+                              "role": "group",
+                              "childCount": 1,
+                              "depth": 4,
+                              "parentName": "GLTF_SceneRootNode",
+                              "adjacency": [
+                                "LEGOMAN_-_CAL��AS001_4"
+                              ],
+                              "color": {
+                                "name": "blue",
+                                "base": "blue",
+                                "hex": "#0301a2"
+                              },
+                              "materials": [
+                                "Materiais.001"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {},
+                            "label": "Leg",
+                            "labelConfidence": 0.95
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            -0.0000026663474272936583,
+                            0.01160753145813942,
+                            0.0000029934453777968884,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "2f108b9b-0d16-463b-bd0e-82778f887643",
+                              "type": "Mesh",
+                              "name": "Object_4",
+                              "userData": {
+                                "name": "Object_4",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "35725:9",
+                                  "bbox": {
+                                    "center": [
+                                      0.2091,
+                                      0.3685,
+                                      0.0781
+                                    ],
+                                    "size": [
+                                      0.3539,
+                                      0.737,
+                                      0.3782
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "medium",
+                                  "volume": 0.0987,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_PERNA_(1)001_0",
+                                  "adjacency": [],
+                                  "color": {
+                                    "name": "dark blue",
+                                    "base": "blue",
+                                    "hex": "#0301a2"
+                                  },
+                                  "materials": [
+                                    "Materiais.001"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Leg Geometry",
+                                "labelConfidence": 0.95
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "39128538-fa1d-48b3-a18c-8edc7bc80a2b",
+                              "material": "fff6b9e5-f44a-4417-8d23-84b04b16791b"
+                            }
+                          ]
+                        },
+                        {
+                          "uuid": "415405ab-c3e5-42de-94ec-6fd40bf746d4",
+                          "type": "Object3D",
+                          "name": "LEGOMAN_-_PERNA_(1)_1",
+                          "userData": {
+                            "name": "LEGOMAN - PERNA (1)_1",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:1",
+                              "bbox": {
+                                "center": [
+                                  -0.2091,
+                                  0.3685,
+                                  0.0781
+                                ],
+                                "size": [
+                                  0.3539,
+                                  0.737,
+                                  0.3782
+                                ]
+                              },
+                              "region": {
+                                "x": "left",
+                                "y": "bottom",
+                                "z": "center"
+                              },
+                              "shape": "blocky",
+                              "orientation": "vertical",
+                              "sizeRank": "medium",
+                              "volume": 0.0987,
+                              "role": "group",
+                              "childCount": 1,
+                              "depth": 4,
+                              "parentName": "GLTF_SceneRootNode",
+                              "adjacency": [
+                                "LEGOMAN_-_CAL��AS001_4"
+                              ],
+                              "color": {
+                                "name": "blue",
+                                "base": "blue",
+                                "hex": "#0301a2"
+                              },
+                              "materials": [
+                                "Materiais.001"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {},
+                            "label": "Leg",
+                            "labelConfidence": 0.95
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            -0.0000026663474272936583,
+                            0.01160753145813942,
+                            0.0000029934453777968884,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "9dd6da35-f228-4ef2-8210-3e8bbb38d20e",
+                              "type": "Mesh",
+                              "name": "Object_6",
+                              "userData": {
+                                "name": "Object_6",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "148488:10",
+                                  "bbox": {
+                                    "center": [
+                                      -0.2091,
+                                      0.3685,
+                                      0.1227
+                                    ],
+                                    "size": [
+                                      0.3539,
+                                      0.737,
+                                      0.4675
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "medium",
+                                  "volume": 0.1219,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_PERNA_(1)_1",
+                                  "adjacency": [],
+                                  "color": {
+                                    "name": "red",
+                                    "base": "red",
+                                    "hex": "#ff0000"
+                                  },
+                                  "materials": [
+                                    "Materiais.001"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Leg Geometry",
+                                "labelConfidence": 0.95,
+                                "recipe": [
+                                  {
+                                    "op": "primitive",
+                                    "type": "BufferGeometry",
+                                    "args": []
+                                  }
+                                ]
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                4.834333428780093e-7,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "43d7992c-2e9b-4d0a-946e-f9f75b9b1746",
+                              "material": "8ca816e4-0cd5-49d2-ae7e-e746da3ad8eb"
+                            }
+                          ]
+                        },
+                        {
+                          "uuid": "49416905-ac0b-49af-9593-e3c20434dfea",
+                          "type": "Object3D",
+                          "name": "LEGOMAN_-_MAO_(1)_2",
+                          "userData": {
+                            "name": "LEGOMAN - MAO (1)_2",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:1",
+                              "bbox": {
+                                "center": [
+                                  -0.5535,
+                                  0.9385,
+                                  -0.1081
+                                ],
+                                "size": [
+                                  0.3044,
+                                  0.3928,
+                                  0.4679
+                                ]
+                              },
+                              "region": {
+                                "x": "left",
+                                "y": "center",
+                                "z": "back"
+                              },
+                              "shape": "blocky",
+                              "orientation": "horizontal",
+                              "sizeRank": "smallest",
+                              "volume": 0.056,
+                              "role": "group",
+                              "childCount": 1,
+                              "depth": 4,
+                              "parentName": "GLTF_SceneRootNode",
+                              "adjacency": [
+                                "LEGOMAN_-_BRA��O001_5"
+                              ],
+                              "color": {
+                                "name": "yellow",
+                                "base": "yellow",
+                                "hex": "#ffe100"
+                              },
+                              "materials": [
+                                "Materiais.002"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {},
+                            "label": "Hand",
+                            "labelConfidence": 0.95
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0.035347141325473785,
+                            0,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "91e71524-d1e4-4eaf-80a4-b343413c4ea3",
+                              "type": "Mesh",
+                              "name": "Object_8",
+                              "userData": {
+                                "name": "Object_8",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "54695:7",
+                                  "bbox": {
+                                    "center": [
+                                      -0.5535,
+                                      0.9385,
+                                      -0.1081
+                                    ],
+                                    "size": [
+                                      0.3044,
+                                      0.3928,
+                                      0.4679
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 0.056,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_MAO_(1)_2",
+                                  "adjacency": [],
+                                  "color": {
+                                    "name": "yellow",
+                                    "base": "yellow",
+                                    "hex": "#ffe100"
+                                  },
+                                  "materials": [
+                                    "Materiais.002"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Hand Geometry",
+                                "labelConfidence": 0.95
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "2320a329-17c2-430d-a869-ddd5e40b2f24",
+                              "material": "b1598726-fd6f-43d0-9862-c950e5ec0980"
+                            }
+                          ]
+                        },
+                        {
+                          "uuid": "6624e1d2-6d23-46e5-861f-0a646724fd3e",
+                          "type": "Object3D",
+                          "name": "LEGOMAN_-_MAO_3",
+                          "userData": {
+                            "name": "LEGOMAN - MAO_3",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:1",
+                              "bbox": {
+                                "center": [
+                                  0.5535,
+                                  0.9385,
+                                  -0.1081
+                                ],
+                                "size": [
+                                  0.3044,
+                                  0.3928,
+                                  0.4679
+                                ]
+                              },
+                              "region": {
+                                "x": "right",
+                                "y": "center",
+                                "z": "back"
+                              },
+                              "shape": "blocky",
+                              "orientation": "horizontal",
+                              "sizeRank": "smallest",
+                              "volume": 0.056,
+                              "role": "group",
+                              "childCount": 1,
+                              "depth": 4,
+                              "parentName": "GLTF_SceneRootNode",
+                              "adjacency": [
+                                "LEGOMAN_-_BRA��O_6"
+                              ],
+                              "color": {
+                                "name": "yellow",
+                                "base": "yellow",
+                                "hex": "#ffe100"
+                              },
+                              "materials": [
+                                "Materiais.002"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {},
+                            "label": "Hand",
+                            "labelConfidence": 0.95
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0.035347141325473785,
+                            0,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "6ed28fef-8c6f-497c-9d50-bb6447bb4220",
+                              "type": "Mesh",
+                              "name": "Object_10",
+                              "userData": {
+                                "name": "Object_10",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "54834:7",
+                                  "bbox": {
+                                    "center": [
+                                      0.5535,
+                                      0.9385,
+                                      -0.1081
+                                    ],
+                                    "size": [
+                                      0.3044,
+                                      0.3928,
+                                      0.4679
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 0.056,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_MAO_3",
+                                  "adjacency": [],
+                                  "color": {
+                                    "name": "yellow",
+                                    "base": "yellow",
+                                    "hex": "#ffe100"
+                                  },
+                                  "materials": [
+                                    "Materiais.002"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Hand Geometry",
+                                "labelConfidence": 0.95
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "7304e5a1-e7e2-4a90-a90b-ecb39c45ab97",
+                              "material": "587be78c-6465-40e8-9f8e-25eee4bf1853"
+                            }
+                          ]
+                        },
+                        {
+                          "uuid": "3f7ba959-142e-4bee-8266-d3b4016a17bc",
+                          "type": "Object3D",
+                          "name": "LEGOMAN_-_CAL��AS001_4",
+                          "userData": {
+                            "name": "LEGOMAN - CAL��AS.001_4",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:1",
+                              "bbox": {
+                                "center": [
+                                  -0.0001,
+                                  0.6853,
+                                  0.0948
+                                ],
+                                "size": [
+                                  0.7092,
+                                  0.6206,
+                                  0.3781
+                                ]
+                              },
+                              "region": {
+                                "x": "center",
+                                "y": "bottom",
+                                "z": "front"
+                              },
+                              "shape": "blocky",
+                              "orientation": "horizontal",
+                              "sizeRank": "medium",
+                              "volume": 0.1664,
+                              "role": "group",
+                              "childCount": 1,
+                              "depth": 4,
+                              "parentName": "GLTF_SceneRootNode",
+                              "adjacency": [
+                                "LEGOMAN_-_PERNA_(1)001_0",
+                                "LEGOMAN_-_PERNA_(1)_1",
+                                "LEGOMAN_-_BRA��O001_5",
+                                "LEGOMAN_-_BRA��O_6",
+                                "LEGOMAN_-_TORSO001_7"
+                              ],
+                              "color": {
+                                "name": "blue",
+                                "base": "blue",
+                                "hex": "#0301a2"
+                              },
+                              "materials": [
+                                "Materiais.001"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {},
+                            "label": "Pants",
+                            "labelConfidence": 0.9
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0.035347141325473785,
+                            0,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "0a84f1ea-c0ef-4dee-8773-0afd93a09b2f",
+                              "type": "Mesh",
+                              "name": "Object_12",
+                              "userData": {
+                                "name": "Object_12",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "11038:11",
+                                  "bbox": {
+                                    "center": [
+                                      -0.0001,
+                                      0.6853,
+                                      0.0948
+                                    ],
+                                    "size": [
+                                      0.7092,
+                                      0.6206,
+                                      0.3781
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 0.1664,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_CAL��AS001_4",
+                                  "adjacency": [],
+                                  "color": {
+                                    "name": "dark blue",
+                                    "base": "blue",
+                                    "hex": "#0301a2"
+                                  },
+                                  "materials": [
+                                    "Materiais.001"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Pants (geometry)",
+                                "labelConfidence": 0.9
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "8aa4ad5e-6025-4294-bd9c-5afa219d6cb6",
+                              "material": "b2093b5e-1a6e-4f08-80b1-46bf3a5f6da9"
+                            }
+                          ]
+                        },
+                        {
+                          "uuid": "bf80fa05-c1ff-4b4d-a160-30a7261cc2ba",
+                          "type": "Object3D",
+                          "name": "LEGOMAN_-_BRA��O001_5",
+                          "userData": {
+                            "name": "LEGOMAN - BRA��O.001_5",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:1",
+                              "bbox": {
+                                "center": [
+                                  -0.3744,
+                                  1.1548,
+                                  0.054
+                                ],
+                                "size": [
+                                  0.4681,
+                                  0.5245,
+                                  0.3598
+                                ]
+                              },
+                              "region": {
+                                "x": "left",
+                                "y": "center",
+                                "z": "center"
+                              },
+                              "shape": "blocky",
+                              "orientation": "vertical",
+                              "sizeRank": "medium",
+                              "volume": 0.0883,
+                              "role": "group",
+                              "childCount": 1,
+                              "depth": 4,
+                              "parentName": "GLTF_SceneRootNode",
+                              "adjacency": [
+                                "LEGOMAN_-_MAO_(1)_2",
+                                "LEGOMAN_-_CAL��AS001_4",
+                                "LEGOMAN_-_TORSO001_7"
+                              ],
+                              "color": {
+                                "name": "red",
+                                "base": "red",
+                                "hex": "#c50000"
+                              },
+                              "materials": [
+                                "Materiais"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {},
+                            "label": "Arm",
+                            "labelConfidence": 0.95
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0.035347141325473785,
+                            0,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "01f7a78e-ac4d-4d96-8ac9-f9868ed7b20b",
+                              "type": "Mesh",
+                              "name": "Object_14",
+                              "userData": {
+                                "name": "Object_14",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "38948:8",
+                                  "bbox": {
+                                    "center": [
+                                      -0.3744,
+                                      1.1548,
+                                      0.054
+                                    ],
+                                    "size": [
+                                      0.4681,
+                                      0.5245,
+                                      0.3598
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "medium",
+                                  "volume": 0.0883,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_BRA��O001_5",
+                                  "adjacency": [],
+                                  "color": {
+                                    "name": "red",
+                                    "base": "red",
+                                    "hex": "#c50000"
+                                  },
+                                  "materials": [
+                                    "Materiais"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Arm Geometry",
+                                "labelConfidence": 0.95
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "783f821b-a854-42d3-975a-857425220b33",
+                              "material": "fd84816c-d09a-4d1c-a6f3-652aebcffb85"
+                            }
+                          ]
+                        },
+                        {
+                          "uuid": "4f334d84-6a78-48b0-9abd-31248639c205",
+                          "type": "Object3D",
+                          "name": "LEGOMAN_-_BRA��O_6",
+                          "userData": {
+                            "name": "LEGOMAN - BRA��O_6",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:1",
+                              "bbox": {
+                                "center": [
+                                  0.3744,
+                                  1.1548,
+                                  0.054
+                                ],
+                                "size": [
+                                  0.4681,
+                                  0.5245,
+                                  0.3598
+                                ]
+                              },
+                              "region": {
+                                "x": "right",
+                                "y": "center",
+                                "z": "center"
+                              },
+                              "shape": "blocky",
+                              "orientation": "vertical",
+                              "sizeRank": "medium",
+                              "volume": 0.0883,
+                              "role": "group",
+                              "childCount": 1,
+                              "depth": 4,
+                              "parentName": "GLTF_SceneRootNode",
+                              "adjacency": [
+                                "LEGOMAN_-_MAO_3",
+                                "LEGOMAN_-_CAL��AS001_4",
+                                "LEGOMAN_-_TORSO001_7"
+                              ],
+                              "color": {
+                                "name": "red",
+                                "base": "red",
+                                "hex": "#c50000"
+                              },
+                              "materials": [
+                                "Materiais"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {},
+                            "label": "Arm",
+                            "labelConfidence": 0.95
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0.035347141325473785,
+                            0,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "ec370f19-f508-49d1-982b-eba3e167d75d",
+                              "type": "Mesh",
+                              "name": "Object_16",
+                              "userData": {
+                                "name": "Object_16",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "38948:8",
+                                  "bbox": {
+                                    "center": [
+                                      0.3744,
+                                      1.1548,
+                                      0.054
+                                    ],
+                                    "size": [
+                                      0.4681,
+                                      0.5245,
+                                      0.3598
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "medium",
+                                  "volume": 0.0883,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_BRA��O_6",
+                                  "adjacency": [],
+                                  "color": {
+                                    "name": "red",
+                                    "base": "red",
+                                    "hex": "#c50000"
+                                  },
+                                  "materials": [
+                                    "Materiais"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Arm Geometry",
+                                "labelConfidence": 0.95
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "8143844a-266c-4c3a-b626-e6acac7f3a7d",
+                              "material": "4e067568-6ba2-44ec-9578-c5a52e9c7be7"
+                            }
+                          ]
+                        },
+                        {
+                          "uuid": "70027008-f374-433e-aa2f-a27eade32fca",
+                          "type": "Object3D",
+                          "name": "LEGOMAN_-_TORSO001_7",
+                          "userData": {
+                            "name": "LEGOMAN - TORSO.001_7",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:3",
+                              "bbox": {
+                                "center": [
+                                  0,
+                                  1.2643,
+                                  0.0947
+                                ],
+                                "size": [
+                                  0.7478,
+                                  0.9022,
+                                  0.3667
+                                ]
+                              },
+                              "region": {
+                                "x": "center",
+                                "y": "top",
+                                "z": "front"
+                              },
+                              "shape": "blocky",
+                              "orientation": "vertical",
+                              "sizeRank": "largest",
+                              "volume": 0.2474,
+                              "role": "group",
+                              "childCount": 3,
+                              "depth": 4,
+                              "parentName": "GLTF_SceneRootNode",
+                              "adjacency": [
+                                "LEGOMAN_-_CAL��AS001_4",
+                                "LEGOMAN_-_BRA��O001_5",
+                                "LEGOMAN_-_BRA��O_6",
+                                "LEGOMAN_-_CABE��A001_8"
+                              ],
+                              "color": {
+                                "name": "red",
+                                "base": "red",
+                                "hex": "#c50000"
+                              },
+                              "materials": [
+                                "Materiais"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {},
+                            "label": "Torso",
+                            "labelConfidence": 0.95
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0.035347141325473785,
+                            0,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "e36671a6-6252-451b-9d87-0beb610dcb5e",
+                              "type": "Mesh",
+                              "name": "Object_18",
+                              "userData": {
+                                "name": "Object_18",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "65533:13",
+                                  "bbox": {
+                                    "center": [
+                                      0,
+                                      1.2643,
+                                      0.0947
+                                    ],
+                                    "size": [
+                                      0.7478,
+                                      0.9022,
+                                      0.3667
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "largest",
+                                  "volume": 0.2474,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_TORSO001_7",
+                                  "adjacency": [
+                                    "Object_19",
+                                    "Object_20"
+                                  ],
+                                  "color": {
+                                    "name": "red",
+                                    "base": "red",
+                                    "hex": "#c50000"
+                                  },
+                                  "materials": [
+                                    "Materiais"
+                                  ],
+                                  "pair": {
+                                    "mateUuid": "87102046-1202-4c16-9404-1d0c1397afec",
+                                    "mateName": "Object_19",
+                                    "axis": "x",
+                                    "side": "left"
+                                  }
+                                },
+                                "classes": {},
+                                "label": "Torso",
+                                "labelConfidence": 0.9
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                -0.000057505314491825423,
+                                -2.7062843903972158e-15,
+                                -0.000008850202842511252,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "025529b4-3bda-4008-8133-edd17361daa7",
+                              "material": "b6da1aa8-6eb4-4b65-84b5-f618363eebeb"
+                            },
+                            {
+                              "uuid": "87102046-1202-4c16-9404-1d0c1397afec",
+                              "type": "Mesh",
+                              "name": "Object_19",
+                              "userData": {
+                                "name": "Object_19",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "65534:13",
+                                  "bbox": {
+                                    "center": [
+                                      0,
+                                      1.2642,
+                                      0.0947
+                                    ],
+                                    "size": [
+                                      0.7478,
+                                      0.9019,
+                                      0.3667
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "medium",
+                                  "volume": 0.2473,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_TORSO001_7",
+                                  "adjacency": [
+                                    "Object_18",
+                                    "Object_20"
+                                  ],
+                                  "color": {
+                                    "name": "red",
+                                    "base": "red",
+                                    "hex": "#c50000"
+                                  },
+                                  "materials": [
+                                    "Materiais"
+                                  ],
+                                  "pair": {
+                                    "mateUuid": "e36671a6-6252-451b-9d87-0beb610dcb5e",
+                                    "mateName": "Object_18",
+                                    "axis": "x",
+                                    "side": "right"
+                                  }
+                                },
+                                "classes": {},
+                                "label": "Torso",
+                                "labelConfidence": 0.9
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "87c8fb94-d495-44a6-ab93-d34d8b9c7d80",
+                              "material": "b6da1aa8-6eb4-4b65-84b5-f618363eebeb"
+                            },
+                            {
+                              "uuid": "1395fdd6-587d-4574-924d-411378ee393b",
+                              "type": "Mesh",
+                              "name": "Object_20",
+                              "userData": {
+                                "name": "Object_20",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "13377:13",
+                                  "bbox": {
+                                    "center": [
+                                      0,
+                                      1.2596,
+                                      0.0947
+                                    ],
+                                    "size": [
+                                      0.7478,
+                                      0.8929,
+                                      0.3667
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "smallest",
+                                  "volume": 0.2448,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_TORSO001_7",
+                                  "adjacency": [
+                                    "Object_18",
+                                    "Object_19"
+                                  ],
+                                  "color": {
+                                    "name": "red",
+                                    "base": "red",
+                                    "hex": "#c50000"
+                                  },
+                                  "materials": [
+                                    "Materiais"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Torso Detail",
+                                "labelConfidence": 0.85
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "77beaf9c-593b-475e-9d47-3985cef2157c",
+                              "material": "b6da1aa8-6eb4-4b65-84b5-f618363eebeb"
+                            }
+                          ]
+                        },
+                        {
+                          "uuid": "6aebd4fa-137d-4b89-919b-09e9f6dbcbe5",
+                          "type": "Object3D",
+                          "name": "LEGOMAN_-_CABE��A001_8",
+                          "userData": {
+                            "name": "LEGOMAN - CABE��A.001_8",
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:5",
+                              "bbox": {
+                                "center": [
+                                  0,
+                                  1.7202,
+                                  0.0947
+                                ],
+                                "size": [
+                                  0.4948,
+                                  0.5596,
+                                  0.4948
+                                ]
+                              },
+                              "region": {
+                                "x": "center",
+                                "y": "top",
+                                "z": "front"
+                              },
+                              "shape": "blocky",
+                              "orientation": "vertical",
+                              "sizeRank": "medium",
+                              "volume": 0.137,
+                              "role": "group",
+                              "childCount": 5,
+                              "depth": 4,
+                              "parentName": "GLTF_SceneRootNode",
+                              "adjacency": [
+                                "LEGOMAN_-_TORSO001_7"
+                              ],
+                              "color": {
+                                "name": "yellow",
+                                "base": "yellow",
+                                "hex": "#ffe100"
+                              },
+                              "materials": [
+                                "Materiais.002"
+                              ],
+                              "pair": null
+                            },
+                            "classes": {},
+                            "label": "Head",
+                            "labelConfidence": 0.95
+                          },
+                          "layers": 1,
+                          "matrix": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0.035347141325473785,
+                            0,
+                            1
+                          ],
+                          "up": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "uuid": "8d9416b5-0121-4126-ae43-58365723938e",
+                              "type": "Mesh",
+                              "name": "Object_22",
+                              "userData": {
+                                "name": "Object_22",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "65533:4",
+                                  "bbox": {
+                                    "center": [
+                                      0,
+                                      1.9276,
+                                      0.0947
+                                    ],
+                                    "size": [
+                                      0.2316,
+                                      0.1447,
+                                      0.2316
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "top",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "smallest",
+                                  "volume": 0.0078,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_CABE��A001_8",
+                                  "adjacency": [
+                                    "Object_23",
+                                    "Object_24",
+                                    "Object_25"
+                                  ],
+                                  "color": {
+                                    "name": "yellow",
+                                    "base": "yellow",
+                                    "hex": "#ffe100"
+                                  },
+                                  "materials": [
+                                    "Materiais.002"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Hair",
+                                "labelConfidence": 0.9
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "c7fe2220-2f17-4dfd-aed3-9980b028d0ea",
+                              "material": "78b12f58-acaa-4864-867f-f54e2555f401"
+                            },
+                            {
+                              "uuid": "fa41d243-1b92-41e2-a2b1-2861e4c4b974",
+                              "type": "Mesh",
+                              "name": "Object_23",
+                              "userData": {
+                                "name": "Object_23",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "65533:9",
+                                  "bbox": {
+                                    "center": [
+                                      0,
+                                      1.7457,
+                                      0.0947
+                                    ],
+                                    "size": [
+                                      0.4948,
+                                      0.4943,
+                                      0.4948
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 0.121,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_CABE��A001_8",
+                                  "adjacency": [
+                                    "Object_22",
+                                    "Object_24",
+                                    "Object_25",
+                                    "Object_26"
+                                  ],
+                                  "color": {
+                                    "name": "yellow",
+                                    "base": "yellow",
+                                    "hex": "#ffe100"
+                                  },
+                                  "materials": [
+                                    "Materiais.002"
+                                  ],
+                                  "pair": {
+                                    "mateUuid": "ff8f1e59-73ab-4a1b-819f-3ec2a4a2de5c",
+                                    "mateName": "Object_25",
+                                    "axis": "x",
+                                    "side": "right"
+                                  }
+                                },
+                                "classes": {},
+                                "label": "Hair",
+                                "labelConfidence": 0.9
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "85aa0a63-f3b4-42e1-9e67-c53cc328aad9",
+                              "material": "b00b0fc3-7b20-4bd2-97f9-ae16133e5302"
+                            },
+                            {
+                              "uuid": "6d33fa24-b411-4323-8bde-84351e16802c",
+                              "type": "Mesh",
+                              "name": "Object_24",
+                              "userData": {
+                                "name": "Object_24",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "65532:7",
+                                  "bbox": {
+                                    "center": [
+                                      0,
+                                      1.6744,
+                                      0.0947
+                                    ],
+                                    "size": [
+                                      0.3158,
+                                      0.468,
+                                      0.3158
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "medium",
+                                  "volume": 0.0467,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_CABE��A001_8",
+                                  "adjacency": [
+                                    "Object_22",
+                                    "Object_23",
+                                    "Object_25",
+                                    "Object_26"
+                                  ],
+                                  "color": {
+                                    "name": "yellow",
+                                    "base": "yellow",
+                                    "hex": "#ffe100"
+                                  },
+                                  "materials": [
+                                    "Materiais.002"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Head (face)",
+                                "labelConfidence": 0.9
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "93349ead-1856-46b5-81b2-9cd28defff32",
+                              "material": "78b12f58-acaa-4864-867f-f54e2555f401"
+                            },
+                            {
+                              "uuid": "ff8f1e59-73ab-4a1b-819f-3ec2a4a2de5c",
+                              "type": "Mesh",
+                              "name": "Object_25",
+                              "userData": {
+                                "name": "Object_25",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "65533:9",
+                                  "bbox": {
+                                    "center": [
+                                      0,
+                                      1.7202,
+                                      0.0947
+                                    ],
+                                    "size": [
+                                      0.4948,
+                                      0.5596,
+                                      0.4948
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "vertical",
+                                  "sizeRank": "largest",
+                                  "volume": 0.137,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_CABE��A001_8",
+                                  "adjacency": [
+                                    "Object_22",
+                                    "Object_23",
+                                    "Object_24",
+                                    "Object_26"
+                                  ],
+                                  "color": {
+                                    "name": "yellow",
+                                    "base": "yellow",
+                                    "hex": "#ffe100"
+                                  },
+                                  "materials": [
+                                    "Materiais.002"
+                                  ],
+                                  "pair": {
+                                    "mateUuid": "fa41d243-1b92-41e2-a2b1-2861e4c4b974",
+                                    "mateName": "Object_23",
+                                    "axis": "x",
+                                    "side": "left"
+                                  }
+                                },
+                                "classes": {},
+                                "label": "Hair",
+                                "labelConfidence": 0.9
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "c8cd4ec1-294f-424d-b7cf-016f2f2e2f6d",
+                              "material": "78b12f58-acaa-4864-867f-f54e2555f401"
+                            },
+                            {
+                              "uuid": "010190db-d905-4eec-85fb-519014f8bed6",
+                              "type": "Mesh",
+                              "name": "Object_26",
+                              "userData": {
+                                "name": "Object_26",
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "11022:7",
+                                  "bbox": {
+                                    "center": [
+                                      0.0001,
+                                      1.5462,
+                                      0.094
+                                    ],
+                                    "size": [
+                                      0.4814,
+                                      0.0364,
+                                      0.4801
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "bottom",
+                                    "z": "center"
+                                  },
+                                  "shape": "flat",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 0.0084,
+                                  "role": "leaf",
+                                  "childCount": 0,
+                                  "depth": 5,
+                                  "parentName": "LEGOMAN_-_CABE��A001_8",
+                                  "adjacency": [
+                                    "Object_23",
+                                    "Object_24",
+                                    "Object_25"
+                                  ],
+                                  "color": {
+                                    "name": "yellow",
+                                    "base": "yellow",
+                                    "hex": "#ffe100"
+                                  },
+                                  "materials": [
+                                    "Materiais.002"
+                                  ],
+                                  "pair": null
+                                },
+                                "classes": {},
+                                "label": "Head (chin/jaw)",
+                                "labelConfidence": 0.85
+                              },
+                              "layers": 1,
+                              "matrix": [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "up": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "geometry": "3c2c3502-74cc-407c-8f58-e6931038c1dc",
+                              "material": "78b12f58-acaa-4864-867f-f54e2555f401"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "animations": [
+            "a133425a-e724-4e36-acfa-aa8dba9302c3"
+          ]
+        },
+        {
+          "uuid": "8860c46c-19e0-42d7-bc34-ae2eaaca7f44",
+          "type": "Mesh",
+          "name": "Sphere",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "561:1000",
+              "bbox": {
+                "center": [
+                  -0.3539,
+                  0,
+                  14.423
+                ],
+                "size": [
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 8,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#ffffff"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            0.1,
+            0,
+            0,
+            0,
+            0,
+            0.1,
+            0,
+            0,
+            0,
+            0,
+            0.1,
+            0,
+            -0.35388755960612905,
+            0,
+            0.7995566317555607,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "fa9441e1-ca58-4827-bbce-87cbcff8c008",
+          "material": "41d1121f-3c03-4bef-9366-ea6f176ff920"
+        }
+      ],
+      "backgroundRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "environmentRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
+    }
+  },
+  "animations": [
+    {
+      "object": "ba1bdb6f-b1f4-4e80-a3ac-1d3216557c58",
+      "clip": {
+        "name": "Spin Y",
+        "duration": 4,
+        "tracks": [
+          {
+            "name": "ba1bdb6f-b1f4-4e80-a3ac-1d3216557c58.quaternion",
+            "times": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "values": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0.7071067690849304,
+              0,
+              0.7071067690849304,
+              0,
+              1,
+              0,
+              6.123234262925839e-17,
+              0,
+              0.7071067690849304,
+              0,
+              -0.7071067690849304,
+              0,
+              1.2246468525851679e-16,
+              0,
+              -1
+            ],
+            "type": "quaternion"
+          }
+        ],
+        "uuid": "a133425a-e724-4e36-acfa-aa8dba9302c3",
+        "blendMode": 2500,
+        "userData": "{}"
+      }
+    }
+  ],
+  "scripts": {},
+  "history": {
+    "undos": [],
+    "redos": []
+  },
+  "backgroundType": "Default",
+  "environmentType": "Default"
+}
