@@ -1,0 +1,117 @@
+{
+  "metadata": {},
+  "project": {
+    "renderer": "WebGLRenderer",
+    "shadows": true,
+    "shadowType": 1,
+    "toneMapping": 7,
+    "toneMappingExposure": 1
+  },
+  "camera": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "0db85551-9fd1-4d1c-beca-7bd149f9c284",
+      "type": "PerspectiveCamera",
+      "name": "Camera",
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.8944271909999159,
+        -0.4472135954999579,
+        0,
+        0,
+        0.4472135954999579,
+        0.8944271909999159,
+        0,
+        0,
+        5,
+        10,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "fov": 50,
+      "zoom": 1,
+      "near": 0.001,
+      "far": 10000000000,
+      "focus": 10,
+      "aspect": 0.6769436997319035,
+      "filmGauge": 35,
+      "filmOffset": 0
+    }
+  },
+  "controls": {
+    "center": [
+      0,
+      0,
+      0
+    ]
+  },
+  "scene": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "3395fa32-9d98-4653-b30f-f2a978d3e227",
+      "type": "Scene",
+      "name": "Scene",
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "backgroundRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "environmentRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
+    }
+  },
+  "animations": [],
+  "scripts": {},
+  "history": {
+    "undos": [],
+    "redos": []
+  },
+  "backgroundType": "Default",
+  "environmentType": "Default"
+}
