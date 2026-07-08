@@ -19,21 +19,21 @@
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        -0.8595072088278775,
-        -2.775557561562892e-17,
-        -0.5111236229846083,
+        -0.994983927825648,
+        2.6020852139652114e-18,
+        -0.10003491074942499,
         0,
-        -0.3468627821558404,
-        0.7344821919970627,
-        0.5832856247108269,
+        -0.015276825508617559,
+        0.9882702802107327,
+        0.15194891198879518,
         0,
-        0.3754111989912152,
-        0.6786279611386417,
-        -0.6312927387771764,
+        0.09886152927718986,
+        0.15271494115573425,
+        -0.9833130451574285,
         0,
-        1.9971992522383635,
-        4.3569118078370455,
-        -3.6321157958959245,
+        0.3718749632631637,
+        1.2660413463013995,
+        -5.700992445663627,
         1
       ],
       "up": [
@@ -46,7 +46,7 @@
       "near": 0.001,
       "far": 10000000000,
       "focus": 10,
-      "aspect": 0.6769436997319035,
+      "aspect": 1.2365308804204993,
       "filmGauge": 35,
       "filmOffset": 0
     }
@@ -727,6 +727,48 @@
         "phiLength": 6.283185307179586,
         "thetaStart": 0,
         "thetaLength": 3.141592653589793
+      },
+      {
+        "uuid": "16621fb0-26b6-4581-b32e-5bc6ff91b837",
+        "type": "TubeGeometry",
+        "path": {
+          "metadata": {
+            "version": 4.7,
+            "type": "Curve",
+            "generator": "Curve.toJSON"
+          },
+          "arcLengthDivisions": 200,
+          "type": "CatmullRomCurve3",
+          "points": [
+            [
+              2,
+              2,
+              -2
+            ],
+            [
+              2,
+              -2,
+              -0.6666666666666667
+            ],
+            [
+              -2,
+              -2,
+              0.6666666666666667
+            ],
+            [
+              -2,
+              2,
+              2
+            ]
+          ],
+          "closed": false,
+          "curveType": "centripetal",
+          "tension": 0.5
+        },
+        "tubularSegments": 64,
+        "radius": 1,
+        "radialSegments": 8,
+        "closed": false
       }
     ],
     "materials": [
@@ -914,6 +956,22 @@
         "uuid": "41d1121f-3c03-4bef-9366-ea6f176ff920",
         "type": "MeshStandardMaterial",
         "color": 855052,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "4d0cc0a6-5a24-4370-a9e2-d880e080dbde",
+        "type": "MeshStandardMaterial",
+        "color": 1381396,
         "roughness": 1,
         "metalness": 0,
         "emissive": 0,
@@ -3317,9 +3375,9 @@
             0,
             0.1,
             0,
-            -0.35388755960612905,
-            0,
-            0.7995566317555607,
+            -0.04556651849317528,
+            1.7605701192657535,
+            -0.05890822376416266,
             1
           ],
           "up": [
@@ -3329,6 +3387,146 @@
           ],
           "geometry": "fa9441e1-ca58-4827-bbce-87cbcff8c008",
           "material": "41d1121f-3c03-4bef-9366-ea6f176ff920"
+        },
+        {
+          "uuid": "6d9c6e2d-695c-4e62-b731-6beb720ea54e",
+          "type": "Mesh",
+          "name": "Sphere",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "561:1000",
+              "bbox": {
+                "center": [
+                  -0.3539,
+                  0,
+                  14.423
+                ],
+                "size": [
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 8,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#ffffff"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            0.1,
+            0,
+            0,
+            0,
+            0,
+            0.1,
+            0,
+            0,
+            0,
+            0,
+            0.1,
+            0,
+            0.10220324933604708,
+            1.7605701192657535,
+            -0.042313060601259334,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "fa9441e1-ca58-4827-bbce-87cbcff8c008",
+          "material": "41d1121f-3c03-4bef-9366-ea6f176ff920"
+        },
+        {
+          "uuid": "ebe4f4a6-78c6-4d34-b593-13052d27a40c",
+          "type": "Mesh",
+          "name": "Tube",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "585:4526",
+              "bbox": {
+                "center": [
+                  -1.854,
+                  -0.5803,
+                  0.1708
+                ],
+                "size": [
+                  6.5296,
+                  5.793,
+                  5.8385
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 220.8479,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#ffffff"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            0.03608535635801322,
+            0,
+            0,
+            0,
+            0,
+            0.025732081227951117,
+            0,
+            0,
+            0,
+            0,
+            0.013559783427170239,
+            0,
+            -0.018134005597943426,
+            1.632671064562772,
+            -0.1098097877899229,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "16621fb0-26b6-4581-b32e-5bc6ff91b837",
+          "material": "4d0cc0a6-5a24-4370-a9e2-d880e080dbde"
         }
       ],
       "backgroundRotation": [
