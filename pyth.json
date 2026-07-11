@@ -1,0 +1,1159 @@
+{
+  "metadata": {},
+  "project": {
+    "renderer": "WebGLRenderer",
+    "shadows": true,
+    "shadowType": 1,
+    "toneMapping": 7,
+    "toneMappingExposure": 1
+  },
+  "camera": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "9dc79c72-975c-427b-840a-9a177b948cf0",
+      "type": "PerspectiveCamera",
+      "name": "Camera",
+      "layers": 1,
+      "matrix": [
+        0.31100770860618604,
+        0,
+        0.9504073890640419,
+        0,
+        0.5698676698431201,
+        0.8002971640336801,
+        -0.18648133447404489,
+        0,
+        -0.7606083381446075,
+        0.5996035767402059,
+        0.2488985871901439,
+        0,
+        -10.357440941050289,
+        9.664988894650374,
+        8.389329682371494,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "fov": 50,
+      "zoom": 1,
+      "near": 0.001,
+      "far": 10000000000,
+      "focus": 10,
+      "aspect": 0.6767411300919842,
+      "filmGauge": 35,
+      "filmOffset": 0
+    }
+  },
+  "controls": {
+    "center": [
+      0,
+      1.5,
+      5
+    ]
+  },
+  "scene": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "geometries": [
+      {
+        "uuid": "c3fb58d4-2693-4b42-beae-bf0c4a6e013d",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-5003fc381596791f0570d0b8aaad348baeb1e2dc.bin",
+                "dtype": "Float32Array",
+                "length": 108
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-e7126faa655583543f1e02fb3f1d3691d982032c.bin",
+                "dtype": "Float32Array",
+                "length": 72
+              },
+              "normalized": false
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-e6b0467a4c6cbf520fc868e084d2f23f779dc758.bin",
+                "dtype": "Float32Array",
+                "length": 108
+              },
+              "normalized": false
+            }
+          },
+          "boundingSphere": {
+            "radius": 1.6777961735784552,
+            "center": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "1949f6e4-92cc-4341-b7d8-e4e776aa6b2c",
+        "type": "BoxGeometry",
+        "width": 3,
+        "height": 0.1,
+        "depth": 0.4,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "b1cd18d0-03db-4639-ba31-d00f91e98758",
+        "type": "BoxGeometry",
+        "width": 0.15,
+        "height": 0.75,
+        "depth": 0.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "7b857541-42f2-4062-bf2d-e1de3cab319b",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-1bb721ae6a13981f035352b6bb0818664bc1737a.bin",
+                "dtype": "Float32Array",
+                "length": 18102
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-b3d83d00f911a91e874a2a9c3e8b8c793976d6a2.bin",
+                "dtype": "Float32Array",
+                "length": 12068
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-fa97f3dfe6edfd45d84553a03330315473134c7e.bin",
+              "dtype": "Uint32Array",
+              "length": 25980
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.7007308261586619,
+            "center": [
+              0.0009873658418655396,
+              0.00003692507743835449,
+              0.00405825674533844
+            ]
+          }
+        }
+      }
+    ],
+    "materials": [
+      {
+        "uuid": "04ee3541-bffd-4a37-826b-ff00f5d24fe9",
+        "type": "MeshStandardMaterial",
+        "color": 9127187,
+        "roughness": 0.7,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "422c337f-2739-4d17-9ab7-bd425f34078f",
+        "type": "MeshStandardMaterial",
+        "color": 9127187,
+        "roughness": 0.7,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "0717892c-59f7-4233-a58a-298328bf6ca5",
+        "type": "MeshStandardMaterial",
+        "color": 6636321,
+        "roughness": 0.8,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "32f02354-49d1-44f6-82e4-2dbbf5d30d68",
+        "type": "MeshStandardMaterial",
+        "color": 1710618,
+        "roughness": 0.3,
+        "metalness": 0.1,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      }
+    ],
+    "animations": [
+      {
+        "name": "SlideOutBack",
+        "duration": 0.800000011920929,
+        "tracks": [
+          {
+            "name": "34e83188-9557-4d23-b24d-293a5a65d7c7.position",
+            "times": [
+              0,
+              0.5,
+              0.800000011920929
+            ],
+            "values": [
+              0,
+              0.75,
+              0,
+              0,
+              0.75,
+              0.6000000238418579,
+              0,
+              0.75,
+              2
+            ],
+            "type": "vector"
+          },
+          {
+            "name": "34e83188-9557-4d23-b24d-293a5a65d7c7.scale",
+            "times": [
+              0,
+              0.5,
+              0.800000011920929
+            ],
+            "values": [
+              1,
+              17.409460067749023,
+              1,
+              0.699999988079071,
+              12.18662166595459,
+              0.699999988079071,
+              0.30000001192092896,
+              5.222837924957275,
+              0.30000001192092896
+            ],
+            "type": "vector"
+          }
+        ],
+        "uuid": "f4ffa309-91fb-4b2f-a2f0-0f2c3822f3a2",
+        "blendMode": 2500,
+        "userData": "{}"
+      }
+    ],
+    "object": {
+      "uuid": "8a380877-ed3c-4258-bdbf-c3a67ac78cc5",
+      "type": "Scene",
+      "name": "Scene",
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "children": [
+        {
+          "uuid": "34e83188-9557-4d23-b24d-293a5a65d7c7",
+          "type": "Mesh",
+          "name": "picnic-table-top",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "36:1678",
+              "bbox": {
+                "center": [
+                  0,
+                  0.75,
+                  0
+                ],
+                "size": [
+                  2.9522,
+                  1.7409,
+                  3.317
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 17.0481,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "brown",
+                "base": "brown",
+                "hex": "#8b4513"
+              },
+              "materials": [],
+              "pair": null
+            },
+            "recipe": [
+              {
+                "op": "primitive",
+                "type": "BoxGeometry",
+                "args": [
+                  3,
+                  0.1,
+                  1.5
+                ]
+              }
+            ],
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            -0.4374151793714735,
+            1.694117095033479e-17,
+            0.622384881731722,
+            0,
+            9.32588379097599e-16,
+            13.243725030631072,
+            2.9493663607128586e-16,
+            0,
+            -0.622384881731722,
+            5.356790993157404e-17,
+            -0.4374151793714735,
+            0,
+            0,
+            0.75,
+            0.47855991882323795,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "c3fb58d4-2693-4b42-beae-bf0c4a6e013d",
+          "material": "04ee3541-bffd-4a37-826b-ff00f5d24fe9",
+          "animations": [
+            "f4ffa309-91fb-4b2f-a2f0-0f2c3822f3a2"
+          ]
+        },
+        {
+          "uuid": "19a3bd3e-4c0b-4e7f-b9f1-b2b361de7215",
+          "type": "Mesh",
+          "name": "picnic-bench-left",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "24:1514",
+              "bbox": {
+                "center": [
+                  -0.6,
+                  0.4,
+                  0
+                ],
+                "size": [
+                  3,
+                  0.1,
+                  0.4
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "thin",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 0.12,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "brown",
+                "base": "brown",
+                "hex": "#8b4513"
+              },
+              "materials": [],
+              "pair": null
+            },
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -0.6,
+            0.4,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "1949f6e4-92cc-4341-b7d8-e4e776aa6b2c",
+          "material": "422c337f-2739-4d17-9ab7-bd425f34078f"
+        },
+        {
+          "uuid": "a1b19e96-e0b0-4c31-9c62-8fab97a9d6ea",
+          "type": "Mesh",
+          "name": "picnic-bench-right",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "24:1514",
+              "bbox": {
+                "center": [
+                  0.6,
+                  0.4,
+                  0
+                ],
+                "size": [
+                  3,
+                  0.1,
+                  0.4
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "thin",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 0.12,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "brown",
+                "base": "brown",
+                "hex": "#8b4513"
+              },
+              "materials": [],
+              "pair": null
+            },
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.6,
+            0.4,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "1949f6e4-92cc-4341-b7d8-e4e776aa6b2c",
+          "material": "422c337f-2739-4d17-9ab7-bd425f34078f"
+        },
+        {
+          "uuid": "34b85679-2319-4140-966c-d8acdbab1eff",
+          "type": "Mesh",
+          "name": "picnic-leg-left-front",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "24:390",
+              "bbox": {
+                "center": [
+                  -1.3,
+                  0.375,
+                  0.5
+                ],
+                "size": [
+                  0.15,
+                  0.75,
+                  0.15
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "elongated",
+              "orientation": "vertical",
+              "sizeRank": "medium",
+              "volume": 0.0169,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "brown",
+                "base": "brown",
+                "hex": "#654321"
+              },
+              "materials": [],
+              "pair": null
+            },
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -1.3,
+            0.375,
+            0.5,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "b1cd18d0-03db-4639-ba31-d00f91e98758",
+          "material": "0717892c-59f7-4233-a58a-298328bf6ca5"
+        },
+        {
+          "uuid": "0705bf46-25bb-43d4-9796-23112a64d5d1",
+          "type": "Mesh",
+          "name": "picnic-leg-left-back",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "24:390",
+              "bbox": {
+                "center": [
+                  -1.3,
+                  0.375,
+                  -0.5
+                ],
+                "size": [
+                  0.15,
+                  0.75,
+                  0.15
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "elongated",
+              "orientation": "vertical",
+              "sizeRank": "medium",
+              "volume": 0.0169,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "brown",
+                "base": "brown",
+                "hex": "#654321"
+              },
+              "materials": [],
+              "pair": null
+            },
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -1.3,
+            0.375,
+            -0.5,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "b1cd18d0-03db-4639-ba31-d00f91e98758",
+          "material": "0717892c-59f7-4233-a58a-298328bf6ca5"
+        },
+        {
+          "uuid": "453d9c0c-dc0c-445d-905d-ad6334211459",
+          "type": "Mesh",
+          "name": "picnic-leg-right-front",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "24:390",
+              "bbox": {
+                "center": [
+                  1.3,
+                  0.375,
+                  0.5
+                ],
+                "size": [
+                  0.15,
+                  0.75,
+                  0.15
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "elongated",
+              "orientation": "vertical",
+              "sizeRank": "medium",
+              "volume": 0.0169,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "brown",
+                "base": "brown",
+                "hex": "#654321"
+              },
+              "materials": [],
+              "pair": null
+            },
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1.3,
+            0.375,
+            0.5,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "b1cd18d0-03db-4639-ba31-d00f91e98758",
+          "material": "0717892c-59f7-4233-a58a-298328bf6ca5"
+        },
+        {
+          "uuid": "063cbd3d-66dd-463e-8b5c-1a02a23ac214",
+          "type": "Mesh",
+          "name": "picnic-leg-right-back",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "24:390",
+              "bbox": {
+                "center": [
+                  1.3,
+                  0.375,
+                  -0.5
+                ],
+                "size": [
+                  0.15,
+                  0.75,
+                  0.15
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "elongated",
+              "orientation": "vertical",
+              "sizeRank": "medium",
+              "volume": 0.0169,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "brown",
+                "base": "brown",
+                "hex": "#654321"
+              },
+              "materials": [],
+              "pair": null
+            },
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1.3,
+            0.375,
+            -0.5,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "b1cd18d0-03db-4639-ba31-d00f91e98758",
+          "material": "0717892c-59f7-4233-a58a-298328bf6ca5"
+        },
+        {
+          "uuid": "40b5b977-0ff6-4756-bc17-5581773a3023",
+          "type": "Group",
+          "name": "chair",
+          "userData": {
+            "imported": true,
+            "importNormalize": {
+              "original": {
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "applied": {
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "position": [
+                  -0.00099,
+                  0.50023,
+                  -0.00406
+                ]
+              },
+              "scaleFactor": 1,
+              "autoscaled": false
+            },
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:1",
+              "bbox": {
+                "center": [
+                  0,
+                  0.5003,
+                  0
+                ],
+                "size": [
+                  0.6124,
+                  1.0005,
+                  0.7668
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "vertical",
+              "sizeRank": "medium",
+              "volume": 0.4699,
+              "role": "group",
+              "childCount": 1,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "brown",
+                "base": "brown",
+                "hex": "#5e452e"
+              },
+              "materials": [],
+              "pair": null
+            },
+            "classes": {},
+            "label": "chair"
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -0.00099,
+            5.667570645580371,
+            -0.00406,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "a2313fbc-0a5d-4cfa-a3ea-b06f9fdb62ef",
+              "type": "Object3D",
+              "name": "world",
+              "userData": {
+                "name": "world",
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:1",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.5003,
+                      0
+                    ],
+                    "size": [
+                      0.6124,
+                      1.0005,
+                      0.7668
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 0.4699,
+                  "role": "group",
+                  "childCount": 1,
+                  "depth": 1,
+                  "parentName": "object_0(35).glb",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#5e452e"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "children": [
+                {
+                  "uuid": "352b798d-3991-4c91-9bcb-c3a15a19b1b0",
+                  "type": "Mesh",
+                  "name": "geometry_0",
+                  "userData": {
+                    "processed": true,
+                    "name": "geometry_0",
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "6034:701",
+                      "bbox": {
+                        "center": [
+                          0,
+                          0.5003,
+                          0
+                        ],
+                        "size": [
+                          0.6124,
+                          1.0005,
+                          0.7668
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "blocky",
+                      "orientation": "vertical",
+                      "sizeRank": "medium",
+                      "volume": 0.4699,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "world",
+                      "adjacency": [],
+                      "color": {
+                        "name": "brown",
+                        "base": "brown",
+                        "hex": "#5e452e"
+                      },
+                      "materials": [],
+                      "pair": null
+                    },
+                    "classes": {}
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    -4.191743691791716,
+                    6.291055399266362,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "7b857541-42f2-4062-bf2d-e1de3cab319b",
+                  "material": "32f02354-49d1-44f6-82e4-2dbbf5d30d68"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "backgroundRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "environmentRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
+    }
+  },
+  "animations": [
+    {
+      "object": "34e83188-9557-4d23-b24d-293a5a65d7c7",
+      "clip": {
+        "name": "SlideOutBack",
+        "duration": 0.800000011920929,
+        "tracks": [
+          {
+            "name": "34e83188-9557-4d23-b24d-293a5a65d7c7.position",
+            "times": [
+              0,
+              0.5,
+              0.800000011920929
+            ],
+            "values": [
+              0,
+              0.75,
+              0,
+              0,
+              0.75,
+              0.6000000238418579,
+              0,
+              0.75,
+              2
+            ],
+            "type": "vector"
+          },
+          {
+            "name": "34e83188-9557-4d23-b24d-293a5a65d7c7.scale",
+            "times": [
+              0,
+              0.5,
+              0.800000011920929
+            ],
+            "values": [
+              1,
+              17.409460067749023,
+              1,
+              0.699999988079071,
+              12.18662166595459,
+              0.699999988079071,
+              0.30000001192092896,
+              5.222837924957275,
+              0.30000001192092896
+            ],
+            "type": "vector"
+          }
+        ],
+        "uuid": "f4ffa309-91fb-4b2f-a2f0-0f2c3822f3a2",
+        "blendMode": 2500,
+        "userData": "{}"
+      }
+    }
+  ],
+  "scripts": {},
+  "history": {
+    "undos": [],
+    "redos": []
+  },
+  "backgroundType": "Default",
+  "environmentType": "Default"
+}
