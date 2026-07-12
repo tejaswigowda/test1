@@ -19,21 +19,21 @@
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        0.8635672332299436,
-        -1.3877787807814457e-17,
-        0.5042337093963277,
+        0.9997770144232955,
+        -8.131516293641283e-20,
+        -0.021116851821273187,
         0,
-        0.18061790388030152,
-        0.9336438219659859,
-        -0.30933216208896297,
+        0.0004294340682862883,
+        0.9997932004647612,
+        0.020331549149310128,
         0,
-        -0.4707746876048737,
-        0.35820275502115606,
-        0.8062642121573965,
+        0.02111248486613084,
+        -0.02033608380268478,
+        0.9995702610013704,
         0,
-        -18.13075099606468,
-        12.841066827224338,
-        35.035239393710214,
+        2.32479139251731,
+        -0.8319137114356777,
+        15.466203512220186,
         1
       ],
       "up": [
@@ -46,16 +46,16 @@
       "near": 0.001,
       "far": 10000000000,
       "focus": 10,
-      "aspect": 1.2365308804204993,
+      "aspect": 1.2562417871222076,
       "filmGauge": 35,
       "filmOffset": 0
     }
   },
   "controls": {
     "center": [
-      2.3261955383748676,
-      -2.7242020814281664,
-      0
+      1.9870115329487381,
+      -0.5065555371326054,
+      -0.5259785796000616
     ]
   },
   "scene": {
@@ -608,7 +608,7 @@
       {
         "uuid": "390a8525-7a29-44e2-93bd-65e3515d68c7",
         "type": "MeshStandardMaterial",
-        "color": 7169126,
+        "color": 10643719,
         "roughness": 0.6,
         "metalness": 0.2,
         "emissive": 0,
@@ -659,7 +659,44 @@
           "receiveShadow": true,
           "userData": {
             "classes": {},
-            "label": "4x4-square"
+            "label": "4x4-square",
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:16",
+              "bbox": {
+                "center": [
+                  2.2525,
+                  -2.7242,
+                  0
+                ],
+                "size": [
+                  4.0157,
+                  4,
+                  1.64
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 26.3427,
+              "role": "group",
+              "childCount": 16,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "teal",
+                "base": "teal",
+                "hex": "#4ecdc4"
+              },
+              "materials": [],
+              "pair": null
+            }
           },
           "layers": 1,
           "matrix": [
@@ -726,7 +763,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "8d793ab3-843d-47f6-b9a3-888da4c2fcd8",
+                    "mateName": "cube_-3.5_0_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -797,7 +839,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "96daec23-d1f5-4911-bd43-59599fd93152",
+                    "mateName": "cube_-2.5_0_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -868,7 +915,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "42341d7c-597e-44c4-8402-4d0e5554a578",
+                    "mateName": "cube_-2.5_0_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -939,7 +991,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "6baf1e7a-6cfb-4dba-920b-beee7d3fc46a",
+                    "mateName": "cube_-2.5_0_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -1010,7 +1067,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "62f758d7-4aca-41a5-a5c0-7b5fb15b4857",
+                    "mateName": "cube_-2.5_0_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -1081,7 +1143,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "c7e5e4f7-b255-4633-9a3a-4210bf312703",
+                    "mateName": "cube_-3.5_2_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -1152,7 +1219,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "64caed59-850b-4fe4-a938-18e1ae48f7b7",
+                    "mateName": "cube_-2.5_2_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -1223,7 +1295,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "f81190c1-7655-41a1-99c7-a1dcee7293f7",
+                    "mateName": "cube_-2.5_0_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -1294,7 +1371,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "5a26566c-da75-4b25-837f-04df85852a8c",
+                    "mateName": "cube_-4.5_3_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -1365,7 +1447,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "7c7c8405-1efe-42fd-8a68-17b659a70c28",
+                    "mateName": "cube_-3.5_3_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -1436,7 +1523,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "945d3b0c-84a2-4b5d-8eab-21fb2fe7c862",
+                    "mateName": "cube_-2.5_3_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -1507,7 +1599,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "57689077-9462-44b7-8fc0-3563cb51b472",
+                    "mateName": "cube_-1.5_3_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -1578,7 +1675,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "b58ede2b-8bca-476d-8cdd-4ccb5efefd1f",
+                    "mateName": "cube_-4.5_0_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -1649,7 +1751,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "b10ba50b-03e6-42ba-8b5d-30d86cf8ac1b",
+                    "mateName": "cube_-4.5_2_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -1720,7 +1827,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "c0b830ec-c4eb-49c0-9f97-51f1433ba48d",
+                    "mateName": "cube_-4.5_1_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -1791,7 +1903,12 @@
                     "hex": "#4ecdc4"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "4543e36b-6d30-4b17-a321-dd45fa4206e8",
+                    "mateName": "cube_-3.5_1_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -1832,7 +1949,44 @@
           "receiveShadow": true,
           "userData": {
             "classes": {},
-            "label": "3x3-square"
+            "label": "3x3-square",
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:9",
+              "bbox": {
+                "center": [
+                  -1.3122,
+                  0.867,
+                  0.0002
+                ],
+                "size": [
+                  3,
+                  3,
+                  1.5703
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 14.1323,
+              "role": "group",
+              "childCount": 9,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "red",
+                "base": "red",
+                "hex": "#ff6b6b"
+              },
+              "materials": [],
+              "pair": null
+            }
           },
           "layers": 1,
           "matrix": [
@@ -1849,7 +2003,7 @@
             15.625147903359277,
             0,
             -9.15760908861439,
-            2.8670421386066804,
+            2.835237043229397,
             -0.003622947274648171,
             1
           ],
@@ -1899,7 +2053,12 @@
                     "hex": "#ff6b6b"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "0cf7ae65-145e-469f-8c18-e5c0b0505419",
+                    "mateName": "cube_2_-1.5_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -1970,7 +2129,12 @@
                     "hex": "#ff6b6b"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc",
+                    "mateName": "cube_2_-3.5_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -2183,7 +2347,12 @@
                     "hex": "#ff6b6b"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "633b162c-bb0f-4ecd-bf4c-846e0db7dec6",
+                    "mateName": "cube_0_-1.5_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -2254,7 +2423,12 @@
                     "hex": "#ff6b6b"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "9b1b57ed-93e2-406e-8d78-aed38c146cab",
+                    "mateName": "cube_0_-1.5_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -2325,7 +2499,12 @@
                     "hex": "#ff6b6b"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "6c6a084a-f761-40b1-bf8c-adbcf639ee0e",
+                    "mateName": "cube_0_-3.5_0",
+                    "axis": "x",
+                    "side": "right"
+                  }
                 },
                 "classes": {}
               },
@@ -2467,7 +2646,12 @@
                     "hex": "#ff6b6b"
                   },
                   "materials": [],
-                  "pair": null
+                  "pair": {
+                    "mateUuid": "a8162942-b986-48f8-8e0d-3e12822c55b7",
+                    "mateName": "cube_2_-2.5_0",
+                    "axis": "x",
+                    "side": "left"
+                  }
                 },
                 "classes": {}
               },
@@ -2559,7 +2743,7 @@
             -1.6547957323310305,
             0,
             0.2259009566243355,
-            -0.6999056616346069,
+            -0.7176924915778804,
             0.7941155224537377,
             1
           ],
