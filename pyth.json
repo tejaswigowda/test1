@@ -19,21 +19,21 @@
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        0.9785771644405741,
+        0.9572270040838834,
+        -1.734723475976807e-18,
+        0.28933797305675796,
         0,
-        -0.20588038574727244,
+        0.021622082938942536,
+        0.9972038414358719,
+        -0.0715330983176451,
         0,
-        0.033710195024675677,
-        0.9865040603836492,
-        0.16022909098528784,
+        -0.2885289382054678,
+        0.07472950304625603,
+        0.9545504455985996,
         0,
-        0.20310183649303623,
-        -0.16373679747256972,
-        0.9653703461193444,
-        0,
-        4.393257814207605,
-        -3.541760022412988,
-        20.881745285639134,
+        -11.682930463676257,
+        3.0258995617720923,
+        38.65105021825602,
         1
       ],
       "up": [
@@ -65,112 +65,6 @@
       "generator": "Object3D.toJSON"
     },
     "geometries": [
-      {
-        "uuid": "43dbdc26-78f2-4870-aaf5-93a733f63e79",
-        "type": "BufferGeometry",
-        "data": {
-          "attributes": {
-            "position": {
-              "itemSize": 3,
-              "type": "Float32Array",
-              "array": {
-                "$bin": "assets/geo-e689f298043e5a47eba57322f9c3bbae154fdca1.bin",
-                "dtype": "Float32Array",
-                "length": 9
-              },
-              "normalized": false
-            },
-            "normal": {
-              "itemSize": 3,
-              "type": "Float32Array",
-              "array": {
-                "$bin": "assets/geo-902edef2ebdc1061a92a0fc5618cdf25e2065958.bin",
-                "dtype": "Float32Array",
-                "length": 9
-              },
-              "normalized": false
-            }
-          },
-          "boundingSphere": {
-            "radius": 2.5,
-            "center": [
-              1.5,
-              2,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "uuid": "c7cea809-1e27-4ac1-a9b5-263bf06bdfe9",
-        "type": "BoxGeometry",
-        "width": 1,
-        "height": 1,
-        "depth": 0.1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "3d54c8e6-0650-49d7-8074-0b0fc5d0b132",
-        "type": "BoxGeometry",
-        "width": 1,
-        "height": 1,
-        "depth": 0.1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "534d88f5-c171-4261-810d-2716a79e0314",
-        "type": "BoxGeometry",
-        "width": 1,
-        "height": 1,
-        "depth": 0.1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "ce6819da-e8cb-4ca7-b23d-b5b56256b00c",
-        "type": "BoxGeometry",
-        "width": 1,
-        "height": 1,
-        "depth": 0.1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "6b67cfdb-f031-46ad-ad2d-4c409579d919",
-        "type": "BoxGeometry",
-        "width": 1,
-        "height": 1,
-        "depth": 0.1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "ecd3fe22-e8e6-4bf1-bb7d-f2bced35035f",
-        "type": "BoxGeometry",
-        "width": 1,
-        "height": 1,
-        "depth": 0.1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "844e5e6c-dbd5-4e76-8dce-02c801723ae3",
-        "type": "BoxGeometry",
-        "width": 1,
-        "height": 1,
-        "depth": 0.1,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
       {
         "uuid": "73b6383e-2477-415f-8f33-c8e779e211ea",
         "type": "BoxGeometry",
@@ -290,137 +184,123 @@
         "widthSegments": 1,
         "heightSegments": 1,
         "depthSegments": 1
+      },
+      {
+        "uuid": "c7cea809-1e27-4ac1-a9b5-263bf06bdfe9",
+        "type": "BoxGeometry",
+        "width": 1,
+        "height": 1,
+        "depth": 0.1,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "3d54c8e6-0650-49d7-8074-0b0fc5d0b132",
+        "type": "BoxGeometry",
+        "width": 1,
+        "height": 1,
+        "depth": 0.1,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "534d88f5-c171-4261-810d-2716a79e0314",
+        "type": "BoxGeometry",
+        "width": 1,
+        "height": 1,
+        "depth": 0.1,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "ce6819da-e8cb-4ca7-b23d-b5b56256b00c",
+        "type": "BoxGeometry",
+        "width": 1,
+        "height": 1,
+        "depth": 0.1,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "6b67cfdb-f031-46ad-ad2d-4c409579d919",
+        "type": "BoxGeometry",
+        "width": 1,
+        "height": 1,
+        "depth": 0.1,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "ecd3fe22-e8e6-4bf1-bb7d-f2bced35035f",
+        "type": "BoxGeometry",
+        "width": 1,
+        "height": 1,
+        "depth": 0.1,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "844e5e6c-dbd5-4e76-8dce-02c801723ae3",
+        "type": "BoxGeometry",
+        "width": 1,
+        "height": 1,
+        "depth": 0.1,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "d279308a-c81d-4604-a273-ab80a4558598",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-f8940d82e44b18296cc385f45741a0099b949afa.bin",
+                "dtype": "Float32Array",
+                "length": 18
+              },
+              "normalized": false
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-db9eaaaf30e15158737ddab2fa0b91a35545246b.bin",
+                "dtype": "Float32Array",
+                "length": 18
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint16Array",
+            "array": {
+              "$bin": "assets/idx-32364734535bb9884712e17b305ffc1da16981c9.bin",
+              "dtype": "Uint16Array",
+              "length": 24
+            }
+          },
+          "boundingSphere": {
+            "radius": 1.5,
+            "center": [
+              1,
+              1,
+              0.5
+            ]
+          }
+        }
       }
     ],
     "materials": [
-      {
-        "uuid": "27dc87c7-9c01-4634-a73d-e96fe7c8348d",
-        "type": "MeshStandardMaterial",
-        "color": 8947848,
-        "roughness": 0.7,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "f979abe5-73b7-4cf8-8c6b-ab162fc66a58",
-        "type": "MeshStandardMaterial",
-        "color": 16739179,
-        "roughness": 0.6,
-        "metalness": 0.2,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "537607e4-a70c-4316-b61d-3a5cc401bda9",
-        "type": "MeshStandardMaterial",
-        "color": 16739179,
-        "roughness": 0.6,
-        "metalness": 0.2,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "06df055d-a61e-437d-82af-a7a31270569a",
-        "type": "MeshStandardMaterial",
-        "color": 16739179,
-        "roughness": 0.6,
-        "metalness": 0.2,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "afb570cb-382a-400e-972e-c06a3e87b388",
-        "type": "MeshStandardMaterial",
-        "color": 16739179,
-        "roughness": 0.6,
-        "metalness": 0.2,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "f597a372-7e6f-458c-a0a1-880629665dbb",
-        "type": "MeshStandardMaterial",
-        "color": 16739179,
-        "roughness": 0.6,
-        "metalness": 0.2,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "35bcf543-1dd6-42de-a388-9fb2fa742cc7",
-        "type": "MeshStandardMaterial",
-        "color": 16739179,
-        "roughness": 0.6,
-        "metalness": 0.2,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "e03c3af2-8dd7-4612-94eb-e492fb8068d7",
-        "type": "MeshStandardMaterial",
-        "color": 16739179,
-        "roughness": 0.6,
-        "metalness": 0.2,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
       {
         "uuid": "b66e044e-039d-4f92-b059-4807cbf3abf2",
         "type": "MeshStandardMaterial",
@@ -612,6 +492,134 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0
+      },
+      {
+        "uuid": "f979abe5-73b7-4cf8-8c6b-ab162fc66a58",
+        "type": "MeshStandardMaterial",
+        "color": 16739179,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "537607e4-a70c-4316-b61d-3a5cc401bda9",
+        "type": "MeshStandardMaterial",
+        "color": 16739179,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "06df055d-a61e-437d-82af-a7a31270569a",
+        "type": "MeshStandardMaterial",
+        "color": 16739179,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "afb570cb-382a-400e-972e-c06a3e87b388",
+        "type": "MeshStandardMaterial",
+        "color": 16739179,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "f597a372-7e6f-458c-a0a1-880629665dbb",
+        "type": "MeshStandardMaterial",
+        "color": 16739179,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "35bcf543-1dd6-42de-a388-9fb2fa742cc7",
+        "type": "MeshStandardMaterial",
+        "color": 16739179,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "e03c3af2-8dd7-4612-94eb-e492fb8068d7",
+        "type": "MeshStandardMaterial",
+        "color": 16739179,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "390a8525-7a29-44e2-93bd-65e3515d68c7",
+        "type": "MeshStandardMaterial",
+        "color": 7169126,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
       }
     ],
     "object": {
@@ -644,23 +652,1866 @@
       ],
       "children": [
         {
-          "uuid": "4ec55e69-3c12-4450-b730-a69fa5275c6d",
+          "uuid": "044cec39-c173-408c-a66f-f5543df9eb68",
+          "type": "Group",
+          "name": "Group",
+          "userData": {
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            16.39972476931989,
+            0,
+            4.81833578424369,
+            -4.7242020814281664,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "96daec23-d1f5-4911-bd43-59599fd93152",
+              "type": "Mesh",
+              "name": "cube_-2.5_0_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -2,
+                      0.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -2,
+                0.5233337171433843,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
+              "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+            },
+            {
+              "uuid": "8d793ab3-843d-47f6-b9a3-888da4c2fcd8",
+              "type": "Mesh",
+              "name": "cube_-3.5_0_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -3,
+                      0.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3,
+                0.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "4d3a1058-6eb7-4fd6-8528-72f3735b0fe7",
+              "material": "1ae99e82-d753-46dc-88e8-40cc3f2660dc"
+            },
+            {
+              "uuid": "b58ede2b-8bca-476d-8cdd-4ccb5efefd1f",
+              "type": "Mesh",
+              "name": "cube_-4.5_0_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -4,
+                      0.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -4,
+                0.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "45d66f3c-09c4-4a17-878f-67b8fb39d699",
+              "material": "9f955345-f625-4ba9-b0af-5c74f0ad0cb7"
+            },
+            {
+              "uuid": "4543e36b-6d30-4b17-a321-dd45fa4206e8",
+              "type": "Mesh",
+              "name": "cube_-3.5_1_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -3,
+                      1.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3,
+                1.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "c306fd96-2621-4a7c-bcca-8087d884c077",
+              "material": "3c4f7302-377c-4239-9cce-9ec861616d83"
+            },
+            {
+              "uuid": "c0b830ec-c4eb-49c0-9f97-51f1433ba48d",
+              "type": "Mesh",
+              "name": "cube_-4.5_1_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -4,
+                      1.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -4,
+                1.498226178835007,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "56314e90-1d4f-4009-8683-dd1523427678",
+              "material": "6ac56d86-56e1-451c-b6f4-132844613291"
+            },
+            {
+              "uuid": "64caed59-850b-4fe4-a938-18e1ae48f7b7",
+              "type": "Mesh",
+              "name": "cube_-2.5_2_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -2,
+                      2.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -2,
+                2.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "11acde39-0a98-4370-9e66-633e97aad6c6",
+              "material": "64b7e7b6-ce04-4b24-b0ce-603a0c3c9b7b"
+            },
+            {
+              "uuid": "c7e5e4f7-b255-4633-9a3a-4210bf312703",
+              "type": "Mesh",
+              "name": "cube_-3.5_2_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -3,
+                      2.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3,
+                2.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "53dd8621-dc38-4003-ab7d-c90bc0bce576",
+              "material": "8f6ba961-b5e4-41be-81ae-5f1451da0fab"
+            },
+            {
+              "uuid": "b10ba50b-03e6-42ba-8b5d-30d86cf8ac1b",
+              "type": "Mesh",
+              "name": "cube_-4.5_2_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -4,
+                      2.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -4,
+                2.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "39c462bf-61da-465d-b7ca-a1c49fa1d7b3",
+              "material": "fdf4d99a-6f09-4336-bacc-1c1bb6f85cac"
+            },
+            {
+              "uuid": "57689077-9462-44b7-8fc0-3563cb51b472",
+              "type": "Mesh",
+              "name": "cube_-1.5_3_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -1,
+                      3.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -1,
+                3.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "94ab99c4-4328-4d07-942e-9f75dd418120",
+              "material": "f60d5f21-63b7-4d13-b2a4-b9f5b6406093"
+            },
+            {
+              "uuid": "945d3b0c-84a2-4b5d-8eab-21fb2fe7c862",
+              "type": "Mesh",
+              "name": "cube_-2.5_3_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -2,
+                      3.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -2,
+                3.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "d9256ef7-4f8f-4bae-b60f-2b828498c52b",
+              "material": "03fe2357-6526-47ec-8510-649653f96c5c"
+            },
+            {
+              "uuid": "7c7c8405-1efe-42fd-8a68-17b659a70c28",
+              "type": "Mesh",
+              "name": "cube_-3.5_3_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -3,
+                      3.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3,
+                3.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "fc79669e-3332-4aa3-aa24-32056d6801fc",
+              "material": "b1a179c1-a3bb-4f0c-8005-eea1800e2fc8"
+            },
+            {
+              "uuid": "5a26566c-da75-4b25-837f-04df85852a8c",
+              "type": "Mesh",
+              "name": "cube_-4.5_3_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -4,
+                      3.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -4,
+                3.5,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "254f2dfc-f9c5-461f-ba08-bad1dcc446ae",
+              "material": "ed77267a-3d13-4a5c-ae71-17dad06c509e"
+            },
+            {
+              "uuid": "42341d7c-597e-44c4-8402-4d0e5554a578",
+              "type": "Mesh",
+              "name": "cube_-2.5_0_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -2,
+                      0.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.9842804917376449,
+                0.5168343259808728,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
+              "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+            },
+            {
+              "uuid": "f81190c1-7655-41a1-99c7-a1dcee7293f7",
+              "type": "Mesh",
+              "name": "cube_-2.5_0_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -2,
+                      0.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.9842804917376449,
+                2.516631054949006,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
+              "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+            },
+            {
+              "uuid": "62f758d7-4aca-41a5-a5c0-7b5fb15b4857",
+              "type": "Mesh",
+              "name": "cube_-2.5_0_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -2,
+                      0.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.9842804917376449,
+                1.5102500210759753,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
+              "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+            },
+            {
+              "uuid": "6baf1e7a-6cfb-4dba-920b-beee7d3fc46a",
+              "type": "Mesh",
+              "name": "cube_-2.5_0_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      -2,
+                      0.5,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "teal",
+                    "base": "teal",
+                    "hex": "#4ecdc4"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -1.9910210986616081,
+                1.5102500210759753,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
+              "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+            }
+          ]
+        },
+        {
+          "uuid": "a6ebf342-2be4-4018-babb-ebf08e930b03",
+          "type": "Group",
+          "name": "Group",
+          "userData": {
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            15.625147903359277,
+            0,
+            -9.15760908861439,
+            2.7990730559733734,
+            -0.003622947274648171,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "633b162c-bb0f-4ecd-bf4c-846e0db7dec6",
+              "type": "Mesh",
+              "name": "cube_0_-1.5_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      0.5,
+                      -1,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ff6b6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                6.851323829531842,
+                -1.000000000006427,
+                0.000495440770731076,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "c7cea809-1e27-4ac1-a9b5-263bf06bdfe9",
+              "material": "f979abe5-73b7-4cf8-8c6b-ab162fc66a58"
+            },
+            {
+              "uuid": "6c6a084a-f761-40b1-bf8c-adbcf639ee0e",
+              "type": "Mesh",
+              "name": "cube_0_-3.5_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      0.5,
+                      -3,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ff6b6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                6.845439878906428,
+                -3,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "3d54c8e6-0650-49d7-8074-0b0fc5d0b132",
+              "material": "537607e4-a70c-4316-b61d-3a5cc401bda9"
+            },
+            {
+              "uuid": "a81a0778-b42f-42e4-918f-5adf62c57ee0",
+              "type": "Mesh",
+              "name": "cube_1_-2.5_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      1.5,
+                      -2,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ff6b6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                7.845439878906428,
+                -2,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "534d88f5-c171-4261-810d-2716a79e0314",
+              "material": "06df055d-a61e-437d-82af-a7a31270569a"
+            },
+            {
+              "uuid": "0252cb03-28c7-43da-ab6f-6dd9fc31782e",
+              "type": "Mesh",
+              "name": "cube_1_-3.5_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      1.5,
+                      -3,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ff6b6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                7.845439878906428,
+                -3,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "ce6819da-e8cb-4ca7-b23d-b5b56256b00c",
+              "material": "afb570cb-382a-400e-972e-c06a3e87b388"
+            },
+            {
+              "uuid": "0cf7ae65-145e-469f-8c18-e5c0b0505419",
+              "type": "Mesh",
+              "name": "cube_2_-1.5_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      2.5,
+                      -1,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ff6b6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                8.84543987890643,
+                -1,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "6b67cfdb-f031-46ad-ad2d-4c409579d919",
+              "material": "f597a372-7e6f-458c-a0a1-880629665dbb"
+            },
+            {
+              "uuid": "a8162942-b986-48f8-8e0d-3e12822c55b7",
+              "type": "Mesh",
+              "name": "cube_2_-2.5_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      2.5,
+                      -2,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ff6b6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                8.84543987890643,
+                -2,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "ecd3fe22-e8e6-4bf1-bb7d-f2bced35035f",
+              "material": "35bcf543-1dd6-42de-a388-9fb2fa742cc7"
+            },
+            {
+              "uuid": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc",
+              "type": "Mesh",
+              "name": "cube_2_-3.5_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      2.5,
+                      -3,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ff6b6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                8.84543987890643,
+                -3,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "844e5e6c-dbd5-4e76-8dce-02c801723ae3",
+              "material": "e03c3af2-8dd7-4612-94eb-e492fb8068d7"
+            },
+            {
+              "uuid": "164d829d-9f09-46d9-ad33-e4bd3a43bf94",
+              "type": "Mesh",
+              "name": "cube_0_-1.5_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      0.5,
+                      -1,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ff6b6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                7.853350260866397,
+                -1,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "c7cea809-1e27-4ac1-a9b5-263bf06bdfe9",
+              "material": "f979abe5-73b7-4cf8-8c6b-ab162fc66a58"
+            },
+            {
+              "uuid": "9b1b57ed-93e2-406e-8d78-aed38c146cab",
+              "type": "Mesh",
+              "name": "cube_0_-1.5_0",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:709",
+                  "bbox": {
+                    "center": [
+                      0.5,
+                      -1,
+                      0
+                    ],
+                    "size": [
+                      1,
+                      1,
+                      0.1
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 0,
+                  "parentName": "Scene",
+                  "adjacency": [],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ff6b6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                6.845439878906428,
+                -2,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "c7cea809-1e27-4ac1-a9b5-263bf06bdfe9",
+              "material": "f979abe5-73b7-4cf8-8c6b-ab162fc66a58"
+            }
+          ]
+        },
+        {
+          "uuid": "efe1ce0e-24e4-4da2-a24c-259cee67f42e",
           "type": "Mesh",
-          "name": "Triangle",
+          "name": "RightTriangle",
           "userData": {
             "descriptors": {
               "v": 1,
-              "geomHash": "3:2500",
+              "geomHash": "6:1500",
               "bbox": {
                 "center": [
-                  1.5,
+                  1,
+                  1,
+                  0.5
+                ],
+                "size": [
                   2,
-                  0
-                ],
-                "size": [
-                  3,
-                  4,
-                  0
+                  2,
+                  1
                 ]
               },
               "region": {
@@ -668,570 +2519,10 @@
                 "y": "center",
                 "z": "center"
               },
-              "shape": "flat",
-              "orientation": "vertical",
-              "sizeRank": "medium",
-              "volume": 0,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "dark gray",
-                "base": "gray",
-                "hex": "#888888"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            6.345439878906428,
-            0,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "43dbdc26-78f2-4870-aaf5-93a733f63e79",
-          "material": "27dc87c7-9c01-4634-a73d-e96fe7c8348d"
-        },
-        {
-          "uuid": "633b162c-bb0f-4ecd-bf4c-846e0db7dec6",
-          "type": "Mesh",
-          "name": "cube_0_-1.5_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  0.5,
-                  -1,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
+              "shape": "blocky",
               "orientation": "horizontal",
               "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "red",
-                "base": "red",
-                "hex": "#ff6b6b"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            6.845439878906428,
-            -1,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "c7cea809-1e27-4ac1-a9b5-263bf06bdfe9",
-          "material": "f979abe5-73b7-4cf8-8c6b-ab162fc66a58"
-        },
-        {
-          "uuid": "6c6a084a-f761-40b1-bf8c-adbcf639ee0e",
-          "type": "Mesh",
-          "name": "cube_0_-3.5_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  0.5,
-                  -3,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "red",
-                "base": "red",
-                "hex": "#ff6b6b"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            6.845439878906428,
-            -3,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "3d54c8e6-0650-49d7-8074-0b0fc5d0b132",
-          "material": "537607e4-a70c-4316-b61d-3a5cc401bda9"
-        },
-        {
-          "uuid": "a81a0778-b42f-42e4-918f-5adf62c57ee0",
-          "type": "Mesh",
-          "name": "cube_1_-2.5_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  1.5,
-                  -2,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "red",
-                "base": "red",
-                "hex": "#ff6b6b"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            7.845439878906428,
-            -2,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "534d88f5-c171-4261-810d-2716a79e0314",
-          "material": "06df055d-a61e-437d-82af-a7a31270569a"
-        },
-        {
-          "uuid": "0252cb03-28c7-43da-ab6f-6dd9fc31782e",
-          "type": "Mesh",
-          "name": "cube_1_-3.5_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  1.5,
-                  -3,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "red",
-                "base": "red",
-                "hex": "#ff6b6b"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            7.845439878906428,
-            -3,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "ce6819da-e8cb-4ca7-b23d-b5b56256b00c",
-          "material": "afb570cb-382a-400e-972e-c06a3e87b388"
-        },
-        {
-          "uuid": "0cf7ae65-145e-469f-8c18-e5c0b0505419",
-          "type": "Mesh",
-          "name": "cube_2_-1.5_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  2.5,
-                  -1,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "red",
-                "base": "red",
-                "hex": "#ff6b6b"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            8.84543987890643,
-            -1,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "6b67cfdb-f031-46ad-ad2d-4c409579d919",
-          "material": "f597a372-7e6f-458c-a0a1-880629665dbb"
-        },
-        {
-          "uuid": "a8162942-b986-48f8-8e0d-3e12822c55b7",
-          "type": "Mesh",
-          "name": "cube_2_-2.5_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  2.5,
-                  -2,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "red",
-                "base": "red",
-                "hex": "#ff6b6b"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            8.84543987890643,
-            -2,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "ecd3fe22-e8e6-4bf1-bb7d-f2bced35035f",
-          "material": "35bcf543-1dd6-42de-a388-9fb2fa742cc7"
-        },
-        {
-          "uuid": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc",
-          "type": "Mesh",
-          "name": "cube_2_-3.5_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  2.5,
-                  -3,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "red",
-                "base": "red",
-                "hex": "#ff6b6b"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            8.84543987890643,
-            -3,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "844e5e6c-dbd5-4e76-8dce-02c801723ae3",
-          "material": "e03c3af2-8dd7-4612-94eb-e492fb8068d7"
-        },
-        {
-          "uuid": "96daec23-d1f5-4911-bd43-59599fd93152",
-          "type": "Mesh",
-          "name": "cube_-2.5_0_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -2,
-                  0.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
+              "volume": 4,
               "role": "leaf",
               "childCount": 0,
               "depth": 0,
@@ -1244,25 +2535,26 @@
               },
               "materials": [],
               "pair": null
-            }
+            },
+            "classes": {}
           },
           "layers": 1,
           "matrix": [
-            1,
+            2.0884209666637794,
             0,
             0,
             0,
             0,
-            1,
+            1.5550372236546044,
             0,
             0,
             0,
             0,
-            1,
+            -1.6547957323310305,
             0,
-            -2,
-            0.5233337171433843,
-            0,
+            0.2259009566243355,
+            -0.6999056616346069,
+            0.7753211930497574,
             1
           ],
           "up": [
@@ -1270,1058 +2562,8 @@
             1,
             0
           ],
-          "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-          "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
-        },
-        {
-          "uuid": "8d793ab3-843d-47f6-b9a3-888da4c2fcd8",
-          "type": "Mesh",
-          "name": "cube_-3.5_0_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -3,
-                  0.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -3,
-            0.5,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "4d3a1058-6eb7-4fd6-8528-72f3735b0fe7",
-          "material": "1ae99e82-d753-46dc-88e8-40cc3f2660dc"
-        },
-        {
-          "uuid": "b58ede2b-8bca-476d-8cdd-4ccb5efefd1f",
-          "type": "Mesh",
-          "name": "cube_-4.5_0_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -4,
-                  0.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -4,
-            0.5,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "45d66f3c-09c4-4a17-878f-67b8fb39d699",
-          "material": "9f955345-f625-4ba9-b0af-5c74f0ad0cb7"
-        },
-        {
-          "uuid": "4543e36b-6d30-4b17-a321-dd45fa4206e8",
-          "type": "Mesh",
-          "name": "cube_-3.5_1_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -3,
-                  1.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -3,
-            1.5,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "c306fd96-2621-4a7c-bcca-8087d884c077",
-          "material": "3c4f7302-377c-4239-9cce-9ec861616d83"
-        },
-        {
-          "uuid": "c0b830ec-c4eb-49c0-9f97-51f1433ba48d",
-          "type": "Mesh",
-          "name": "cube_-4.5_1_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -4,
-                  1.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -4,
-            1.498226178835007,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "56314e90-1d4f-4009-8683-dd1523427678",
-          "material": "6ac56d86-56e1-451c-b6f4-132844613291"
-        },
-        {
-          "uuid": "64caed59-850b-4fe4-a938-18e1ae48f7b7",
-          "type": "Mesh",
-          "name": "cube_-2.5_2_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -2,
-                  2.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -2,
-            2.5,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "11acde39-0a98-4370-9e66-633e97aad6c6",
-          "material": "64b7e7b6-ce04-4b24-b0ce-603a0c3c9b7b"
-        },
-        {
-          "uuid": "c7e5e4f7-b255-4633-9a3a-4210bf312703",
-          "type": "Mesh",
-          "name": "cube_-3.5_2_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -3,
-                  2.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -3,
-            2.5,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "53dd8621-dc38-4003-ab7d-c90bc0bce576",
-          "material": "8f6ba961-b5e4-41be-81ae-5f1451da0fab"
-        },
-        {
-          "uuid": "b10ba50b-03e6-42ba-8b5d-30d86cf8ac1b",
-          "type": "Mesh",
-          "name": "cube_-4.5_2_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -4,
-                  2.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -4,
-            2.5,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "39c462bf-61da-465d-b7ca-a1c49fa1d7b3",
-          "material": "fdf4d99a-6f09-4336-bacc-1c1bb6f85cac"
-        },
-        {
-          "uuid": "57689077-9462-44b7-8fc0-3563cb51b472",
-          "type": "Mesh",
-          "name": "cube_-1.5_3_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -1,
-                  3.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -1,
-            3.5,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "94ab99c4-4328-4d07-942e-9f75dd418120",
-          "material": "f60d5f21-63b7-4d13-b2a4-b9f5b6406093"
-        },
-        {
-          "uuid": "945d3b0c-84a2-4b5d-8eab-21fb2fe7c862",
-          "type": "Mesh",
-          "name": "cube_-2.5_3_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -2,
-                  3.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -2,
-            3.5,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "d9256ef7-4f8f-4bae-b60f-2b828498c52b",
-          "material": "03fe2357-6526-47ec-8510-649653f96c5c"
-        },
-        {
-          "uuid": "7c7c8405-1efe-42fd-8a68-17b659a70c28",
-          "type": "Mesh",
-          "name": "cube_-3.5_3_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -3,
-                  3.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -3,
-            3.5,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "fc79669e-3332-4aa3-aa24-32056d6801fc",
-          "material": "b1a179c1-a3bb-4f0c-8005-eea1800e2fc8"
-        },
-        {
-          "uuid": "5a26566c-da75-4b25-837f-04df85852a8c",
-          "type": "Mesh",
-          "name": "cube_-4.5_3_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -4,
-                  3.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -4,
-            3.5,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "254f2dfc-f9c5-461f-ba08-bad1dcc446ae",
-          "material": "ed77267a-3d13-4a5c-ae71-17dad06c509e"
-        },
-        {
-          "uuid": "42341d7c-597e-44c4-8402-4d0e5554a578",
-          "type": "Mesh",
-          "name": "cube_-2.5_0_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -2,
-                  0.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -0.9842804917376449,
-            0.5168343259808728,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-          "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
-        },
-        {
-          "uuid": "f81190c1-7655-41a1-99c7-a1dcee7293f7",
-          "type": "Mesh",
-          "name": "cube_-2.5_0_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -2,
-                  0.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -0.9842804917376449,
-            2.516631054949006,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-          "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
-        },
-        {
-          "uuid": "62f758d7-4aca-41a5-a5c0-7b5fb15b4857",
-          "type": "Mesh",
-          "name": "cube_-2.5_0_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -2,
-                  0.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -0.9842804917376449,
-            1.5102500210759753,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-          "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
-        },
-        {
-          "uuid": "6baf1e7a-6cfb-4dba-920b-beee7d3fc46a",
-          "type": "Mesh",
-          "name": "cube_-2.5_0_0",
-          "userData": {
-            "descriptors": {
-              "v": 1,
-              "geomHash": "24:709",
-              "bbox": {
-                "center": [
-                  -2,
-                  0.5,
-                  0
-                ],
-                "size": [
-                  1,
-                  1,
-                  0.1
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "flat",
-              "orientation": "horizontal",
-              "sizeRank": "medium",
-              "volume": 0.1,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "teal",
-                "base": "teal",
-                "hex": "#4ecdc4"
-              },
-              "materials": [],
-              "pair": null
-            }
-          },
-          "layers": 1,
-          "matrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -1.9910210986616081,
-            1.5102500210759753,
-            0,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-          "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+          "geometry": "d279308a-c81d-4604-a273-ab80a4558598",
+          "material": "390a8525-7a29-44e2-93bd-65e3515d68c7"
         }
       ],
       "backgroundRotation": [
