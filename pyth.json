@@ -1132,7 +1132,10 @@
               "name": "4row1",
               "userData": {
                 "label": "4row1",
-                "classes": {}
+                "classes": {},
+                "customClasses": [
+                  "row"
+                ]
               },
               "layers": 1,
               "matrix": [
@@ -1483,7 +1486,10 @@
               "name": "4row2",
               "userData": {
                 "label": "4row2",
-                "classes": {}
+                "classes": {},
+                "customClasses": [
+                  "row"
+                ]
               },
               "layers": 1,
               "matrix": [
@@ -1833,7 +1839,11 @@
               "type": "Group",
               "name": "4row3",
               "userData": {
-                "label": "4row3"
+                "label": "4row3",
+                "classes": {},
+                "customClasses": [
+                  "row"
+                ]
               },
               "layers": 1,
               "matrix": [
@@ -2183,7 +2193,11 @@
               "type": "Group",
               "name": "4row4",
               "userData": {
-                "label": "4row4"
+                "label": "4row4",
+                "classes": {},
+                "customClasses": [
+                  "row"
+                ]
               },
               "layers": 1,
               "matrix": [
@@ -2608,7 +2622,11 @@
               "type": "Group",
               "name": "3col1",
               "userData": {
-                "label": "3col1"
+                "label": "3col1",
+                "classes": {},
+                "customClasses": [
+                  "col"
+                ]
               },
               "layers": 1,
               "matrix": [
@@ -2879,7 +2897,11 @@
               "type": "Group",
               "name": "3col2",
               "userData": {
-                "label": "3col2"
+                "label": "3col2",
+                "classes": {},
+                "customClasses": [
+                  "col"
+                ]
               },
               "layers": 1,
               "matrix": [
@@ -3135,7 +3157,11 @@
               "type": "Group",
               "name": "3col3",
               "userData": {
-                "label": "3col3"
+                "label": "3col3",
+                "classes": {},
+                "customClasses": [
+                  "col"
+                ]
               },
               "layers": 1,
               "matrix": [
