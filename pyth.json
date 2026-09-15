@@ -19,21 +19,21 @@
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        0.9718276077069568,
+        0.9999879751356885,
+        2.1684043449710072e-19,
+        -0.004904037522716013,
         0,
-        -0.23569281045159568,
+        -0.0010277278226659406,
+        0.9777941412584079,
+        -0.2095651714771428,
         0,
-        0.038926497301782596,
-        0.9862671612496716,
-        0.1605048735967779,
+        0.004795139158223115,
+        0.2095676915001969,
+        0.9777823834165348,
         0,
-        0.2324560790910523,
-        -0.16515776288295778,
-        0.9584816558771999,
-        0,
-        8.365983445180014,
-        -2.869145338567389,
-        25.544350581112322,
+        2.4701416302278116,
+        3.505180342584053,
+        11.064537967449162,
         1
       ],
       "up": [
@@ -300,7 +300,7 @@
         }
       },
       {
-        "uuid": "af853a92-5074-4db2-9147-41a8b32958dc",
+        "uuid": "5f5ac7bc-749c-4ce0-ac6e-c533501c42ba",
         "type": "TextGeometry",
         "shapes": [],
         "options": {
@@ -4257,7 +4257,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4275,7 +4274,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4293,7 +4291,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4311,7 +4308,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4329,7 +4325,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4347,7 +4342,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4365,7 +4359,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4383,7 +4376,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4401,7 +4393,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4419,7 +4410,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4437,7 +4427,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4455,7 +4444,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4473,7 +4461,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.36117214927506486,
         "transparent": true,
         "blendColor": 0
       },
@@ -4491,7 +4479,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.36117214927506486,
         "transparent": true,
         "blendColor": 0
       },
@@ -4509,7 +4497,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.36117214927506486,
         "transparent": true,
         "blendColor": 0
       },
@@ -4582,6 +4570,431 @@
         ],
         "envMapIntensity": 1,
         "opacity": 0,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "9aac97c2-9861-4f6a-b692-2f73572c2945",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "7da735dd-4037-49c3-b4bf-f7a611ccc503",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "65309fb9-5ce3-45b9-b0a4-b72a0a86ec21",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "d409fd32-3aa6-43f7-bd9b-43c6e5bf672e",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "bf56f248-81f5-4d25-9445-a73c7a104dd7",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "2647db20-077c-4e0b-a558-1646fde4e12e",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "36100778-c6e6-4bc9-b429-4a46594bf41f",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "bbcc791f-4815-4392-8558-0a51aec7e059",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "85bdca0d-bdbd-43dc-a975-3b8ba5202dea",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b1ed9ad1-346f-4dfb-bfe1-056181299a0a",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "ebfce1b8-0d94-4f6e-bc0f-b82aad50c587",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "1fc4991d-186a-44ba-b241-db8fbfd096e8",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "c056360e-bbd1-42c5-a6aa-1f5703941c74",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "a1f47201-3302-448b-ab11-d719f88183a8",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "0973dfec-73ae-493f-8a3d-75cdbc9491b7",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b57acaa3-1212-4604-a4aa-e9bbd4a8199e",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "004aee32-de51-4934-97ef-9400cd30e4db",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "42825557-7a48-4ed4-9bb7-531e55ace98b",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "7e7499d7-3357-4c7e-8c65-a2687cb0ea7f",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "ce978190-137c-4bcf-8424-ee36845f3fb1",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "0b479478-29ed-4303-91df-3c0d2644b995",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "51677dcb-d746-4049-be9c-aa664a2f58a9",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "81d412c2-8dbc-4f02-8713-4705ce40bac9",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "d28c3940-2008-438e-83f5-35c9b210b82a",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b82cafac-f222-4560-b82b-6016a9b93951",
+        "type": "MeshStandardMaterial",
+        "color": 3355392,
+        "roughness": 0.6,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
         "transparent": true,
         "blendColor": 0
       },
@@ -8157,21 +8570,21 @@
           },
           "layers": 1,
           "matrix": [
-            -0.038493404625394856,
-            0.9992588542516627,
+            0.6000014291326624,
+            0.7999989281485087,
             0,
             0,
-            -0.9992588542516627,
-            -0.038493404625394856,
+            -0.7999989281485087,
+            0.6000014291326624,
             0,
             0,
             0,
             0,
             10.262291753196822,
             0,
-            9.15415263898982,
-            0.12088427645844035,
-            0.015508019719313074,
+            7.482632663493835,
+            4.266074189819698,
+            0,
             1
           ],
           "up": [
@@ -8321,7 +8734,7 @@
                     1,
                     0,
                     -4,
-                    4.5,
+                    4,
                     0,
                     1
                   ],
@@ -8331,7 +8744,7 @@
                     0
                   ],
                   "geometry": "254f2dfc-f9c5-461f-ba08-bad1dcc446ae",
-                  "material": "ed77267a-3d13-4a5c-ae71-17dad06c509e"
+                  "material": "9aac97c2-9861-4f6a-b692-2f73572c2945"
                 },
                 {
                   "uuid": "6f17d43d-4f33-48f7-8819-5f10eef27930",
@@ -8401,7 +8814,7 @@
                     1,
                     0,
                     -3,
-                    4.5,
+                    4,
                     0,
                     1
                   ],
@@ -8411,7 +8824,7 @@
                     0
                   ],
                   "geometry": "fc79669e-3332-4aa3-aa24-32056d6801fc",
-                  "material": "b1a179c1-a3bb-4f0c-8005-eea1800e2fc8"
+                  "material": "7da735dd-4037-49c3-b4bf-f7a611ccc503"
                 },
                 {
                   "uuid": "febf93ee-1113-4976-9d69-f485e0bb1898",
@@ -8481,7 +8894,7 @@
                     1,
                     0,
                     -2,
-                    4.5,
+                    4,
                     0,
                     1
                   ],
@@ -8491,7 +8904,7 @@
                     0
                   ],
                   "geometry": "d9256ef7-4f8f-4bae-b60f-2b828498c52b",
-                  "material": "03fe2357-6526-47ec-8510-649653f96c5c"
+                  "material": "65309fb9-5ce3-45b9-b0a4-b72a0a86ec21"
                 },
                 {
                   "uuid": "8dc91cdb-db27-4a0a-b046-8ef86d6d3e00",
@@ -8560,8 +8973,8 @@
                     0,
                     1,
                     0,
-                    -5.099796106612813,
-                    4.657932161163238,
+                    -5,
+                    4,
                     0,
                     1
                   ],
@@ -8571,7 +8984,7 @@
                     0
                   ],
                   "geometry": "94ab99c4-4328-4d07-942e-9f75dd418120",
-                  "material": "f60d5f21-63b7-4d13-b2a4-b9f5b6406093"
+                  "material": "d409fd32-3aa6-43f7-bd9b-43c6e5bf672e"
                 },
                 {
                   "uuid": "a85be532-a604-4f58-a3c6-6fd079927ac3",
@@ -8641,8 +9054,8 @@
                     1,
                     0,
                     -1,
-                    4.5,
-                    0,
+                    4,
+                    -0.00029529277538573197,
                     1
                   ],
                   "up": [
@@ -8651,7 +9064,7 @@
                     0
                   ],
                   "geometry": "94ab99c4-4328-4d07-942e-9f75dd418120",
-                  "material": "f60d5f21-63b7-4d13-b2a4-b9f5b6406093"
+                  "material": "bf56f248-81f5-4d25-9445-a73c7a104dd7"
                 }
               ]
             },
@@ -8808,7 +9221,7 @@
                     0
                   ],
                   "geometry": "39c462bf-61da-465d-b7ca-a1c49fa1d7b3",
-                  "material": "fdf4d99a-6f09-4336-bacc-1c1bb6f85cac"
+                  "material": "2647db20-077c-4e0b-a558-1646fde4e12e"
                 },
                 {
                   "uuid": "159aac49-7ed5-4536-b1d8-b4f9fe10bf03",
@@ -8888,7 +9301,7 @@
                     0
                   ],
                   "geometry": "53dd8621-dc38-4003-ab7d-c90bc0bce576",
-                  "material": "8f6ba961-b5e4-41be-81ae-5f1451da0fab"
+                  "material": "36100778-c6e6-4bc9-b429-4a46594bf41f"
                 },
                 {
                   "uuid": "f3868a9f-f344-4f48-b46b-d71f95efd160",
@@ -8968,7 +9381,7 @@
                     0
                   ],
                   "geometry": "11acde39-0a98-4370-9e66-633e97aad6c6",
-                  "material": "64b7e7b6-ce04-4b24-b0ce-603a0c3c9b7b"
+                  "material": "bbcc791f-4815-4392-8558-0a51aec7e059"
                 },
                 {
                   "uuid": "5ef8e1ea-c1fb-4679-9235-865f089ccac6",
@@ -9048,7 +9461,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "85bdca0d-bdbd-43dc-a975-3b8ba5202dea"
                 },
                 {
                   "uuid": "a0f2abba-933b-481b-89ea-3cd1fc63becb",
@@ -9117,8 +9530,8 @@
                     0,
                     1,
                     0,
-                    -5.218781128941321,
-                    3.162515333254844,
+                    -5,
+                    3,
                     0,
                     1
                   ],
@@ -9128,7 +9541,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "b1ed9ad1-346f-4dfb-bfe1-056181299a0a"
                 }
               ]
             },
@@ -9287,7 +9700,7 @@
                     0
                   ],
                   "geometry": "56314e90-1d4f-4009-8683-dd1523427678",
-                  "material": "6ac56d86-56e1-451c-b6f4-132844613291"
+                  "material": "ebfce1b8-0d94-4f6e-bc0f-b82aad50c587"
                 },
                 {
                   "uuid": "278fad29-2c04-447a-b832-f5a56917d3c8",
@@ -9367,7 +9780,7 @@
                     0
                   ],
                   "geometry": "c306fd96-2621-4a7c-bcca-8087d884c077",
-                  "material": "3c4f7302-377c-4239-9cce-9ec861616d83"
+                  "material": "1fc4991d-186a-44ba-b241-db8fbfd096e8"
                 },
                 {
                   "uuid": "54a574e2-ad89-4622-996e-fdd9989561f4",
@@ -9447,7 +9860,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "c056360e-bbd1-42c5-a6aa-1f5703941c74"
                 },
                 {
                   "uuid": "c222771f-ee0c-4c0f-bd4f-d58e3ddd4d0a",
@@ -9527,7 +9940,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "a1f47201-3302-448b-ab11-d719f88183a8"
                 },
                 {
                   "uuid": "5717f750-d0bd-4b79-bee5-31dd513cd98a",
@@ -9596,7 +10009,7 @@
                     0,
                     1,
                     0,
-                    -1.0034200026829492,
+                    -5,
                     2,
                     0,
                     1
@@ -9607,7 +10020,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "0973dfec-73ae-493f-8a3d-75cdbc9491b7"
                 }
               ]
             },
@@ -9765,7 +10178,7 @@
                     0
                   ],
                   "geometry": "45d66f3c-09c4-4a17-878f-67b8fb39d699",
-                  "material": "9f955345-f625-4ba9-b0af-5c74f0ad0cb7"
+                  "material": "b57acaa3-1212-4604-a4aa-e9bbd4a8199e"
                 },
                 {
                   "uuid": "2f1fcc81-d8ac-4603-abd5-ca1922931863",
@@ -9845,7 +10258,7 @@
                     0
                   ],
                   "geometry": "4d3a1058-6eb7-4fd6-8528-72f3735b0fe7",
-                  "material": "1ae99e82-d753-46dc-88e8-40cc3f2660dc"
+                  "material": "004aee32-de51-4934-97ef-9400cd30e4db"
                 },
                 {
                   "uuid": "ae098a0e-28cf-4c70-97c2-c2299e66c653",
@@ -9925,7 +10338,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "42825557-7a48-4ed4-9bb7-531e55ace98b"
                 },
                 {
                   "uuid": "66165eb1-c782-47dd-80ea-8f7a7f560842",
@@ -10005,7 +10418,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "7e7499d7-3357-4c7e-8c65-a2687cb0ea7f"
                 },
                 {
                   "uuid": "7b0f5754-53f0-4946-afb8-6234abb14db7",
@@ -10074,7 +10487,7 @@
                     0,
                     1,
                     0,
-                    -1,
+                    -5,
                     1,
                     0,
                     1
@@ -10085,7 +10498,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "ce978190-137c-4bcf-8424-ee36845f3fb1"
                 }
               ]
             },
@@ -10229,8 +10642,8 @@
                     0,
                     1,
                     0,
-                    -3.997121924599668,
-                    0.9999830605449294,
+                    -5,
+                    0,
                     0,
                     1
                   ],
@@ -10240,7 +10653,7 @@
                     0
                   ],
                   "geometry": "45d66f3c-09c4-4a17-878f-67b8fb39d699",
-                  "material": "9f955345-f625-4ba9-b0af-5c74f0ad0cb7"
+                  "material": "0b479478-29ed-4303-91df-3c0d2644b995"
                 },
                 {
                   "uuid": "db7eb7a2-f8f8-491b-8b10-08065a98ad6e",
@@ -10309,8 +10722,8 @@
                     0,
                     1,
                     0,
-                    -2.997121924599668,
-                    1,
+                    -4,
+                    0,
                     0,
                     1
                   ],
@@ -10320,7 +10733,7 @@
                     0
                   ],
                   "geometry": "4d3a1058-6eb7-4fd6-8528-72f3735b0fe7",
-                  "material": "1ae99e82-d753-46dc-88e8-40cc3f2660dc"
+                  "material": "51677dcb-d746-4049-be9c-aa664a2f58a9"
                 },
                 {
                   "uuid": "7c382f18-018c-4134-bfd1-b65c39ba3d2d",
@@ -10389,8 +10802,8 @@
                     0,
                     1,
                     0,
-                    -1.9971219245996679,
-                    1,
+                    -3,
+                    0,
                     0,
                     1
                   ],
@@ -10400,7 +10813,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "81d412c2-8dbc-4f02-8713-4705ce40bac9"
                 },
                 {
                   "uuid": "744168c3-16fd-460e-ab55-3c7401b093f2",
@@ -10469,8 +10882,8 @@
                     0,
                     1,
                     0,
-                    -1,
-                    1,
+                    -2,
+                    0,
                     0,
                     1
                   ],
@@ -10480,7 +10893,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "d28c3940-2008-438e-83f5-35c9b210b82a"
                 },
                 {
                   "uuid": "04846c9b-b950-47fb-901d-3f647cbf2a4a",
@@ -10550,7 +10963,7 @@
                     1,
                     0,
                     -1,
-                    1,
+                    0,
                     0,
                     1
                   ],
@@ -10560,7 +10973,7 @@
                     0
                   ],
                   "geometry": "73b6383e-2477-415f-8f33-c8e779e211ea",
-                  "material": "b66e044e-039d-4f92-b059-4807cbf3abf2"
+                  "material": "b82cafac-f222-4560-b82b-6016a9b93951"
                 }
               ]
             }
@@ -10812,7 +11225,7 @@
                 1,
                 0
               ],
-              "geometry": "af853a92-5074-4db2-9147-41a8b32958dc",
+              "geometry": "5f5ac7bc-749c-4ce0-ac6e-c533501c42ba",
               "material": "5df7ee47-917c-45f1-9f23-ee5723ebd5ad"
             },
             {
