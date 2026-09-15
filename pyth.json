@@ -14,26 +14,26 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "638f9607-1870-4559-aa48-1fa86326c0bb",
+      "uuid": "9af28d12-55f4-44d5-bd94-a4612413dd36",
       "type": "PerspectiveCamera",
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        0.9999999999999957,
+        0.9971291268827397,
+        -2.1684043449709995e-19,
+        -0.07571990703940819,
         0,
+        -0.0019696997664508126,
+        0.9996616054073709,
+        -0.025938291330971315,
         0,
+        0.07569428383231211,
+        0.026012971270892908,
+        0.9967917037780551,
         0,
-        0,
-        0.9999999999999912,
-        0,
-        0,
-        0,
-        0,
-        0.9999999999999926,
-        0,
-        2,
-        0,
-        15,
+        0.10634735009142537,
+        1.2672802274763333,
+        15.296090686045114,
         1
       ],
       "up": [
@@ -300,7 +300,7 @@
         }
       },
       {
-        "uuid": "d9ef8a4d-a582-45f7-a37e-af7be9cb6977",
+        "uuid": "5fd651b5-039b-4252-ab8d-e485fb115031",
         "type": "TextGeometry",
         "shapes": [],
         "options": {
@@ -2354,7 +2354,7 @@
         }
       },
       {
-        "uuid": "cde50a06-4ae9-4039-9ae3-74dfa3dc87d4",
+        "uuid": "3bc27b91-cb38-49de-b873-fb675ff98d99",
         "type": "TextGeometry",
         "shapes": [],
         "options": {
@@ -4423,8 +4423,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4442,8 +4440,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4461,8 +4457,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4480,8 +4474,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4499,8 +4491,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4518,8 +4508,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4537,8 +4525,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4556,8 +4542,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4575,8 +4559,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4594,8 +4576,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4613,8 +4593,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4632,8 +4610,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4651,8 +4627,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4670,8 +4644,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4689,8 +4661,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4708,8 +4678,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4727,8 +4695,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4746,8 +4712,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4765,8 +4729,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4784,8 +4746,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4803,8 +4763,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4822,8 +4780,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4841,8 +4797,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4860,8 +4814,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -4879,8 +4831,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
-        "transparent": true,
         "blendColor": 0,
         "depthWrite": false
       },
@@ -12421,7 +12371,7 @@
             "type": "quaternion"
           }
         ],
-        "uuid": "f65d8e64-c71b-43da-a143-3825ecd34f65",
+        "uuid": "e9e603e8-a6a4-4ce4-bece-8b835a65efe8",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
@@ -12859,6 +12809,8 @@
                   "uuid": "b10ba50b-03e6-42ba-8b5d-30d86cf8ac1b",
                   "type": "Mesh",
                   "name": "cube_4.1.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -12939,6 +12891,8 @@
                   "uuid": "c7e5e4f7-b255-4633-9a3a-4210bf312703",
                   "type": "Mesh",
                   "name": "cube_4.1.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -13019,6 +12973,8 @@
                   "uuid": "64caed59-850b-4fe4-a938-18e1ae48f7b7",
                   "type": "Mesh",
                   "name": "cube_4.1.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -13099,6 +13055,8 @@
                   "uuid": "f81190c1-7655-41a1-99c7-a1dcee7293f7",
                   "type": "Mesh",
                   "name": "cube_4.1.4",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -13257,6 +13215,8 @@
                   "uuid": "0321af37-5437-403c-8e4b-b586e24753ec",
                   "type": "Mesh",
                   "name": "cube_4.2.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -13337,6 +13297,8 @@
                   "uuid": "de3d69aa-6a74-4a6c-973c-09b19f14fd70",
                   "type": "Mesh",
                   "name": "cube_4.2.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -13417,6 +13379,8 @@
                   "uuid": "cc67d88b-ae3b-49eb-ae8f-4c36c8118b82",
                   "type": "Mesh",
                   "name": "cube_4.2.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -13497,6 +13461,8 @@
                   "uuid": "595cc3b8-0ea7-4169-a248-7f061ba48a14",
                   "type": "Mesh",
                   "name": "cube_4.2.4",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -13655,6 +13621,8 @@
                   "uuid": "c0b830ec-c4eb-49c0-9f97-51f1433ba48d",
                   "type": "Mesh",
                   "name": "cube_4.3.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -13735,6 +13703,8 @@
                   "uuid": "4543e36b-6d30-4b17-a321-dd45fa4206e8",
                   "type": "Mesh",
                   "name": "cube_4.3.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -13815,6 +13785,8 @@
                   "uuid": "6baf1e7a-6cfb-4dba-920b-beee7d3fc46a",
                   "type": "Mesh",
                   "name": "cube_4.3.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -13895,6 +13867,8 @@
                   "uuid": "62f758d7-4aca-41a5-a5c0-7b5fb15b4857",
                   "type": "Mesh",
                   "name": "cube_4.3.4",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -14052,6 +14026,8 @@
                   "uuid": "b58ede2b-8bca-476d-8cdd-4ccb5efefd1f",
                   "type": "Mesh",
                   "name": "cube_4.4.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -14132,6 +14108,8 @@
                   "uuid": "8d793ab3-843d-47f6-b9a3-888da4c2fcd8",
                   "type": "Mesh",
                   "name": "cube_4.4.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -14212,6 +14190,8 @@
                   "uuid": "96daec23-d1f5-4911-bd43-59599fd93152",
                   "type": "Mesh",
                   "name": "cube_4.4.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -14292,6 +14272,8 @@
                   "uuid": "42341d7c-597e-44c4-8402-4d0e5554a578",
                   "type": "Mesh",
                   "name": "cube_4.4.4",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -14524,6 +14506,8 @@
                   "uuid": "0cf7ae65-145e-469f-8c18-e5c0b0505419",
                   "type": "Mesh",
                   "name": "cube_3.1.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -14604,6 +14588,8 @@
                   "uuid": "a8162942-b986-48f8-8e0d-3e12822c55b7",
                   "type": "Mesh",
                   "name": "cube_3.1.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -14684,6 +14670,8 @@
                   "uuid": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc",
                   "type": "Mesh",
                   "name": "cube_3.1.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -14842,6 +14830,8 @@
                   "uuid": "164d829d-9f09-46d9-ad33-e4bd3a43bf94",
                   "type": "Mesh",
                   "name": "cube_3.2.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -14917,6 +14907,8 @@
                   "uuid": "a81a0778-b42f-42e4-918f-5adf62c57ee0",
                   "type": "Mesh",
                   "name": "cube_3.2.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -14992,6 +14984,8 @@
                   "uuid": "0252cb03-28c7-43da-ab6f-6dd9fc31782e",
                   "type": "Mesh",
                   "name": "cube_3.2.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -15144,6 +15138,8 @@
                   "uuid": "6c6a084a-f761-40b1-bf8c-adbcf639ee0e",
                   "type": "Mesh",
                   "name": "cube_3.3.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -15224,6 +15220,8 @@
                   "uuid": "9b1b57ed-93e2-406e-8d78-aed38c146cab",
                   "type": "Mesh",
                   "name": "cube_3.3.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -15304,6 +15302,8 @@
                   "uuid": "633b162c-bb0f-4ecd-bf4c-846e0db7dec6",
                   "type": "Mesh",
                   "name": "cube_3.3.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -15534,6 +15534,8 @@
                   "uuid": "d49cc389-e429-4b66-9072-2176b7e8a105",
                   "type": "Mesh",
                   "name": "cube_5.1.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -15614,6 +15616,8 @@
                   "uuid": "6f17d43d-4f33-48f7-8819-5f10eef27930",
                   "type": "Mesh",
                   "name": "cube_5.1.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -15694,6 +15698,8 @@
                   "uuid": "febf93ee-1113-4976-9d69-f485e0bb1898",
                   "type": "Mesh",
                   "name": "cube_5.1.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -15774,6 +15780,8 @@
                   "uuid": "8dc91cdb-db27-4a0a-b046-8ef86d6d3e00",
                   "type": "Mesh",
                   "name": "cube_5.1.4",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -15854,6 +15862,8 @@
                   "uuid": "a85be532-a604-4f58-a3c6-6fd079927ac3",
                   "type": "Mesh",
                   "name": "cube_5.1.5",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16011,6 +16021,8 @@
                   "uuid": "95570432-7a1b-4db2-ad23-0339f0ec72dd",
                   "type": "Mesh",
                   "name": "cube_5.2.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16091,6 +16103,8 @@
                   "uuid": "159aac49-7ed5-4536-b1d8-b4f9fe10bf03",
                   "type": "Mesh",
                   "name": "cube_5.2.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16171,6 +16185,8 @@
                   "uuid": "f3868a9f-f344-4f48-b46b-d71f95efd160",
                   "type": "Mesh",
                   "name": "cube_5.2.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16251,6 +16267,8 @@
                   "uuid": "5ef8e1ea-c1fb-4679-9235-865f089ccac6",
                   "type": "Mesh",
                   "name": "cube_5.2.4",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16331,6 +16349,8 @@
                   "uuid": "a0f2abba-933b-481b-89ea-3cd1fc63becb",
                   "type": "Mesh",
                   "name": "cube_5.2.5",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16490,6 +16510,8 @@
                   "uuid": "13948a9d-4199-49ba-8023-49877977ecf5",
                   "type": "Mesh",
                   "name": "cube_5.3.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16570,6 +16592,8 @@
                   "uuid": "278fad29-2c04-447a-b832-f5a56917d3c8",
                   "type": "Mesh",
                   "name": "cube_5.3.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16650,6 +16674,8 @@
                   "uuid": "54a574e2-ad89-4622-996e-fdd9989561f4",
                   "type": "Mesh",
                   "name": "cube_5.3.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16730,6 +16756,8 @@
                   "uuid": "c222771f-ee0c-4c0f-bd4f-d58e3ddd4d0a",
                   "type": "Mesh",
                   "name": "cube_5.3.4",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16810,6 +16838,8 @@
                   "uuid": "5717f750-d0bd-4b79-bee5-31dd513cd98a",
                   "type": "Mesh",
                   "name": "cube_5.3.5",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -16968,6 +16998,8 @@
                   "uuid": "d0bcf5d2-2f71-47dc-96f7-aa33f9c92bfe",
                   "type": "Mesh",
                   "name": "cube_5.4.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -17048,6 +17080,8 @@
                   "uuid": "2f1fcc81-d8ac-4603-abd5-ca1922931863",
                   "type": "Mesh",
                   "name": "cube_5.4.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -17128,6 +17162,8 @@
                   "uuid": "ae098a0e-28cf-4c70-97c2-c2299e66c653",
                   "type": "Mesh",
                   "name": "cube_5.4.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -17208,6 +17244,8 @@
                   "uuid": "66165eb1-c782-47dd-80ea-8f7a7f560842",
                   "type": "Mesh",
                   "name": "cube_5.4.4",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -17288,6 +17326,8 @@
                   "uuid": "7b0f5754-53f0-4946-afb8-6234abb14db7",
                   "type": "Mesh",
                   "name": "cube_5.4.5",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -17443,6 +17483,8 @@
                   "uuid": "bcdeefd6-1f49-4a51-a3ad-4bd8d4a83916",
                   "type": "Mesh",
                   "name": "cube_5.5.1",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -17523,6 +17565,8 @@
                   "uuid": "db7eb7a2-f8f8-491b-8b10-08065a98ad6e",
                   "type": "Mesh",
                   "name": "cube_5.5.2",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -17603,6 +17647,8 @@
                   "uuid": "7c382f18-018c-4134-bfd1-b65c39ba3d2d",
                   "type": "Mesh",
                   "name": "cube_5.5.3",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -17683,6 +17729,8 @@
                   "uuid": "744168c3-16fd-460e-ab55-3c7401b093f2",
                   "type": "Mesh",
                   "name": "cube_5.5.4",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -17763,6 +17811,8 @@
                   "uuid": "04846c9b-b950-47fb-901d-3f647cbf2a4a",
                   "type": "Mesh",
                   "name": "cube_5.5.5",
+                  "castShadow": true,
+                  "receiveShadow": true,
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -17847,6 +17897,8 @@
           "uuid": "efe1ce0e-24e4-4da2-a24c-259cee67f42e",
           "type": "Mesh",
           "name": "RightTriangle",
+          "castShadow": true,
+          "receiveShadow": true,
           "userData": {
             "descriptors": {
               "v": 1,
@@ -17919,6 +17971,9 @@
           "uuid": "8b2c99ee-f7ee-43f9-8a57-f5c8ad4cc043",
           "type": "PerspectiveCamera",
           "name": "PerspectiveCamera",
+          "userData": {
+            "classes": {}
+          },
           "layers": 1,
           "matrix": [
             1,
@@ -17994,7 +18049,8 @@
               },
               "materials": [],
               "pair": null
-            }
+            },
+            "classes": {}
           },
           "layers": 1,
           "matrix": [
@@ -18025,6 +18081,8 @@
               "uuid": "62cf7806-c9ae-4cea-b9fa-ed96275e9941",
               "type": "Mesh",
               "name": "three",
+              "castShadow": true,
+              "receiveShadow": true,
               "userData": {
                 "descriptors": {
                   "v": 1,
@@ -18063,7 +18121,8 @@
                   "materials": [],
                   "pair": null
                 },
-                "label": "three"
+                "label": "three",
+                "classes": {}
               },
               "layers": 1,
               "matrix": [
@@ -18089,13 +18148,15 @@
                 1,
                 0
               ],
-              "geometry": "d9ef8a4d-a582-45f7-a37e-af7be9cb6977",
+              "geometry": "5fd651b5-039b-4252-ab8d-e485fb115031",
               "material": "5df7ee47-917c-45f1-9f23-ee5723ebd5ad"
             },
             {
               "uuid": "ac91d343-fdfd-44a4-a917-9408574db964",
               "type": "Mesh",
               "name": "four",
+              "castShadow": true,
+              "receiveShadow": true,
               "userData": {
                 "descriptors": {
                   "v": 1,
@@ -18134,7 +18195,8 @@
                   "materials": [],
                   "pair": null
                 },
-                "label": "four"
+                "label": "four",
+                "classes": {}
               },
               "layers": 1,
               "matrix": [
@@ -18160,14 +18222,14 @@
                 1,
                 0
               ],
-              "geometry": "cde50a06-4ae9-4039-9ae3-74dfa3dc87d4",
+              "geometry": "3bc27b91-cb38-49de-b873-fb675ff98d99",
               "material": "da9a3ffd-762b-42c5-8439-746fe2653edc"
             }
           ]
         }
       ],
       "animations": [
-        "f65d8e64-c71b-43da-a143-3825ecd34f65"
+        "e9e603e8-a6a4-4ce4-bece-8b835a65efe8"
       ],
       "backgroundRotation": [
         0,
@@ -25192,7 +25254,7 @@
             "type": "quaternion"
           }
         ],
-        "uuid": "f65d8e64-c71b-43da-a143-3825ecd34f65",
+        "uuid": "e9e603e8-a6a4-4ce4-bece-8b835a65efe8",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
