@@ -14,22 +14,22 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "9af28d12-55f4-44d5-bd94-a4612413dd36",
+      "uuid": "a70fb44b-bd4d-43b6-b3e0-03e5176c6e1a",
       "type": "PerspectiveCamera",
       "name": "Camera",
       "layers": 1,
       "matrix": [
         0.9971291268827397,
-        -2.1684043449709995e-19,
-        -0.07571990703940819,
+        -1.7347234759767996e-18,
+        -0.07571990703940822,
         0,
-        -0.0019696997664508126,
+        -0.0019696997664508135,
         0.9996616054073709,
-        -0.025938291330971315,
+        -0.025938291330971332,
         0,
-        0.07569428383231211,
-        0.026012971270892908,
-        0.9967917037780551,
+        0.07569428383231207,
+        0.0260129712708929,
+        0.9967917037780542,
         0,
         0.10634735009142537,
         1.2672802274763333,
@@ -300,11 +300,14 @@
         }
       },
       {
-        "uuid": "5fd651b5-039b-4252-ab8d-e485fb115031",
+        "uuid": "9a7d01e2-17ba-40c3-a35d-6cb7f6d01067",
         "type": "TextGeometry",
-        "shapes": [],
+        "shapes": [
+          "7ebb3516-9d4d-409a-9848-21a02b02d030",
+          "ad26caf7-7db1-4707-b499-fc8567e04e52"
+        ],
         "options": {
-          "text": "",
+          "text": "3²",
           "font": {
             "isFont": true,
             "type": "Font",
@@ -2354,11 +2357,14 @@
         }
       },
       {
-        "uuid": "3bc27b91-cb38-49de-b873-fb675ff98d99",
+        "uuid": "82bd6647-dafb-4019-bd73-b372c32ee7fa",
         "type": "TextGeometry",
-        "shapes": [],
+        "shapes": [
+          "a6df4903-2d73-4bff-88d7-991834d9af8f",
+          "9a72a344-6062-4305-98f3-ea45dffcc9d0"
+        ],
         "options": {
-          "text": "",
+          "text": "4²",
           "font": {
             "isFont": true,
             "type": "Font",
@@ -4423,8 +4429,11 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "54869850-7f77-4716-bd67-eb64ff0075ce",
@@ -4440,8 +4449,11 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "dfea2ed9-71af-4fd3-ac8d-4dec6fbc3f40",
@@ -4457,8 +4469,11 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "a5db0581-ec0a-42c8-ad04-3260642d0ee5",
@@ -4474,8 +4489,11 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "37c124a1-54e7-4452-b73b-e9ec66ee6566",
@@ -4492,7 +4510,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "57362e8a-d80d-402f-a323-4673f7298c5f",
@@ -4509,7 +4529,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "3ccdcf8c-7d09-456c-bc25-a3e0494675cf",
@@ -4526,7 +4548,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "629e5320-080c-4b4d-800d-2d6d79e16e5c",
@@ -4543,7 +4567,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "e9d7acf2-e900-4909-a146-38d90b336786",
@@ -4560,7 +4586,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "0e24e791-3624-48e5-b069-f30afe4cbfa4",
@@ -4577,7 +4605,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "c8a37d9e-bec0-44d9-b91f-cdd56518d835",
@@ -4594,7 +4624,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "8b32a685-15e9-44d0-a976-269f1aa19a41",
@@ -4611,7 +4643,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "c144de9c-d830-4048-bf63-5f0c08700ac6",
@@ -4628,7 +4662,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "7632a2fd-650d-4f81-8278-ac22c469a37f",
@@ -4645,7 +4681,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "56584431-35b7-4a54-af60-be2a9ffaeaa7",
@@ -4662,7 +4700,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "5f09fc2c-4cb5-491f-8210-b1c4d5e65b12",
@@ -4679,7 +4719,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "52cd1fd9-e024-4617-9eca-5b2d2aecd40a",
@@ -4695,8 +4737,11 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "c2b4d57f-16ec-4969-8d28-7510a5856ff4",
@@ -4712,8 +4757,11 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "807a7ba4-83e2-44ee-a12f-a6983fc98fca",
@@ -4729,8 +4777,11 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "411cf28e-cd92-445b-83cf-b75145cf7c8f",
@@ -4747,7 +4798,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "253c994a-8b87-4c94-a0dd-199a72817e3b",
@@ -4764,7 +4817,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "ac3abc3b-8646-4345-a8b9-517a851ec4f9",
@@ -4781,7 +4836,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "26c548f5-1fde-440a-9dfc-d4c54367bd1d",
@@ -4798,7 +4855,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "b14ddc3e-b846-4444-bdd7-f364c8ceab05",
@@ -4815,7 +4874,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "1ae7c80d-6e01-414f-9314-7697630070f6",
@@ -4832,7 +4893,9 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0,
-        "depthWrite": false
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "9aac97c2-9861-4f6a-b692-2f73572c2945",
@@ -4851,7 +4914,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "7da735dd-4037-49c3-b4bf-f7a611ccc503",
@@ -4870,7 +4936,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "65309fb9-5ce3-45b9-b0a4-b72a0a86ec21",
@@ -4889,7 +4958,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "d409fd32-3aa6-43f7-bd9b-43c6e5bf672e",
@@ -4908,7 +4980,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "bf56f248-81f5-4d25-9445-a73c7a104dd7",
@@ -4927,7 +5002,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "2647db20-077c-4e0b-a558-1646fde4e12e",
@@ -4946,7 +5024,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "36100778-c6e6-4bc9-b429-4a46594bf41f",
@@ -4965,7 +5046,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "bbcc791f-4815-4392-8558-0a51aec7e059",
@@ -4984,7 +5068,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "85bdca0d-bdbd-43dc-a975-3b8ba5202dea",
@@ -5003,7 +5090,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "b1ed9ad1-346f-4dfb-bfe1-056181299a0a",
@@ -5022,7 +5112,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "ebfce1b8-0d94-4f6e-bc0f-b82aad50c587",
@@ -5041,7 +5134,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "1fc4991d-186a-44ba-b241-db8fbfd096e8",
@@ -5060,7 +5156,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "c056360e-bbd1-42c5-a6aa-1f5703941c74",
@@ -5079,7 +5178,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "a1f47201-3302-448b-ab11-d719f88183a8",
@@ -5098,7 +5200,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "0973dfec-73ae-493f-8a3d-75cdbc9491b7",
@@ -5117,7 +5222,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "b57acaa3-1212-4604-a4aa-e9bbd4a8199e",
@@ -5136,7 +5244,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "004aee32-de51-4934-97ef-9400cd30e4db",
@@ -5155,7 +5266,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "42825557-7a48-4ed4-9bb7-531e55ace98b",
@@ -5174,7 +5288,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "7e7499d7-3357-4c7e-8c65-a2687cb0ea7f",
@@ -5193,7 +5310,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "ce978190-137c-4bcf-8424-ee36845f3fb1",
@@ -5212,7 +5332,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "0b479478-29ed-4303-91df-3c0d2644b995",
@@ -5231,7 +5354,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "51677dcb-d746-4049-be9c-aa664a2f58a9",
@@ -5250,7 +5376,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "81d412c2-8dbc-4f02-8713-4705ce40bac9",
@@ -5269,7 +5398,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "d28c3940-2008-438e-83f5-35c9b210b82a",
@@ -5288,7 +5420,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "b82cafac-f222-4560-b82b-6016a9b93951",
@@ -5307,7 +5442,10 @@
         "opacity": 0,
         "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "depthWrite": false,
+        "userData": {
+          "__fadeManaged": true
+        }
       },
       {
         "uuid": "390a8525-7a29-44e2-93bd-65e3515d68c7",
@@ -5362,6 +5500,1552 @@
         "polygonOffset": true,
         "polygonOffsetFactor": -4,
         "polygonOffsetUnits": -4
+      }
+    ],
+    "shapes": [
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.767,
+              0.29
+            ],
+            "v1": [
+              0.767,
+              0.14300000000000002
+            ],
+            "v2": [
+              0.653,
+              0.051000000000000004
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.653,
+              0.051000000000000004
+            ],
+            "v1": [
+              0.548,
+              -0.032
+            ],
+            "v2": [
+              0.402,
+              -0.032
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.402,
+              -0.032
+            ],
+            "v1": [
+              0.262,
+              -0.032
+            ],
+            "v2": [
+              0.168,
+              0.048
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.168,
+              0.048
+            ],
+            "v1": [
+              0.061,
+              0.14
+            ],
+            "v2": [
+              0.061,
+              0.3
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.061,
+              0.3
+            ],
+            "v2": [
+              0.25,
+              0.3
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.25,
+              0.3
+            ],
+            "v1": [
+              0.25,
+              0.219
+            ],
+            "v2": [
+              0.298,
+              0.17300000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.298,
+              0.17300000000000001
+            ],
+            "v1": [
+              0.343,
+              0.132
+            ],
+            "v2": [
+              0.405,
+              0.132
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.405,
+              0.132
+            ],
+            "v1": [
+              0.47100000000000003,
+              0.132
+            ],
+            "v2": [
+              0.514,
+              0.169
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.514,
+              0.169
+            ],
+            "v1": [
+              0.5630000000000001,
+              0.211
+            ],
+            "v2": [
+              0.5630000000000001,
+              0.28200000000000003
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.5630000000000001,
+              0.28200000000000003
+            ],
+            "v1": [
+              0.5630000000000001,
+              0.369
+            ],
+            "v2": [
+              0.491,
+              0.405
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.491,
+              0.405
+            ],
+            "v1": [
+              0.439,
+              0.432
+            ],
+            "v2": [
+              0.343,
+              0.432
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.343,
+              0.432
+            ],
+            "v2": [
+              0.343,
+              0.5680000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.343,
+              0.5680000000000001
+            ],
+            "v1": [
+              0.425,
+              0.5680000000000001
+            ],
+            "v2": [
+              0.47200000000000003,
+              0.592
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.47200000000000003,
+              0.592
+            ],
+            "v1": [
+              0.534,
+              0.626
+            ],
+            "v2": [
+              0.534,
+              0.7010000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.534,
+              0.7010000000000001
+            ],
+            "v1": [
+              0.534,
+              0.758
+            ],
+            "v2": [
+              0.493,
+              0.793
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.493,
+              0.793
+            ],
+            "v1": [
+              0.453,
+              0.8290000000000001
+            ],
+            "v2": [
+              0.398,
+              0.8290000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.398,
+              0.8290000000000001
+            ],
+            "v1": [
+              0.34400000000000003,
+              0.8290000000000001
+            ],
+            "v2": [
+              0.306,
+              0.789
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.306,
+              0.789
+            ],
+            "v1": [
+              0.268,
+              0.749
+            ],
+            "v2": [
+              0.268,
+              0.669
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.268,
+              0.669
+            ],
+            "v2": [
+              0.08,
+              0.669
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.08,
+              0.669
+            ],
+            "v1": [
+              0.08,
+              0.8230000000000001
+            ],
+            "v2": [
+              0.182,
+              0.909
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.182,
+              0.909
+            ],
+            "v1": [
+              0.274,
+              0.986
+            ],
+            "v2": [
+              0.41000000000000003,
+              0.986
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.41000000000000003,
+              0.986
+            ],
+            "v1": [
+              0.54,
+              0.986
+            ],
+            "v2": [
+              0.633,
+              0.916
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.633,
+              0.916
+            ],
+            "v1": [
+              0.735,
+              0.84
+            ],
+            "v2": [
+              0.735,
+              0.719
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.735,
+              0.719
+            ],
+            "v1": [
+              0.735,
+              0.656
+            ],
+            "v2": [
+              0.7030000000000001,
+              0.608
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.7030000000000001,
+              0.608
+            ],
+            "v1": [
+              0.672,
+              0.561
+            ],
+            "v2": [
+              0.615,
+              0.522
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.615,
+              0.522
+            ],
+            "v1": [
+              0.687,
+              0.486
+            ],
+            "v2": [
+              0.727,
+              0.427
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.727,
+              0.427
+            ],
+            "v1": [
+              0.767,
+              0.369
+            ],
+            "v2": [
+              0.767,
+              0.29
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "7ebb3516-9d4d-409a-9848-21a02b02d030",
+        "holes": []
+      },
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2910000000000001,
+              0.791
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.706
+            ],
+            "v2": [
+              1.193,
+              0.627
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.193,
+              0.627
+            ],
+            "v1": [
+              1.086,
+              0.555
+            ],
+            "v2": [
+              0.9790000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9790000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.382
+            ],
+            "v2": [
+              0.8280000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8280000000000001,
+              0.382
+            ],
+            "v1": [
+              0.8280000000000001,
+              0.488
+            ],
+            "v2": [
+              0.912,
+              0.5650000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.912,
+              0.5650000000000001
+            ],
+            "v1": [
+              0.925,
+              0.5760000000000001
+            ],
+            "v2": [
+              1.072,
+              0.672
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.072,
+              0.672
+            ],
+            "v1": [
+              1.159,
+              0.727
+            ],
+            "v2": [
+              1.159,
+              0.784
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.159,
+              0.784
+            ],
+            "v1": [
+              1.159,
+              0.8240000000000001
+            ],
+            "v2": [
+              1.127,
+              0.85
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.127,
+              0.85
+            ],
+            "v1": [
+              1.096,
+              0.876
+            ],
+            "v2": [
+              1.056,
+              0.876
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.876
+            ],
+            "v1": [
+              1.0150000000000001,
+              0.876
+            ],
+            "v2": [
+              0.9870000000000001,
+              0.848
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.9870000000000001,
+              0.848
+            ],
+            "v1": [
+              0.9600000000000001,
+              0.8200000000000001
+            ],
+            "v2": [
+              0.9600000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9600000000000001,
+              0.762
+            ],
+            "v2": [
+              0.8380000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8380000000000001,
+              0.762
+            ],
+            "v1": [
+              0.8380000000000001,
+              0.866
+            ],
+            "v2": [
+              0.906,
+              0.924
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.906,
+              0.924
+            ],
+            "v1": [
+              0.9650000000000001,
+              0.976
+            ],
+            "v2": [
+              1.056,
+              0.976
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.976
+            ],
+            "v1": [
+              1.1500000000000001,
+              0.976
+            ],
+            "v2": [
+              1.2200000000000002,
+              0.925
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2200000000000002,
+              0.925
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.874
+            ],
+            "v2": [
+              1.2910000000000001,
+              0.791
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "ad26caf7-7db1-4707-b499-fc8567e04e52",
+        "holes": []
+      },
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.775,
+              0.213
+            ],
+            "v2": [
+              0.66,
+              0.213
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0.213
+            ],
+            "v2": [
+              0.66,
+              0
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0
+            ],
+            "v2": [
+              0.47000000000000003,
+              0
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.47000000000000003,
+              0
+            ],
+            "v2": [
+              0.47000000000000003,
+              0.213
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.47000000000000003,
+              0.213
+            ],
+            "v2": [
+              0.053,
+              0.213
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.053,
+              0.213
+            ],
+            "v2": [
+              0.053,
+              0.384
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.053,
+              0.384
+            ],
+            "v2": [
+              0.41600000000000004,
+              0.9580000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.41600000000000004,
+              0.9580000000000001
+            ],
+            "v2": [
+              0.66,
+              0.9580000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0.9580000000000001
+            ],
+            "v2": [
+              0.66,
+              0.37
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0.37
+            ],
+            "v2": [
+              0.775,
+              0.37
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.775,
+              0.37
+            ],
+            "v2": [
+              0.775,
+              0.213
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "a6df4903-2d73-4bff-88d7-991834d9af8f",
+        "holes": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "Path",
+            "autoClose": false,
+            "curves": [
+              {
+                "metadata": {
+                  "version": 4.7,
+                  "type": "Curve",
+                  "generator": "Curve.toJSON"
+                },
+                "arcLengthDivisions": 200,
+                "type": "LineCurve",
+                "v1": [
+                  0.47400000000000003,
+                  0.364
+                ],
+                "v2": [
+                  0.47400000000000003,
+                  0.786
+                ]
+              },
+              {
+                "metadata": {
+                  "version": 4.7,
+                  "type": "Curve",
+                  "generator": "Curve.toJSON"
+                },
+                "arcLengthDivisions": 200,
+                "type": "LineCurve",
+                "v1": [
+                  0.47400000000000003,
+                  0.786
+                ],
+                "v2": [
+                  0.20400000000000001,
+                  0.363
+                ]
+              },
+              {
+                "metadata": {
+                  "version": 4.7,
+                  "type": "Curve",
+                  "generator": "Curve.toJSON"
+                },
+                "arcLengthDivisions": 200,
+                "type": "LineCurve",
+                "v1": [
+                  0.20400000000000001,
+                  0.363
+                ],
+                "v2": [
+                  0.47400000000000003,
+                  0.364
+                ]
+              }
+            ],
+            "currentPoint": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2910000000000001,
+              0.791
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.706
+            ],
+            "v2": [
+              1.193,
+              0.627
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.193,
+              0.627
+            ],
+            "v1": [
+              1.086,
+              0.555
+            ],
+            "v2": [
+              0.9790000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9790000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.382
+            ],
+            "v2": [
+              0.8280000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8280000000000001,
+              0.382
+            ],
+            "v1": [
+              0.8280000000000001,
+              0.488
+            ],
+            "v2": [
+              0.912,
+              0.5650000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.912,
+              0.5650000000000001
+            ],
+            "v1": [
+              0.925,
+              0.5760000000000001
+            ],
+            "v2": [
+              1.072,
+              0.672
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.072,
+              0.672
+            ],
+            "v1": [
+              1.159,
+              0.727
+            ],
+            "v2": [
+              1.159,
+              0.784
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.159,
+              0.784
+            ],
+            "v1": [
+              1.159,
+              0.8240000000000001
+            ],
+            "v2": [
+              1.127,
+              0.85
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.127,
+              0.85
+            ],
+            "v1": [
+              1.096,
+              0.876
+            ],
+            "v2": [
+              1.056,
+              0.876
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.876
+            ],
+            "v1": [
+              1.0150000000000001,
+              0.876
+            ],
+            "v2": [
+              0.9870000000000001,
+              0.848
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.9870000000000001,
+              0.848
+            ],
+            "v1": [
+              0.9600000000000001,
+              0.8200000000000001
+            ],
+            "v2": [
+              0.9600000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9600000000000001,
+              0.762
+            ],
+            "v2": [
+              0.8380000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8380000000000001,
+              0.762
+            ],
+            "v1": [
+              0.8380000000000001,
+              0.866
+            ],
+            "v2": [
+              0.906,
+              0.924
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.906,
+              0.924
+            ],
+            "v1": [
+              0.9650000000000001,
+              0.976
+            ],
+            "v2": [
+              1.056,
+              0.976
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.976
+            ],
+            "v1": [
+              1.1500000000000001,
+              0.976
+            ],
+            "v2": [
+              1.2200000000000002,
+              0.925
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2200000000000002,
+              0.925
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.874
+            ],
+            "v2": [
+              1.2910000000000001,
+              0.791
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "9a72a344-6062-4305-98f3-ea45dffcc9d0",
+        "holes": []
       }
     ],
     "animations": [
@@ -5882,7 +7566,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -5898,7 +7582,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -5914,7 +7598,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -5930,7 +7614,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -5946,7 +7630,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -5962,7 +7646,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6618,7 +8302,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6634,7 +8318,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6650,7 +8334,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6666,7 +8350,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6682,7 +8366,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6698,7 +8382,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6714,7 +8398,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6730,7 +8414,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6746,7 +8430,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6762,7 +8446,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6778,7 +8462,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -6794,7 +8478,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -12371,7 +14055,7 @@
             "type": "quaternion"
           }
         ],
-        "uuid": "e9e603e8-a6a4-4ce4-bece-8b835a65efe8",
+        "uuid": "7dff2e84-2813-469c-84bf-adfb7a3138a0",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
@@ -12858,25 +14542,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.1.1"
+                    "label": "cube_4.1.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -4,
-                    4,
-                    0,
+                    -2.9060990810394287,
+                    7.066083908081055,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -12940,25 +14625,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.1.2"
+                    "label": "cube_4.1.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -3,
-                    4,
-                    0,
+                    -1.506098747253418,
+                    7.2660813331604,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -13022,25 +14708,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.1.3"
+                    "label": "cube_4.1.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -2,
-                    4,
-                    0,
+                    -0.9042655229568481,
+                    8.068522453308105,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -13104,25 +14791,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.1.4"
+                    "label": "cube_4.1.4",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -1,
-                    4,
-                    0,
+                    -0.300708532333374,
+                    8.873262405395508,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -13264,25 +14952,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.2.1"
+                    "label": "cube_4.2.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -4,
-                    3,
-                    0,
+                    0.29185354709625244,
+                    9.663342475891113,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -13346,25 +15035,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.2.2"
+                    "label": "cube_4.2.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -3,
-                    3,
-                    0,
+                    -2.106100082397461,
+                    6.466082572937012,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -13428,25 +15118,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.2.3"
+                    "label": "cube_4.2.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -2,
-                    3,
-                    0,
+                    -0.7043594121932983,
+                    6.66837215423584,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -13510,25 +15201,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.2.4"
+                    "label": "cube_4.2.4",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -1,
-                    3,
-                    0,
+                    -0.10437152534723282,
+                    7.468381404876709,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -13670,25 +15362,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.3.1"
+                    "label": "cube_4.3.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -4,
-                    2,
-                    0,
+                    0.4956299066543579,
+                    8.268380165100098,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -13752,25 +15445,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.3.2"
+                    "label": "cube_4.3.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -3,
-                    2,
-                    0,
+                    1.0939044952392578,
+                    9.066076278686523,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -13834,25 +15528,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.3.3"
+                    "label": "cube_4.3.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -2,
-                    2,
-                    0,
+                    -1.3061012029647827,
+                    5.8660807609558105,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -13916,25 +15611,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.3.4"
+                    "label": "cube_4.3.4",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -1,
-                    2,
-                    0,
+                    -0.5061023235321045,
+                    5.266079425811768,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -14075,25 +15771,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.4.1"
+                    "label": "cube_4.4.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -4,
-                    1,
-                    0,
+                    0.09389912337064743,
+                    6.0660786628723145,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -14157,25 +15854,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.4.2"
+                    "label": "cube_4.4.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -3,
-                    1,
-                    0,
+                    0.6939005851745605,
+                    6.866077423095703,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -14239,25 +15937,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.4.3"
+                    "label": "cube_4.4.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -2,
-                    1,
-                    0,
+                    1.293902039527893,
+                    7.666076183319092,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -14321,25 +16020,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_4.4.4"
+                    "label": "cube_4.4.4",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -1,
-                    1,
-                    0,
+                    1.893903374671936,
+                    8.46607494354248,
+                    -0.0015111654065549374,
                     1
                   ],
                   "up": [
@@ -14555,25 +16255,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_3.1.1"
+                    "label": "cube_3.1.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    9,
-                    -1,
-                    0,
+                    10.882631301879883,
+                    0.46082741022109985,
+                    -0.00047255263780243695,
                     1
                   ],
                   "up": [
@@ -14637,25 +16338,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_3.1.2"
+                    "label": "cube_3.1.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    9,
-                    -2,
-                    0,
+                    11.482632637023926,
+                    1.2608263492584229,
+                    -0.00047255263780243695,
                     1
                   ],
                   "up": [
@@ -14719,25 +16421,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_3.1.3"
+                    "label": "cube_3.1.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    9,
-                    -3,
-                    0,
+                    12.082633972167969,
+                    2.0608253479003906,
+                    -0.00047255263780243695,
                     1
                   ],
                   "up": [
@@ -14874,25 +16577,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_3.2.1"
+                    "label": "cube_3.2.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    8,
-                    -1,
-                    0,
+                    10.28262996673584,
+                    -0.33917152881622314,
+                    -0.00047255263780243695,
                     1
                   ],
                   "up": [
@@ -14951,25 +16655,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_3.2.2"
+                    "label": "cube_3.2.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    8,
-                    -2,
-                    0,
+                    12.682635307312012,
+                    2.8608241081237793,
+                    -0.0007853652932681143,
                     1
                   ],
                   "up": [
@@ -15028,25 +16733,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_3.2.3"
+                    "label": "cube_3.2.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    8,
-                    -3,
-                    0,
+                    11.68263053894043,
+                    -0.13917402923107147,
+                    -0.00047255263780243695,
                     1
                   ],
                   "up": [
@@ -15187,25 +16893,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_3.3.1"
+                    "label": "cube_3.3.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    7,
-                    -3,
-                    0,
+                    12.282631874084473,
+                    0.6608248949050903,
+                    -0.00047255263780243695,
                     1
                   ],
                   "up": [
@@ -15269,25 +16976,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_3.3.2"
+                    "label": "cube_3.3.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    7,
-                    -2,
-                    0.0004387965891510248,
+                    12.882633209228516,
+                    1.4608237743377686,
+                    -0.00047255263780243695,
                     1
                   ],
                   "up": [
@@ -15351,25 +17059,26 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_3.3.3"
+                    "label": "cube_3.3.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.6000014490021339,
+                    0.799998914600959,
+                    0,
+                    0,
+                    -0.799998914600959,
+                    0.6000014490021339,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    7,
-                    -1,
-                    0,
+                    13.48262882232666,
+                    2.260815143585205,
+                    -0.00047255263780243695,
                     1
                   ],
                   "up": [
@@ -15583,7 +17292,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.1.1"
+                    "label": "cube_5.1.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -15665,7 +17375,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.1.2"
+                    "label": "cube_5.1.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -15747,7 +17458,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.1.3"
+                    "label": "cube_5.1.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -15829,7 +17541,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.1.4"
+                    "label": "cube_5.1.4",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -15911,7 +17624,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.1.5"
+                    "label": "cube_5.1.5",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -16070,7 +17784,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.2.1"
+                    "label": "cube_5.2.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -16152,7 +17867,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.2.2"
+                    "label": "cube_5.2.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -16234,7 +17950,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.2.3"
+                    "label": "cube_5.2.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -16316,7 +18033,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.2.4"
+                    "label": "cube_5.2.4",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -16398,7 +18116,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.2.5"
+                    "label": "cube_5.2.5",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -16559,7 +18278,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.3.1"
+                    "label": "cube_5.3.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -16641,7 +18361,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.3.2"
+                    "label": "cube_5.3.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -16723,7 +18444,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.3.3"
+                    "label": "cube_5.3.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -16805,7 +18527,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.3.4"
+                    "label": "cube_5.3.4",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -16887,7 +18610,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.3.5"
+                    "label": "cube_5.3.5",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -17047,7 +18771,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.4.1"
+                    "label": "cube_5.4.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -17129,7 +18854,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.4.2"
+                    "label": "cube_5.4.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -17211,7 +18937,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.4.3"
+                    "label": "cube_5.4.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -17293,7 +19020,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.4.4"
+                    "label": "cube_5.4.4",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -17375,7 +19103,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.4.5"
+                    "label": "cube_5.4.5",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -17532,7 +19261,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.5.1"
+                    "label": "cube_5.5.1",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -17614,7 +19344,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.5.2"
+                    "label": "cube_5.5.2",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -17696,7 +19427,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.5.3"
+                    "label": "cube_5.5.3",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -17778,7 +19510,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.5.4"
+                    "label": "cube_5.5.4",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -17860,7 +19593,8 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_5.5.5"
+                    "label": "cube_5.5.5",
+                    "hasEdgeOutline": true
                   },
                   "layers": 1,
                   "matrix": [
@@ -18138,8 +19872,8 @@
                 0,
                 0.5763463931261614,
                 0,
-                0.39653873443603516,
-                -0.15074849128723145,
+                2.396538734436035,
+                -1.1507484912872314,
                 1.2396490573883057,
                 1
               ],
@@ -18148,7 +19882,7 @@
                 1,
                 0
               ],
-              "geometry": "5fd651b5-039b-4252-ab8d-e485fb115031",
+              "geometry": "9a7d01e2-17ba-40c3-a35d-6cb7f6d01067",
               "material": "5df7ee47-917c-45f1-9f23-ee5723ebd5ad"
             },
             {
@@ -18222,14 +19956,14 @@
                 1,
                 0
               ],
-              "geometry": "3bc27b91-cb38-49de-b873-fb675ff98d99",
+              "geometry": "82bd6647-dafb-4019-bd73-b372c32ee7fa",
               "material": "da9a3ffd-762b-42c5-8439-746fe2653edc"
             }
           ]
         }
       ],
       "animations": [
-        "e9e603e8-a6a4-4ce4-bece-8b835a65efe8"
+        "7dff2e84-2813-469c-84bf-adfb7a3138a0"
       ],
       "backgroundRotation": [
         0,
@@ -18765,7 +20499,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -18781,7 +20515,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -18797,7 +20531,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -18813,7 +20547,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -18829,7 +20563,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -18845,7 +20579,7 @@
               10.00100040435791
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19501,7 +21235,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19517,7 +21251,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19533,7 +21267,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19549,7 +21283,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19565,7 +21299,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19581,7 +21315,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19597,7 +21331,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19613,7 +21347,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19629,7 +21363,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19645,7 +21379,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19661,7 +21395,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -19677,7 +21411,7 @@
               13.63800048828125
             ],
             "values": [
-              0,
+              1,
               0,
               0,
               1
@@ -25254,7 +26988,7 @@
             "type": "quaternion"
           }
         ],
-        "uuid": "e9e603e8-a6a4-4ce4-bece-8b835a65efe8",
+        "uuid": "7dff2e84-2813-469c-84bf-adfb7a3138a0",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
