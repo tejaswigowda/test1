@@ -14,26 +14,26 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "3237b760-2f0e-4d9a-a15c-e1e78e865165",
+      "uuid": "d6c7009d-6e2c-4492-b2db-73dd8e9ecc90",
       "type": "PerspectiveCamera",
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        -0.9912436257628041,
-        -4.336808689942016e-18,
-        0.13204572838455778,
+        0.9718276077069568,
         0,
-        0.014362449840061945,
-        0.9940670788944089,
-        0.10781633778290656,
+        -0.23569281045159568,
         0,
-        -0.13126231149572193,
-        0.1087687577309132,
-        -0.9853626555347336,
+        0.038926497301782596,
+        0.9862671612496716,
+        0.1605048735967779,
         0,
-        -0.9360858672485457,
-        4.136503941778,
-        -24.169315225428466,
+        0.2324560790910523,
+        -0.16515776288295778,
+        0.9584816558771999,
+        0,
+        8.365983445180014,
+        -2.869145338567389,
+        25.544350581112322,
         1
       ],
       "up": [
@@ -46,7 +46,7 @@
       "near": 0.1,
       "far": 2000,
       "focus": 10,
-      "aspect": 0.8262108262108262,
+      "aspect": 1.0598290598290598,
       "filmGauge": 35,
       "filmOffset": 0
     }
@@ -300,7 +300,7 @@
         }
       },
       {
-        "uuid": "ac50ea5d-87ec-4d88-be0a-9000a2e9783b",
+        "uuid": "af853a92-5074-4db2-9147-41a8b32958dc",
         "type": "TextGeometry",
         "shapes": [],
         "options": {
@@ -2271,7 +2271,7 @@
         }
       },
       {
-        "uuid": "95ce3294-4e60-42a7-8867-3fea44727a6b",
+        "uuid": "18f478b1-4c3a-4b96-912a-dfe85e3b4937",
         "type": "TextGeometry",
         "shapes": [],
         "options": {
@@ -4257,7 +4257,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4275,7 +4275,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4293,7 +4293,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4311,7 +4311,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4329,7 +4329,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4347,7 +4347,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4365,7 +4365,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4383,7 +4383,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4401,7 +4401,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4419,7 +4419,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4437,7 +4437,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4455,7 +4455,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.8082999999523163,
         "transparent": true,
         "blendColor": 0
       },
@@ -4930,9 +4930,309 @@
               1
             ],
             "type": "number"
+          },
+          {
+            "name": "d49cc389-e429-4b66-9072-2176b7e8a105.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "6f17d43d-4f33-48f7-8819-5f10eef27930.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "febf93ee-1113-4976-9d69-f485e0bb1898.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "8dc91cdb-db27-4a0a-b046-8ef86d6d3e00.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "a85be532-a604-4f58-a3c6-6fd079927ac3.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "95570432-7a1b-4db2-ad23-0339f0ec72dd.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "159aac49-7ed5-4536-b1d8-b4f9fe10bf03.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "f3868a9f-f344-4f48-b46b-d71f95efd160.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "5ef8e1ea-c1fb-4679-9235-865f089ccac6.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "a0f2abba-933b-481b-89ea-3cd1fc63becb.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "13948a9d-4199-49ba-8023-49877977ecf5.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "278fad29-2c04-447a-b832-f5a56917d3c8.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "54a574e2-ad89-4622-996e-fdd9989561f4.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "c222771f-ee0c-4c0f-bd4f-d58e3ddd4d0a.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "5717f750-d0bd-4b79-bee5-31dd513cd98a.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "d0bcf5d2-2f71-47dc-96f7-aa33f9c92bfe.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "2f1fcc81-d8ac-4603-abd5-ca1922931863.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "ae098a0e-28cf-4c70-97c2-c2299e66c653.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "66165eb1-c782-47dd-80ea-8f7a7f560842.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "7b0f5754-53f0-4946-afb8-6234abb14db7.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "bcdeefd6-1f49-4a51-a3ad-4bd8d4a83916.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "db7eb7a2-f8f8-491b-8b10-08065a98ad6e.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "7c382f18-018c-4134-bfd1-b65c39ba3d2d.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "744168c3-16fd-460e-ab55-3c7401b093f2.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "04846c9b-b950-47fb-901d-3f647cbf2a4a.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
           }
         ],
-        "uuid": "36b53c7b-b026-4bcd-89a3-06f72994caca",
+        "uuid": "b1339213-3cf4-44c0-a965-dad4a9fca831",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
@@ -5085,6 +5385,20 @@
                   "op": "fadeIn",
                   "args": {},
                   "dur": 1.638
+                }
+              ]
+            },
+            {
+              "target": "#5x5-square, #5x5-square *, #5x5-square .cube",
+              "events": [
+                {
+                  "id": "evmu20lw4z_1",
+                  "at": 0,
+                  "op": "fadeIn",
+                  "args": {
+                    "duration": 1
+                  },
+                  "dur": 1
                 }
               ]
             }
@@ -5306,7 +5620,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "57689077-9462-44b7-8fc0-3563cb51b472",
-                        "mateName": "cube_-1.5_3_0",
+                        "mateName": "cube_4.1.4",
                         "axis": "x",
                         "side": "left"
                       }
@@ -5319,12 +5633,12 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.8999999761581421,
                     0,
                     0,
                     0,
                     0,
-                    1,
+                    0.20000000298023224,
                     0,
                     0,
                     0,
@@ -5332,7 +5646,7 @@
                     1,
                     0,
                     -4,
-                    4,
+                    4.5,
                     0,
                     1
                   ],
@@ -5386,7 +5700,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "945d3b0c-84a2-4b5d-8eab-21fb2fe7c862",
-                        "mateName": "cube_-2.5_3_0",
+                        "mateName": "cube_4.1.3",
                         "axis": "x",
                         "side": "left"
                       }
@@ -5399,12 +5713,12 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.8999999761581421,
                     0,
                     0,
                     0,
                     0,
-                    1,
+                    0.20000000298023224,
                     0,
                     0,
                     0,
@@ -5412,7 +5726,7 @@
                     1,
                     0,
                     -3,
-                    4,
+                    4.5,
                     0,
                     1
                   ],
@@ -5466,7 +5780,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "7c7c8405-1efe-42fd-8a68-17b659a70c28",
-                        "mateName": "cube_-3.5_3_0",
+                        "mateName": "cube_4.1.2",
                         "axis": "x",
                         "side": "right"
                       }
@@ -5479,12 +5793,12 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.8999999761581421,
                     0,
                     0,
                     0,
                     0,
-                    1,
+                    0.20000000298023224,
                     0,
                     0,
                     0,
@@ -5492,7 +5806,7 @@
                     1,
                     0,
                     -2,
-                    4,
+                    4.5,
                     0,
                     1
                   ],
@@ -5546,7 +5860,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "5a26566c-da75-4b25-837f-04df85852a8c",
-                        "mateName": "cube_-4.5_3_0",
+                        "mateName": "cube_4.1.1",
                         "axis": "x",
                         "side": "right"
                       }
@@ -5559,12 +5873,12 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.8999999761581421,
                     0,
                     0,
                     0,
                     0,
-                    1,
+                    0.20000000298023224,
                     0,
                     0,
                     0,
@@ -5572,7 +5886,7 @@
                     1,
                     0,
                     -1,
-                    4,
+                    4.5,
                     0,
                     1
                   ],
@@ -5704,7 +6018,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "f81190c1-7655-41a1-99c7-a1dcee7293f7",
-                        "mateName": "cube_-2.5_0_0_2",
+                        "mateName": "cube_4.2.4",
                         "axis": "x",
                         "side": "left"
                       }
@@ -5784,7 +6098,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "64caed59-850b-4fe4-a938-18e1ae48f7b7",
-                        "mateName": "cube_-2.5_2_0",
+                        "mateName": "cube_4.2.3",
                         "axis": "x",
                         "side": "left"
                       }
@@ -5864,7 +6178,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "c7e5e4f7-b255-4633-9a3a-4210bf312703",
-                        "mateName": "cube_-3.5_2_0",
+                        "mateName": "cube_4.2.2",
                         "axis": "x",
                         "side": "right"
                       }
@@ -5944,7 +6258,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "b10ba50b-03e6-42ba-8b5d-30d86cf8ac1b",
-                        "mateName": "cube_-4.5_2_0",
+                        "mateName": "cube_4.2.1",
                         "axis": "x",
                         "side": "right"
                       }
@@ -6102,7 +6416,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "62f758d7-4aca-41a5-a5c0-7b5fb15b4857",
-                        "mateName": "cube_-2.5_0_0_3",
+                        "mateName": "cube_4.3.4",
                         "axis": "x",
                         "side": "left"
                       }
@@ -6182,7 +6496,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "6baf1e7a-6cfb-4dba-920b-beee7d3fc46a",
-                        "mateName": "cube_-2.5_0_0_4",
+                        "mateName": "cube_4.3.3",
                         "axis": "x",
                         "side": "left"
                       }
@@ -6262,7 +6576,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "4543e36b-6d30-4b17-a321-dd45fa4206e8",
-                        "mateName": "cube_-3.5_1_0",
+                        "mateName": "cube_4.3.2",
                         "axis": "x",
                         "side": "right"
                       }
@@ -6342,7 +6656,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "c0b830ec-c4eb-49c0-9f97-51f1433ba48d",
-                        "mateName": "cube_-4.5_1_0",
+                        "mateName": "cube_4.3.1",
                         "axis": "x",
                         "side": "right"
                       }
@@ -6499,7 +6813,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "42341d7c-597e-44c4-8402-4d0e5554a578",
-                        "mateName": "cube_-2.5_0_0_1",
+                        "mateName": "cube_4.4.4",
                         "axis": "x",
                         "side": "left"
                       }
@@ -6579,7 +6893,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "96daec23-d1f5-4911-bd43-59599fd93152",
-                        "mateName": "cube_-2.5_0_0",
+                        "mateName": "cube_4.4.3",
                         "axis": "x",
                         "side": "left"
                       }
@@ -6659,7 +6973,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "8d793ab3-843d-47f6-b9a3-888da4c2fcd8",
-                        "mateName": "cube_-3.5_0_0",
+                        "mateName": "cube_4.4.2",
                         "axis": "x",
                         "side": "right"
                       }
@@ -6739,7 +7053,7 @@
                       "materials": [],
                       "pair": {
                         "mateUuid": "b58ede2b-8bca-476d-8cdd-4ccb5efefd1f",
-                        "mateName": "cube_-4.5_0_0",
+                        "mateName": "cube_4.4.1",
                         "axis": "x",
                         "side": "right"
                       }
@@ -6984,19 +7298,19 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.20000000298023224,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8999999761581421,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    9,
+                    9.5,
                     -1.002748966217041,
                     0,
                     1
@@ -7064,19 +7378,19 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.20000000298023224,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8999999761581421,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    9,
+                    9.5,
                     -2.002748966217041,
                     0,
                     1
@@ -7144,19 +7458,19 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    1,
+                    0.20000000298023224,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.8999999761581421,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    9,
+                    9.5,
                     -3,
                     0,
                     1
@@ -7942,7 +8256,7 @@
                 {
                   "uuid": "d49cc389-e429-4b66-9072-2176b7e8a105",
                   "type": "Mesh",
-                  "name": "cube_-4.5_3_0",
+                  "name": "cube_5.1.1",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -7989,16 +8303,17 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.1.1"
                   },
                   "layers": 1,
                   "matrix": [
-                    0.8999999761581421,
+                    1,
                     0,
                     0,
                     0,
                     0,
-                    0.20000000298023224,
+                    1,
                     0,
                     0,
                     0,
@@ -8021,7 +8336,7 @@
                 {
                   "uuid": "6f17d43d-4f33-48f7-8819-5f10eef27930",
                   "type": "Mesh",
-                  "name": "cube_-3.5_3_0",
+                  "name": "cube_5.1.2",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -8068,16 +8383,17 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.1.2"
                   },
                   "layers": 1,
                   "matrix": [
-                    0.8999999761581421,
+                    1,
                     0,
                     0,
                     0,
                     0,
-                    0.20000000298023224,
+                    1,
                     0,
                     0,
                     0,
@@ -8100,7 +8416,7 @@
                 {
                   "uuid": "febf93ee-1113-4976-9d69-f485e0bb1898",
                   "type": "Mesh",
-                  "name": "cube_-2.5_3_0",
+                  "name": "cube_5.1.3",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -8147,16 +8463,17 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.1.3"
                   },
                   "layers": 1,
                   "matrix": [
-                    0.8999999761581421,
+                    1,
                     0,
                     0,
                     0,
                     0,
-                    0.20000000298023224,
+                    1,
                     0,
                     0,
                     0,
@@ -8179,7 +8496,7 @@
                 {
                   "uuid": "8dc91cdb-db27-4a0a-b046-8ef86d6d3e00",
                   "type": "Mesh",
-                  "name": "cube_-5.5_3_0",
+                  "name": "cube_5.1.4",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -8227,16 +8544,16 @@
                     "customClasses": [
                       "cube"
                     ],
-                    "label": "cube_-5.5_3_0"
+                    "label": "cube_5.1.4"
                   },
                   "layers": 1,
                   "matrix": [
-                    0.8999999761581421,
+                    1,
                     0,
                     0,
                     0,
                     0,
-                    0.20000000298023224,
+                    1,
                     0,
                     0,
                     0,
@@ -8259,7 +8576,7 @@
                 {
                   "uuid": "a85be532-a604-4f58-a3c6-6fd079927ac3",
                   "type": "Mesh",
-                  "name": "cube_-1.5_3_0",
+                  "name": "cube_5.1.5",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -8306,16 +8623,17 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.1.5"
                   },
                   "layers": 1,
                   "matrix": [
-                    0.8999999761581421,
+                    1,
                     0,
                     0,
                     0,
                     0,
-                    0.20000000298023224,
+                    1,
                     0,
                     0,
                     0,
@@ -8415,7 +8733,7 @@
                 {
                   "uuid": "95570432-7a1b-4db2-ad23-0339f0ec72dd",
                   "type": "Mesh",
-                  "name": "cube_-4.5_2_0",
+                  "name": "cube_5.2.1",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -8462,7 +8780,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.2.1"
                   },
                   "layers": 1,
                   "matrix": [
@@ -8494,7 +8813,7 @@
                 {
                   "uuid": "159aac49-7ed5-4536-b1d8-b4f9fe10bf03",
                   "type": "Mesh",
-                  "name": "cube_-3.5_2_0",
+                  "name": "cube_5.2.2",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -8541,7 +8860,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.2.2"
                   },
                   "layers": 1,
                   "matrix": [
@@ -8573,7 +8893,7 @@
                 {
                   "uuid": "f3868a9f-f344-4f48-b46b-d71f95efd160",
                   "type": "Mesh",
-                  "name": "cube_-2.5_2_0",
+                  "name": "cube_5.2.3",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -8620,7 +8940,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.2.3"
                   },
                   "layers": 1,
                   "matrix": [
@@ -8652,7 +8973,7 @@
                 {
                   "uuid": "5ef8e1ea-c1fb-4679-9235-865f089ccac6",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0_2",
+                  "name": "cube_5.2.4",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -8699,7 +9020,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.2.4"
                   },
                   "layers": 1,
                   "matrix": [
@@ -8731,7 +9053,7 @@
                 {
                   "uuid": "a0f2abba-933b-481b-89ea-3cd1fc63becb",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0_2",
+                  "name": "cube_5.2.5",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -8778,7 +9100,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.2.5"
                   },
                   "layers": 1,
                   "matrix": [
@@ -8889,7 +9212,7 @@
                 {
                   "uuid": "13948a9d-4199-49ba-8023-49877977ecf5",
                   "type": "Mesh",
-                  "name": "cube_-4.5_1_0",
+                  "name": "cube_5.3.1",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -8936,7 +9259,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.3.1"
                   },
                   "layers": 1,
                   "matrix": [
@@ -8968,7 +9292,7 @@
                 {
                   "uuid": "278fad29-2c04-447a-b832-f5a56917d3c8",
                   "type": "Mesh",
-                  "name": "cube_-3.5_1_0",
+                  "name": "cube_5.3.2",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9015,7 +9339,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.3.2"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9047,7 +9372,7 @@
                 {
                   "uuid": "54a574e2-ad89-4622-996e-fdd9989561f4",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0_4",
+                  "name": "cube_5.3.3",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9094,7 +9419,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.3.3"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9126,7 +9452,7 @@
                 {
                   "uuid": "c222771f-ee0c-4c0f-bd4f-d58e3ddd4d0a",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0_3",
+                  "name": "cube_5.3.4",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9173,7 +9499,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.3.4"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9205,7 +9532,7 @@
                 {
                   "uuid": "5717f750-d0bd-4b79-bee5-31dd513cd98a",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0_3",
+                  "name": "cube_5.3.5",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9252,7 +9579,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.3.5"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9362,7 +9690,7 @@
                 {
                   "uuid": "d0bcf5d2-2f71-47dc-96f7-aa33f9c92bfe",
                   "type": "Mesh",
-                  "name": "cube_-4.5_0_0",
+                  "name": "cube_5.4.1",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9409,7 +9737,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.4.1"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9441,7 +9770,7 @@
                 {
                   "uuid": "2f1fcc81-d8ac-4603-abd5-ca1922931863",
                   "type": "Mesh",
-                  "name": "cube_-3.5_0_0",
+                  "name": "cube_5.4.2",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9488,7 +9817,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.4.2"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9520,7 +9850,7 @@
                 {
                   "uuid": "ae098a0e-28cf-4c70-97c2-c2299e66c653",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0",
+                  "name": "cube_5.4.3",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9567,7 +9897,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.4.3"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9599,7 +9930,7 @@
                 {
                   "uuid": "66165eb1-c782-47dd-80ea-8f7a7f560842",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0_1",
+                  "name": "cube_5.4.4",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9646,7 +9977,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.4.4"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9678,7 +10010,7 @@
                 {
                   "uuid": "7b0f5754-53f0-4946-afb8-6234abb14db7",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0_1",
+                  "name": "cube_5.4.5",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9725,7 +10057,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.4.5"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9832,7 +10165,7 @@
                 {
                   "uuid": "bcdeefd6-1f49-4a51-a3ad-4bd8d4a83916",
                   "type": "Mesh",
-                  "name": "cube_-4.5_0_0",
+                  "name": "cube_5.5.1",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9879,7 +10212,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.5.1"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9911,7 +10245,7 @@
                 {
                   "uuid": "db7eb7a2-f8f8-491b-8b10-08065a98ad6e",
                   "type": "Mesh",
-                  "name": "cube_-3.5_0_0",
+                  "name": "cube_5.5.2",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -9958,7 +10292,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.5.2"
                   },
                   "layers": 1,
                   "matrix": [
@@ -9990,7 +10325,7 @@
                 {
                   "uuid": "7c382f18-018c-4134-bfd1-b65c39ba3d2d",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0",
+                  "name": "cube_5.5.3",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -10037,7 +10372,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.5.3"
                   },
                   "layers": 1,
                   "matrix": [
@@ -10069,7 +10405,7 @@
                 {
                   "uuid": "744168c3-16fd-460e-ab55-3c7401b093f2",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0_1",
+                  "name": "cube_5.5.4",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -10116,7 +10452,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.5.4"
                   },
                   "layers": 1,
                   "matrix": [
@@ -10148,7 +10485,7 @@
                 {
                   "uuid": "04846c9b-b950-47fb-901d-3f647cbf2a4a",
                   "type": "Mesh",
-                  "name": "cube_-2.5_0_0_1",
+                  "name": "cube_5.5.5",
                   "userData": {
                     "descriptors": {
                       "v": 1,
@@ -10195,7 +10532,8 @@
                     "classes": {},
                     "customClasses": [
                       "cube"
-                    ]
+                    ],
+                    "label": "cube_5.5.5"
                   },
                   "layers": 1,
                   "matrix": [
@@ -10333,7 +10671,7 @@
           "near": 0.1,
           "far": 2000,
           "focus": 10,
-          "aspect": 0.8262108262108262,
+          "aspect": 1.0598290598290598,
           "filmGauge": 35,
           "filmOffset": 0
         },
@@ -10474,7 +10812,7 @@
                 1,
                 0
               ],
-              "geometry": "ac50ea5d-87ec-4d88-be0a-9000a2e9783b",
+              "geometry": "af853a92-5074-4db2-9147-41a8b32958dc",
               "material": "5df7ee47-917c-45f1-9f23-ee5723ebd5ad"
             },
             {
@@ -10545,14 +10883,14 @@
                 1,
                 0
               ],
-              "geometry": "95ce3294-4e60-42a7-8867-3fea44727a6b",
+              "geometry": "18f478b1-4c3a-4b96-912a-dfe85e3b4937",
               "material": "5df7ee47-917c-45f1-9f23-ee5723ebd5ad"
             }
           ]
         }
       ],
       "animations": [
-        "36b53c7b-b026-4bcd-89a3-06f72994caca"
+        "b1339213-3cf4-44c0-a965-dad4a9fca831"
       ],
       "backgroundRotation": [
         0,
@@ -10882,9 +11220,309 @@
               1
             ],
             "type": "number"
+          },
+          {
+            "name": "d49cc389-e429-4b66-9072-2176b7e8a105.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "6f17d43d-4f33-48f7-8819-5f10eef27930.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "febf93ee-1113-4976-9d69-f485e0bb1898.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "8dc91cdb-db27-4a0a-b046-8ef86d6d3e00.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "a85be532-a604-4f58-a3c6-6fd079927ac3.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "95570432-7a1b-4db2-ad23-0339f0ec72dd.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "159aac49-7ed5-4536-b1d8-b4f9fe10bf03.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "f3868a9f-f344-4f48-b46b-d71f95efd160.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "5ef8e1ea-c1fb-4679-9235-865f089ccac6.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "a0f2abba-933b-481b-89ea-3cd1fc63becb.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "13948a9d-4199-49ba-8023-49877977ecf5.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "278fad29-2c04-447a-b832-f5a56917d3c8.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "54a574e2-ad89-4622-996e-fdd9989561f4.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "c222771f-ee0c-4c0f-bd4f-d58e3ddd4d0a.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "5717f750-d0bd-4b79-bee5-31dd513cd98a.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "d0bcf5d2-2f71-47dc-96f7-aa33f9c92bfe.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "2f1fcc81-d8ac-4603-abd5-ca1922931863.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "ae098a0e-28cf-4c70-97c2-c2299e66c653.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "66165eb1-c782-47dd-80ea-8f7a7f560842.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "7b0f5754-53f0-4946-afb8-6234abb14db7.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "bcdeefd6-1f49-4a51-a3ad-4bd8d4a83916.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "db7eb7a2-f8f8-491b-8b10-08065a98ad6e.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "7c382f18-018c-4134-bfd1-b65c39ba3d2d.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "744168c3-16fd-460e-ab55-3c7401b093f2.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
+          },
+          {
+            "name": "04846c9b-b950-47fb-901d-3f647cbf2a4a.material.opacity",
+            "times": [
+              0,
+              1
+            ],
+            "values": [
+              0,
+              1
+            ],
+            "type": "number"
           }
         ],
-        "uuid": "36b53c7b-b026-4bcd-89a3-06f72994caca",
+        "uuid": "b1339213-3cf4-44c0-a965-dad4a9fca831",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
