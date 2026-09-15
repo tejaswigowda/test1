@@ -1,7 +1,7 @@
 {
   "metadata": {},
   "project": {
-    "renderer": "WebGPURenderer",
+    "renderer": "WebGLRenderer",
     "shadows": true,
     "shadowType": 1,
     "toneMapping": 7,
@@ -14,26 +14,26 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "7f7f8db0-cb6e-41b1-a61f-92cc014a3f22",
+      "uuid": "bb17cb53-2769-45bf-a8d7-a38d73885462",
       "type": "PerspectiveCamera",
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        0.9919260659991396,
-        -1.7347234759768023e-18,
-        -0.12681750506718284,
+        0.9995699683965081,
+        5.4210108624275065e-20,
+        -0.02932368121157149,
         0,
-        -0.008281206226226596,
-        0.9978656653900214,
-        -0.06477295314520579,
+        -0.0009000440878829768,
+        0.999528845965626,
+        -0.030680221694868084,
         0,
-        0.1265468340769673,
-        0.06530018250902771,
-        0.9898089638659416,
+        0.029309865240866075,
+        0.03069342083584672,
+        0.9990990169732631,
         0,
-        1.5128995612024356,
-        2.179479932567263,
-        20.515204143954556,
+        -0.3988505342806785,
+        1.499085626523224,
+        20.697853398940154,
         1
       ],
       "up": [
@@ -46,7 +46,7 @@
       "near": 0.1,
       "far": 2000,
       "focus": 10,
-      "aspect": 0.8517915309446255,
+      "aspect": 0.9841269841269841,
       "filmGauge": 35,
       "filmOffset": 0
     }
@@ -300,11 +300,14 @@
         }
       },
       {
-        "uuid": "57e68e1b-48fb-4cd8-a118-2a6c8d064bd4",
+        "uuid": "230d8edc-b006-4abe-bc7a-25d321dbe4ad",
         "type": "TextGeometry",
-        "shapes": [],
+        "shapes": [
+          "434be210-e45d-4d99-b453-8ee31e09a25f",
+          "9cacaf60-fba6-4670-a8ab-b6de6a5bf8ef"
+        ],
         "options": {
-          "text": "",
+          "text": "3²",
           "font": {
             "isFont": true,
             "type": "Font",
@@ -2354,11 +2357,14 @@
         }
       },
       {
-        "uuid": "fda1d86e-6862-4a86-b54a-40f03c6a818c",
+        "uuid": "9c172711-8bce-44f2-a179-5ef67c46e3b9",
         "type": "TextGeometry",
-        "shapes": [],
+        "shapes": [
+          "d440b13b-a93a-4c7e-a630-46cdedb55064",
+          "91c62f2c-fe37-4ec1-9b60-38ced2153919"
+        ],
         "options": {
-          "text": "",
+          "text": "4²",
           "font": {
             "isFont": true,
             "type": "Font",
@@ -4423,7 +4429,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4441,7 +4446,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4459,7 +4463,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4477,7 +4480,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4495,7 +4497,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4513,7 +4515,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4531,7 +4533,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4549,7 +4551,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4567,7 +4569,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4585,7 +4587,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4603,7 +4605,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4621,7 +4623,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4639,7 +4641,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4657,7 +4659,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4675,7 +4677,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4693,7 +4695,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4711,7 +4713,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4729,7 +4730,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4747,7 +4747,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4765,7 +4764,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4783,7 +4781,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4801,7 +4798,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4819,7 +4815,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4837,7 +4832,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4855,7 +4849,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -5364,6 +5357,1552 @@
         "polygonOffsetUnits": -4
       }
     ],
+    "shapes": [
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.767,
+              0.29
+            ],
+            "v1": [
+              0.767,
+              0.14300000000000002
+            ],
+            "v2": [
+              0.653,
+              0.051000000000000004
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.653,
+              0.051000000000000004
+            ],
+            "v1": [
+              0.548,
+              -0.032
+            ],
+            "v2": [
+              0.402,
+              -0.032
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.402,
+              -0.032
+            ],
+            "v1": [
+              0.262,
+              -0.032
+            ],
+            "v2": [
+              0.168,
+              0.048
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.168,
+              0.048
+            ],
+            "v1": [
+              0.061,
+              0.14
+            ],
+            "v2": [
+              0.061,
+              0.3
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.061,
+              0.3
+            ],
+            "v2": [
+              0.25,
+              0.3
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.25,
+              0.3
+            ],
+            "v1": [
+              0.25,
+              0.219
+            ],
+            "v2": [
+              0.298,
+              0.17300000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.298,
+              0.17300000000000001
+            ],
+            "v1": [
+              0.343,
+              0.132
+            ],
+            "v2": [
+              0.405,
+              0.132
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.405,
+              0.132
+            ],
+            "v1": [
+              0.47100000000000003,
+              0.132
+            ],
+            "v2": [
+              0.514,
+              0.169
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.514,
+              0.169
+            ],
+            "v1": [
+              0.5630000000000001,
+              0.211
+            ],
+            "v2": [
+              0.5630000000000001,
+              0.28200000000000003
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.5630000000000001,
+              0.28200000000000003
+            ],
+            "v1": [
+              0.5630000000000001,
+              0.369
+            ],
+            "v2": [
+              0.491,
+              0.405
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.491,
+              0.405
+            ],
+            "v1": [
+              0.439,
+              0.432
+            ],
+            "v2": [
+              0.343,
+              0.432
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.343,
+              0.432
+            ],
+            "v2": [
+              0.343,
+              0.5680000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.343,
+              0.5680000000000001
+            ],
+            "v1": [
+              0.425,
+              0.5680000000000001
+            ],
+            "v2": [
+              0.47200000000000003,
+              0.592
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.47200000000000003,
+              0.592
+            ],
+            "v1": [
+              0.534,
+              0.626
+            ],
+            "v2": [
+              0.534,
+              0.7010000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.534,
+              0.7010000000000001
+            ],
+            "v1": [
+              0.534,
+              0.758
+            ],
+            "v2": [
+              0.493,
+              0.793
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.493,
+              0.793
+            ],
+            "v1": [
+              0.453,
+              0.8290000000000001
+            ],
+            "v2": [
+              0.398,
+              0.8290000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.398,
+              0.8290000000000001
+            ],
+            "v1": [
+              0.34400000000000003,
+              0.8290000000000001
+            ],
+            "v2": [
+              0.306,
+              0.789
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.306,
+              0.789
+            ],
+            "v1": [
+              0.268,
+              0.749
+            ],
+            "v2": [
+              0.268,
+              0.669
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.268,
+              0.669
+            ],
+            "v2": [
+              0.08,
+              0.669
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.08,
+              0.669
+            ],
+            "v1": [
+              0.08,
+              0.8230000000000001
+            ],
+            "v2": [
+              0.182,
+              0.909
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.182,
+              0.909
+            ],
+            "v1": [
+              0.274,
+              0.986
+            ],
+            "v2": [
+              0.41000000000000003,
+              0.986
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.41000000000000003,
+              0.986
+            ],
+            "v1": [
+              0.54,
+              0.986
+            ],
+            "v2": [
+              0.633,
+              0.916
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.633,
+              0.916
+            ],
+            "v1": [
+              0.735,
+              0.84
+            ],
+            "v2": [
+              0.735,
+              0.719
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.735,
+              0.719
+            ],
+            "v1": [
+              0.735,
+              0.656
+            ],
+            "v2": [
+              0.7030000000000001,
+              0.608
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.7030000000000001,
+              0.608
+            ],
+            "v1": [
+              0.672,
+              0.561
+            ],
+            "v2": [
+              0.615,
+              0.522
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.615,
+              0.522
+            ],
+            "v1": [
+              0.687,
+              0.486
+            ],
+            "v2": [
+              0.727,
+              0.427
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.727,
+              0.427
+            ],
+            "v1": [
+              0.767,
+              0.369
+            ],
+            "v2": [
+              0.767,
+              0.29
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "434be210-e45d-4d99-b453-8ee31e09a25f",
+        "holes": []
+      },
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2910000000000001,
+              0.791
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.706
+            ],
+            "v2": [
+              1.193,
+              0.627
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.193,
+              0.627
+            ],
+            "v1": [
+              1.086,
+              0.555
+            ],
+            "v2": [
+              0.9790000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9790000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.382
+            ],
+            "v2": [
+              0.8280000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8280000000000001,
+              0.382
+            ],
+            "v1": [
+              0.8280000000000001,
+              0.488
+            ],
+            "v2": [
+              0.912,
+              0.5650000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.912,
+              0.5650000000000001
+            ],
+            "v1": [
+              0.925,
+              0.5760000000000001
+            ],
+            "v2": [
+              1.072,
+              0.672
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.072,
+              0.672
+            ],
+            "v1": [
+              1.159,
+              0.727
+            ],
+            "v2": [
+              1.159,
+              0.784
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.159,
+              0.784
+            ],
+            "v1": [
+              1.159,
+              0.8240000000000001
+            ],
+            "v2": [
+              1.127,
+              0.85
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.127,
+              0.85
+            ],
+            "v1": [
+              1.096,
+              0.876
+            ],
+            "v2": [
+              1.056,
+              0.876
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.876
+            ],
+            "v1": [
+              1.0150000000000001,
+              0.876
+            ],
+            "v2": [
+              0.9870000000000001,
+              0.848
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.9870000000000001,
+              0.848
+            ],
+            "v1": [
+              0.9600000000000001,
+              0.8200000000000001
+            ],
+            "v2": [
+              0.9600000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9600000000000001,
+              0.762
+            ],
+            "v2": [
+              0.8380000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8380000000000001,
+              0.762
+            ],
+            "v1": [
+              0.8380000000000001,
+              0.866
+            ],
+            "v2": [
+              0.906,
+              0.924
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.906,
+              0.924
+            ],
+            "v1": [
+              0.9650000000000001,
+              0.976
+            ],
+            "v2": [
+              1.056,
+              0.976
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.976
+            ],
+            "v1": [
+              1.1500000000000001,
+              0.976
+            ],
+            "v2": [
+              1.2200000000000002,
+              0.925
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2200000000000002,
+              0.925
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.874
+            ],
+            "v2": [
+              1.2910000000000001,
+              0.791
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "9cacaf60-fba6-4670-a8ab-b6de6a5bf8ef",
+        "holes": []
+      },
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.775,
+              0.213
+            ],
+            "v2": [
+              0.66,
+              0.213
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0.213
+            ],
+            "v2": [
+              0.66,
+              0
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0
+            ],
+            "v2": [
+              0.47000000000000003,
+              0
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.47000000000000003,
+              0
+            ],
+            "v2": [
+              0.47000000000000003,
+              0.213
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.47000000000000003,
+              0.213
+            ],
+            "v2": [
+              0.053,
+              0.213
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.053,
+              0.213
+            ],
+            "v2": [
+              0.053,
+              0.384
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.053,
+              0.384
+            ],
+            "v2": [
+              0.41600000000000004,
+              0.9580000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.41600000000000004,
+              0.9580000000000001
+            ],
+            "v2": [
+              0.66,
+              0.9580000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0.9580000000000001
+            ],
+            "v2": [
+              0.66,
+              0.37
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0.37
+            ],
+            "v2": [
+              0.775,
+              0.37
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.775,
+              0.37
+            ],
+            "v2": [
+              0.775,
+              0.213
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "d440b13b-a93a-4c7e-a630-46cdedb55064",
+        "holes": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "Path",
+            "autoClose": false,
+            "curves": [
+              {
+                "metadata": {
+                  "version": 4.7,
+                  "type": "Curve",
+                  "generator": "Curve.toJSON"
+                },
+                "arcLengthDivisions": 200,
+                "type": "LineCurve",
+                "v1": [
+                  0.47400000000000003,
+                  0.364
+                ],
+                "v2": [
+                  0.47400000000000003,
+                  0.786
+                ]
+              },
+              {
+                "metadata": {
+                  "version": 4.7,
+                  "type": "Curve",
+                  "generator": "Curve.toJSON"
+                },
+                "arcLengthDivisions": 200,
+                "type": "LineCurve",
+                "v1": [
+                  0.47400000000000003,
+                  0.786
+                ],
+                "v2": [
+                  0.20400000000000001,
+                  0.363
+                ]
+              },
+              {
+                "metadata": {
+                  "version": 4.7,
+                  "type": "Curve",
+                  "generator": "Curve.toJSON"
+                },
+                "arcLengthDivisions": 200,
+                "type": "LineCurve",
+                "v1": [
+                  0.20400000000000001,
+                  0.363
+                ],
+                "v2": [
+                  0.47400000000000003,
+                  0.364
+                ]
+              }
+            ],
+            "currentPoint": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2910000000000001,
+              0.791
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.706
+            ],
+            "v2": [
+              1.193,
+              0.627
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.193,
+              0.627
+            ],
+            "v1": [
+              1.086,
+              0.555
+            ],
+            "v2": [
+              0.9790000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9790000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.382
+            ],
+            "v2": [
+              0.8280000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8280000000000001,
+              0.382
+            ],
+            "v1": [
+              0.8280000000000001,
+              0.488
+            ],
+            "v2": [
+              0.912,
+              0.5650000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.912,
+              0.5650000000000001
+            ],
+            "v1": [
+              0.925,
+              0.5760000000000001
+            ],
+            "v2": [
+              1.072,
+              0.672
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.072,
+              0.672
+            ],
+            "v1": [
+              1.159,
+              0.727
+            ],
+            "v2": [
+              1.159,
+              0.784
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.159,
+              0.784
+            ],
+            "v1": [
+              1.159,
+              0.8240000000000001
+            ],
+            "v2": [
+              1.127,
+              0.85
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.127,
+              0.85
+            ],
+            "v1": [
+              1.096,
+              0.876
+            ],
+            "v2": [
+              1.056,
+              0.876
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.876
+            ],
+            "v1": [
+              1.0150000000000001,
+              0.876
+            ],
+            "v2": [
+              0.9870000000000001,
+              0.848
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.9870000000000001,
+              0.848
+            ],
+            "v1": [
+              0.9600000000000001,
+              0.8200000000000001
+            ],
+            "v2": [
+              0.9600000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9600000000000001,
+              0.762
+            ],
+            "v2": [
+              0.8380000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8380000000000001,
+              0.762
+            ],
+            "v1": [
+              0.8380000000000001,
+              0.866
+            ],
+            "v2": [
+              0.906,
+              0.924
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.906,
+              0.924
+            ],
+            "v1": [
+              0.9650000000000001,
+              0.976
+            ],
+            "v2": [
+              1.056,
+              0.976
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.976
+            ],
+            "v1": [
+              1.1500000000000001,
+              0.976
+            ],
+            "v2": [
+              1.2200000000000002,
+              0.925
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2200000000000002,
+              0.925
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.874
+            ],
+            "v2": [
+              1.2910000000000001,
+              0.791
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "91c62f2c-fe37-4ec1-9b60-38ced2153919",
+        "holes": []
+      }
+    ],
     "animations": [
       {
         "name": "Timeline",
@@ -5469,21 +7008,13 @@
             "name": "0cf7ae65-145e-469f-8c18-e5c0b0505419.position",
             "times": [
               0,
-              0.4000000059604645,
-              8,
-              8.399999618530273
+              0.4000000059604645
             ],
             "values": [
               9.001490592956543,
               -1.002748966217041,
               0,
-              8.801490783691406,
-              -1.002748966217041,
-              0,
-              8.801490783691406,
-              -1.002748966217041,
-              0,
-              8.781490325927734,
+              8.901490211486816,
               -1.002748966217041,
               0
             ],
@@ -5493,21 +7024,13 @@
             "name": "a8162942-b986-48f8-8e0d-3e12822c55b7.position",
             "times": [
               0,
-              0.4000000059604645,
-              8,
-              8.399999618530273
+              0.4000000059604645
             ],
             "values": [
               9.001490592956543,
               -2.002748966217041,
               0,
-              8.801490783691406,
-              -2.002748966217041,
-              0,
-              8.801490783691406,
-              -2.002748966217041,
-              0,
-              8.781490325927734,
+              8.901490211486816,
               -2.002748966217041,
               0
             ],
@@ -5517,21 +7040,13 @@
             "name": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc.position",
             "times": [
               0,
-              0.4000000059604645,
-              8,
-              8.399999618530273
+              0.4000000059604645
             ],
             "values": [
               9.001490592956543,
               -3,
               0,
-              8.801490783691406,
-              -3,
-              0,
-              8.801490783691406,
-              -3,
-              0,
-              8.781490325927734,
+              8.901490211486816,
               -3,
               0
             ],
@@ -5673,22 +7188,14 @@
             "name": "b10ba50b-03e6-42ba-8b5d-30d86cf8ac1b.position",
             "times": [
               0,
-              0.4000000059604645,
-              12,
-              12.399999618530273
+              0.4000000059604645
             ],
             "values": [
               -4,
               4.154175281524658,
               0,
               -4,
-              4.05417537689209,
-              0,
-              -4,
-              4.05417537689209,
-              0,
-              -4,
-              3.854175329208374,
+              3.9541752338409424,
               0
             ],
             "type": "vector"
@@ -5697,22 +7204,14 @@
             "name": "c7e5e4f7-b255-4633-9a3a-4210bf312703.position",
             "times": [
               0,
-              0.4000000059604645,
-              12,
-              12.399999618530273
+              0.4000000059604645
             ],
             "values": [
               -3,
               4.154175281524658,
               0,
               -3,
-              4.05417537689209,
-              0,
-              -3,
-              4.05417537689209,
-              0,
-              -3,
-              3.854175329208374,
+              3.9541752338409424,
               0
             ],
             "type": "vector"
@@ -5721,22 +7220,14 @@
             "name": "64caed59-850b-4fe4-a938-18e1ae48f7b7.position",
             "times": [
               0,
-              0.4000000059604645,
-              12,
-              12.399999618530273
+              0.4000000059604645
             ],
             "values": [
               -2,
               4.154175281524658,
               0,
               -2,
-              4.05417537689209,
-              0,
-              -2,
-              4.05417537689209,
-              0,
-              -2,
-              3.854175329208374,
+              3.9541752338409424,
               0
             ],
             "type": "vector"
@@ -5745,22 +7236,14 @@
             "name": "f81190c1-7655-41a1-99c7-a1dcee7293f7.position",
             "times": [
               0,
-              0.4000000059604645,
-              12,
-              12.399999618530273
+              0.4000000059604645
             ],
             "values": [
               -1.0000094175338745,
               4.154175281524658,
               0,
               -1.0000094175338745,
-              4.05417537689209,
-              0,
-              -1.0000094175338745,
-              4.05417537689209,
-              0,
-              -1.0000094175338745,
-              3.854175329208374,
+              3.9541752338409424,
               0
             ],
             "type": "vector"
@@ -6402,7 +7885,7 @@
             "type": "number"
           }
         ],
-        "uuid": "b10128f3-fc16-47af-9118-56f478c9817f",
+        "uuid": "6781cdf9-727a-4ab4-9fbe-ccde1a318e6e",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
@@ -6428,7 +7911,7 @@
               "target": "#three",
               "events": [
                 {
-                  "id": "evmu35irdf_3v",
+                  "id": "evmu363rfr_4t",
                   "at": 0,
                   "op": "change",
                   "args": {
@@ -6437,7 +7920,7 @@
                   "dur": 0
                 },
                 {
-                  "id": "evmu35irdf_3w",
+                  "id": "evmu363rfr_4u",
                   "at": 0,
                   "op": "animate",
                   "args": {
@@ -6448,7 +7931,7 @@
                   "dur": 1
                 },
                 {
-                  "id": "evmu35irdf_3x",
+                  "id": "evmu363rfr_4v",
                   "at": 3,
                   "op": "change",
                   "args": {
@@ -6457,7 +7940,7 @@
                   "dur": 0
                 },
                 {
-                  "id": "evmu35irdf_3y",
+                  "id": "evmu363rfr_4w",
                   "at": 7,
                   "op": "animate",
                   "args": {
@@ -6468,7 +7951,7 @@
                   "dur": 1
                 },
                 {
-                  "id": "evmu35irdf_3z",
+                  "id": "evmu363rfr_4x",
                   "at": 10,
                   "op": "change",
                   "args": {
@@ -6482,7 +7965,7 @@
               "target": "#four",
               "events": [
                 {
-                  "id": "evmu35irdf_40",
+                  "id": "evmu363rfr_4y",
                   "at": 0,
                   "op": "change",
                   "args": {
@@ -6491,7 +7974,7 @@
                   "dur": 0
                 },
                 {
-                  "id": "evmu35irdf_41",
+                  "id": "evmu363rfr_4z",
                   "at": 6,
                   "op": "change",
                   "args": {
@@ -6500,7 +7983,7 @@
                   "dur": 0
                 },
                 {
-                  "id": "evmu35irdf_42",
+                  "id": "evmu363rfr_50",
                   "at": 12,
                   "op": "change",
                   "args": {
@@ -6514,7 +7997,7 @@
               "target": "#3x3-square #3col1 .cube",
               "events": [
                 {
-                  "id": "evmu35irdf_43",
+                  "id": "evmu363rfr_51",
                   "at": 0,
                   "op": "animate",
                   "args": {
@@ -6526,36 +8009,25 @@
                   "dur": 0.4
                 },
                 {
-                  "id": "evmu35irdf_44",
+                  "id": "evmu363rfr_52",
                   "at": 0,
                   "op": "animate",
                   "args": {
                     "props": {
-                      "translateX": -0.2
+                      "translateX": -0.1
                     }
                   },
                   "dur": 0.4
                 },
                 {
-                  "id": "evmu35irdf_45",
+                  "id": "evmu363rfr_53",
                   "at": 1,
                   "op": "fadeIn",
                   "args": {},
                   "dur": 0.001
                 },
                 {
-                  "id": "evmu35irdf_46",
-                  "at": 8,
-                  "op": "animate",
-                  "args": {
-                    "props": {
-                      "translateX": -0.02
-                    }
-                  },
-                  "dur": 0.4
-                },
-                {
-                  "id": "evmu35irdf_47",
+                  "id": "evmu363rfr_54",
                   "at": 8,
                   "op": "animate",
                   "args": {
@@ -6574,14 +8046,14 @@
               "target": "#3x3-square #3col2 .cube, #3x3-square #3col3 .cube",
               "events": [
                 {
-                  "id": "evmu35irdf_48",
+                  "id": "evmu363rfr_55",
                   "at": 0,
                   "op": "fadeOut",
                   "args": {},
                   "dur": 0.001
                 },
                 {
-                  "id": "evmu35irdf_49",
+                  "id": "evmu363rfr_56",
                   "at": 10,
                   "op": "fadeIn",
                   "args": {},
@@ -6593,18 +8065,18 @@
               "target": "#4x4-square #4row1 .cube",
               "events": [
                 {
-                  "id": "evmu35irdf_4a",
+                  "id": "evmu363rfr_57",
                   "at": 0,
                   "op": "animate",
                   "args": {
                     "props": {
-                      "translateY": -0.1
+                      "translateY": -0.2
                     }
                   },
                   "dur": 0.4
                 },
                 {
-                  "id": "evmu35irdf_4b",
+                  "id": "evmu363rfr_58",
                   "at": 0.7,
                   "op": "animate",
                   "args": {
@@ -6616,14 +8088,14 @@
                   "dur": 0.4
                 },
                 {
-                  "id": "evmu35irdf_4c",
+                  "id": "evmu363rfr_59",
                   "at": 2,
                   "op": "fadeIn",
                   "args": {},
                   "dur": 2
                 },
                 {
-                  "id": "evmu35irdf_4d",
+                  "id": "evmu363rfr_5a",
                   "at": 12,
                   "op": "animate",
                   "args": {
@@ -6635,17 +8107,6 @@
                     }
                   },
                   "dur": 0.4
-                },
-                {
-                  "id": "evmu35irdf_4e",
-                  "at": 12,
-                  "op": "animate",
-                  "args": {
-                    "props": {
-                      "translateY": -0.2
-                    }
-                  },
-                  "dur": 0.4
                 }
               ]
             },
@@ -6653,14 +8114,14 @@
               "target": "#4x4-square #4row2 .cube, #4x4-square #4row3 .cube, #4x4-square #4row4 .cube",
               "events": [
                 {
-                  "id": "evmu35irdf_4f",
+                  "id": "evmu363rfr_5b",
                   "at": 0,
                   "op": "fadeOut",
                   "args": {},
                   "dur": 0.001
                 },
                 {
-                  "id": "evmu35irdf_4g",
+                  "id": "evmu363rfr_5c",
                   "at": 12,
                   "op": "fadeIn",
                   "args": {},
@@ -6672,7 +8133,7 @@
               "target": "#5x5-square, #5x5-square *, #5x5-square .cube",
               "events": [
                 {
-                  "id": "evmu35irdf_4h",
+                  "id": "evmu363rfr_5d",
                   "at": 0,
                   "op": "fadeOut",
                   "args": {},
@@ -6770,7 +8231,7 @@
             0,
             10.262291753196822,
             0,
-            5.033418570509672,
+            4.988727820596437,
             -5,
             0.015508019719313074,
             1
@@ -6925,7 +8386,7 @@
                     1,
                     0,
                     -4,
-                    4.154175281524658,
+                    3.9541752338409424,
                     0,
                     1
                   ],
@@ -7005,7 +8466,7 @@
                     1,
                     0,
                     -3,
-                    4.154175281524658,
+                    3.9541752338409424,
                     0,
                     1
                   ],
@@ -7085,7 +8546,7 @@
                     1,
                     0,
                     -2,
-                    4.154175281524658,
+                    3.9541752338409424,
                     0,
                     1
                   ],
@@ -7165,7 +8626,7 @@
                     1,
                     0,
                     -1.0000094175338745,
-                    4.154175281524658,
+                    3.9541752338409424,
                     0,
                     1
                   ],
@@ -8589,7 +10050,7 @@
                     0,
                     1,
                     0,
-                    9.001490592956543,
+                    8.901490211486816,
                     -1.002748966217041,
                     0,
                     1
@@ -8669,7 +10130,7 @@
                     0,
                     1,
                     0,
-                    9.001490592956543,
+                    8.901490211486816,
                     -2.002748966217041,
                     0,
                     1
@@ -8749,7 +10210,7 @@
                     0,
                     1,
                     0,
-                    9.001490592956543,
+                    8.901490211486816,
                     -3,
                     0,
                     1
@@ -11904,7 +13365,7 @@
             1.2564464262566772e-16,
             -1.0259663660832365,
             0,
-            0.55,
+            0.5053092500867653,
             -0.4740079130636253,
             0.5214375191069389,
             1
@@ -11950,7 +13411,7 @@
           "near": 0.1,
           "far": 2000,
           "focus": 10,
-          "aspect": 0.8517915309446255,
+          "aspect": 0.9841269841269841,
           "filmGauge": 35,
           "filmOffset": 0
         },
@@ -12081,8 +13542,8 @@
                 0,
                 0.5763463931261614,
                 0,
-                -5.245561599731445,
-                1.8492515087127686,
+                -4.245561599731445,
+                2.8492515087127686,
                 1.2396490573883057,
                 1
               ],
@@ -12091,7 +13552,7 @@
                 1,
                 0
               ],
-              "geometry": "57e68e1b-48fb-4cd8-a118-2a6c8d064bd4",
+              "geometry": "230d8edc-b006-4abe-bc7a-25d321dbe4ad",
               "material": "5df7ee47-917c-45f1-9f23-ee5723ebd5ad"
             },
             {
@@ -12162,14 +13623,14 @@
                 1,
                 0
               ],
-              "geometry": "fda1d86e-6862-4a86-b54a-40f03c6a818c",
+              "geometry": "9c172711-8bce-44f2-a179-5ef67c46e3b9",
               "material": "da9a3ffd-762b-42c5-8439-746fe2653edc"
             }
           ]
         }
       ],
       "animations": [
-        "b10128f3-fc16-47af-9118-56f478c9817f"
+        "6781cdf9-727a-4ab4-9fbe-ccde1a318e6e"
       ],
       "backgroundRotation": [
         0,
@@ -12292,21 +13753,13 @@
             "name": "0cf7ae65-145e-469f-8c18-e5c0b0505419.position",
             "times": [
               0,
-              0.4000000059604645,
-              8,
-              8.399999618530273
+              0.4000000059604645
             ],
             "values": [
               9.001490592956543,
               -1.002748966217041,
               0,
-              8.801490783691406,
-              -1.002748966217041,
-              0,
-              8.801490783691406,
-              -1.002748966217041,
-              0,
-              8.781490325927734,
+              8.901490211486816,
               -1.002748966217041,
               0
             ],
@@ -12316,21 +13769,13 @@
             "name": "a8162942-b986-48f8-8e0d-3e12822c55b7.position",
             "times": [
               0,
-              0.4000000059604645,
-              8,
-              8.399999618530273
+              0.4000000059604645
             ],
             "values": [
               9.001490592956543,
               -2.002748966217041,
               0,
-              8.801490783691406,
-              -2.002748966217041,
-              0,
-              8.801490783691406,
-              -2.002748966217041,
-              0,
-              8.781490325927734,
+              8.901490211486816,
               -2.002748966217041,
               0
             ],
@@ -12340,21 +13785,13 @@
             "name": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc.position",
             "times": [
               0,
-              0.4000000059604645,
-              8,
-              8.399999618530273
+              0.4000000059604645
             ],
             "values": [
               9.001490592956543,
               -3,
               0,
-              8.801490783691406,
-              -3,
-              0,
-              8.801490783691406,
-              -3,
-              0,
-              8.781490325927734,
+              8.901490211486816,
               -3,
               0
             ],
@@ -12496,22 +13933,14 @@
             "name": "b10ba50b-03e6-42ba-8b5d-30d86cf8ac1b.position",
             "times": [
               0,
-              0.4000000059604645,
-              12,
-              12.399999618530273
+              0.4000000059604645
             ],
             "values": [
               -4,
               4.154175281524658,
               0,
               -4,
-              4.05417537689209,
-              0,
-              -4,
-              4.05417537689209,
-              0,
-              -4,
-              3.854175329208374,
+              3.9541752338409424,
               0
             ],
             "type": "vector"
@@ -12520,22 +13949,14 @@
             "name": "c7e5e4f7-b255-4633-9a3a-4210bf312703.position",
             "times": [
               0,
-              0.4000000059604645,
-              12,
-              12.399999618530273
+              0.4000000059604645
             ],
             "values": [
               -3,
               4.154175281524658,
               0,
               -3,
-              4.05417537689209,
-              0,
-              -3,
-              4.05417537689209,
-              0,
-              -3,
-              3.854175329208374,
+              3.9541752338409424,
               0
             ],
             "type": "vector"
@@ -12544,22 +13965,14 @@
             "name": "64caed59-850b-4fe4-a938-18e1ae48f7b7.position",
             "times": [
               0,
-              0.4000000059604645,
-              12,
-              12.399999618530273
+              0.4000000059604645
             ],
             "values": [
               -2,
               4.154175281524658,
               0,
               -2,
-              4.05417537689209,
-              0,
-              -2,
-              4.05417537689209,
-              0,
-              -2,
-              3.854175329208374,
+              3.9541752338409424,
               0
             ],
             "type": "vector"
@@ -12568,22 +13981,14 @@
             "name": "f81190c1-7655-41a1-99c7-a1dcee7293f7.position",
             "times": [
               0,
-              0.4000000059604645,
-              12,
-              12.399999618530273
+              0.4000000059604645
             ],
             "values": [
               -1.0000094175338745,
               4.154175281524658,
               0,
               -1.0000094175338745,
-              4.05417537689209,
-              0,
-              -1.0000094175338745,
-              4.05417537689209,
-              0,
-              -1.0000094175338745,
-              3.854175329208374,
+              3.9541752338409424,
               0
             ],
             "type": "vector"
@@ -13225,7 +14630,7 @@
             "type": "number"
           }
         ],
-        "uuid": "b10128f3-fc16-47af-9118-56f478c9817f",
+        "uuid": "6781cdf9-727a-4ab4-9fbe-ccde1a318e6e",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
