@@ -14,26 +14,26 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "d6c7009d-6e2c-4492-b2db-73dd8e9ecc90",
+      "uuid": "45086d67-3d7a-4b8c-a741-f1f9abfff74e",
       "type": "PerspectiveCamera",
       "name": "Camera",
       "layers": 1,
       "matrix": [
-        0.9698718661826289,
-        1.7347234759768057e-18,
-        0.2436156053856634,
+        0.9939923054598893,
+        4.3368086899420144e-19,
+        -0.10944997344235695,
         0,
-        0.00894325054643076,
-        0.9993259424384265,
-        -0.03560448060572421,
+        -0.00596975531619029,
+        0.9985114099602076,
+        -0.05421555312570787,
         0,
-        -0.24345139444473596,
-        0.036710499445521357,
-        0.9692181167174714,
+        0.10928704730203531,
+        0.05454323220401997,
+        0.9925126584143532,
         0,
-        -2.93400115053457,
-        2.1622328848798062,
-        22.350106376497358,
+        0.8210003792120233,
+        1.7920343825330913,
+        17.366523047729412,
         1
       ],
       "up": [
@@ -46,16 +46,16 @@
       "near": 0.1,
       "far": 2000,
       "focus": 10,
-      "aspect": 1.0598290598290598,
+      "aspect": 0.9841269841269841,
       "filmGauge": 35,
       "filmOffset": 0
     }
   },
   "controls": {
     "center": [
-      2.420937454208958,
-      1.354751493661639,
-      1.0312574068096045
+      -0.9751039731067119,
+      0.895630470361999,
+      1.0548342472922243
     ]
   },
   "scene": {
@@ -300,13 +300,14 @@
         }
       },
       {
-        "uuid": "96fcba54-b003-4f55-939f-85755a87c437",
+        "uuid": "6eb33bd4-a230-4ddc-8fc1-cfc035120492",
         "type": "TextGeometry",
         "shapes": [
-          "5e9ffc24-bee1-47f4-8299-b11e95e9460a"
+          "e75104c0-24f1-46e9-93f9-b45dfda1d4dc",
+          "ee91e550-f323-4173-b566-b208bf3ff397"
         ],
         "options": {
-          "text": "3",
+          "text": "3²",
           "font": {
             "isFont": true,
             "type": "Font",
@@ -738,7 +739,90 @@
                   "x_min": 0,
                   "x_max": 463,
                   "ha": 560,
-                  "o": "m 463 791 q 365 627 463 706 q 151 483 258 555 l 455 483 l 455 382 l 0 382 q 84 565 0 488 q 244 672 97 576 q 331 784 331 727 q 299 850 331 824 q 228 876 268 876 q 159 848 187 876 q 132 762 132 820 l 10 762 q 78 924 10 866 q 228 976 137 976 q 392 925 322 976 q 463 791 463 874 "
+                  "o": "m 463 791 q 365 627 463 706 q 151 483 258 555 l 455 483 l 455 382 l 0 382 q 84 565 0 488 q 244 672 97 576 q 331 784 331 727 q 299 850 331 824 q 228 876 268 876 q 159 848 187 876 q 132 762 132 820 l 10 762 q 78 924 10 866 q 228 976 137 976 q 392 925 322 976 q 463 791 463 874 ",
+                  "_cachedOutline": [
+                    "m",
+                    "463",
+                    "791",
+                    "q",
+                    "365",
+                    "627",
+                    "463",
+                    "706",
+                    "q",
+                    "151",
+                    "483",
+                    "258",
+                    "555",
+                    "l",
+                    "455",
+                    "483",
+                    "l",
+                    "455",
+                    "382",
+                    "l",
+                    "0",
+                    "382",
+                    "q",
+                    "84",
+                    "565",
+                    "0",
+                    "488",
+                    "q",
+                    "244",
+                    "672",
+                    "97",
+                    "576",
+                    "q",
+                    "331",
+                    "784",
+                    "331",
+                    "727",
+                    "q",
+                    "299",
+                    "850",
+                    "331",
+                    "824",
+                    "q",
+                    "228",
+                    "876",
+                    "268",
+                    "876",
+                    "q",
+                    "159",
+                    "848",
+                    "187",
+                    "876",
+                    "q",
+                    "132",
+                    "762",
+                    "132",
+                    "820",
+                    "l",
+                    "10",
+                    "762",
+                    "q",
+                    "78",
+                    "924",
+                    "10",
+                    "866",
+                    "q",
+                    "228",
+                    "976",
+                    "137",
+                    "976",
+                    "q",
+                    "392",
+                    "925",
+                    "322",
+                    "976",
+                    "q",
+                    "463",
+                    "791",
+                    "463",
+                    "874",
+                    ""
+                  ]
                 },
                 "–": {
                   "x_min": 0,
@@ -2273,11 +2357,14 @@
         }
       },
       {
-        "uuid": "d8aa1977-30b0-4856-9503-7a6b59f5c71d",
+        "uuid": "ccec39a0-1991-485c-9cda-8426e0c2ec46",
         "type": "TextGeometry",
-        "shapes": [],
+        "shapes": [
+          "17cb2625-4216-49af-8d32-7f1ece60e088",
+          "7669ab31-c25f-463e-83d8-10cda635362f"
+        ],
         "options": {
-          "text": "",
+          "text": "4²",
           "font": {
             "isFont": true,
             "type": "Font",
@@ -2709,7 +2796,90 @@
                   "x_min": 0,
                   "x_max": 463,
                   "ha": 560,
-                  "o": "m 463 791 q 365 627 463 706 q 151 483 258 555 l 455 483 l 455 382 l 0 382 q 84 565 0 488 q 244 672 97 576 q 331 784 331 727 q 299 850 331 824 q 228 876 268 876 q 159 848 187 876 q 132 762 132 820 l 10 762 q 78 924 10 866 q 228 976 137 976 q 392 925 322 976 q 463 791 463 874 "
+                  "o": "m 463 791 q 365 627 463 706 q 151 483 258 555 l 455 483 l 455 382 l 0 382 q 84 565 0 488 q 244 672 97 576 q 331 784 331 727 q 299 850 331 824 q 228 876 268 876 q 159 848 187 876 q 132 762 132 820 l 10 762 q 78 924 10 866 q 228 976 137 976 q 392 925 322 976 q 463 791 463 874 ",
+                  "_cachedOutline": [
+                    "m",
+                    "463",
+                    "791",
+                    "q",
+                    "365",
+                    "627",
+                    "463",
+                    "706",
+                    "q",
+                    "151",
+                    "483",
+                    "258",
+                    "555",
+                    "l",
+                    "455",
+                    "483",
+                    "l",
+                    "455",
+                    "382",
+                    "l",
+                    "0",
+                    "382",
+                    "q",
+                    "84",
+                    "565",
+                    "0",
+                    "488",
+                    "q",
+                    "244",
+                    "672",
+                    "97",
+                    "576",
+                    "q",
+                    "331",
+                    "784",
+                    "331",
+                    "727",
+                    "q",
+                    "299",
+                    "850",
+                    "331",
+                    "824",
+                    "q",
+                    "228",
+                    "876",
+                    "268",
+                    "876",
+                    "q",
+                    "159",
+                    "848",
+                    "187",
+                    "876",
+                    "q",
+                    "132",
+                    "762",
+                    "132",
+                    "820",
+                    "l",
+                    "10",
+                    "762",
+                    "q",
+                    "78",
+                    "924",
+                    "10",
+                    "866",
+                    "q",
+                    "228",
+                    "976",
+                    "137",
+                    "976",
+                    "q",
+                    "392",
+                    "925",
+                    "322",
+                    "976",
+                    "q",
+                    "463",
+                    "791",
+                    "463",
+                    "874",
+                    ""
+                  ]
                 },
                 "–": {
                   "x_min": 0,
@@ -4259,7 +4429,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8009375000000001,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4277,7 +4447,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8009375000000001,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4295,7 +4465,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8009375000000001,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4313,7 +4483,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.8009375000000001,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4331,7 +4501,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4349,7 +4519,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4367,7 +4537,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4385,7 +4555,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4403,7 +4573,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4421,7 +4591,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4439,7 +4609,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4457,7 +4627,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
+        "opacity": 0.9999997019040876,
         "transparent": true,
         "blendColor": 0
       },
@@ -4475,7 +4645,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.5835429651240935,
         "transparent": true,
         "blendColor": 0
       },
@@ -4493,7 +4662,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.5835429651240935,
         "transparent": true,
         "blendColor": 0
       },
@@ -4511,7 +4679,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0.5835429651240935,
         "transparent": true,
         "blendColor": 0
       },
@@ -4529,7 +4696,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4547,7 +4713,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4565,7 +4730,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4583,7 +4747,6 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4601,6 +4764,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4618,6 +4782,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4635,6 +4800,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4652,6 +4818,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4669,6 +4836,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4686,6 +4854,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4703,6 +4872,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4720,6 +4890,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4737,6 +4908,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4754,6 +4926,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4771,6 +4944,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4788,6 +4962,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4805,6 +4980,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4822,6 +4998,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4839,6 +5016,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4856,6 +5034,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4873,6 +5052,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4890,6 +5070,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4907,6 +5088,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4924,6 +5106,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4941,6 +5124,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4958,6 +5142,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4975,6 +5160,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -4992,6 +5178,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -5009,6 +5196,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "opacity": 0,
         "transparent": true,
         "blendColor": 0
       },
@@ -5042,7 +5230,10 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "blendColor": 0
+        "blendColor": 0,
+        "polygonOffset": true,
+        "polygonOffsetFactor": -4,
+        "polygonOffsetUnits": -4
       }
     ],
     "shapes": [
@@ -5611,7 +5802,983 @@
           0,
           0
         ],
-        "uuid": "5e9ffc24-bee1-47f4-8299-b11e95e9460a",
+        "uuid": "e75104c0-24f1-46e9-93f9-b45dfda1d4dc",
+        "holes": []
+      },
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2910000000000001,
+              0.791
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.706
+            ],
+            "v2": [
+              1.193,
+              0.627
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.193,
+              0.627
+            ],
+            "v1": [
+              1.086,
+              0.555
+            ],
+            "v2": [
+              0.9790000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9790000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.382
+            ],
+            "v2": [
+              0.8280000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8280000000000001,
+              0.382
+            ],
+            "v1": [
+              0.8280000000000001,
+              0.488
+            ],
+            "v2": [
+              0.912,
+              0.5650000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.912,
+              0.5650000000000001
+            ],
+            "v1": [
+              0.925,
+              0.5760000000000001
+            ],
+            "v2": [
+              1.072,
+              0.672
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.072,
+              0.672
+            ],
+            "v1": [
+              1.159,
+              0.727
+            ],
+            "v2": [
+              1.159,
+              0.784
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.159,
+              0.784
+            ],
+            "v1": [
+              1.159,
+              0.8240000000000001
+            ],
+            "v2": [
+              1.127,
+              0.85
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.127,
+              0.85
+            ],
+            "v1": [
+              1.096,
+              0.876
+            ],
+            "v2": [
+              1.056,
+              0.876
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.876
+            ],
+            "v1": [
+              1.0150000000000001,
+              0.876
+            ],
+            "v2": [
+              0.9870000000000001,
+              0.848
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.9870000000000001,
+              0.848
+            ],
+            "v1": [
+              0.9600000000000001,
+              0.8200000000000001
+            ],
+            "v2": [
+              0.9600000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9600000000000001,
+              0.762
+            ],
+            "v2": [
+              0.8380000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8380000000000001,
+              0.762
+            ],
+            "v1": [
+              0.8380000000000001,
+              0.866
+            ],
+            "v2": [
+              0.906,
+              0.924
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.906,
+              0.924
+            ],
+            "v1": [
+              0.9650000000000001,
+              0.976
+            ],
+            "v2": [
+              1.056,
+              0.976
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.976
+            ],
+            "v1": [
+              1.1500000000000001,
+              0.976
+            ],
+            "v2": [
+              1.2200000000000002,
+              0.925
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2200000000000002,
+              0.925
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.874
+            ],
+            "v2": [
+              1.2910000000000001,
+              0.791
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "ee91e550-f323-4173-b566-b208bf3ff397",
+        "holes": []
+      },
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.775,
+              0.213
+            ],
+            "v2": [
+              0.66,
+              0.213
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0.213
+            ],
+            "v2": [
+              0.66,
+              0
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0
+            ],
+            "v2": [
+              0.47000000000000003,
+              0
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.47000000000000003,
+              0
+            ],
+            "v2": [
+              0.47000000000000003,
+              0.213
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.47000000000000003,
+              0.213
+            ],
+            "v2": [
+              0.053,
+              0.213
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.053,
+              0.213
+            ],
+            "v2": [
+              0.053,
+              0.384
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.053,
+              0.384
+            ],
+            "v2": [
+              0.41600000000000004,
+              0.9580000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.41600000000000004,
+              0.9580000000000001
+            ],
+            "v2": [
+              0.66,
+              0.9580000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0.9580000000000001
+            ],
+            "v2": [
+              0.66,
+              0.37
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.66,
+              0.37
+            ],
+            "v2": [
+              0.775,
+              0.37
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.775,
+              0.37
+            ],
+            "v2": [
+              0.775,
+              0.213
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "17cb2625-4216-49af-8d32-7f1ece60e088",
+        "holes": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "Path",
+            "autoClose": false,
+            "curves": [
+              {
+                "metadata": {
+                  "version": 4.7,
+                  "type": "Curve",
+                  "generator": "Curve.toJSON"
+                },
+                "arcLengthDivisions": 200,
+                "type": "LineCurve",
+                "v1": [
+                  0.47400000000000003,
+                  0.364
+                ],
+                "v2": [
+                  0.47400000000000003,
+                  0.786
+                ]
+              },
+              {
+                "metadata": {
+                  "version": 4.7,
+                  "type": "Curve",
+                  "generator": "Curve.toJSON"
+                },
+                "arcLengthDivisions": 200,
+                "type": "LineCurve",
+                "v1": [
+                  0.47400000000000003,
+                  0.786
+                ],
+                "v2": [
+                  0.20400000000000001,
+                  0.363
+                ]
+              },
+              {
+                "metadata": {
+                  "version": 4.7,
+                  "type": "Curve",
+                  "generator": "Curve.toJSON"
+                },
+                "arcLengthDivisions": 200,
+                "type": "LineCurve",
+                "v1": [
+                  0.20400000000000001,
+                  0.363
+                ],
+                "v2": [
+                  0.47400000000000003,
+                  0.364
+                ]
+              }
+            ],
+            "currentPoint": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "arcLengthDivisions": 200,
+        "type": "Shape",
+        "autoClose": false,
+        "curves": [
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2910000000000001,
+              0.791
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.706
+            ],
+            "v2": [
+              1.193,
+              0.627
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.193,
+              0.627
+            ],
+            "v1": [
+              1.086,
+              0.555
+            ],
+            "v2": [
+              0.9790000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9790000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.483
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.483
+            ],
+            "v2": [
+              1.2830000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              1.2830000000000001,
+              0.382
+            ],
+            "v2": [
+              0.8280000000000001,
+              0.382
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8280000000000001,
+              0.382
+            ],
+            "v1": [
+              0.8280000000000001,
+              0.488
+            ],
+            "v2": [
+              0.912,
+              0.5650000000000001
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.912,
+              0.5650000000000001
+            ],
+            "v1": [
+              0.925,
+              0.5760000000000001
+            ],
+            "v2": [
+              1.072,
+              0.672
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.072,
+              0.672
+            ],
+            "v1": [
+              1.159,
+              0.727
+            ],
+            "v2": [
+              1.159,
+              0.784
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.159,
+              0.784
+            ],
+            "v1": [
+              1.159,
+              0.8240000000000001
+            ],
+            "v2": [
+              1.127,
+              0.85
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.127,
+              0.85
+            ],
+            "v1": [
+              1.096,
+              0.876
+            ],
+            "v2": [
+              1.056,
+              0.876
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.876
+            ],
+            "v1": [
+              1.0150000000000001,
+              0.876
+            ],
+            "v2": [
+              0.9870000000000001,
+              0.848
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.9870000000000001,
+              0.848
+            ],
+            "v1": [
+              0.9600000000000001,
+              0.8200000000000001
+            ],
+            "v2": [
+              0.9600000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "LineCurve",
+            "v1": [
+              0.9600000000000001,
+              0.762
+            ],
+            "v2": [
+              0.8380000000000001,
+              0.762
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.8380000000000001,
+              0.762
+            ],
+            "v1": [
+              0.8380000000000001,
+              0.866
+            ],
+            "v2": [
+              0.906,
+              0.924
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              0.906,
+              0.924
+            ],
+            "v1": [
+              0.9650000000000001,
+              0.976
+            ],
+            "v2": [
+              1.056,
+              0.976
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.056,
+              0.976
+            ],
+            "v1": [
+              1.1500000000000001,
+              0.976
+            ],
+            "v2": [
+              1.2200000000000002,
+              0.925
+            ]
+          },
+          {
+            "metadata": {
+              "version": 4.7,
+              "type": "Curve",
+              "generator": "Curve.toJSON"
+            },
+            "arcLengthDivisions": 200,
+            "type": "QuadraticBezierCurve",
+            "v0": [
+              1.2200000000000002,
+              0.925
+            ],
+            "v1": [
+              1.2910000000000001,
+              0.874
+            ],
+            "v2": [
+              1.2910000000000001,
+              0.791
+            ]
+          }
+        ],
+        "currentPoint": [
+          0,
+          0
+        ],
+        "uuid": "7669ab31-c25f-463e-83d8-10cda635362f",
         "holes": []
       }
     ],
@@ -5621,17 +6788,41 @@
         "duration": 13.638,
         "tracks": [
           {
+            "name": "62cf7806-c9ae-4cea-b9fa-ed96275e9941.position",
+            "times": [
+              7,
+              8
+            ],
+            "values": [
+              -2.7445623874664307,
+              0.8492515087127686,
+              1.2396490573883057,
+              -4.744562149047852,
+              0.8492515087127686,
+              1.2396490573883057
+            ],
+            "type": "vector"
+          },
+          {
             "name": "0cf7ae65-145e-469f-8c18-e5c0b0505419.scale",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
               1,
               1,
               1,
-              0.20000000298023224,
+              0.30000001192092896,
               0.8999999761581421,
+              1,
+              0.30000001192092896,
+              0.8999999761581421,
+              1,
+              1,
+              1,
               1
             ],
             "type": "vector"
@@ -5640,14 +6831,22 @@
             "name": "a8162942-b986-48f8-8e0d-3e12822c55b7.scale",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
               1,
               1,
               1,
-              0.20000000298023224,
+              0.30000001192092896,
               0.8999999761581421,
+              1,
+              0.30000001192092896,
+              0.8999999761581421,
+              1,
+              1,
+              1,
               1
             ],
             "type": "vector"
@@ -5656,14 +6855,22 @@
             "name": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc.scale",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
               1,
               1,
               1,
-              0.20000000298023224,
+              0.30000001192092896,
               0.8999999761581421,
+              1,
+              0.30000001192092896,
+              0.8999999761581421,
+              1,
+              1,
+              1,
               1
             ],
             "type": "vector"
@@ -5672,13 +6879,21 @@
             "name": "0cf7ae65-145e-469f-8c18-e5c0b0505419.position",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
-              9,
+              10.663141250610352,
               -1.002748966217041,
               0,
-              9.5,
+              9.313140869140625,
+              -1.002748966217041,
+              0,
+              9.313140869140625,
+              -1.002748966217041,
+              0,
+              8.993141174316406,
               -1.002748966217041,
               0
             ],
@@ -5688,13 +6903,21 @@
             "name": "a8162942-b986-48f8-8e0d-3e12822c55b7.position",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
-              9,
+              10.663141250610352,
               -2.002748966217041,
               0,
-              9.5,
+              9.313140869140625,
+              -2.002748966217041,
+              0,
+              9.313140869140625,
+              -2.002748966217041,
+              0,
+              8.993141174316406,
               -2.002748966217041,
               0
             ],
@@ -5704,13 +6927,21 @@
             "name": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc.position",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
-              9,
+              10.663141250610352,
               -3,
               0,
-              9.5,
+              9.313140869140625,
+              -3,
+              0,
+              9.313140869140625,
+              -3,
+              0,
+              8.993141174316406,
               -3,
               0
             ],
@@ -5719,14 +6950,10 @@
           {
             "name": "0cf7ae65-145e-469f-8c18-e5c0b0505419.material.opacity",
             "times": [
-              0.8090000152587891,
-              2.447000026702881,
-              10,
-              11.63800048828125
+              1,
+              1.0010000467300415
             ],
             "values": [
-              0,
-              1,
               0,
               1
             ],
@@ -5735,14 +6962,10 @@
           {
             "name": "a8162942-b986-48f8-8e0d-3e12822c55b7.material.opacity",
             "times": [
-              0.8090000152587891,
-              2.447000026702881,
-              10,
-              11.63800048828125
+              1,
+              1.0010000467300415
             ],
             "values": [
-              0,
-              1,
               0,
               1
             ],
@@ -5751,14 +6974,10 @@
           {
             "name": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc.material.opacity",
             "times": [
-              0.8090000152587891,
-              2.447000026702881,
-              10,
-              11.63800048828125
+              1,
+              1.0010000467300415
             ],
             "values": [
-              0,
-              1,
               0,
               1
             ],
@@ -5767,10 +6986,14 @@
           {
             "name": "164d829d-9f09-46d9-ad33-e4bd3a43bf94.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              0,
+              0,
               0,
               1
             ],
@@ -5779,10 +7002,14 @@
           {
             "name": "a81a0778-b42f-42e4-918f-5adf62c57ee0.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              1,
+              0,
               0,
               1
             ],
@@ -5791,10 +7018,14 @@
           {
             "name": "0252cb03-28c7-43da-ab6f-6dd9fc31782e.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              1,
+              0,
               0,
               1
             ],
@@ -5803,10 +7034,14 @@
           {
             "name": "6c6a084a-f761-40b1-bf8c-adbcf639ee0e.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              1,
+              0,
               0,
               1
             ],
@@ -5815,10 +7050,14 @@
           {
             "name": "9b1b57ed-93e2-406e-8d78-aed38c146cab.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              0,
+              0,
               0,
               1
             ],
@@ -5827,10 +7066,14 @@
           {
             "name": "633b162c-bb0f-4ecd-bf4c-846e0db7dec6.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              0,
+              0,
               0,
               1
             ],
@@ -5843,11 +7086,11 @@
               0.4000000059604645
             ],
             "values": [
+              0.7289999723434448,
+              0.007999999448657036,
               1,
-              1,
-              1,
-              0.8999999761581421,
-              0.20000000298023224,
+              0.6560999751091003,
+              0.0015999998431652784,
               1
             ],
             "type": "vector"
@@ -5859,11 +7102,11 @@
               0.4000000059604645
             ],
             "values": [
+              0.7289999723434448,
+              0.007999999448657036,
               1,
-              1,
-              1,
-              0.8999999761581421,
-              0.20000000298023224,
+              0.6560999751091003,
+              0.0015999998431652784,
               1
             ],
             "type": "vector"
@@ -5875,11 +7118,11 @@
               0.4000000059604645
             ],
             "values": [
+              0.7289999723434448,
+              0.007999999448657036,
               1,
-              1,
-              1,
-              0.8999999761581421,
-              0.20000000298023224,
+              0.6560999751091003,
+              0.0015999998431652784,
               1
             ],
             "type": "vector"
@@ -5891,11 +7134,11 @@
               0.4000000059604645
             ],
             "values": [
+              0.7289999723434448,
+              0.007999999448657036,
               1,
-              1,
-              1,
-              0.8999999761581421,
-              0.20000000298023224,
+              0.6560999751091003,
+              0.0015999998431652784,
               1
             ],
             "type": "vector"
@@ -5908,10 +7151,10 @@
             ],
             "values": [
               -4,
-              4,
+              5.5,
               0,
               -4,
-              4.5,
+              6,
               0
             ],
             "type": "vector"
@@ -5924,10 +7167,10 @@
             ],
             "values": [
               -3,
-              4,
+              5.5,
               0,
               -3,
-              4.5,
+              6,
               0
             ],
             "type": "vector"
@@ -5940,10 +7183,10 @@
             ],
             "values": [
               -2,
-              4,
+              5.5,
               0,
               -2,
-              4.5,
+              6,
               0
             ],
             "type": "vector"
@@ -5956,10 +7199,10 @@
             ],
             "values": [
               -1,
-              4,
+              5.5,
               0,
               -1,
-              4.5,
+              6,
               0
             ],
             "type": "vector"
@@ -6180,7 +7423,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6192,7 +7435,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6204,7 +7447,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6216,7 +7459,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6228,7 +7471,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6240,7 +7483,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6252,7 +7495,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6264,7 +7507,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6276,7 +7519,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6288,7 +7531,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6300,7 +7543,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6312,7 +7555,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6324,7 +7567,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6336,7 +7579,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6348,7 +7591,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6360,7 +7603,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6372,7 +7615,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6384,7 +7627,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6396,7 +7639,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6408,7 +7651,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6420,7 +7663,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6432,7 +7675,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6444,7 +7687,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6456,7 +7699,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -6468,12 +7711,12 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           }
         ],
-        "uuid": "68921360-1bee-4823-9b2e-d38848a05257",
+        "uuid": "a7896601-c2d4-40a5-854e-8c98c04b7093",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
@@ -6499,7 +7742,7 @@
               "target": "#three",
               "events": [
                 {
-                  "id": "evmu23rt80_j",
+                  "id": "evmu27jyef_1h",
                   "at": 0,
                   "op": "change",
                   "args": {
@@ -6508,7 +7751,7 @@
                   "dur": 0
                 },
                 {
-                  "id": "evmu23rt80_k",
+                  "id": "evmu27jyef_1i",
                   "at": 3,
                   "op": "change",
                   "args": {
@@ -6517,11 +7760,22 @@
                   "dur": 0
                 },
                 {
-                  "id": "evmu23rt80_l",
+                  "id": "evmu27jyef_1j",
+                  "at": 7,
+                  "op": "animate",
+                  "args": {
+                    "props": {
+                      "translateX": -2
+                    }
+                  },
+                  "dur": 1
+                },
+                {
+                  "id": "evmu27jyef_1k",
                   "at": 10,
                   "op": "change",
                   "args": {
-                    "text": "3x3"
+                    "text": "3²"
                   },
                   "dur": 0
                 }
@@ -6531,7 +7785,7 @@
               "target": "#four",
               "events": [
                 {
-                  "id": "evmu23rt80_m",
+                  "id": "evmu27jyef_1l",
                   "at": 0,
                   "op": "change",
                   "args": {
@@ -6540,7 +7794,7 @@
                   "dur": 0
                 },
                 {
-                  "id": "evmu23rt80_n",
+                  "id": "evmu27jyef_1m",
                   "at": 6,
                   "op": "change",
                   "args": {
@@ -6549,68 +7803,70 @@
                   "dur": 0
                 },
                 {
-                  "id": "evmu23rt80_o",
+                  "id": "evmu27jyef_1n",
                   "at": 12,
                   "op": "change",
                   "args": {
-                    "text": "4 x4"
+                    "text": "4²"
                   },
                   "dur": 0
                 }
               ]
             },
             {
-              "target": "#3x3-square #3col1 *",
+              "target": "#3x3-square #3col1 .cube",
               "events": [
                 {
-                  "id": "evmu23rt80_p",
+                  "id": "evmu27jyef_1o",
                   "at": 0,
                   "op": "animate",
                   "args": {
                     "props": {
-                      "scaleX": 0.2,
+                      "scaleX": 0.3,
                       "scaleY": 0.9
                     }
                   },
                   "dur": 0.4
                 },
                 {
-                  "id": "evmu23rt80_q",
+                  "id": "evmu27jyef_1p",
                   "at": 0,
                   "op": "animate",
                   "args": {
                     "props": {
-                      "translateX": 0.5
+                      "translateX": -1.35
                     }
                   },
                   "dur": 0.4
                 },
                 {
-                  "id": "evmu23rt80_r",
-                  "at": 0.809,
+                  "id": "evmu27jyef_1q",
+                  "at": 1,
                   "op": "fadeIn",
                   "args": {},
-                  "dur": 1.638
+                  "dur": 0.001
                 },
                 {
-                  "id": "evmu23rt80_s",
-                  "at": 10,
+                  "id": "evmu27jyef_1r",
+                  "at": 8,
                   "op": "animate",
                   "args": {
                     "props": {
-                      "scaleX": 1,
-                      "scaleY": 1
+                      "translateX": -0.32
                     }
                   },
                   "dur": 0.4
                 },
                 {
-                  "id": "evmu23rt80_t",
-                  "at": 10,
+                  "id": "evmu27jyef_1s",
+                  "at": 8,
                   "op": "animate",
                   "args": {
                     "props": {
-                      "translateX": 0
+                      "to": {
+                        "scaleX": 1,
+                        "scaleY": 1
+                      }
                     }
                   },
                   "dur": 0.4
@@ -6618,14 +7874,21 @@
               ]
             },
             {
-              "target": "#3x3-square .cube",
+              "target": "#3x3-square #3col2 .cube, #3x3-square #3col3 .cube",
               "events": [
                 {
-                  "id": "evmu23rt80_u",
+                  "id": "evmu27jyef_1t",
+                  "at": 0,
+                  "op": "fadeOut",
+                  "args": {},
+                  "dur": 0.001
+                },
+                {
+                  "id": "evmu27jyef_1u",
                   "at": 10,
                   "op": "fadeIn",
                   "args": {},
-                  "dur": 1.638
+                  "dur": 0.001
                 }
               ]
             },
@@ -6633,7 +7896,7 @@
               "target": "#4x4-square #4row1 .cube",
               "events": [
                 {
-                  "id": "evmu23rt80_v",
+                  "id": "evmu27jyef_1v",
                   "at": 0,
                   "op": "animate",
                   "args": {
@@ -6645,7 +7908,7 @@
                   "dur": 0.4
                 },
                 {
-                  "id": "evmu23rt80_w",
+                  "id": "evmu27jyef_1w",
                   "at": 0,
                   "op": "animate",
                   "args": {
@@ -6656,14 +7919,14 @@
                   "dur": 0.4
                 },
                 {
-                  "id": "evmu23rt80_x",
+                  "id": "evmu27jyef_1x",
                   "at": 2,
                   "op": "fadeIn",
                   "args": {},
                   "dur": 2
                 },
                 {
-                  "id": "evmu23rt80_y",
+                  "id": "evmu27jyef_1y",
                   "at": 12,
                   "op": "animate",
                   "args": {
@@ -6675,7 +7938,7 @@
                   "dur": 0.4
                 },
                 {
-                  "id": "evmu23rt80_z",
+                  "id": "evmu27jyef_1z",
                   "at": 12,
                   "op": "animate",
                   "args": {
@@ -6691,7 +7954,7 @@
               "target": "#4x4-square .cube",
               "events": [
                 {
-                  "id": "evmu23rt80_10",
+                  "id": "evmu27jyef_20",
                   "at": 12,
                   "op": "fadeIn",
                   "args": {},
@@ -6703,9 +7966,9 @@
               "target": "#5x5-square, #5x5-square *, #5x5-square .cube",
               "events": [
                 {
-                  "id": "evmu23rt80_11",
+                  "id": "evmu27jyef_21",
                   "at": 0,
-                  "op": "fadeIn",
+                  "op": "fadeOut",
                   "args": {},
                   "dur": 1
                 }
@@ -6942,12 +8205,12 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    0.8999999761581421,
+                    0.6560999751091003,
                     0,
                     0,
                     0,
                     0,
-                    0.20000000298023224,
+                    0.0015999998431652784,
                     0,
                     0,
                     0,
@@ -6955,7 +8218,7 @@
                     1,
                     0,
                     -4,
-                    4.5,
+                    6,
                     0,
                     1
                   ],
@@ -7022,12 +8285,12 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    0.8999999761581421,
+                    0.6560999751091003,
                     0,
                     0,
                     0,
                     0,
-                    0.20000000298023224,
+                    0.0015999998431652784,
                     0,
                     0,
                     0,
@@ -7035,7 +8298,7 @@
                     1,
                     0,
                     -3,
-                    4.5,
+                    6,
                     0,
                     1
                   ],
@@ -7102,12 +8365,12 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    0.8999999761581421,
+                    0.6560999751091003,
                     0,
                     0,
                     0,
                     0,
-                    0.20000000298023224,
+                    0.0015999998431652784,
                     0,
                     0,
                     0,
@@ -7115,7 +8378,7 @@
                     1,
                     0,
                     -2,
-                    4.5,
+                    6,
                     0,
                     1
                   ],
@@ -7182,12 +8445,12 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    0.8999999761581421,
+                    0.6560999751091003,
                     0,
                     0,
                     0,
                     0,
-                    0.20000000298023224,
+                    0.0015999998431652784,
                     0,
                     0,
                     0,
@@ -7195,7 +8458,7 @@
                     1,
                     0,
                     -1,
-                    4.5,
+                    6,
                     0,
                     1
                   ],
@@ -8607,19 +9870,19 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    0.20000000298023224,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0.8999999761581421,
+                    1,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    9.5,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    8.993141174316406,
                     -1.002748966217041,
                     0,
                     1
@@ -8687,19 +9950,19 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    0.20000000298023224,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0.8999999761581421,
+                    1,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    9.5,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    8.993141174316406,
                     -2.002748966217041,
                     0,
                     1
@@ -8767,19 +10030,19 @@
                   },
                   "layers": 1,
                   "matrix": [
-                    0.20000000298023224,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0.8999999761581421,
+                    1,
                     0,
                     0,
                     0,
                     0,
                     1,
                     0,
-                    9.5,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    8.993141174316406,
                     -3,
                     0,
                     1
@@ -11935,7 +13198,7 @@
             -1.0259663660832365,
             0,
             0.55,
-            -0.45,
+            -0.4740079130636253,
             0.5214375191069389,
             1
           ],
@@ -11980,7 +13243,7 @@
           "near": 0.1,
           "far": 2000,
           "focus": 10,
-          "aspect": 1.0598290598290598,
+          "aspect": 0.9841269841269841,
           "filmGauge": 35,
           "filmOffset": 0
         },
@@ -12111,9 +13374,9 @@
                 0,
                 0.5763463931261614,
                 0,
-                -0.7445624714044454,
-                0.8492515123178926,
-                1.2396490358036671,
+                -4.744562149047852,
+                0.8492515087127686,
+                1.2396490573883057,
                 1
               ],
               "up": [
@@ -12121,7 +13384,7 @@
                 1,
                 0
               ],
-              "geometry": "96fcba54-b003-4f55-939f-85755a87c437",
+              "geometry": "6eb33bd4-a230-4ddc-8fc1-cfc035120492",
               "material": "5df7ee47-917c-45f1-9f23-ee5723ebd5ad"
             },
             {
@@ -12192,14 +13455,14 @@
                 1,
                 0
               ],
-              "geometry": "d8aa1977-30b0-4856-9503-7a6b59f5c71d",
+              "geometry": "ccec39a0-1991-485c-9cda-8426e0c2ec46",
               "material": "5df7ee47-917c-45f1-9f23-ee5723ebd5ad"
             }
           ]
         }
       ],
       "animations": [
-        "68921360-1bee-4823-9b2e-d38848a05257"
+        "a7896601-c2d4-40a5-854e-8c98c04b7093"
       ],
       "backgroundRotation": [
         0,
@@ -12223,17 +13486,41 @@
         "duration": 13.638,
         "tracks": [
           {
+            "name": "62cf7806-c9ae-4cea-b9fa-ed96275e9941.position",
+            "times": [
+              7,
+              8
+            ],
+            "values": [
+              -2.7445623874664307,
+              0.8492515087127686,
+              1.2396490573883057,
+              -4.744562149047852,
+              0.8492515087127686,
+              1.2396490573883057
+            ],
+            "type": "vector"
+          },
+          {
             "name": "0cf7ae65-145e-469f-8c18-e5c0b0505419.scale",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
               1,
               1,
               1,
-              0.20000000298023224,
+              0.30000001192092896,
               0.8999999761581421,
+              1,
+              0.30000001192092896,
+              0.8999999761581421,
+              1,
+              1,
+              1,
               1
             ],
             "type": "vector"
@@ -12242,14 +13529,22 @@
             "name": "a8162942-b986-48f8-8e0d-3e12822c55b7.scale",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
               1,
               1,
               1,
-              0.20000000298023224,
+              0.30000001192092896,
               0.8999999761581421,
+              1,
+              0.30000001192092896,
+              0.8999999761581421,
+              1,
+              1,
+              1,
               1
             ],
             "type": "vector"
@@ -12258,14 +13553,22 @@
             "name": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc.scale",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
               1,
               1,
               1,
-              0.20000000298023224,
+              0.30000001192092896,
               0.8999999761581421,
+              1,
+              0.30000001192092896,
+              0.8999999761581421,
+              1,
+              1,
+              1,
               1
             ],
             "type": "vector"
@@ -12274,13 +13577,21 @@
             "name": "0cf7ae65-145e-469f-8c18-e5c0b0505419.position",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
-              9,
+              10.663141250610352,
               -1.002748966217041,
               0,
-              9.5,
+              9.313140869140625,
+              -1.002748966217041,
+              0,
+              9.313140869140625,
+              -1.002748966217041,
+              0,
+              8.993141174316406,
               -1.002748966217041,
               0
             ],
@@ -12290,13 +13601,21 @@
             "name": "a8162942-b986-48f8-8e0d-3e12822c55b7.position",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
-              9,
+              10.663141250610352,
               -2.002748966217041,
               0,
-              9.5,
+              9.313140869140625,
+              -2.002748966217041,
+              0,
+              9.313140869140625,
+              -2.002748966217041,
+              0,
+              8.993141174316406,
               -2.002748966217041,
               0
             ],
@@ -12306,13 +13625,21 @@
             "name": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc.position",
             "times": [
               0,
-              0.4000000059604645
+              0.4000000059604645,
+              8,
+              8.399999618530273
             ],
             "values": [
-              9,
+              10.663141250610352,
               -3,
               0,
-              9.5,
+              9.313140869140625,
+              -3,
+              0,
+              9.313140869140625,
+              -3,
+              0,
+              8.993141174316406,
               -3,
               0
             ],
@@ -12321,14 +13648,10 @@
           {
             "name": "0cf7ae65-145e-469f-8c18-e5c0b0505419.material.opacity",
             "times": [
-              0.8090000152587891,
-              2.447000026702881,
-              10,
-              11.63800048828125
+              1,
+              1.0010000467300415
             ],
             "values": [
-              0,
-              1,
               0,
               1
             ],
@@ -12337,14 +13660,10 @@
           {
             "name": "a8162942-b986-48f8-8e0d-3e12822c55b7.material.opacity",
             "times": [
-              0.8090000152587891,
-              2.447000026702881,
-              10,
-              11.63800048828125
+              1,
+              1.0010000467300415
             ],
             "values": [
-              0,
-              1,
               0,
               1
             ],
@@ -12353,14 +13672,10 @@
           {
             "name": "a058bd19-ca5e-45bf-874f-e8d5672d7cfc.material.opacity",
             "times": [
-              0.8090000152587891,
-              2.447000026702881,
-              10,
-              11.63800048828125
+              1,
+              1.0010000467300415
             ],
             "values": [
-              0,
-              1,
               0,
               1
             ],
@@ -12369,10 +13684,14 @@
           {
             "name": "164d829d-9f09-46d9-ad33-e4bd3a43bf94.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              0,
+              0,
               0,
               1
             ],
@@ -12381,10 +13700,14 @@
           {
             "name": "a81a0778-b42f-42e4-918f-5adf62c57ee0.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              1,
+              0,
               0,
               1
             ],
@@ -12393,10 +13716,14 @@
           {
             "name": "0252cb03-28c7-43da-ab6f-6dd9fc31782e.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              1,
+              0,
               0,
               1
             ],
@@ -12405,10 +13732,14 @@
           {
             "name": "6c6a084a-f761-40b1-bf8c-adbcf639ee0e.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              1,
+              0,
               0,
               1
             ],
@@ -12417,10 +13748,14 @@
           {
             "name": "9b1b57ed-93e2-406e-8d78-aed38c146cab.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              0,
+              0,
               0,
               1
             ],
@@ -12429,10 +13764,14 @@
           {
             "name": "633b162c-bb0f-4ecd-bf4c-846e0db7dec6.material.opacity",
             "times": [
+              0,
+              0.0010000000474974513,
               10,
-              11.63800048828125
+              10.00100040435791
             ],
             "values": [
+              0,
+              0,
               0,
               1
             ],
@@ -12445,11 +13784,11 @@
               0.4000000059604645
             ],
             "values": [
+              0.7289999723434448,
+              0.007999999448657036,
               1,
-              1,
-              1,
-              0.8999999761581421,
-              0.20000000298023224,
+              0.6560999751091003,
+              0.0015999998431652784,
               1
             ],
             "type": "vector"
@@ -12461,11 +13800,11 @@
               0.4000000059604645
             ],
             "values": [
+              0.7289999723434448,
+              0.007999999448657036,
               1,
-              1,
-              1,
-              0.8999999761581421,
-              0.20000000298023224,
+              0.6560999751091003,
+              0.0015999998431652784,
               1
             ],
             "type": "vector"
@@ -12477,11 +13816,11 @@
               0.4000000059604645
             ],
             "values": [
+              0.7289999723434448,
+              0.007999999448657036,
               1,
-              1,
-              1,
-              0.8999999761581421,
-              0.20000000298023224,
+              0.6560999751091003,
+              0.0015999998431652784,
               1
             ],
             "type": "vector"
@@ -12493,11 +13832,11 @@
               0.4000000059604645
             ],
             "values": [
+              0.7289999723434448,
+              0.007999999448657036,
               1,
-              1,
-              1,
-              0.8999999761581421,
-              0.20000000298023224,
+              0.6560999751091003,
+              0.0015999998431652784,
               1
             ],
             "type": "vector"
@@ -12510,10 +13849,10 @@
             ],
             "values": [
               -4,
-              4,
+              5.5,
               0,
               -4,
-              4.5,
+              6,
               0
             ],
             "type": "vector"
@@ -12526,10 +13865,10 @@
             ],
             "values": [
               -3,
-              4,
+              5.5,
               0,
               -3,
-              4.5,
+              6,
               0
             ],
             "type": "vector"
@@ -12542,10 +13881,10 @@
             ],
             "values": [
               -2,
-              4,
+              5.5,
               0,
               -2,
-              4.5,
+              6,
               0
             ],
             "type": "vector"
@@ -12558,10 +13897,10 @@
             ],
             "values": [
               -1,
-              4,
+              5.5,
               0,
               -1,
-              4.5,
+              6,
               0
             ],
             "type": "vector"
@@ -12782,7 +14121,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12794,7 +14133,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12806,7 +14145,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12818,7 +14157,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12830,7 +14169,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12842,7 +14181,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12854,7 +14193,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12866,7 +14205,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12878,7 +14217,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12890,7 +14229,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12902,7 +14241,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12914,7 +14253,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12926,7 +14265,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12938,7 +14277,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12950,7 +14289,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12962,7 +14301,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12974,7 +14313,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12986,7 +14325,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -12998,7 +14337,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -13010,7 +14349,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -13022,7 +14361,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -13034,7 +14373,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -13046,7 +14385,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -13058,7 +14397,7 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           },
@@ -13070,12 +14409,12 @@
             ],
             "values": [
               0,
-              1
+              0
             ],
             "type": "number"
           }
         ],
-        "uuid": "68921360-1bee-4823-9b2e-d38848a05257",
+        "uuid": "a7896601-c2d4-40a5-854e-8c98c04b7093",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
