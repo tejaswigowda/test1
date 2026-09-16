@@ -34,8 +34,8 @@
         0,
         1,
         0,
-        3.32,
-        0.68,
+        3.319999933242798,
+        0.6800000071525574,
         20,
         1
       ],
@@ -49,7 +49,7 @@
       "near": 0.1,
       "far": 2000,
       "focus": 10,
-      "aspect": 0.8517915309446255,
+      "aspect": 1.2878998609179415,
       "filmGauge": 35,
       "filmOffset": 0
     }
@@ -303,7 +303,7 @@
         }
       },
       {
-        "uuid": "240119cc-3a17-4802-baea-fff3754a14ae",
+        "uuid": "067bec69-4199-4137-8cb7-55966eb22006",
         "type": "TextGeometry",
         "shapes": [],
         "options": {
@@ -2671,7 +2671,7 @@
         }
       },
       {
-        "uuid": "25e609bd-abba-4b34-ba61-441416f3864b",
+        "uuid": "a2d88322-d001-44f6-819f-37552c4955f7",
         "type": "TextGeometry",
         "shapes": [],
         "options": {
@@ -4886,7 +4886,7 @@
         }
       },
       {
-        "uuid": "fdf859b8-fcc3-496b-ac7f-b02bc15e069f",
+        "uuid": "d0c45948-7ab9-4412-ac71-f2cea22cc30d",
         "type": "TextGeometry",
         "shapes": [],
         "options": {
@@ -7841,6 +7841,14 @@
           "bevelOffset": 0,
           "bevelSegments": 3
         }
+      },
+      {
+        "uuid": "471fccfb-aead-4569-bb4f-262d464cf9e5",
+        "type": "PlaneGeometry",
+        "width": 3.2,
+        "height": 1.8,
+        "widthSegments": 1,
+        "heightSegments": 1
       }
     ],
     "materials": [
@@ -9029,12 +9037,77 @@
         "polygonOffset": true,
         "polygonOffsetFactor": -4,
         "polygonOffsetUnits": -4
+      },
+      {
+        "uuid": "ee82a351-676a-44a0-82e0-ab4c50960a54",
+        "type": "MeshBasicMaterial",
+        "color": 16777215,
+        "map": "0126502a-0b82-4e76-a337-5c7e206410d8",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "reflectivity": 1,
+        "refractionRatio": 0.98,
+        "side": 2,
+        "transparent": true,
+        "blendColor": 0,
+        "depthWrite": false
+      }
+    ],
+    "textures": [
+      {
+        "uuid": "0126502a-0b82-4e76-a337-5c7e206410d8",
+        "name": "",
+        "image": "1e767b6a-0268-4294-a500-fa168716c9be",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1001,
+          1001
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "srgb",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      }
+    ],
+    "images": [
+      {
+        "uuid": "1e767b6a-0268-4294-a500-fa168716c9be",
+        "url": {
+          "$img": "assets/img-414b809ceb46e11fd16507ccc4dfbb57154b8aa3.png",
+          "mime": "image/png"
+        }
       }
     ],
     "animations": [
       {
         "name": "Timeline",
-        "duration": 56.4,
+        "duration": 59.4,
         "tracks": [
           {
             "name": "efe1ce0e-24e4-4da2-a24c-259cee67f42e.material.opacity",
@@ -18740,9 +18813,25 @@
               0.8944275975227356
             ],
             "type": "quaternion"
+          },
+          {
+            "name": "8b2c99ee-f7ee-43f9-8a57-f5c8ad4cc043.position",
+            "times": [
+              56.400001525878906,
+              59.400001525878906
+            ],
+            "values": [
+              3.319999933242798,
+              0.6800000071525574,
+              20,
+              3.319999933242798,
+              0.6800000071525574,
+              -12
+            ],
+            "type": "vector"
           }
         ],
-        "uuid": "8ed687ff-ced6-4d66-8dcb-442d3259d863",
+        "uuid": "53b9b492-e72b-4fc0-bf2f-c4ed2f4b08d5",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
@@ -18762,7 +18851,7 @@
           }
         ],
         "timeline": {
-          "duration": 56.4,
+          "duration": 59.4,
           "tracks": [
             {
               "target": "#RightTriangle",
@@ -19147,6 +19236,22 @@
                     "transition": "fade"
                   },
                   "dur": 0.4
+                }
+              ]
+            },
+            {
+              "target": "#PerspectiveCamera",
+              "events": [
+                {
+                  "id": "evmu4qk7me_1",
+                  "at": 56.4,
+                  "op": "flyTo",
+                  "args": {
+                    "x": 3.32,
+                    "y": 0.68,
+                    "z": -12
+                  },
+                  "dur": 3
                 }
               ]
             }
@@ -24576,7 +24681,7 @@
           "near": 0.1,
           "far": 2000,
           "focus": 10,
-          "aspect": 0.8517915309446255,
+          "aspect": 1.2878998609179415,
           "filmGauge": 35,
           "filmOffset": 0
         },
@@ -24721,7 +24826,7 @@
                 1,
                 0
               ],
-              "geometry": "240119cc-3a17-4802-baea-fff3754a14ae",
+              "geometry": "067bec69-4199-4137-8cb7-55966eb22006",
               "material": "5df7ee47-917c-45f1-9f23-ee5723ebd5ad"
             },
             {
@@ -24795,7 +24900,7 @@
                 1,
                 0
               ],
-              "geometry": "25e609bd-abba-4b34-ba61-441416f3864b",
+              "geometry": "a2d88322-d001-44f6-819f-37552c4955f7",
               "material": "da9a3ffd-762b-42c5-8439-746fe2653edc"
             },
             {
@@ -24832,14 +24937,88 @@
                 1,
                 0
               ],
-              "geometry": "fdf859b8-fcc3-496b-ac7f-b02bc15e069f",
+              "geometry": "d0c45948-7ab9-4412-ac71-f2cea22cc30d",
               "material": "40e7b1c5-3c1a-4c03-a51d-1d4bb9d653e4"
             }
           ]
+        },
+        {
+          "uuid": "23fb4e19-f7fe-4648-aa1a-e167115316a6",
+          "type": "Mesh",
+          "name": "callcard",
+          "userData": {
+            "isCallcard": true,
+            "label": "callcard",
+            "width": 3.2,
+            "height": 1.8,
+            "descriptors": {
+              "v": 1,
+              "geomHash": "4:1836",
+              "bbox": {
+                "center": [
+                  0,
+                  0,
+                  0
+                ],
+                "size": [
+                  3.2,
+                  1.8,
+                  0
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "flat",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 0,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#ffffff"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            3.32,
+            0.68,
+            -15,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "471fccfb-aead-4569-bb4f-262d464cf9e5",
+          "material": "ee82a351-676a-44a0-82e0-ab4c50960a54"
         }
       ],
       "animations": [
-        "8ed687ff-ced6-4d66-8dcb-442d3259d863"
+        "53b9b492-e72b-4fc0-bf2f-c4ed2f4b08d5"
       ],
       "backgroundRotation": [
         0,
@@ -24860,7 +25039,7 @@
       "object": "8a380877-ed3c-4258-bdbf-c3a67ac78cc5",
       "clip": {
         "name": "Timeline",
-        "duration": 56.4,
+        "duration": 59.4,
         "tracks": [
           {
             "name": "efe1ce0e-24e4-4da2-a24c-259cee67f42e.material.opacity",
@@ -34566,9 +34745,25 @@
               0.8944275975227356
             ],
             "type": "quaternion"
+          },
+          {
+            "name": "8b2c99ee-f7ee-43f9-8a57-f5c8ad4cc043.position",
+            "times": [
+              56.400001525878906,
+              59.400001525878906
+            ],
+            "values": [
+              3.319999933242798,
+              0.6800000071525574,
+              20,
+              3.319999933242798,
+              0.6800000071525574,
+              -12
+            ],
+            "type": "vector"
           }
         ],
-        "uuid": "8ed687ff-ced6-4d66-8dcb-442d3259d863",
+        "uuid": "53b9b492-e72b-4fc0-bf2f-c4ed2f4b08d5",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
