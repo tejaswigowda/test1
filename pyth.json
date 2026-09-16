@@ -14,22 +14,22 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "c6e31752-9fd1-4fc7-90db-51bd4a9ed9ba",
+      "uuid": "4722fbf3-dbab-443f-b3a5-2cf1681bd917",
       "type": "PerspectiveCamera",
       "name": "Camera",
       "layers": 1,
       "matrix": [
         0.9971291268827397,
-        -1.9515639104738995e-18,
+        -2.1684043449709996e-18,
         -0.07571990703940822,
         0,
-        -0.0019696997664508135,
+        -0.001969699766450814,
         0.9996616054073709,
-        -0.025938291330971336,
+        -0.025938291330971343,
         0,
-        0.07569428383231205,
+        0.07569428383231204,
         0.0260129712708929,
-        0.996791703778054,
+        0.9967917037780538,
         0,
         0.10634735009142537,
         1.2672802274763333,
@@ -300,7 +300,7 @@
         }
       },
       {
-        "uuid": "d91b8eba-0cc2-4a6e-94ed-92c5c40a8cb0",
+        "uuid": "9382051b-5549-4d79-bd3d-257c07192576",
         "type": "TextGeometry",
         "shapes": [],
         "options": {
@@ -2354,7 +2354,7 @@
         }
       },
       {
-        "uuid": "64631bbd-5157-4cdd-a27b-26ea0b88ad22",
+        "uuid": "ff5340fa-23ff-4df6-a69b-c8c0fbb31ccb",
         "type": "TextGeometry",
         "shapes": [],
         "options": {
@@ -12517,7 +12517,7 @@
             "type": "quaternion"
           }
         ],
-        "uuid": "00a1b1f8-70ef-469b-a7d3-887609450842",
+        "uuid": "595458f4-9940-4aa6-9388-cedc0f3bf4ad",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
@@ -18344,7 +18344,7 @@
                 1,
                 0
               ],
-              "geometry": "d91b8eba-0cc2-4a6e-94ed-92c5c40a8cb0",
+              "geometry": "9382051b-5549-4d79-bd3d-257c07192576",
               "material": "5df7ee47-917c-45f1-9f23-ee5723ebd5ad"
             },
             {
@@ -18418,14 +18418,14 @@
                 1,
                 0
               ],
-              "geometry": "64631bbd-5157-4cdd-a27b-26ea0b88ad22",
+              "geometry": "ff5340fa-23ff-4df6-a69b-c8c0fbb31ccb",
               "material": "da9a3ffd-762b-42c5-8439-746fe2653edc"
             }
           ]
         }
       ],
       "animations": [
-        "00a1b1f8-70ef-469b-a7d3-887609450842"
+        "595458f4-9940-4aa6-9388-cedc0f3bf4ad"
       ],
       "backgroundRotation": [
         0,
@@ -25450,7 +25450,7 @@
             "type": "quaternion"
           }
         ],
-        "uuid": "00a1b1f8-70ef-469b-a7d3-887609450842",
+        "uuid": "595458f4-9940-4aa6-9388-cedc0f3bf4ad",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
