@@ -22,21 +22,21 @@
       },
       "layers": 1,
       "matrix": [
-        0.9002590540534002,
-        0.014588472441247877,
-        0.435110114875198,
+        0.934087212796845,
+        9.716241700097328e-10,
+        0.357044925589794,
         0,
-        -0.08224357368676521,
-        0.9871415207866538,
-        0.13706791209557864,
+        0.04534279526922275,
+        0.9919034016955679,
+        -0.11862408112155577,
         0,
-        -0.427515649049373,
-        -0.1591816396788355,
-        0.8898828998284273,
+        -0.3541540763659157,
+        0.12699465226835382,
+        0.9265242838094666,
         0,
-        12.5,
-        5.5,
-        -12.699999809265137,
+        -10.5,
+        4.800000190734863,
+        22.5,
         1
       ],
       "up": [
@@ -44,7 +44,7 @@
         1,
         0
       ],
-      "fov": 41,
+      "fov": 36,
       "zoom": 1,
       "near": 0.1,
       "far": 1000,
@@ -7165,7 +7165,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7184,7 +7186,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7282,7 +7286,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7299,7 +7305,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7331,7 +7339,9 @@
         "blending": 2,
         "side": 2,
         "opacity": 0,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7348,7 +7358,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7365,7 +7377,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7397,7 +7411,9 @@
         "blending": 2,
         "side": 2,
         "opacity": 0,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7414,7 +7430,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7532,7 +7550,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7587,7 +7607,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7604,7 +7626,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7689,9 +7713,7 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
-        "transparent": true,
         "blendColor": 0,
-        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7710,9 +7732,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "transparent": true,
         "blendColor": 0,
-        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7786,9 +7806,7 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
-        "transparent": true,
         "blendColor": 0,
-        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7807,9 +7825,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "transparent": true,
         "blendColor": 0,
-        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7845,9 +7861,7 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "transparent": true,
         "blendColor": 0,
-        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7868,9 +7882,7 @@
         ],
         "envMapIntensity": 1,
         "side": 2,
-        "transparent": true,
         "blendColor": 0,
-        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7879,7 +7891,7 @@
         "uuid": "6c34a4a6-54a5-4149-8b66-d409726fa216",
         "type": "MeshBasicMaterial",
         "color": 16777215,
-        "map": "97085b1a-044b-43ff-8ca4-7e995f32f6e3",
+        "map": "bc54f52e-5f3d-4a71-9dd8-d9a8c359c506",
         "envMapRotation": [
           0,
           0,
@@ -7889,7 +7901,10 @@
         "reflectivity": 1,
         "refractionRatio": 0.98,
         "side": 2,
+        "opacity": 0,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -8221,9 +8236,9 @@
         "unpackAlignment": 4
       },
       {
-        "uuid": "97085b1a-044b-43ff-8ca4-7e995f32f6e3",
+        "uuid": "bc54f52e-5f3d-4a71-9dd8-d9a8c359c506",
         "name": "",
-        "image": "22c3187c-cda4-4a68-a043-d27d71153aaa",
+        "image": "d3a3d8ec-e4ac-44c8-82a8-87ff8fd5f5c4",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -8322,7 +8337,7 @@
         }
       },
       {
-        "uuid": "22c3187c-cda4-4a68-a043-d27d71153aaa",
+        "uuid": "d3a3d8ec-e4ac-44c8-82a8-87ff8fd5f5c4",
         "url": {
           "$img": "assets/img-626b4868e4de19ea9cf722be2cfdf2e7a75b62a0.png",
           "mime": "image/png"
@@ -64900,21 +64915,21 @@
           },
           "layers": 1,
           "matrix": [
-            0.9002590540534002,
-            0.014588472441247877,
-            0.435110114875198,
+            0.934087212796845,
+            9.716241700097328e-10,
+            0.357044925589794,
             0,
-            -0.08224357368676521,
-            0.9871415207866538,
-            0.13706791209557864,
+            0.04534279526922275,
+            0.9919034016955679,
+            -0.11862408112155577,
             0,
-            -0.427515649049373,
-            -0.1591816396788355,
-            0.8898828998284273,
+            -0.3541540763659157,
+            0.12699465226835382,
+            0.9265242838094666,
             0,
-            12.5,
-            5.5,
-            -12.699999809265137,
+            -10.5,
+            4.800000190734863,
+            22.5,
             1
           ],
           "up": [
@@ -64922,7 +64937,7 @@
             1,
             0
           ],
-          "fov": 41,
+          "fov": 36,
           "zoom": 1,
           "near": 0.1,
           "far": 1000,
