@@ -14,26 +14,29 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "08c75265-2834-4ac8-878e-76aed1900e3f",
+      "uuid": "98f3a0b4-274c-4aa1-a040-de3ccda87ab2",
       "type": "PerspectiveCamera",
-      "name": "Camera",
+      "name": "StoryCam",
+      "userData": {
+        "classes": {}
+      },
       "layers": 1,
       "matrix": [
-        0.9838699100999074,
-        6.938893903907228e-18,
-        0.17888543819998318,
+        0.934087212796845,
+        9.716241700097328e-10,
+        0.357044925589794,
         0,
-        0.046360044557175344,
-        0.9658342616078196,
-        -0.2549802450644644,
+        0.04534279526922277,
+        0.9919034016955682,
+        -0.11862408112155581,
         0,
-        -0.172773685116272,
-        0.259160527674408,
-        0.950255268139496,
+        -0.3541540763659157,
+        0.12699465226835382,
+        0.9265242838094666,
         0,
-        -3,
-        2,
-        6,
+        -10.5,
+        4.800000190734863,
+        22.5,
         1
       ],
       "up": [
@@ -41,10 +44,10 @@
         1,
         0
       ],
-      "fov": 42,
+      "fov": 36,
       "zoom": 1,
-      "near": 0.001,
-      "far": 10000000000,
+      "near": 0.1,
+      "far": 1000,
       "focus": 10,
       "aspect": 0.9221140472878998,
       "filmGauge": 35,
@@ -7154,7 +7157,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7173,7 +7178,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7233,6 +7240,7 @@
         "envMapIntensity": 1,
         "side": 2,
         "opacity": 0.16,
+        "transparent": true,
         "blendColor": 0,
         "userData": {
           "__fadeManaged": true
@@ -7270,7 +7278,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7287,7 +7297,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7319,7 +7331,9 @@
         "blending": 2,
         "side": 2,
         "opacity": 0,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7336,7 +7350,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7353,7 +7369,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7385,7 +7403,9 @@
         "blending": 2,
         "side": 2,
         "opacity": 0,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7402,7 +7422,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7500,6 +7522,7 @@
         "envMapIntensity": 1,
         "side": 2,
         "opacity": 0.16,
+        "transparent": true,
         "blendColor": 0,
         "userData": {
           "__fadeManaged": true
@@ -7519,7 +7542,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7574,7 +7599,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -7591,7 +7618,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
