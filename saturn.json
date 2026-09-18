@@ -1,0 +1,961 @@
+{
+  "metadata": {},
+  "project": {
+    "renderer": "WebGLRenderer",
+    "shadows": true,
+    "shadowType": 1,
+    "toneMapping": 7,
+    "toneMappingExposure": 1
+  },
+  "camera": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "843127a7-e420-4c7e-8e20-5b13c49bf8f6",
+      "type": "PerspectiveCamera",
+      "name": "Camera",
+      "layers": 1,
+      "matrix": [
+        -0.8962580683166492,
+        1.3877787807814457e-17,
+        0.44353294689043,
+        0,
+        -0.15175505992720179,
+        0.9396451314440253,
+        -0.3066552278048273,
+        0,
+        -0.4167635741806144,
+        -0.3421505910466024,
+        -0.8421645304111667,
+        0,
+        -40.649621603483595,
+        -41.519447583850116,
+        -95.71570530342873,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "fov": 50,
+      "zoom": 1,
+      "near": 0.001,
+      "far": 10000000000,
+      "focus": 10,
+      "aspect": 1.166013071895425,
+      "filmGauge": 35,
+      "filmOffset": 0
+    }
+  },
+  "controls": {
+    "center": [
+      13.053661287782322,
+      2.569362285187166,
+      12.803855472918794
+    ]
+  },
+  "scene": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "geometries": [
+      {
+        "uuid": "e1731717-2784-4152-9c3c-2f4bf6dd523c",
+        "type": "SphereGeometry",
+        "radius": 1,
+        "widthSegments": 32,
+        "heightSegments": 16,
+        "phiStart": 0,
+        "phiLength": 6.283185307179586,
+        "thetaStart": 0,
+        "thetaLength": 3.141592653589793
+      },
+      {
+        "uuid": "abfc63e1-c289-4a8a-94e7-9b7b1c068911",
+        "type": "BufferGeometry",
+        "data": {
+          "attributes": {
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-07f805a951e58f73f052ed45bab48dbf8bb12370.bin",
+                "dtype": "Float32Array",
+                "length": 594
+              },
+              "normalized": false
+            },
+            "position": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-0463f700fec22e0c81a639c7c0d2275e2360f1e0.bin",
+                "dtype": "Float32Array",
+                "length": 594
+              },
+              "normalized": false
+            },
+            "uv": {
+              "itemSize": 2,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/geo-1a80b71090be35de136839bf4440601c836f5558.bin",
+                "dtype": "Float32Array",
+                "length": 396
+              },
+              "normalized": false
+            }
+          },
+          "index": {
+            "type": "Uint32Array",
+            "array": {
+              "$bin": "assets/idx-87b363f911c19b142b7c73ce6e962faa4bd394a4.bin",
+              "dtype": "Uint32Array",
+              "length": 588
+            }
+          },
+          "boundingSphere": {
+            "radius": 0.2871599033434271,
+            "center": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "uuid": "a03af469-0265-46d7-9ef6-65dc9af06e87",
+        "type": "CylinderGeometry",
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "height": 1,
+        "radialSegments": 32,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "b75a3970-9ff2-4ed1-adbc-5b43999f76a3",
+        "type": "CylinderGeometry",
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "height": 1,
+        "radialSegments": 32,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "0a35f889-0e79-4768-823f-6b64ab5e0d83",
+        "type": "CylinderGeometry",
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "height": 1,
+        "radialSegments": 32,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "a45c39a8-9b03-408c-a92a-d777fd32351d",
+        "type": "CylinderGeometry",
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "height": 1,
+        "radialSegments": 32,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "e92a6d83-dece-44f0-9471-2bf731892876",
+        "type": "CylinderGeometry",
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "height": 1,
+        "radialSegments": 32,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      }
+    ],
+    "materials": [
+      {
+        "uuid": "32470c41-a5f8-4009-8856-9b1f8adad785",
+        "type": "MeshStandardMaterial",
+        "color": 16760149,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "96efd238-86d5-4937-bd55-70c37cff914f",
+        "type": "MeshStandardMaterial",
+        "name": "None",
+        "color": 5949930,
+        "roughness": 0.6217033563987296,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "blendColor": 0
+      },
+      {
+        "uuid": "f9bd543a-3031-4bfc-ae03-f3c548b10c9e",
+        "type": "MeshStandardMaterial",
+        "color": 0,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "52b02c09-fa03-4db9-b934-00f7a4c99031",
+        "type": "MeshStandardMaterial",
+        "color": 0,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "afcaa09f-b368-4b85-81de-3c803f2b529c",
+        "type": "MeshStandardMaterial",
+        "color": 0,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "ad6cc7f8-8957-495e-8087-024fd5fa86a5",
+        "type": "MeshStandardMaterial",
+        "color": 0,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "057b4fe3-7dbc-4ee6-a989-ef7fe7443857",
+        "type": "MeshStandardMaterial",
+        "color": 0,
+        "roughness": 1,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      }
+    ],
+    "object": {
+      "uuid": "2978f9fd-4d0c-45ae-9dd2-21b5ecee516e",
+      "type": "Scene",
+      "name": "Scene",
+      "userData": {
+        "renderShots": []
+      },
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "children": [
+        {
+          "uuid": "11b8ef03-846e-4544-84d7-a7498501603a",
+          "type": "Mesh",
+          "name": "Sphere",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "561:1000",
+              "bbox": {
+                "center": [
+                  0,
+                  0,
+                  0
+                ],
+                "size": [
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 8,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#ffffff"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            6.001490660220556,
+            0.5888413129596022,
+            11.516743279392726,
+            0,
+            7.788933991856392,
+            -9.780974283623694,
+            -3.558798861075997,
+            0,
+            7.22409230429149,
+            7.257540214093538,
+            -4.135618971947074,
+            0,
+            0.24787231124060227,
+            1.1293252544347023,
+            0.10093639835414514,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "e1731717-2784-4152-9c3c-2f4bf6dd523c",
+          "material": "32470c41-a5f8-4009-8856-9b1f8adad785"
+        },
+        {
+          "uuid": "ce2b667e-89ab-4971-a8a6-bb2949b10bfa",
+          "type": "Group",
+          "name": "hollow_cylinder.glb",
+          "userData": {
+            "imported": true,
+            "importNormalize": {
+              "original": {
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "applied": {
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "position": [
+                  0,
+                  0.05,
+                  0
+                ]
+              },
+              "scaleFactor": 1,
+              "autoscaled": false
+            },
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:1",
+              "bbox": {
+                "center": [
+                  0,
+                  0.05,
+                  0
+                ],
+                "size": [
+                  0.4,
+                  0.1,
+                  0.3998
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 0.016,
+              "role": "group",
+              "childCount": 1,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "gray",
+                "base": "gray",
+                "hex": "#e7e7e7"
+              },
+              "materials": [
+                "None"
+              ],
+              "pair": null
+            },
+            "classes": {}
+          },
+          "layers": 1,
+          "matrix": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            42.19227979153286,
+            84.92747730389935,
+            0,
+            0,
+            -55.833394921773944,
+            27.73823378529195,
+            0,
+            0,
+            -0.12228954793155171,
+            -0.0000020528360214489005,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "292da393-fd54-4735-b8b6-d62f03e10a7e",
+              "type": "Mesh",
+              "name": "Object_2",
+              "userData": {
+                "name": "Object_2",
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "198:287",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.05,
+                      0
+                    ],
+                    "size": [
+                      0.4,
+                      0.1,
+                      0.3998
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.016,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 3,
+                  "parentName": "Hollow_cylinderobjcleanermaterialmergergles",
+                  "adjacency": [],
+                  "color": {
+                    "name": "light gray",
+                    "base": "gray",
+                    "hex": "#e7e7e7"
+                  },
+                  "materials": [
+                    "None"
+                  ],
+                  "pair": null
+                },
+                "classes": {}
+              },
+              "layers": 1,
+              "matrix": [
+                0.9487659269267764,
+                0.06784679894233239,
+                -0.09982383640040382,
+                0,
+                0.007518819095012361,
+                0.8896900571887785,
+                0.6761533540788698,
+                0,
+                0.1260191143567062,
+                -0.6009280520156172,
+                0.7893064418319835,
+                0,
+                -0.011649009427343274,
+                0.005624618776189043,
+                -0.00974262494898041,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "abfc63e1-c289-4a8a-94e7-9b7b1c068911",
+              "material": "96efd238-86d5-4937-bd55-70c37cff914f"
+            }
+          ]
+        },
+        {
+          "uuid": "c0526cdf-b5d9-4fda-9b9f-5a5883fc0459",
+          "type": "Mesh",
+          "name": "Cylinder",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "196:1118",
+              "bbox": {
+                "center": [
+                  -41.6653,
+                  0,
+                  41.759
+                ],
+                "size": [
+                  2,
+                  1,
+                  2
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 4,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#ffffff"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            0.9863611984051944,
+            0.11039918588343972,
+            0.12208032616659584,
+            0,
+            1.526392433847952,
+            -0.9812647147990514,
+            -11.44527941979931,
+            0,
+            -0.09869980010642987,
+            0.9902735538775863,
+            -0.09806445813650333,
+            0,
+            -0.15307368982638536,
+            0.4650018398180542,
+            13.792474369791734,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "a03af469-0265-46d7-9ef6-65dc9af06e87",
+          "material": "f9bd543a-3031-4bfc-ae03-f3c548b10c9e"
+        },
+        {
+          "uuid": "e46c4f77-e94c-4272-9090-99a442755086",
+          "type": "Mesh",
+          "name": "Cylinder",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "196:1118",
+              "bbox": {
+                "center": [
+                  0,
+                  0,
+                  0
+                ],
+                "size": [
+                  2,
+                  1,
+                  2
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 4,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#ffffff"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "b75a3970-9ff2-4ed1-adbc-5b43999f76a3",
+          "material": "52b02c09-fa03-4db9-b934-00f7a4c99031"
+        },
+        {
+          "uuid": "ecc190bc-d91c-4c02-a88f-114d25a03ac8",
+          "type": "Mesh",
+          "name": "Cylinder",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "196:1118",
+              "bbox": {
+                "center": [
+                  -19.2223,
+                  0,
+                  -40.905
+                ],
+                "size": [
+                  2,
+                  1,
+                  2
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 4,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#ffffff"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            -0.27516784263311345,
+            -0.8389041049412662,
+            0.022943981620444198,
+            0,
+            0.054198962225492094,
+            -0.2432316031823821,
+            -8.243302404150874,
+            0,
+            0.9502019659948832,
+            -0.31125245878405067,
+            0.015431484709573671,
+            0,
+            -1.3797178265701824,
+            0.8022849151240905,
+            -14.740268829757424,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "0a35f889-0e79-4768-823f-6b64ab5e0d83",
+          "material": "afcaa09f-b368-4b85-81de-3c803f2b529c"
+        },
+        {
+          "uuid": "c8ccc774-5489-4f54-bcdc-2d6996466a3e",
+          "type": "Mesh",
+          "name": "Cylinder",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "196:1118",
+              "bbox": {
+                "center": [
+                  -23.1905,
+                  0,
+                  42.3422
+                ],
+                "size": [
+                  2,
+                  1,
+                  2
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 4,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#ffffff"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            0.041864825066193906,
+            -0.9991232838955239,
+            0,
+            0,
+            14.52003983155386,
+            0.60841233239214,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -12.818797239332135,
+            -0.7730841847822791,
+            1.8116336981790404,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "a45c39a8-9b03-408c-a92a-d777fd32351d",
+          "material": "ad6cc7f8-8957-495e-8087-024fd5fa86a5"
+        },
+        {
+          "uuid": "0b25514d-41df-4c63-b4da-41981d8dc794",
+          "type": "Mesh",
+          "name": "Cylinder",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "196:1118",
+              "bbox": {
+                "center": [
+                  39.0288,
+                  0,
+                  -12.7288
+                ],
+                "size": [
+                  2,
+                  1,
+                  2
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 4,
+              "role": "leaf",
+              "childCount": 0,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#ffffff"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            0.014268608992155816,
+            6.3837823915946746e-15,
+            -0.9998981982169187,
+            0,
+            18.853936762325183,
+            0.3711689090121883,
+            0.2690468410726456,
+            0,
+            0.01967872658420486,
+            -0.9998063156742159,
+            0.0002808166427201731,
+            0,
+            8.972977351684513,
+            1.3405584796879602,
+            -1.9284386734665766,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "e92a6d83-dece-44f0-9471-2bf731892876",
+          "material": "057b4fe3-7dbc-4ee6-a989-ef7fe7443857"
+        }
+      ],
+      "backgroundRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "environmentRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
+    }
+  },
+  "animations": [],
+  "scripts": {},
+  "history": {
+    "undos": [],
+    "redos": []
+  },
+  "backgroundType": "Default",
+  "environmentType": "Default"
+}
