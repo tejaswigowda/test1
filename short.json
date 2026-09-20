@@ -22,21 +22,21 @@
       },
       "layers": 1,
       "matrix": [
-        0.8386410786374778,
-        -1.2057794832043276e-9,
-        -0.544684441875998,
+        0.9340872127968448,
+        9.716241700097326e-10,
+        0.35704492558979395,
         0,
-        -0.1080076561345901,
-        0.9801425861917561,
-        -0.16629749531982313,
+        0.045342795269222726,
+        0.9919034016955673,
+        -0.1186240811215557,
         0,
-        0.5338684177192726,
-        0.1982940007497315,
-        0.8219878355721487,
+        -0.3541540763659157,
+        0.12699465226835382,
+        0.9265242838094666,
         0,
-        0.8999999761581421,
-        2.6500000953674316,
-        4.449999809265137,
+        -10.5,
+        4.800000190734863,
+        22.5,
         1
       ],
       "up": [
@@ -44,7 +44,7 @@
         1,
         0
       ],
-      "fov": 43,
+      "fov": 36,
       "zoom": 1,
       "near": 0.1,
       "far": 1000,
@@ -5191,7 +5191,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5210,7 +5212,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5229,7 +5233,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5248,7 +5254,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5272,6 +5280,7 @@
         "opacity": 0.16,
         "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5290,7 +5299,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5308,7 +5319,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5325,7 +5338,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5357,7 +5372,9 @@
         "blending": 2,
         "side": 2,
         "opacity": 0,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5374,7 +5391,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5391,7 +5410,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5423,7 +5444,9 @@
         "blending": 2,
         "side": 2,
         "opacity": 0,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5440,7 +5463,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5459,7 +5484,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5478,7 +5505,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5497,7 +5526,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5516,7 +5547,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5540,6 +5573,7 @@
         "opacity": 0.16,
         "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5558,7 +5592,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5577,7 +5613,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5596,7 +5634,9 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5613,7 +5653,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5630,7 +5672,9 @@
         ],
         "reflectivity": 1,
         "refractionRatio": 0.98,
+        "transparent": true,
         "blendColor": 0,
+        "depthWrite": false,
         "userData": {
           "__fadeManaged": true
         }
@@ -5882,7 +5926,7 @@
         "uuid": "6c34a4a6-54a5-4149-8b66-d409726fa216",
         "type": "MeshBasicMaterial",
         "color": 16777215,
-        "map": "2966c6cb-277e-4430-a1ed-f1324afb2667",
+        "map": "50607a54-4d2e-4f08-9be8-5f47cc1289d5",
         "envMapRotation": [
           0,
           0,
@@ -5905,7 +5949,7 @@
       {
         "uuid": "e40bf7a4-a859-4a87-bf42-b7223faa38ba",
         "name": "",
-        "image": "0088f5b1-9fce-43af-ada8-09e596d7f661",
+        "image": "18316a27-4a9f-4cfa-b6a8-536073fa71ab",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -5941,7 +5985,7 @@
       {
         "uuid": "51012e60-3a45-4871-9254-6d085070167e",
         "name": "",
-        "image": "4192451c-319b-4570-ae9b-ee6b294ba62e",
+        "image": "80719a8a-48a5-424b-828d-b3e76d6abbf6",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -5977,7 +6021,7 @@
       {
         "uuid": "0e9a68ac-9c17-450a-80dc-5160bdc73e37",
         "name": "",
-        "image": "4a62bce7-4c6c-4e63-aed3-41b5f1e0cdca",
+        "image": "6e706844-3860-46aa-8175-5226572ef15f",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -6013,7 +6057,7 @@
       {
         "uuid": "e094864d-df62-4712-8a11-4c6f74bc817f",
         "name": "",
-        "image": "cb5c7033-2167-4efa-8b81-2835a43a308e",
+        "image": "5c89efca-873a-4d96-b2af-3eb6efcb2227",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -6049,7 +6093,7 @@
       {
         "uuid": "7b162a44-66c2-4ba3-b455-e564fae64046",
         "name": "",
-        "image": "15ad2ec2-d63a-48cc-a0e6-c87a230d7314",
+        "image": "62353701-4c1e-4fc0-a7bf-468ba0dc685a",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -6085,7 +6129,7 @@
       {
         "uuid": "6292f1bf-3610-408d-a6a0-0241bb50ab55",
         "name": "",
-        "image": "465c1e3d-e0f5-4335-8841-eb74c59a4ada",
+        "image": "2145617f-ec45-452e-8714-170b10151d63",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -6121,7 +6165,7 @@
       {
         "uuid": "2ea48710-904d-4469-8e7a-5240bd81d075",
         "name": "",
-        "image": "c9fcd348-bca7-4eff-a407-d0241258b24e",
+        "image": "ee32bcdf-395a-4e9e-ac7c-938c89933912",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -6157,7 +6201,7 @@
       {
         "uuid": "131d80a8-750d-4127-80e3-e9bed39a1631",
         "name": "",
-        "image": "65d1ffd4-5ed5-4554-8be9-cf2589342c94",
+        "image": "02a6df5f-088f-4009-aaa0-815c6cd8c218",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -6193,7 +6237,7 @@
       {
         "uuid": "8f244a53-b455-486f-8ab2-6921e37fe3bf",
         "name": "",
-        "image": "db52caff-0ef2-4164-b4f4-956adbff9c33",
+        "image": "815896fd-06be-49e0-ad9d-58cb76870a91",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -6227,9 +6271,9 @@
         "unpackAlignment": 4
       },
       {
-        "uuid": "2966c6cb-277e-4430-a1ed-f1324afb2667",
+        "uuid": "50607a54-4d2e-4f08-9be8-5f47cc1289d5",
         "name": "",
-        "image": "f45f672a-f26c-4c38-a697-926136235694",
+        "image": "56f43b63-e28c-4e12-ba82-768e36105a61",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -6265,70 +6309,70 @@
     ],
     "images": [
       {
-        "uuid": "0088f5b1-9fce-43af-ada8-09e596d7f661",
+        "uuid": "18316a27-4a9f-4cfa-b6a8-536073fa71ab",
         "url": {
           "$img": "assets/img-5d395030c679ee0c254fa9dabf35f7421ef943d5.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "4192451c-319b-4570-ae9b-ee6b294ba62e",
+        "uuid": "80719a8a-48a5-424b-828d-b3e76d6abbf6",
         "url": {
           "$img": "assets/img-93ad9576dc1472353ff04d8d11dabeabf9e0e540.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "4a62bce7-4c6c-4e63-aed3-41b5f1e0cdca",
+        "uuid": "6e706844-3860-46aa-8175-5226572ef15f",
         "url": {
           "$img": "assets/img-f5b9929a8392c585d5a133c7053c8df83b568482.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "cb5c7033-2167-4efa-8b81-2835a43a308e",
+        "uuid": "5c89efca-873a-4d96-b2af-3eb6efcb2227",
         "url": {
           "$img": "assets/img-5d395030c679ee0c254fa9dabf35f7421ef943d5.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "15ad2ec2-d63a-48cc-a0e6-c87a230d7314",
+        "uuid": "62353701-4c1e-4fc0-a7bf-468ba0dc685a",
         "url": {
           "$img": "assets/img-3036f8e9b7b580a34cc9494b2bcd6de827d95294.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "465c1e3d-e0f5-4335-8841-eb74c59a4ada",
+        "uuid": "2145617f-ec45-452e-8714-170b10151d63",
         "url": {
           "$img": "assets/img-67bc9616e6c73b3a855e9ecf740dcbc6ddf53f8b.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "c9fcd348-bca7-4eff-a407-d0241258b24e",
+        "uuid": "ee32bcdf-395a-4e9e-ac7c-938c89933912",
         "url": {
           "$img": "assets/img-5d395030c679ee0c254fa9dabf35f7421ef943d5.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "65d1ffd4-5ed5-4554-8be9-cf2589342c94",
+        "uuid": "02a6df5f-088f-4009-aaa0-815c6cd8c218",
         "url": {
           "$img": "assets/img-5d395030c679ee0c254fa9dabf35f7421ef943d5.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "db52caff-0ef2-4164-b4f4-956adbff9c33",
+        "uuid": "815896fd-06be-49e0-ad9d-58cb76870a91",
         "url": {
           "$img": "assets/img-f6671376942f3ee6c948976e35a0e486935b22d2.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "f45f672a-f26c-4c38-a697-926136235694",
+        "uuid": "56f43b63-e28c-4e12-ba82-768e36105a61",
         "url": {
           "$img": "assets/img-62ede246b302ba8efa8545d9aaed0ebefad1d525.png",
           "mime": "image/png"
@@ -22007,7 +22051,7 @@
             "type": "number"
           }
         ],
-        "uuid": "6baa1fb6-8e56-4eb2-b69c-4c84165e93bd",
+        "uuid": "c4760811-a77b-46c3-991e-6cc4dd049c11",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
@@ -30866,7 +30910,7 @@
               },
               "layers": 1,
               "matrix": [
-                -0.9992249475904507,
+                -0.9992249475904511,
                 0,
                 -0.039363741093415366,
                 0,
@@ -30876,7 +30920,7 @@
                 0,
                 0.039363741093415366,
                 0,
-                -0.9992249475904507,
+                -0.9992249475904511,
                 0,
                 -102.22562693152577,
                 6.399152776999399,
@@ -31565,17 +31609,17 @@
               },
               "layers": 1,
               "matrix": [
-                -0.016998432900724444,
+                -0.01699843290072489,
                 0,
-                -0.9998555162016759,
+                -0.999855516201676,
                 0,
                 0,
                 1,
                 0,
                 0,
-                0.9998555162016759,
+                0.999855516201676,
                 0,
-                -0.016998432900724444,
+                -0.01699843290072489,
                 0,
                 20.933291304623708,
                 3.9750133598456157,
@@ -31871,17 +31915,17 @@
               },
               "layers": 1,
               "matrix": [
-                -0.26105496855849286,
+                -0.26105496855849347,
                 0,
-                -0.9653239370236937,
+                -0.9653239370236938,
                 0,
                 0,
                 1,
                 0,
                 0,
-                0.9653239370236937,
+                0.9653239370236938,
                 0,
-                -0.26105496855849286,
+                -0.26105496855849347,
                 0,
                 84.96513841371052,
                 3.902808136721142,
@@ -36839,13 +36883,13 @@
               "matrix": [
                 0.9950041652780258,
                 0,
-                -0.09983341664682803,
+                -0.09983341664682802,
                 0,
                 0,
                 1,
                 0,
                 0,
-                0.09983341664682803,
+                0.09983341664682802,
                 0,
                 0.9950041652780258,
                 0,
@@ -36914,13 +36958,13 @@
               "matrix": [
                 0.9950041652780258,
                 0,
-                -0.09983341664682803,
+                -0.09983341664682802,
                 0,
                 0,
                 1,
                 0,
                 0,
-                0.09983341664682803,
+                0.09983341664682802,
                 0,
                 0.9950041652780258,
                 0,
@@ -45309,12 +45353,12 @@
             0,
             0,
             0,
-            0.9991711277059669,
-            -0.04070697186950241,
+            0.9991711277059668,
+            -0.040706971869502416,
             0,
             0,
-            0.04070697186950241,
-            0.9991711277059669,
+            0.040706971869502416,
+            0.9991711277059668,
             0,
             -4.15,
             3.2,
@@ -47104,15 +47148,15 @@
                       "layers": 1,
                       "matrix": [
                         0.9776663950403393,
-                        0.04571496365672374,
+                        0.045714963656723756,
                         0.20513059768521058,
                         0,
                         -0.06854864703456823,
                         0.9920407085738168,
-                        0.10562346104010091,
+                        0.10562346104010092,
                         0,
                         -0.19866933079506127,
-                        -0.1173259333234727,
+                        -0.11732593332347271,
                         0.9730185621925301,
                         0,
                         0,
@@ -47808,12 +47852,12 @@
                     -0.014918919342160743,
                     0,
                     0.14943813247359922,
-                    0.9838313410528048,
+                    0.9838313410528047,
                     0.09871239499192239,
                     0,
-                    -9.540979117872431e-18,
-                    -0.09983341664682822,
-                    0.9950041652780249,
+                    -1.1275702593849237e-17,
+                    -0.09983341664682824,
+                    0.9950041652780248,
                     0,
                     -0.28,
                     1.15,
@@ -48746,12 +48790,12 @@
                     0.014918919342160743,
                     0,
                     -0.14943813247359922,
-                    0.9838313410528048,
+                    0.9838313410528047,
                     0.09871239499192239,
                     0,
-                    9.540979117872431e-18,
-                    -0.09983341664682822,
-                    0.9950041652780249,
+                    1.1275702593849237e-17,
+                    -0.09983341664682824,
+                    0.9950041652780248,
                     0,
                     0.28,
                     1.15,
@@ -49783,13 +49827,13 @@
           },
           "layers": 1,
           "matrix": [
-            0.9340872127968448,
-            9.716241804180734e-10,
+            0.9340872127968447,
+            9.716241769486265e-10,
             0.35704492558979417,
             0,
             0.04534279526922277,
-            0.9919034016955675,
-            -0.11862408112155577,
+            0.9919034016955673,
+            -0.11862408112155576,
             0,
             -0.35415407636591595,
             0.12699465226835388,
@@ -49891,7 +49935,7 @@
         }
       ],
       "animations": [
-        "6baa1fb6-8e56-4eb2-b69c-4c84165e93bd"
+        "c4760811-a77b-46c3-991e-6cc4dd049c11"
       ],
       "fog": {
         "type": "FogExp2",
@@ -65587,7 +65631,7 @@
             "type": "number"
           }
         ],
-        "uuid": "6baa1fb6-8e56-4eb2-b69c-4c84165e93bd",
+        "uuid": "c4760811-a77b-46c3-991e-6cc4dd049c11",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
