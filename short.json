@@ -23,20 +23,20 @@
       "layers": 1,
       "matrix": [
         0.8561876738803034,
-        -1.941663718696417e-9,
-        0.5166649312153698,
+        2.0426007552032376e-9,
+        0.5166649309120348,
         0,
-        -0.07821741278738416,
-        0.9884742566332316,
-        0.12961743336492876,
+        -0.07821740880311968,
+        0.988474258812775,
+        0.1296174190509281,
         0,
-        -0.5107099837330686,
-        -0.15138904417184174,
-        0.8463194744174024,
+        -0.5107099840364037,
+        -0.15138902985784108,
+        0.8463194765969457,
         0,
-        17.607099533081055,
-        7.013890266418457,
-        -21.16319465637207,
+        14.137269020080566,
+        5.985333442687988,
+        -15.413187980651855,
         1
       ],
       "up": [
@@ -4861,14 +4861,6 @@
         "height": 3.2,
         "widthSegments": 1,
         "heightSegments": 1
-      },
-      {
-        "uuid": "b4f3d847-f829-460c-ac65-b64d3ca71fe0",
-        "type": "PlaneGeometry",
-        "width": 1.8,
-        "height": 3.2,
-        "widthSegments": 1,
-        "heightSegments": 1
       }
     ],
     "materials": [
@@ -5975,28 +5967,6 @@
           "__fadeManaged": true,
           "__fadeManagedOrigTransparent": true
         }
-      },
-      {
-        "uuid": "5cee21a4-6346-42ca-9892-7535ac30f201",
-        "type": "MeshBasicMaterial",
-        "color": 16777215,
-        "map": "2a42ce51-fae8-4fb7-a446-d133e0006beb",
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "reflectivity": 1,
-        "refractionRatio": 0.98,
-        "side": 2,
-        "opacity": 0,
-        "transparent": true,
-        "blendColor": 0,
-        "userData": {
-          "__fadeManagedOrigTransparent": true,
-          "__fadeManaged": true
-        }
       }
     ],
     "textures": [
@@ -6359,42 +6329,6 @@
         "generateMipmaps": true,
         "premultiplyAlpha": false,
         "unpackAlignment": 4
-      },
-      {
-        "uuid": "2a42ce51-fae8-4fb7-a446-d133e0006beb",
-        "name": "",
-        "image": "82d1c6f5-c907-4229-b289-ed284fe7c6a7",
-        "mapping": 300,
-        "channel": 0,
-        "repeat": [
-          1,
-          1
-        ],
-        "offset": [
-          0,
-          0
-        ],
-        "center": [
-          0,
-          0
-        ],
-        "rotation": 0,
-        "wrap": [
-          1001,
-          1001
-        ],
-        "format": 1023,
-        "internalFormat": null,
-        "type": 1009,
-        "normalized": false,
-        "colorSpace": "srgb",
-        "minFilter": 1008,
-        "magFilter": 1006,
-        "anisotropy": 1,
-        "flipY": true,
-        "generateMipmaps": true,
-        "premultiplyAlpha": false,
-        "unpackAlignment": 4
       }
     ],
     "images": [
@@ -6465,13 +6399,6 @@
         "uuid": "a9abb91a-a5ad-425f-8687-5fc08e31ae17",
         "url": {
           "$img": "assets/img-62ede246b302ba8efa8545d9aaed0ebefad1d525.png",
-          "mime": "image/png"
-        }
-      },
-      {
-        "uuid": "82d1c6f5-c907-4229-b289-ed284fe7c6a7",
-        "url": {
-          "$img": "assets/img-a58279a5240e8fd06dd78d06b7f49323d9defcf8.png",
           "mime": "image/png"
         }
       }
@@ -51632,81 +51559,6 @@
           ],
           "geometry": "a4c5c215-39e8-4467-a031-7b9169aa6b71",
           "material": "6c34a4a6-54a5-4149-8b66-d409726fa216"
-        },
-        {
-          "uuid": "ec4bccc5-7a5b-4c82-b476-299541c683b3",
-          "type": "Mesh",
-          "name": "callcard",
-          "userData": {
-            "isCallcard": true,
-            "label": "callcard",
-            "width": 1.8,
-            "height": 3.2,
-            "descriptors": {
-              "v": 1,
-              "geomHash": "4:1836",
-              "bbox": {
-                "center": [
-                  -8.3751,
-                  4.038,
-                  16.9409
-                ],
-                "size": [
-                  2.3709,
-                  4.1203,
-                  1.327
-                ]
-              },
-              "region": {
-                "x": "center",
-                "y": "center",
-                "z": "center"
-              },
-              "shape": "blocky",
-              "orientation": "vertical",
-              "sizeRank": "medium",
-              "volume": 12.9633,
-              "role": "leaf",
-              "childCount": 0,
-              "depth": 0,
-              "parentName": "Scene",
-              "adjacency": [],
-              "color": {
-                "name": "white",
-                "base": "white",
-                "hex": "#ffffff"
-              },
-              "materials": [],
-              "pair": null
-            },
-            "classes": {}
-          },
-          "layers": 1,
-          "matrix": [
-            1.2125317972528125,
-            1.2612582475983474e-9,
-            0.46347741345170024,
-            0,
-            0.05885915178694833,
-            1.2875825703233177,
-            -0.15398505440312277,
-            0,
-            -0.4597248231614204,
-            0.16485083174983287,
-            1.2027144143019168,
-            0,
-            -8.375075541804506,
-            4.03803227712474,
-            16.9408542971432,
-            1
-          ],
-          "up": [
-            0,
-            1,
-            0
-          ],
-          "geometry": "b4f3d847-f829-460c-ac65-b64d3ca71fe0",
-          "material": "5cee21a4-6346-42ca-9892-7535ac30f201"
         }
       ],
       "animations": [
