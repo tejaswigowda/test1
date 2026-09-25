@@ -127,14 +127,6 @@
         "thetaLength": 3.141592653589793
       },
       {
-        "uuid": "c0a60f31-c10c-4738-bd9a-30271d11804d",
-        "type": "PlaneGeometry",
-        "width": 90,
-        "height": 90,
-        "widthSegments": 48,
-        "heightSegments": 48
-      },
-      {
         "uuid": "186b8908-507f-40b5-be60-0b36e7ae8d6c",
         "type": "PlaneGeometry",
         "width": 140,
@@ -309,6 +301,14 @@
         "capSegments": 4,
         "radialSegments": 8,
         "heightSegments": 1
+      },
+      {
+        "uuid": "27b9c2f0-2831-434b-b56d-2bee3eb92237",
+        "type": "PlaneGeometry",
+        "width": 90,
+        "height": 90,
+        "widthSegments": 64,
+        "heightSegments": 64
       }
     ],
     "materials": [
@@ -393,22 +393,6 @@
         "blendColor": 0
       },
       {
-        "uuid": "f9b06e89-1ee9-4dd0-8a78-bbcce846410c",
-        "type": "MeshStandardMaterial",
-        "color": 14267769,
-        "roughness": 0.95,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
         "uuid": "ae69fc55-9e92-435d-b8c4-e3709b4409e2",
         "type": "MeshBasicMaterial",
         "color": 16777215,
@@ -475,6 +459,22 @@
         "type": "MeshStandardMaterial",
         "color": 4160842,
         "roughness": 0.8,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "f9b06e89-1ee9-4dd0-8a78-bbcce846410c",
+        "type": "MeshStandardMaterial",
+        "color": 14267769,
+        "roughness": 0.95,
         "metalness": 0,
         "emissive": 0,
         "envMapRotation": [
@@ -1241,90 +1241,6 @@
             0
           ],
           "children": [
-            {
-              "uuid": "95afad42-2aa2-4867-933c-3c7a05aef4ec",
-              "type": "Mesh",
-              "name": "Sand Ground",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "2401:63648",
-                  "bbox": {
-                    "center": [
-                      0,
-                      0.1492,
-                      -5
-                    ],
-                    "size": [
-                      90,
-                      2.6193,
-                      90
-                    ]
-                  },
-                  "region": {
-                    "x": "center",
-                    "y": "bottom",
-                    "z": "center"
-                  },
-                  "shape": "flat",
-                  "orientation": "horizontal",
-                  "sizeRank": "largest",
-                  "volume": 21216.6057,
-                  "role": "leaf",
-                  "childCount": 0,
-                  "depth": 1,
-                  "parentName": "Desert Scenery",
-                  "adjacency": [
-                    "Mesa 1",
-                    "Mesa 2",
-                    "Mesa 3",
-                    "Mesa 4",
-                    "Rock 1",
-                    "Rock 2",
-                    "Rock 3",
-                    "Rock 4",
-                    "Rock 5",
-                    "Rock 6",
-                    "Cactus",
-                    "Cactus",
-                    "Cactus"
-                  ],
-                  "color": {
-                    "name": "orange",
-                    "base": "orange",
-                    "hex": "#d9b579"
-                  },
-                  "materials": [],
-                  "pair": null
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                2.220446049250313e-16,
-                -1,
-                0,
-                0,
-                1,
-                2.220446049250313e-16,
-                0,
-                0,
-                -0.46,
-                -5,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "geometry": "c0a60f31-c10c-4738-bd9a-30271d11804d",
-              "material": "f9b06e89-1ee9-4dd0-8a78-bbcce846410c"
-            },
             {
               "uuid": "bd759d90-3c38-443f-9beb-f3cd8e0531ad",
               "type": "Mesh",
@@ -3052,6 +2968,37 @@
                   "material": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd"
                 }
               ]
+            },
+            {
+              "uuid": "be3ee8d3-1ff4-437c-b151-5549e5e165dc",
+              "type": "Mesh",
+              "name": "Sand Ground",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                2.220446049250313e-16,
+                -1,
+                0,
+                0,
+                1,
+                2.220446049250313e-16,
+                0,
+                0,
+                -0.46,
+                -5,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "27b9c2f0-2831-434b-b56d-2bee3eb92237",
+              "material": "f9b06e89-1ee9-4dd0-8a78-bbcce846410c"
             }
           ]
         },
