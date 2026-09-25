@@ -1,4 +1,4 @@
-// ── game.js (Pong) ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+// ── game.js (Pong) ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 // Strata Play entry module for outputs/pong.glb. This scene ships no physics
 // labels (no .static/.kinematic/.dynamic classes), so there is no cannon-es
 // world (ctx.world is null) and no bodies to bind — per the label → physics
@@ -13,10 +13,13 @@ export default function init( ctx ) {
 	const ai = $S( '#Computer_Paddle' ).toArray()[ 0 ];
 	const ball = $S( '#Ball' ).toArray()[ 0 ];
 	const spawn = $S( '#Ball_Spawn' ).toArray()[ 0 ];
-	const scoreboard = $S( '#Scoreboard' ).toArray()[ 0 ];
+	const playerAnchor = $S( '#Score_Anchor_Player' ).toArray()[ 0 ];
+	const computerAnchor = $S( '#Score_Anchor_Computer' ).toArray()[ 0 ];
 
 	// Derived from the authored scene's own bounds (Table ±6 x / ±12 z,
-	// Rail_Left/Right at ±6–6.3 x, paddles ±1.1 half-width at z ±10.3–10.7).
+	// Rail_Left/Right at ±6–6.3 x, paddles ±1.1 half-width at z ±10.3–10.7) —
+	// unchanged by the desert re-skin, so the court/paddle/ball constants below
+	// still hold exactly.
 	const BALL_RADIUS = 0.35;
 	const PADDLE_HALF_WIDTH = 1.1;
 	const PADDLE_HALF_X = 4.9;    // table half-width (6) minus paddle half-width
@@ -32,54 +35,61 @@ export default function init( ctx ) {
 	const SPEEDUP = 1.07;      // multiplier applied on each paddle hit
 	const WIN_SCORE = 7;
 
-	// ── In-scene scoreboard ── the authored Scoreboard mesh gets its own canvas
-	// texture (a fresh material, so this never mutates a material shared with
-	// another node) instead of any DOM/HUD overlay — the ctx contract has no
-	// HUD hook, and the scene already ships a surface built for exactly this.
-	let drawScoreboard = () => {};
-	if ( scoreboard ) {
+	// ── Score display ── the desert re-skin dropped the old Scoreboard mesh, but
+	// kept both Score_Anchor_* nodes — read as "put each side's own number
+	// here" rather than one shared backdrop. A THREE.Sprite always faces the
+	// camera regardless of the anchor's own orientation, so it's the natural
+	// fit; each gets its own canvas texture (never a HUD/DOM overlay — the ctx
+	// contract has no hook for one).
+	function makeScoreSprite( anchor ) {
 
+		if ( ! anchor ) return null;
 		const canvas = document.createElement( 'canvas' );
-		canvas.width = 512; canvas.height = 170;
+		canvas.width = 128; canvas.height = 128;
 		const c2d = canvas.getContext( '2d' );
-		const scoreTexture = new THREE.CanvasTexture( canvas );
-		scoreTexture.colorSpace = THREE.SRGBColorSpace;
-		scoreboard.material = new THREE.MeshStandardMaterial( {
-			map: scoreTexture, emissiveMap: scoreTexture, emissive: 0xffffff, emissiveIntensity: 0.85, roughness: 0.5,
-		} );
+		const texture = new THREE.CanvasTexture( canvas );
+		texture.colorSpace = THREE.SRGBColorSpace;
+		const sprite = new THREE.Sprite( new THREE.SpriteMaterial( { map: texture, transparent: true, depthTest: false } ) );
+		sprite.scale.set( 1.4, 1.4, 1 );
+		anchor.add( sprite );
 
-		drawScoreboard = () => {
+		return ( text ) => {
 
-			c2d.fillStyle = '#0b0e12';
-			c2d.fillRect( 0, 0, canvas.width, canvas.height );
+			c2d.clearRect( 0, 0, canvas.width, canvas.height );
+			c2d.fillStyle = 'rgba(10,14,18,0.55)';
+			c2d.beginPath();
+			c2d.arc( canvas.width / 2, canvas.height / 2, canvas.width / 2 - 4, 0, Math.PI * 2 );
+			c2d.fill();
+			c2d.fillStyle = '#7fd0ff';
+			c2d.font = 'bold 64px monospace';
 			c2d.textAlign = 'center';
 			c2d.textBaseline = 'middle';
-			if ( state.winner ) {
-
-				c2d.fillStyle = '#7fd0ff';
-				c2d.font = 'bold 64px monospace';
-				c2d.fillText( state.winner === 'player' ? 'YOU WIN' : 'CPU WINS', canvas.width / 2, canvas.height / 2 );
-
-			} else {
-
-				c2d.fillStyle = '#7fd0ff';
-				c2d.font = 'bold 96px monospace';
-				c2d.fillText( state.scorePlayer + '   -   ' + state.scoreComputer, canvas.width / 2, canvas.height / 2 );
-
-			}
-
-			scoreTexture.needsUpdate = true;
+			c2d.fillText( String( text ), canvas.width / 2, canvas.height / 2 + 4 );
+			texture.needsUpdate = true;
 
 		};
 
 	}
 
+	const drawPlayerScore = makeScoreSprite( playerAnchor );
+	const drawComputerScore = makeScoreSprite( computerAnchor );
+
+	function drawScore() {
+
+		const playerText = state.winner === 'player' ? 'WIN' : state.scorePlayer;
+		const computerText = state.winner === 'computer' ? 'WIN' : state.scoreComputer;
+		if ( drawPlayerScore ) drawPlayerScore( playerText );
+		if ( drawComputerScore ) drawComputerScore( computerText );
+
+	}
+
 	// ── Camera ── focused behind the player's paddle, angled down the table so
-	// both paddles and the full court are always in frame (the runtime's own
-	// default framing fits the WHOLE scene incl. backdrop/scoreboard, which
-	// reads as zoomed-out for actual play).
-	camera.position.set( 0, 11.5, 23 );
-	camera.lookAt( 0, 2.5, - 6 );
+	// both paddles and the full court stay in frame; pulled in a bit tighter
+	// than before (the old framing budgeted extra height for the now-removed
+	// Scoreboard mesh) so the desert horizon (mesas around z≈-40–-46) reads as
+	// backdrop rather than empty sky.
+	camera.position.set( 0, 8, 19 );
+	camera.lookAt( 0, 1, - 8 );
 
 	let vx = 0, vz = 0;
 
@@ -95,10 +105,10 @@ export default function init( ctx ) {
 
 	}
 
-	onReset( () => { state.scorePlayer = 0; state.scoreComputer = 0; state.winner = null; serve( true ); drawScoreboard(); } );
+	onReset( () => { state.scorePlayer = 0; state.scoreComputer = 0; state.winner = null; serve( true ); drawScore(); } );
 
 	serve( true );
-	drawScoreboard();
+	drawScore();
 
 	// Once a match ends, freeze play until Enter/Space starts a new one —
 	// ctx.reset() re-runs the SAME onReset handler above, no separate lifecycle.
@@ -154,14 +164,14 @@ export default function init( ctx ) {
 			state.scoreComputer ++;
 			if ( state.scoreComputer >= WIN_SCORE ) { state.winner = 'computer'; ball.position.set( spawn.position.x, spawn.position.y, spawn.position.z ); vx = 0; vz = 0; }
 			else serve( false );
-			drawScoreboard();
+			drawScore();
 
 		} else if ( ball.position.z < - OUT_OF_BOUNDS_Z ) {
 
 			state.scorePlayer ++;
 			if ( state.scorePlayer >= WIN_SCORE ) { state.winner = 'player'; ball.position.set( spawn.position.x, spawn.position.y, spawn.position.z ); vx = 0; vz = 0; }
 			else serve( true );
-			drawScoreboard();
+			drawScore();
 
 		}
 
