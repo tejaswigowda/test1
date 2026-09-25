@@ -309,6 +309,45 @@
         "height": 90,
         "widthSegments": 64,
         "heightSegments": 64
+      },
+      {
+        "uuid": "0763f545-b1f3-40e3-ba16-221104506d36",
+        "type": "BoxGeometry",
+        "width": 0.3,
+        "height": 7.960000000000001,
+        "depth": 0.3,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "b03585aa-c03d-4f5d-8216-519c1be87a9d",
+        "type": "BoxGeometry",
+        "width": 7.6,
+        "height": 2.6,
+        "depth": 0.4,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "ad237f14-fb3b-4c1a-a38d-f24248d5922e",
+        "type": "PlaneGeometry",
+        "width": 7,
+        "height": 2.1,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "9ed89734-440c-4a35-b051-fc470b648af0",
+        "type": "SphereGeometry",
+        "radius": 0.09,
+        "widthSegments": 8,
+        "heightSegments": 8,
+        "phiStart": 0,
+        "phiLength": 6.283185307179586,
+        "thetaStart": 0,
+        "thetaLength": 3.141592653589793
       }
     ],
     "materials": [
@@ -485,6 +524,81 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0
+      },
+      {
+        "uuid": "c91de53d-0289-4f4b-a768-f710ba578641",
+        "type": "MeshStandardMaterial",
+        "color": 2763310,
+        "roughness": 0.6,
+        "metalness": 0.3,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "475dda3c-3ac7-4b36-8a11-57ddb2847d24",
+        "type": "MeshStandardMaterial",
+        "color": 1381658,
+        "roughness": 0.5,
+        "metalness": 0.2,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "43b3bebd-32f3-4133-b43b-a71bbaa0cf9e",
+        "type": "MeshBasicMaterial",
+        "color": 16777215,
+        "map": "d49540f7-39ef-443e-9934-e9627fdeeec8",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "reflectivity": 1,
+        "refractionRatio": 0.98,
+        "blendColor": 0
+      },
+      {
+        "uuid": "6b4a9512-236b-4db7-bcba-9c7f73f08e36",
+        "type": "MeshBasicMaterial",
+        "color": 8018474,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "reflectivity": 1,
+        "refractionRatio": 0.98,
+        "blendColor": 0
+      },
+      {
+        "uuid": "64f9badd-efa2-42dd-9a45-02c72cd42563",
+        "type": "MeshBasicMaterial",
+        "color": 16764779,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "reflectivity": 1,
+        "refractionRatio": 0.98,
+        "blendColor": 0
       }
     ],
     "textures": [
@@ -523,6 +637,42 @@
         "generateMipmaps": true,
         "premultiplyAlpha": false,
         "unpackAlignment": 4
+      },
+      {
+        "uuid": "d49540f7-39ef-443e-9934-e9627fdeeec8",
+        "name": "",
+        "image": "1466096b-5f98-4763-ae03-0ec3480bcc8f",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1001,
+          1001
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
       }
     ],
     "images": [
@@ -530,6 +680,13 @@
         "uuid": "6db0175f-2418-4f99-a2c4-0c511d931fc3",
         "url": {
           "$img": "assets/img-4e4154407f9c48e6cb1302be9cb964dc3e12b379.png",
+          "mime": "image/png"
+        }
+      },
+      {
+        "uuid": "1466096b-5f98-4763-ae03-0ec3480bcc8f",
+        "url": {
+          "$img": "assets/img-42079fc22eb9b1a67becd8737877f9da1a90323d.png",
           "mime": "image/png"
         }
       }
@@ -3083,6 +3240,4026 @@
             }
           },
           "target": "bf6a2e82-163f-4a21-86b5-0fff9bada052"
+        },
+        {
+          "uuid": "995e0f7a-3f26-4586-a854-9ed20cb5a56b",
+          "type": "Group",
+          "name": "Marquee Scoreboard",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:55",
+              "bbox": {
+                "center": [
+                  0,
+                  4.915,
+                  -13.93
+                ],
+                "size": [
+                  7.88,
+                  10.75,
+                  0.54
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "vertical",
+              "sizeRank": "medium",
+              "volume": 45.7434,
+              "role": "group",
+              "childCount": 55,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "orange",
+                "base": "orange",
+                "hex": "#2a2a2e"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "cc9e0b83-f5b5-484d-85b6-2d54fb6ac312",
+              "type": "Mesh",
+              "name": "Marquee Post Left",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:3986",
+                  "bbox": {
+                    "center": [
+                      -3.1,
+                      3.52,
+                      -14
+                    ],
+                    "size": [
+                      0.3,
+                      7.96,
+                      0.3
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "elongated",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 0.7164,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#2a2a2e"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "108e65bf-fffb-4a2e-8874-c0841ea21156",
+                    "mateName": "Marquee Post Right",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.1,
+                3.5200000000000005,
+                -14,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "0763f545-b1f3-40e3-ba16-221104506d36",
+              "material": "c91de53d-0289-4f4b-a768-f710ba578641"
+            },
+            {
+              "uuid": "108e65bf-fffb-4a2e-8874-c0841ea21156",
+              "type": "Mesh",
+              "name": "Marquee Post Right",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:3986",
+                  "bbox": {
+                    "center": [
+                      3.1,
+                      3.52,
+                      -14
+                    ],
+                    "size": [
+                      0.3,
+                      7.96,
+                      0.3
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "elongated",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 0.7164,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#2a2a2e"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "cc9e0b83-f5b5-484d-85b6-2d54fb6ac312",
+                    "mateName": "Marquee Post Left",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.1,
+                3.5200000000000005,
+                -14,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "0763f545-b1f3-40e3-ba16-221104506d36",
+              "material": "c91de53d-0289-4f4b-a768-f710ba578641"
+            },
+            {
+              "uuid": "a685a400-eb09-4659-a426-e163da1ab124",
+              "type": "Mesh",
+              "name": "Marquee Bezel",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:4021",
+                  "bbox": {
+                    "center": [
+                      0,
+                      8.8,
+                      -14
+                    ],
+                    "size": [
+                      7.6,
+                      2.6,
+                      0.4
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "back"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "largest",
+                  "volume": 7.904,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bulb",
+                    "Marquee Bulb",
+                    "Marquee Bulb",
+                    "Marquee Bulb",
+                    "Marquee Bulb",
+                    "Marquee Bulb",
+                    "Marquee Bulb",
+                    "Marquee Bulb",
+                    "Marquee Bulb",
+                    "Marquee Bulb",
+                    "Marquee Bulb",
+                    "Marquee Bulb"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#15151a"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "a4027629-857f-44d8-acb9-221c9ee33928",
+                    "mateName": "Marquee Panel",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                8.8,
+                -14,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "b03585aa-c03d-4f5d-8216-519c1be87a9d",
+              "material": "475dda3c-3ac7-4b36-8a11-57ddb2847d24"
+            },
+            {
+              "uuid": "a4027629-857f-44d8-acb9-221c9ee33928",
+              "type": "Mesh",
+              "name": "Marquee Panel",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "4:3654",
+                  "bbox": {
+                    "center": [
+                      0,
+                      8.8,
+                      -13.79
+                    ],
+                    "size": [
+                      7,
+                      2.1,
+                      0
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "black",
+                    "hex": "#342a1b"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "a685a400-eb09-4659-a426-e163da1ab124",
+                    "mateName": "Marquee Bezel",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                8.8,
+                -13.79,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "ad237f14-fb3b-4c1a-a38d-f24248d5922e",
+              "material": "43b3bebd-32f3-4133-b43b-a71bbaa0cf9e"
+            },
+            {
+              "uuid": "64adafc4-03af-446b-a19b-fe4cc3288f61",
+              "type": "PointLight",
+              "name": "Marquee Glow",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                8.8,
+                -13.2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "color": 16764779,
+              "intensity": 1.1,
+              "distance": 10,
+              "decay": 2,
+              "shadow": {
+                "camera": {
+                  "uuid": "cf965fc4-ae20-4178-95fe-c15b57e580cc",
+                  "type": "PerspectiveCamera",
+                  "layers": 1,
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "fov": 90,
+                  "zoom": 1,
+                  "near": 0.5,
+                  "far": 500,
+                  "focus": 10,
+                  "aspect": 1,
+                  "filmGauge": 35,
+                  "filmOffset": 0
+                }
+              }
+            },
+            {
+              "uuid": "d79c7550-2bcb-487a-bac4-a99d355adbb9",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.85,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.85,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "19728c61-8f61-494b-9686-29fb626aafd7",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.85,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.85,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "bb7d2902-acc3-4b59-b49b-d8347a746033",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.43,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.43,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "a55d2d59-a2f9-4b64-b66b-2c6023a7722a",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.43,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.43,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "751cef61-75fa-4365-8612-29c5d41353a4",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.01,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.0100000000000002,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "6a82d792-7bbd-4460-95cf-d5178215fbf9",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.01,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.0100000000000002,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "e4206153-fefb-432f-974e-d1668036bf37",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -2.59,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -2.5900000000000003,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "da03c874-8bc7-4dfc-b99c-6899af728965",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -2.59,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -2.5900000000000003,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "f4ef0e6b-bfdb-4d5d-b574-1a01bbc29ec3",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -2.17,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -2.1700000000000004,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "f24ffa9f-4fae-433e-bceb-19a51b530f0f",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -2.17,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -2.1700000000000004,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "e1438f89-b162-43e7-89b7-8c6dfbcca1ec",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -1.75,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -1.7500000000000004,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "78e5b813-5976-4ea9-8334-31695dfc7165",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -1.75,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -1.7500000000000004,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "84923cc2-7f13-4dae-ba35-bab14dc7b643",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -1.33,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -1.3300000000000005,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "450ee08e-c468-4d02-8405-3847d8ad744d",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -1.33,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -1.3300000000000005,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "141bc4a0-0240-471f-9300-3af173c23bec",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -0.91,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.9100000000000006,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "d0b30129-87d8-4f02-92a4-68f216635fac",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -0.91,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.9100000000000006,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "4c86e4b8-7243-4c90-925e-0d714ad0cd19",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -0.49,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.4900000000000006,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "a1134aa0-c929-45a1-84a4-8bf2e8fa944c",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -0.49,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.4900000000000006,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "4ad1593f-e46d-4a80-9a06-559b042c360e",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -0.07,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.07000000000000062,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "6771ff20-44dd-4216-ae2e-ea819e01bbc9",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -0.07,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.07000000000000062,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "6ae3a883-0dd6-4de9-b788-3ee3ab7f8bf0",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      0.35,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.34999999999999937,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "6401bd91-1646-4797-8e10-23d4e8487008",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      0.35,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.34999999999999937,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "39c0bfdb-c4c0-4d67-8ba6-282dec5d4a28",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      0.77,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7699999999999994,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "f6a55469-3598-413d-b44b-d4cf0907f3b6",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      0.77,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.7699999999999994,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "846fd1e9-c984-43ba-ae12-2f927d8adc7a",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      1.19,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1.1899999999999993,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "ee321fc1-2284-4085-a090-3a3bcc7a311b",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      1.19,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1.1899999999999993,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "c6ec8790-a2b0-454e-bc34-b11a15adea7c",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      1.61,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1.6099999999999992,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "377fabfb-0700-44eb-a67d-5c8c7f92cb94",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      1.61,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1.6099999999999992,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "88d645fc-5035-4627-aca4-95d624759d57",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      2.03,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                2.0299999999999994,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "154ec879-db29-4c93-a6da-dd1e3082205d",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      2.03,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                2.0299999999999994,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "0519cfe8-6807-4a93-8664-37283c8406bf",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      2.45,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                2.4499999999999993,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "85123333-c1ee-42d2-b6f2-a6e22a6dae6c",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      2.45,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                2.4499999999999993,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "a3d58a0c-0501-4605-b8b4-8512aa65959e",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      2.87,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                2.869999999999999,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "4b179ab0-d979-4b5d-ad51-bc4e10840de7",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      2.87,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                2.869999999999999,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "1c5f918f-aa26-4e80-82a8-a364aea92e49",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      3.29,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.289999999999999,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "c8ddee24-2819-4fae-98da-16669bf20ee3",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      3.29,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.289999999999999,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "56526628-e012-4874-983f-3d3880dbbed3",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      3.71,
+                      10.2,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.709999999999999,
+                10.200000000000001,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "30d16428-24c1-4f14-b95c-53f4fb448835",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      3.71,
+                      7.4,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.709999999999999,
+                7.4,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "029af7de-52bf-4e2b-9ab6-7a524f1e6df8",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.85,
+                      7.82,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "e2f57037-4281-4c86-948b-69405b40ee16",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.85,
+                7.82,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "e2f57037-4281-4c86-948b-69405b40ee16",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      3.85,
+                      7.82,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "029af7de-52bf-4e2b-9ab6-7a524f1e6df8",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.85,
+                7.82,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "bd68ef61-fbcf-41e1-aa82-a4e509464902",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.85,
+                      8.24,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "c82f640a-42b9-4f15-97e8-f65d6b8ec2eb",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.85,
+                8.24,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "c82f640a-42b9-4f15-97e8-f65d6b8ec2eb",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      3.85,
+                      8.24,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "bd68ef61-fbcf-41e1-aa82-a4e509464902",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.85,
+                8.24,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "6af25caa-4dfc-4474-a83b-d193fc312458",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.85,
+                      8.66,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "0b38cbc0-c50b-4e6d-8f81-20b3934e4ba0",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.85,
+                8.66,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "0b38cbc0-c50b-4e6d-8f81-20b3934e4ba0",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      3.85,
+                      8.66,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "6af25caa-4dfc-4474-a83b-d193fc312458",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.85,
+                8.66,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "4ce3b345-0eda-42f1-96eb-c005859a140c",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.85,
+                      9.08,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "f036f292-4cb7-4145-a52c-c82a4d892bdb",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.85,
+                9.08,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "f036f292-4cb7-4145-a52c-c82a4d892bdb",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      3.85,
+                      9.08,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "4ce3b345-0eda-42f1-96eb-c005859a140c",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.85,
+                9.08,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "d65c5233-7f90-427f-a41c-0edfbc6ac120",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.85,
+                      9.5,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "e7c7702e-6a60-492f-a6f1-41f5cec4947a",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.85,
+                9.5,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "e7c7702e-6a60-492f-a6f1-41f5cec4947a",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      3.85,
+                      9.5,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "d65c5233-7f90-427f-a41c-0edfbc6ac120",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.85,
+                9.5,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            },
+            {
+              "uuid": "fd3e2779-45ed-40a7-bff5-c9af979479aa",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      -3.85,
+                      9.92,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a5a2a"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "a0d7703b-aa41-423d-a8c8-a83240faaec8",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -3.85,
+                9.92,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "6b4a9512-236b-4db7-bcba-9c7f73f08e36"
+            },
+            {
+              "uuid": "a0d7703b-aa41-423d-a8c8-a83240faaec8",
+              "type": "Mesh",
+              "name": "Marquee Bulb",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "81:90",
+                  "bbox": {
+                    "center": [
+                      3.85,
+                      9.92,
+                      -13.75
+                    ],
+                    "size": [
+                      0.18,
+                      0.18,
+                      0.18
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0058,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Marquee Scoreboard",
+                  "adjacency": [
+                    "Marquee Bezel"
+                  ],
+                  "color": {
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ffcf6b"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "fd3e2779-45ed-40a7-bff5-c9af979479aa",
+                    "mateName": "Marquee Bulb",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3.85,
+                9.92,
+                -13.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed89734-440c-4a35-b051-fc470b648af0",
+              "material": "64f9badd-efa2-42dd-9a45-02c72cd42563"
+            }
+          ]
         }
       ],
       "fog": {
