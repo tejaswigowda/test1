@@ -14,26 +14,26 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "a0eead39-b682-41a7-b83d-44de1411c09a",
+      "uuid": "c48a4079-deb1-4c0f-8445-2653f41788f5",
       "type": "PerspectiveCamera",
       "name": "Edit Camera",
       "layers": 1,
       "matrix": [
-        0.9980218086713919,
-        1.734723475976807e-18,
-        -0.06286866800150573,
+        1,
         0,
-        -0.019012707156483705,
-        0.9531749495080412,
-        -0.30182119308777006,
         0,
-        0.05992483944797303,
-        0.30241943659484455,
-        0.9512893870882779,
         0,
-        1.7459017387102276,
-        9.010947597600383,
-        19.715682014900917,
+        0,
+        0.9927337820337083,
+        -0.12033136751923738,
+        0,
+        0,
+        0.12033136751923738,
+        0.9927337820337083,
+        0,
+        0,
+        4.5,
+        23,
         1
       ],
       "up": [
@@ -46,7 +46,7 @@
       "near": 0.001,
       "far": 10000000000,
       "focus": 10,
-      "aspect": 1.2447089947089947,
+      "aspect": 1.0753968253968254,
       "filmGauge": 35,
       "filmOffset": 0
     }
@@ -54,8 +54,8 @@
   "controls": {
     "center": [
       0,
-      0.2,
-      -8
+      0.5,
+      -10
     ]
   },
   "scene": {
@@ -127,54 +127,188 @@
         "thetaLength": 3.141592653589793
       },
       {
-        "uuid": "53e3a7eb-8c5f-4425-9d4a-fce86c86650f",
+        "uuid": "c0a60f31-c10c-4738-bd9a-30271d11804d",
         "type": "PlaneGeometry",
-        "width": 60,
-        "height": 50,
+        "width": 90,
+        "height": 90,
+        "widthSegments": 48,
+        "heightSegments": 48
+      },
+      {
+        "uuid": "186b8908-507f-40b5-be60-0b36e7ae8d6c",
+        "type": "PlaneGeometry",
+        "width": 140,
+        "height": 70,
         "widthSegments": 1,
         "heightSegments": 1
       },
       {
-        "uuid": "46fa4f0d-77d4-4a00-9ad6-4ad0df49faf3",
-        "type": "PlaneGeometry",
-        "width": 24,
-        "height": 12,
-        "widthSegments": 1,
-        "heightSegments": 1
-      },
-      {
-        "uuid": "3d661834-c6b6-4886-92e8-43f1cf283605",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.4,
-        "radiusBottom": 0.4,
-        "height": 12,
-        "radialSegments": 16,
-        "heightSegments": 1,
-        "openEnded": false,
+        "uuid": "74d45aed-12b9-4058-8c71-58a00ead03be",
+        "type": "SphereGeometry",
+        "radius": 3,
+        "widthSegments": 24,
+        "heightSegments": 24,
+        "phiStart": 0,
+        "phiLength": 6.283185307179586,
         "thetaStart": 0,
-        "thetaLength": 6.283185307179586
+        "thetaLength": 3.141592653589793
       },
       {
-        "uuid": "4e063252-5f96-4424-84cd-6cd936895744",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.4,
-        "radiusBottom": 0.4,
-        "height": 12,
-        "radialSegments": 16,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "89416090-b385-4259-9a9a-2b96d45c8926",
+        "uuid": "1d3ab6fa-1320-4d22-b9e2-3f1fefc3ab06",
         "type": "BoxGeometry",
-        "width": 6,
-        "height": 1.6,
-        "depth": 0.3,
+        "width": 10,
+        "height": 10,
+        "depth": 8,
         "widthSegments": 1,
         "heightSegments": 1,
         "depthSegments": 1
+      },
+      {
+        "uuid": "36697280-289e-4a39-914e-144c6cdbca26",
+        "type": "BoxGeometry",
+        "width": 8,
+        "height": 14,
+        "depth": 7,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "f9a21d85-55cc-4e04-9e25-69f73c9a5f27",
+        "type": "BoxGeometry",
+        "width": 12,
+        "height": 12,
+        "depth": 9,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "348bd71e-d116-4b9f-b31d-2327d0962eb0",
+        "type": "BoxGeometry",
+        "width": 7,
+        "height": 9,
+        "depth": 6,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "be1e2877-c32d-4ac8-886f-3d712376800a",
+        "type": "DodecahedronGeometry",
+        "radius": 0.7,
+        "detail": 0
+      },
+      {
+        "uuid": "2bb3a26b-21ed-48aa-ba7d-8884c01f676b",
+        "type": "DodecahedronGeometry",
+        "radius": 0.5,
+        "detail": 0
+      },
+      {
+        "uuid": "cdd9d2fe-cd27-482d-b3e7-a805abacbffe",
+        "type": "DodecahedronGeometry",
+        "radius": 0.6,
+        "detail": 0
+      },
+      {
+        "uuid": "77929cdf-1079-4e32-ad28-4e9705c8e7dc",
+        "type": "DodecahedronGeometry",
+        "radius": 0.65,
+        "detail": 0
+      },
+      {
+        "uuid": "24b1c965-e66c-4409-b875-71f55952a376",
+        "type": "DodecahedronGeometry",
+        "radius": 0.4,
+        "detail": 0
+      },
+      {
+        "uuid": "ab4cbbdd-008f-4fa4-b700-5330936c340c",
+        "type": "DodecahedronGeometry",
+        "radius": 0.45,
+        "detail": 0
+      },
+      {
+        "uuid": "b1d6cd76-aa5d-4be1-8790-7e116ca846fd",
+        "type": "CapsuleGeometry",
+        "radius": 0.35,
+        "height": 2,
+        "capSegments": 4,
+        "radialSegments": 8,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "f7bb575e-8721-426d-acba-ef0a1420a7e9",
+        "type": "CapsuleGeometry",
+        "radius": 0.18,
+        "height": 0.9,
+        "capSegments": 4,
+        "radialSegments": 8,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "5751c308-85e8-4b2e-8370-08431ec35257",
+        "type": "CapsuleGeometry",
+        "radius": 0.18,
+        "height": 0.7,
+        "capSegments": 4,
+        "radialSegments": 8,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "8ade9a72-e616-4107-85a0-b35f6ac29eea",
+        "type": "CapsuleGeometry",
+        "radius": 0.27999999999999997,
+        "height": 1.6,
+        "capSegments": 4,
+        "radialSegments": 8,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "055f671d-4d7f-4bea-824e-eb4a91103f47",
+        "type": "CapsuleGeometry",
+        "radius": 0.144,
+        "height": 0.7200000000000001,
+        "capSegments": 4,
+        "radialSegments": 8,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "cf1760e4-06c4-450e-a0a7-e4a2be7de696",
+        "type": "CapsuleGeometry",
+        "radius": 0.144,
+        "height": 0.5599999999999999,
+        "capSegments": 4,
+        "radialSegments": 8,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "721af025-5f28-4c6f-8541-4d1051db3dd0",
+        "type": "CapsuleGeometry",
+        "radius": 0.24499999999999997,
+        "height": 1.4,
+        "capSegments": 4,
+        "radialSegments": 8,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "960ff6ba-5f08-4207-8c3d-04905099f178",
+        "type": "CapsuleGeometry",
+        "radius": 0.126,
+        "height": 0.63,
+        "capSegments": 4,
+        "radialSegments": 8,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "3d48e15d-3418-43f1-b569-58724ade9649",
+        "type": "CapsuleGeometry",
+        "radius": 0.126,
+        "height": 0.48999999999999994,
+        "capSegments": 4,
+        "radialSegments": 8,
+        "heightSegments": 1
       }
     ],
     "materials": [
@@ -259,9 +393,55 @@
         "blendColor": 0
       },
       {
-        "uuid": "e4bc46b6-bed4-415c-91f1-f138e577807c",
+        "uuid": "f9b06e89-1ee9-4dd0-8a78-bbcce846410c",
         "type": "MeshStandardMaterial",
-        "color": 3356740,
+        "color": 14267769,
+        "roughness": 0.95,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "ae69fc55-9e92-435d-b8c4-e3709b4409e2",
+        "type": "MeshBasicMaterial",
+        "color": 16777215,
+        "map": "fca3c71c-79e0-4033-a2ce-7218bb0b42a8",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "reflectivity": 1,
+        "refractionRatio": 0.98,
+        "blendColor": 0,
+        "fog": false
+      },
+      {
+        "uuid": "264e04f7-1323-41c1-80b9-deb5c558007f",
+        "type": "MeshBasicMaterial",
+        "color": 16773826,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "reflectivity": 1,
+        "refractionRatio": 0.98,
+        "blendColor": 0
+      },
+      {
+        "uuid": "c0fd1fb1-b035-4f1f-851d-2a4f4d16f5c6",
+        "type": "MeshStandardMaterial",
+        "color": 9063220,
         "roughness": 0.9,
         "metalness": 0,
         "emissive": 0,
@@ -275,9 +455,9 @@
         "blendColor": 0
       },
       {
-        "uuid": "679bef2d-2125-4c29-b6f3-81ac8e05ee12",
+        "uuid": "78fb92d0-dd9f-401e-8997-fd98e63ed169",
         "type": "MeshStandardMaterial",
-        "color": 1318956,
+        "color": 8022616,
         "roughness": 0.85,
         "metalness": 0,
         "emissive": 0,
@@ -291,10 +471,10 @@
         "blendColor": 0
       },
       {
-        "uuid": "9d8fb503-15e0-43e1-8560-eccc703471e6",
+        "uuid": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd",
         "type": "MeshStandardMaterial",
-        "color": 7831436,
-        "roughness": 0.6,
+        "color": 4160842,
+        "roughness": 0.8,
         "metalness": 0,
         "emissive": 0,
         "envMapRotation": [
@@ -305,22 +485,53 @@
         ],
         "envMapIntensity": 1,
         "blendColor": 0
-      },
+      }
+    ],
+    "textures": [
       {
-        "uuid": "ad2bebae-02f1-42d2-9546-1a0cc92a32c0",
-        "type": "MeshStandardMaterial",
-        "color": 1053720,
-        "roughness": 0.5,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
+        "uuid": "fca3c71c-79e0-4033-a2ce-7218bb0b42a8",
+        "name": "",
+        "image": "6db0175f-2418-4f99-a2c4-0c511d931fc3",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
         ],
-        "envMapIntensity": 1,
-        "blendColor": 0
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1001,
+          1001
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      }
+    ],
+    "images": [
+      {
+        "uuid": "6db0175f-2418-4f99-a2c4-0c511d931fc3",
+        "url": {
+          "$img": "assets/img-4e4154407f9c48e6cb1302be9cb964dc3e12b379.png",
+          "mime": "image/png"
+        }
       }
     ],
     "object": {
@@ -354,6 +565,7 @@
         1,
         0
       ],
+      "background": 15901788,
       "children": [
         {
           "uuid": "bf338376-d308-4a54-93b2-287e89b54913",
@@ -362,7 +574,7 @@
           "userData": {
             "descriptors": {
               "v": 1,
-              "geomHash": "grp:10",
+              "geomHash": "grp:9",
               "bbox": {
                 "center": [
                   0,
@@ -385,7 +597,7 @@
               "sizeRank": "medium",
               "volume": 338.184,
               "role": "group",
-              "childCount": 10,
+              "childCount": 9,
               "depth": 0,
               "parentName": "Scene",
               "adjacency": [],
@@ -962,23 +1174,23 @@
           ]
         },
         {
-          "uuid": "3e2dcf26-22de-48dc-bb72-86559848288b",
+          "uuid": "4880e1a6-6d56-4566-b310-a666e18564c9",
           "type": "Group",
-          "name": "Background Scenery",
+          "name": "Desert Scenery",
           "userData": {
             "descriptors": {
               "v": 1,
-              "geomHash": "grp:5",
+              "geomHash": "grp:16",
               "bbox": {
                 "center": [
                   0,
-                  5.5,
-                  -2
+                  24,
+                  -8.5
                 ],
                 "size": [
-                  60,
-                  12,
-                  50
+                  140,
+                  70,
+                  97
                 ]
               },
               "region": {
@@ -989,16 +1201,16 @@
               "shape": "blocky",
               "orientation": "horizontal",
               "sizeRank": "medium",
-              "volume": 36000,
+              "volume": 950600,
               "role": "group",
-              "childCount": 5,
+              "childCount": 16,
               "depth": 0,
               "parentName": "Scene",
               "adjacency": [],
               "color": {
-                "name": "blue",
-                "base": "blue",
-                "hex": "#333844"
+                "name": "brown",
+                "base": "brown",
+                "hex": "#d9b579"
               },
               "materials": [],
               "pair": null
@@ -1030,23 +1242,23 @@
           ],
           "children": [
             {
-              "uuid": "53a6869a-9a15-4f2f-a341-614c5c139047",
+              "uuid": "95afad42-2aa2-4867-933c-3c7a05aef4ec",
               "type": "Mesh",
-              "name": "Floor",
+              "name": "Sand Ground",
               "userData": {
                 "descriptors": {
                   "v": 1,
-                  "geomHash": "4:39051",
+                  "geomHash": "2401:63648",
                   "bbox": {
                     "center": [
                       0,
-                      -0.45,
-                      -2
+                      0.1492,
+                      -5
                     ],
                     "size": [
-                      60,
-                      0,
-                      50
+                      90,
+                      2.6193,
+                      90
                     ]
                   },
                   "region": {
@@ -1056,21 +1268,31 @@
                   },
                   "shape": "flat",
                   "orientation": "horizontal",
-                  "sizeRank": "smallest",
-                  "volume": 0,
+                  "sizeRank": "largest",
+                  "volume": 21216.6057,
                   "role": "leaf",
                   "childCount": 0,
                   "depth": 1,
-                  "parentName": "Background Scenery",
+                  "parentName": "Desert Scenery",
                   "adjacency": [
-                    "Backdrop",
-                    "Pillar Left",
-                    "Pillar Right"
+                    "Mesa 1",
+                    "Mesa 2",
+                    "Mesa 3",
+                    "Mesa 4",
+                    "Rock 1",
+                    "Rock 2",
+                    "Rock 3",
+                    "Rock 4",
+                    "Rock 5",
+                    "Rock 6",
+                    "Cactus",
+                    "Cactus",
+                    "Cactus"
                   ],
                   "color": {
-                    "name": "dark blue",
-                    "base": "blue",
-                    "hex": "#333844"
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#d9b579"
                   },
                   "materials": [],
                   "pair": null
@@ -1083,16 +1305,16 @@
                 0,
                 0,
                 0,
-                9.601472749556086e-16,
-                -4.324118909710876,
+                2.220446049250313e-16,
+                -1,
                 0,
                 0,
                 1,
                 2.220446049250313e-16,
                 0,
                 0,
-                -0.45,
-                -2,
+                -0.46,
+                -5,
                 1
               ],
               "up": [
@@ -1100,26 +1322,26 @@
                 1,
                 0
               ],
-              "geometry": "53e3a7eb-8c5f-4425-9d4a-fce86c86650f",
-              "material": "e4bc46b6-bed4-415c-91f1-f138e577807c"
+              "geometry": "c0a60f31-c10c-4738-bd9a-30271d11804d",
+              "material": "f9b06e89-1ee9-4dd0-8a78-bbcce846410c"
             },
             {
-              "uuid": "4eacb280-596e-41a5-9ff2-ef3c40fdc782",
+              "uuid": "bd759d90-3c38-443f-9beb-f3cd8e0531ad",
               "type": "Mesh",
-              "name": "Backdrop",
+              "name": "Sky",
               "userData": {
                 "descriptors": {
                   "v": 1,
-                  "geomHash": "4:13416",
+                  "geomHash": "4:78262",
                   "bbox": {
                     "center": [
                       0,
-                      5.5,
-                      -14
+                      24,
+                      -55
                     ],
                     "size": [
-                      24,
-                      12,
+                      140,
+                      70,
                       0
                     ]
                   },
@@ -1135,17 +1357,14 @@
                   "role": "leaf",
                   "childCount": 0,
                   "depth": 1,
-                  "parentName": "Background Scenery",
+                  "parentName": "Desert Scenery",
                   "adjacency": [
-                    "Floor",
-                    "Pillar Left",
-                    "Pillar Right",
-                    "Scoreboard"
+                    "Sun"
                   ],
                   "color": {
-                    "name": "dark blue",
-                    "base": "blue",
-                    "hex": "#14202c"
+                    "name": "orange",
+                    "base": "orange",
+                    "hex": "#ba8061"
                   },
                   "materials": [],
                   "pair": null
@@ -1158,7 +1377,7 @@
                 0,
                 0,
                 0,
-                3.3003222560708885,
+                1,
                 0,
                 0,
                 0,
@@ -1166,8 +1385,8 @@
                 1,
                 0,
                 0,
-                15.95700859972897,
-                -14,
+                24,
+                -55,
                 1
               ],
               "up": [
@@ -1175,27 +1394,27 @@
                 1,
                 0
               ],
-              "geometry": "46fa4f0d-77d4-4a00-9ad6-4ad0df49faf3",
-              "material": "679bef2d-2125-4c29-b6f3-81ac8e05ee12"
+              "geometry": "186b8908-507f-40b5-be60-0b36e7ae8d6c",
+              "material": "ae69fc55-9e92-435d-b8c4-e3709b4409e2"
             },
             {
-              "uuid": "964056bc-d3a8-4ace-8ec5-ede45113585f",
+              "uuid": "c26b940a-c8cb-4023-a214-3cf830f5e4e8",
               "type": "Mesh",
-              "name": "Pillar Left",
+              "name": "Sun",
               "userData": {
                 "descriptors": {
                   "v": 1,
-                  "geomHash": "100:6013",
+                  "geomHash": "625:3000",
                   "bbox": {
                     "center": [
-                      -8,
-                      5.5,
-                      -14
+                      -18,
+                      30,
+                      -54
                     ],
                     "size": [
-                      0.8,
-                      12,
-                      0.8
+                      6,
+                      6,
+                      6
                     ]
                   },
                   "region": {
@@ -1203,177 +1422,21 @@
                     "y": "center",
                     "z": "back"
                   },
-                  "shape": "elongated",
-                  "orientation": "vertical",
-                  "sizeRank": "largest",
-                  "volume": 7.68,
-                  "role": "leaf",
-                  "childCount": 0,
-                  "depth": 1,
-                  "parentName": "Background Scenery",
-                  "adjacency": [
-                    "Floor",
-                    "Backdrop"
-                  ],
-                  "color": {
-                    "name": "dark blue",
-                    "base": "blue",
-                    "hex": "#777f8c"
-                  },
-                  "materials": [],
-                  "pair": {
-                    "mateUuid": "dfe81be5-2f62-4ff1-83b7-739c89aaf590",
-                    "mateName": "Pillar Right",
-                    "axis": "x",
-                    "side": "left"
-                  }
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                3.7110990485830544,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                -8,
-                19.414329099025707,
-                -14,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "geometry": "3d661834-c6b6-4886-92e8-43f1cf283605",
-              "material": "9d8fb503-15e0-43e1-8560-eccc703471e6"
-            },
-            {
-              "uuid": "dfe81be5-2f62-4ff1-83b7-739c89aaf590",
-              "type": "Mesh",
-              "name": "Pillar Right",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "100:6013",
-                  "bbox": {
-                    "center": [
-                      8,
-                      5.5,
-                      -14
-                    ],
-                    "size": [
-                      0.8,
-                      12,
-                      0.8
-                    ]
-                  },
-                  "region": {
-                    "x": "right",
-                    "y": "center",
-                    "z": "back"
-                  },
-                  "shape": "elongated",
-                  "orientation": "vertical",
-                  "sizeRank": "largest",
-                  "volume": 7.68,
-                  "role": "leaf",
-                  "childCount": 0,
-                  "depth": 1,
-                  "parentName": "Background Scenery",
-                  "adjacency": [
-                    "Floor",
-                    "Backdrop"
-                  ],
-                  "color": {
-                    "name": "dark blue",
-                    "base": "blue",
-                    "hex": "#777f8c"
-                  },
-                  "materials": [],
-                  "pair": {
-                    "mateUuid": "964056bc-d3a8-4ace-8ec5-ede45113585f",
-                    "mateName": "Pillar Left",
-                    "axis": "x",
-                    "side": "right"
-                  }
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                3.7110990485830544,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                8,
-                19.414329099025707,
-                -14,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "geometry": "4e063252-5f96-4424-84cd-6cd936895744",
-              "material": "9d8fb503-15e0-43e1-8560-eccc703471e6"
-            },
-            {
-              "uuid": "be10e4c8-fb46-432f-b571-eac6b701090d",
-              "type": "Mesh",
-              "name": "Scoreboard",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "24:3108",
-                  "bbox": {
-                    "center": [
-                      0,
-                      10.5,
-                      -14
-                    ],
-                    "size": [
-                      6,
-                      1.6,
-                      0.3
-                    ]
-                  },
-                  "region": {
-                    "x": "center",
-                    "y": "top",
-                    "z": "back"
-                  },
-                  "shape": "thin",
+                  "shape": "blocky",
                   "orientation": "horizontal",
                   "sizeRank": "medium",
-                  "volume": 2.88,
+                  "volume": 216,
                   "role": "leaf",
                   "childCount": 0,
                   "depth": 1,
-                  "parentName": "Background Scenery",
+                  "parentName": "Desert Scenery",
                   "adjacency": [
-                    "Backdrop"
+                    "Sky"
                   ],
                   "color": {
-                    "name": "dark blue",
-                    "base": "blue",
-                    "hex": "#101418"
+                    "name": "light yellow",
+                    "base": "yellow",
+                    "hex": "#fff2c2"
                   },
                   "materials": [],
                   "pair": null
@@ -1393,9 +1456,9 @@
                 0,
                 1,
                 0,
-                0,
-                6.490574616755878,
-                -14,
+                -18,
+                30,
+                -54,
                 1
               ],
               "up": [
@@ -1403,18 +1466,1599 @@
                 1,
                 0
               ],
-              "geometry": "89416090-b385-4259-9a9a-2b96d45c8926",
-              "material": "ad2bebae-02f1-42d2-9546-1a0cc92a32c0"
+              "geometry": "74d45aed-12b9-4058-8c71-58a00ead03be",
+              "material": "264e04f7-1323-41c1-80b9-deb5c558007f"
+            },
+            {
+              "uuid": "79a944d6-2ee5-48b7-bf2c-b4a306834ec4",
+              "type": "Mesh",
+              "name": "Mesa 1",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:8124",
+                  "bbox": {
+                    "center": [
+                      -30,
+                      5,
+                      -40
+                    ],
+                    "size": [
+                      10,
+                      10,
+                      8
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 800,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#8a4b34"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -30,
+                5,
+                -40,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "1d3ab6fa-1320-4d22-b9e2-3f1fefc3ab06",
+              "material": "c0fd1fb1-b035-4f1f-851d-2a4f4d16f5c6"
+            },
+            {
+              "uuid": "2590cbe3-e0a4-4c85-881a-bd92e703b67c",
+              "type": "Mesh",
+              "name": "Mesa 2",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:8789",
+                  "bbox": {
+                    "center": [
+                      -14,
+                      7,
+                      -46
+                    ],
+                    "size": [
+                      9.9899,
+                      14,
+                      9.4192
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 1317.3617,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#8a4b34"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                0.9323273456060344,
+                0,
+                -0.361615431964962,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.361615431964962,
+                0,
+                0.9323273456060344,
+                0,
+                -14,
+                7,
+                -46,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "36697280-289e-4a39-914e-144c6cdbca26",
+              "material": "c0fd1fb1-b035-4f1f-851d-2a4f4d16f5c6"
+            },
+            {
+              "uuid": "148f6b7f-1e12-4738-8f7d-923399de7c0a",
+              "type": "Mesh",
+              "name": "Mesa 3",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:9605",
+                  "bbox": {
+                    "center": [
+                      20,
+                      6,
+                      -42
+                    ],
+                    "size": [
+                      14.9302,
+                      12,
+                      14.7377
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 2640.4391,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#8a4b34"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                0.7384685587295878,
+                0,
+                -0.6742879116281452,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.6742879116281452,
+                0,
+                0.7384685587295878,
+                0,
+                20,
+                6,
+                -42,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "f9a21d85-55cc-4e04-9e25-69f73c9a5f27",
+              "material": "c0fd1fb1-b035-4f1f-851d-2a4f4d16f5c6"
+            },
+            {
+              "uuid": "71aa456f-d6a1-4c57-a785-1200f22f80bc",
+              "type": "Mesh",
+              "name": "Mesa 4",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:6442",
+                  "bbox": {
+                    "center": [
+                      32,
+                      4.5,
+                      -38
+                    ],
+                    "size": [
+                      8.4868,
+                      9,
+                      8.9379
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 682.6863,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#8a4b34"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                0.44466151674170706,
+                0,
+                -0.8956986856800475,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.8956986856800475,
+                0,
+                0.44466151674170706,
+                0,
+                32,
+                4.5,
+                -38,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "348bd71e-d116-4b9f-b31d-2327d0962eb0",
+              "material": "c0fd1fb1-b035-4f1f-851d-2a4f4d16f5c6"
+            },
+            {
+              "uuid": "46f49a05-e50d-47ec-afb0-fd09d5a82b2e",
+              "type": "Mesh",
+              "name": "Rock 1",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "108:700",
+                  "bbox": {
+                    "center": [
+                      -11,
+                      0.4,
+                      6
+                    ],
+                    "size": [
+                      1.3078,
+                      1.3078,
+                      1.3078
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 2.237,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a6a58"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -11,
+                0.4,
+                6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "be1e2877-c32d-4ac8-886f-3d712376800a",
+              "material": "78fb92d0-dd9f-401e-8997-fd98e63ed169"
+            },
+            {
+              "uuid": "999b413b-b09f-426f-8dc0-62893d990d31",
+              "type": "Mesh",
+              "name": "Rock 2",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "108:500",
+                  "bbox": {
+                    "center": [
+                      12,
+                      0.3,
+                      9
+                    ],
+                    "size": [
+                      1.3125,
+                      1.5121,
+                      1.6107
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 3.1964,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a6a58"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                0.6216099682706644,
+                0.4422996437289515,
+                -0.646507596632697,
+                0,
+                -2.7755575615628914e-17,
+                0.8253356149096783,
+                0.5646424733950353,
+                0,
+                0.7833269096274833,
+                -0.35098738997135737,
+                0.5130368453966545,
+                0,
+                12,
+                0.3,
+                9,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "2bb3a26b-21ed-48aa-ba7d-8884c01f676b",
+              "material": "78fb92d0-dd9f-401e-8997-fd98e63ed169"
+            },
+            {
+              "uuid": "ea572703-a685-49ab-af3c-50a384ab35eb",
+              "type": "Mesh",
+              "name": "Rock 3",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "108:600",
+                  "bbox": {
+                    "center": [
+                      -13,
+                      0.35,
+                      -6
+                    ],
+                    "size": [
+                      1.3464,
+                      1.6611,
+                      1.5327
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 3.4278,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a6a58"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                -0.22720209469308728,
+                0.9076640557550619,
+                -0.35288124072745125,
+                0,
+                5.551115123125783e-17,
+                0.3623577544766735,
+                0.9320390859672265,
+                0,
+                0.9738476308781951,
+                0.21176123266758423,
+                -0.08232844084538371,
+                0,
+                -13,
+                0.35,
+                -6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "cdd9d2fe-cd27-482d-b3e7-a805abacbffe",
+              "material": "78fb92d0-dd9f-401e-8997-fd98e63ed169"
+            },
+            {
+              "uuid": "73a5b180-4f1e-4ca2-a016-48e4fbb654d9",
+              "type": "Mesh",
+              "name": "Rock 4",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "108:650",
+                  "bbox": {
+                    "center": [
+                      14,
+                      0.4,
+                      -9
+                    ],
+                    "size": [
+                      1.6169,
+                      1.8506,
+                      1.55
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 4.6382,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a6a58"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                -0.904072142017061,
+                0.4162028838507219,
+                0.09710160401880669,
+                0,
+                0,
+                -0.22720209469308683,
+                0.9738476308781951,
+                0,
+                0.4273798802338297,
+                0.8804285136462902,
+                0.20540708441994238,
+                0,
+                14,
+                0.4,
+                -9,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "77929cdf-1079-4e32-ad28-4e9705c8e7dc",
+              "material": "78fb92d0-dd9f-401e-8997-fd98e63ed169"
+            },
+            {
+              "uuid": "ca064a95-e4ee-4da7-9977-1aad7b370778",
+              "type": "Mesh",
+              "name": "Rock 5",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "108:400",
+                  "bbox": {
+                    "center": [
+                      -10,
+                      0.25,
+                      -1
+                    ],
+                    "size": [
+                      1.0009,
+                      1.2271,
+                      1.2429
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 1.5265,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a6a58"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                -0.8967584163341469,
+                -0.29890626608684634,
+                -0.3263117938841502,
+                0,
+                2.7755575615628914e-17,
+                -0.7373937155412453,
+                0.6754631805511508,
+                0,
+                -0.4425204432948524,
+                0.6057272920830761,
+                0.6612640205635197,
+                0,
+                -10,
+                0.25,
+                -1,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "24b1c965-e66c-4409-b875-71f55952a376",
+              "material": "78fb92d0-dd9f-401e-8997-fd98e63ed169"
+            },
+            {
+              "uuid": "5342b5a7-a81c-4461-87f6-49cb4ed554bc",
+              "type": "Mesh",
+              "name": "Rock 6",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "108:450",
+                  "bbox": {
+                    "center": [
+                      11,
+                      0.3,
+                      2
+                    ],
+                    "size": [
+                      0.9991,
+                      0.9733,
+                      1.1077
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 1.0772,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#7a6a58"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                -0.21079579943077986,
+                -0.13794905808366145,
+                -0.9677474816893967,
+                0,
+                0,
+                -0.9899924966004456,
+                0.1411200080598672,
+                0,
+                -0.9775301176650972,
+                0.029747504914657774,
+                0.20868625975136423,
+                0,
+                11,
+                0.3,
+                2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "ab4cbbdd-008f-4fa4-b700-5330936c340c",
+              "material": "78fb92d0-dd9f-401e-8997-fd98e63ed169"
+            },
+            {
+              "uuid": "a0acd9a3-3d87-471e-9a1c-f95c90fb3dde",
+              "type": "Group",
+              "name": "Cactus",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:3",
+                  "bbox": {
+                    "center": [
+                      -9.0719,
+                      1.15,
+                      4
+                    ],
+                    "size": [
+                      1.9631,
+                      2.7,
+                      0.7
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 3.7103,
+                  "role": "group",
+                  "childCount": 3,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "green",
+                    "base": "green",
+                    "hex": "#3f7d4a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -9,
+                -0.15,
+                4,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "children": [
+                {
+                  "uuid": "25f39b8f-2e77-453a-a7b8-dba1d272668c",
+                  "type": "Mesh",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "90:1350",
+                      "bbox": {
+                        "center": [
+                          -9,
+                          1.15,
+                          4
+                        ],
+                        "size": [
+                          0.7,
+                          2.7,
+                          0.7
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "elongated",
+                      "orientation": "vertical",
+                      "sizeRank": "largest",
+                      "volume": 1.323,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Cactus",
+                      "adjacency": [
+                        "0d174a",
+                        "3abf78"
+                      ],
+                      "color": {
+                        "name": "dark green",
+                        "base": "green",
+                        "hex": "#3f7d4a"
+                      },
+                      "materials": [],
+                      "pair": null
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1.3,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "b1d6cd76-aa5d-4be1-8790-7e116ca846fd",
+                  "material": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd"
+                },
+                {
+                  "uuid": "0d174a3d-55ba-4a5d-a441-f6a697249b9e",
+                  "type": "Mesh",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "90:630",
+                      "bbox": {
+                        "center": [
+                          -9.4,
+                          1.45,
+                          4
+                        ],
+                        "size": [
+                          1.3069,
+                          0.6088,
+                          0.36
+                        ]
+                      },
+                      "region": {
+                        "x": "left",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "blocky",
+                      "orientation": "horizontal",
+                      "sizeRank": "medium",
+                      "volume": 0.2864,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Cactus",
+                      "adjacency": [
+                        "25f39b",
+                        "3abf78"
+                      ],
+                      "color": {
+                        "name": "dark green",
+                        "base": "green",
+                        "hex": "#3f7d4a"
+                      },
+                      "materials": [],
+                      "pair": null
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    0.20345601305263383,
+                    0.9790840876823228,
+                    0,
+                    0,
+                    -0.9790840876823228,
+                    0.20345601305263383,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    -0.4,
+                    1.6,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "f7bb575e-8721-426d-acba-ef0a1420a7e9",
+                  "material": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd"
+                },
+                {
+                  "uuid": "3abf78f5-c7e9-4ef1-96fc-535ec8c9dbd0",
+                  "type": "Mesh",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "90:530",
+                      "bbox": {
+                        "center": [
+                          -8.65,
+                          1.85,
+                          4
+                        ],
+                        "size": [
+                          1.1194,
+                          0.6699,
+                          0.36
+                        ]
+                      },
+                      "region": {
+                        "x": "right",
+                        "y": "top",
+                        "z": "center"
+                      },
+                      "shape": "blocky",
+                      "orientation": "horizontal",
+                      "sizeRank": "smallest",
+                      "volume": 0.27,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Cactus",
+                      "adjacency": [
+                        "25f39b",
+                        "0d174a"
+                      ],
+                      "color": {
+                        "name": "dark green",
+                        "base": "green",
+                        "hex": "#3f7d4a"
+                      },
+                      "materials": [],
+                      "pair": null
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    0.30901699437494745,
+                    -0.9510565162951536,
+                    0,
+                    0,
+                    0.9510565162951536,
+                    0.30901699437494745,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0.35,
+                    2,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "5751c308-85e8-4b2e-8370-08431ec35257",
+                  "material": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd"
+                }
+              ]
+            },
+            {
+              "uuid": "3ea8cded-9b4d-4f1f-b522-0252491d6a00",
+              "type": "Group",
+              "name": "Cactus",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:3",
+                  "bbox": {
+                    "center": [
+                      9.4425,
+                      0.89,
+                      -3
+                    ],
+                    "size": [
+                      1.5705,
+                      2.16,
+                      0.56
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 1.8997,
+                  "role": "group",
+                  "childCount": 3,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "green",
+                    "base": "green",
+                    "hex": "#3f7d4a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                9.5,
+                -0.15,
+                -3,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "children": [
+                {
+                  "uuid": "573adc87-78b7-4d77-a464-4be398006726",
+                  "type": "Mesh",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "90:1080",
+                      "bbox": {
+                        "center": [
+                          9.5,
+                          0.89,
+                          -3
+                        ],
+                        "size": [
+                          0.56,
+                          2.16,
+                          0.56
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "elongated",
+                      "orientation": "vertical",
+                      "sizeRank": "largest",
+                      "volume": 0.6774,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Cactus",
+                      "adjacency": [
+                        "d692cd",
+                        "a2286a"
+                      ],
+                      "color": {
+                        "name": "dark green",
+                        "base": "green",
+                        "hex": "#3f7d4a"
+                      },
+                      "materials": [],
+                      "pair": null
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1.04,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "8ade9a72-e616-4107-85a0-b35f6ac29eea",
+                  "material": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd"
+                },
+                {
+                  "uuid": "d692cd4a-105a-434a-bb52-f9a34713b669",
+                  "type": "Mesh",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "90:504",
+                      "bbox": {
+                        "center": [
+                          9.18,
+                          1.13,
+                          -3
+                        ],
+                        "size": [
+                          1.0455,
+                          0.4871,
+                          0.288
+                        ]
+                      },
+                      "region": {
+                        "x": "left",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "blocky",
+                      "orientation": "horizontal",
+                      "sizeRank": "medium",
+                      "volume": 0.1467,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Cactus",
+                      "adjacency": [
+                        "573adc",
+                        "a2286a"
+                      ],
+                      "color": {
+                        "name": "dark green",
+                        "base": "green",
+                        "hex": "#3f7d4a"
+                      },
+                      "materials": [],
+                      "pair": null
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    0.20345601305263383,
+                    0.9790840876823228,
+                    0,
+                    0,
+                    -0.9790840876823228,
+                    0.20345601305263383,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    -0.32000000000000006,
+                    1.2800000000000002,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "055f671d-4d7f-4bea-824e-eb4a91103f47",
+                  "material": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd"
+                },
+                {
+                  "uuid": "a2286a03-78db-4e85-8ab0-275125fbb486",
+                  "type": "Mesh",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "90:424",
+                      "bbox": {
+                        "center": [
+                          9.78,
+                          1.45,
+                          -3
+                        ],
+                        "size": [
+                          0.8955,
+                          0.536,
+                          0.288
+                        ]
+                      },
+                      "region": {
+                        "x": "right",
+                        "y": "top",
+                        "z": "center"
+                      },
+                      "shape": "blocky",
+                      "orientation": "horizontal",
+                      "sizeRank": "smallest",
+                      "volume": 0.1382,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Cactus",
+                      "adjacency": [
+                        "573adc",
+                        "d692cd"
+                      ],
+                      "color": {
+                        "name": "dark green",
+                        "base": "green",
+                        "hex": "#3f7d4a"
+                      },
+                      "materials": [],
+                      "pair": null
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    0.30901699437494745,
+                    -0.9510565162951536,
+                    0,
+                    0,
+                    0.9510565162951536,
+                    0.30901699437494745,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0.27999999999999997,
+                    1.6,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "cf1760e4-06c4-450e-a0a7-e4a2be7de696",
+                  "material": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd"
+                }
+              ]
+            },
+            {
+              "uuid": "5b0426cf-6a59-48d3-94c2-2ff64139f4d8",
+              "type": "Group",
+              "name": "Cactus",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:3",
+                  "bbox": {
+                    "center": [
+                      -8.5503,
+                      0.76,
+                      -7
+                    ],
+                    "size": [
+                      1.3742,
+                      1.89,
+                      0.49
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 1.2726,
+                  "role": "group",
+                  "childCount": 3,
+                  "depth": 1,
+                  "parentName": "Desert Scenery",
+                  "adjacency": [
+                    "Sand Ground"
+                  ],
+                  "color": {
+                    "name": "green",
+                    "base": "green",
+                    "hex": "#3f7d4a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -8.5,
+                -0.15,
+                -7,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "children": [
+                {
+                  "uuid": "233b5d3d-3eb0-40d4-9a9b-7fe8fd76fd32",
+                  "type": "Mesh",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "90:945",
+                      "bbox": {
+                        "center": [
+                          -8.5,
+                          0.76,
+                          -7
+                        ],
+                        "size": [
+                          0.49,
+                          1.89,
+                          0.49
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "elongated",
+                      "orientation": "vertical",
+                      "sizeRank": "largest",
+                      "volume": 0.4538,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Cactus",
+                      "adjacency": [
+                        "d4e978",
+                        "01712a"
+                      ],
+                      "color": {
+                        "name": "dark green",
+                        "base": "green",
+                        "hex": "#3f7d4a"
+                      },
+                      "materials": [],
+                      "pair": null
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0.9099999999999999,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "721af025-5f28-4c6f-8541-4d1051db3dd0",
+                  "material": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd"
+                },
+                {
+                  "uuid": "d4e97850-650e-434e-bd6c-4dbb26e47f99",
+                  "type": "Mesh",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "90:441",
+                      "bbox": {
+                        "center": [
+                          -8.78,
+                          0.97,
+                          -7
+                        ],
+                        "size": [
+                          0.9148,
+                          0.4262,
+                          0.252
+                        ]
+                      },
+                      "region": {
+                        "x": "left",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "blocky",
+                      "orientation": "horizontal",
+                      "sizeRank": "medium",
+                      "volume": 0.0982,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Cactus",
+                      "adjacency": [
+                        "233b5d",
+                        "01712a"
+                      ],
+                      "color": {
+                        "name": "dark green",
+                        "base": "green",
+                        "hex": "#3f7d4a"
+                      },
+                      "materials": [],
+                      "pair": null
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    0.20345601305263383,
+                    0.9790840876823228,
+                    0,
+                    0,
+                    -0.9790840876823228,
+                    0.20345601305263383,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    -0.27999999999999997,
+                    1.1199999999999999,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "960ff6ba-5f08-4207-8c3d-04905099f178",
+                  "material": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd"
+                },
+                {
+                  "uuid": "01712ab2-73bd-43cc-8d52-f098bd93b50e",
+                  "type": "Mesh",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "90:371",
+                      "bbox": {
+                        "center": [
+                          -8.255,
+                          1.25,
+                          -7
+                        ],
+                        "size": [
+                          0.7836,
+                          0.469,
+                          0.252
+                        ]
+                      },
+                      "region": {
+                        "x": "right",
+                        "y": "top",
+                        "z": "center"
+                      },
+                      "shape": "blocky",
+                      "orientation": "horizontal",
+                      "sizeRank": "smallest",
+                      "volume": 0.0926,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Cactus",
+                      "adjacency": [
+                        "233b5d",
+                        "d4e978"
+                      ],
+                      "color": {
+                        "name": "dark green",
+                        "base": "green",
+                        "hex": "#3f7d4a"
+                      },
+                      "materials": [],
+                      "pair": null
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    0.30901699437494745,
+                    -0.9510565162951536,
+                    0,
+                    0,
+                    0.9510565162951536,
+                    0.30901699437494745,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0.24499999999999997,
+                    1.4,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "3d48e15d-3418-43f1-b569-58724ade9649",
+                  "material": "181506ed-7b88-4dc7-a5b0-ff6aaebfc7dd"
+                }
+              ]
             }
           ]
         },
         {
-          "uuid": "7117e632-d14f-404a-94b1-37d2e6ec2583",
+          "uuid": "5c87d9ed-8ae1-4ea1-9f90-97ca0c018fe4",
           "type": "AmbientLight",
-          "name": "Ball",
-          "userData": {
-            "label": "Ball"
-          },
+          "name": "Ambient Light",
           "layers": 1,
           "matrix": [
             1,
@@ -1439,10 +3083,67 @@
             1,
             0
           ],
-          "color": 16777215,
-          "intensity": 0.5
+          "color": 16767400,
+          "intensity": 0.55
+        },
+        {
+          "uuid": "7a12fb34-79cd-496d-8ab7-0475640fccb4",
+          "type": "DirectionalLight",
+          "name": "Sun Light",
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -18,
+            30,
+            10,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 16768168,
+          "intensity": 1.4,
+          "shadow": {
+            "camera": {
+              "uuid": "0b2e27d7-8dd3-4256-8da6-d79482a63395",
+              "type": "OrthographicCamera",
+              "layers": 1,
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "zoom": 1,
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          },
+          "target": "bf6a2e82-163f-4a21-86b5-0fff9bada052"
         }
       ],
+      "fog": {
+        "type": "FogExp2",
+        "name": "",
+        "color": 14853477,
+        "density": 0.012
+      },
       "backgroundRotation": [
         0,
         0,
@@ -1463,6 +3164,6 @@
     "undos": [],
     "redos": []
   },
-  "backgroundType": "Default",
+  "backgroundType": "Color",
   "environmentType": "Default"
 }
