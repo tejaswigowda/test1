@@ -78,8 +78,8 @@ export default function init( ctx ) {
 	// both paddles and the full court are always in frame (the runtime's own
 	// default framing fits the WHOLE scene incl. backdrop/scoreboard, which
 	// reads as zoomed-out for actual play).
-	camera.position.set( 0, 9, 19 );
-	camera.lookAt( 0, 0, - 2.5 );
+	camera.position.set( 0, 11.5, 23 );
+	camera.lookAt( 0, 2.5, - 6 );
 
 	let vx = 0, vz = 0;
 
