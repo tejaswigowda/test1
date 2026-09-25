@@ -13,13 +13,12 @@ export default function init( ctx ) {
 	const ai = $S( '#Computer_Paddle' ).toArray()[ 0 ];
 	const ball = $S( '#Ball' ).toArray()[ 0 ];
 	const spawn = $S( '#Ball_Spawn' ).toArray()[ 0 ];
-	const playerAnchor = $S( '#Score_Anchor_Player' ).toArray()[ 0 ];
-	const computerAnchor = $S( '#Score_Anchor_Computer' ).toArray()[ 0 ];
+	const marqueePanel = $S( '#Marquee_Panel' ).toArray()[ 0 ];
 
 	// Derived from the authored scene's own bounds (Table ±6 x / ±12 z,
 	// Rail_Left/Right at ±6–6.3 x, paddles ±1.1 half-width at z ±10.3–10.7) —
-	// unchanged by the desert re-skin, so the court/paddle/ball constants below
-	// still hold exactly.
+	// unchanged across the scenery re-skins, so the court/paddle/ball constants
+	// below still hold exactly.
 	const BALL_RADIUS = 0.35;
 	const PADDLE_HALF_WIDTH = 1.1;
 	const PADDLE_HALF_X = 4.9;    // table half-width (6) minus paddle half-width
@@ -35,61 +34,69 @@ export default function init( ctx ) {
 	const SPEEDUP = 1.07;      // multiplier applied on each paddle hit
 	const WIN_SCORE = 7;
 
-	// ── Score display ── the desert re-skin dropped the old Scoreboard mesh, but
-	// kept both Score_Anchor_* nodes — read as "put each side's own number
-	// here" rather than one shared backdrop. A THREE.Sprite always faces the
-	// camera regardless of the anchor's own orientation, so it's the natural
-	// fit; each gets its own canvas texture (never a HUD/DOM overlay — the ctx
-	// contract has no hook for one).
-	function makeScoreSprite( anchor ) {
+	// ── Score display ── the scene now ships a proper Marquee_Scoreboard (posts +
+	// bezel + bulbs + a blank Marquee_Panel "screen"); texture that panel
+	// directly — a fresh material, so this never mutates one shared with
+	// another Marquee_* mesh — instead of any DOM/HUD overlay (the ctx contract
+	// has no hook for one).
+	let drawScore = () => {};
+	if ( marqueePanel ) {
 
-		if ( ! anchor ) return null;
 		const canvas = document.createElement( 'canvas' );
-		canvas.width = 128; canvas.height = 128;
+		canvas.width = 640; canvas.height = 192;
 		const c2d = canvas.getContext( '2d' );
 		const texture = new THREE.CanvasTexture( canvas );
 		texture.colorSpace = THREE.SRGBColorSpace;
-		const sprite = new THREE.Sprite( new THREE.SpriteMaterial( { map: texture, transparent: true, depthTest: false } ) );
-		sprite.scale.set( 1.4, 1.4, 1 );
-		anchor.add( sprite );
+		marqueePanel.material = new THREE.MeshBasicMaterial( { map: texture } );
 
-		return ( text ) => {
+		drawScore = () => {
 
-			c2d.clearRect( 0, 0, canvas.width, canvas.height );
-			c2d.fillStyle = 'rgba(10,14,18,0.55)';
-			c2d.beginPath();
-			c2d.arc( canvas.width / 2, canvas.height / 2, canvas.width / 2 - 4, 0, Math.PI * 2 );
-			c2d.fill();
-			c2d.fillStyle = '#7fd0ff';
-			c2d.font = 'bold 64px monospace';
+			c2d.fillStyle = '#0b0e12';
+			c2d.fillRect( 0, 0, canvas.width, canvas.height );
 			c2d.textAlign = 'center';
 			c2d.textBaseline = 'middle';
-			c2d.fillText( String( text ), canvas.width / 2, canvas.height / 2 + 4 );
+			c2d.fillStyle = '#ffcf6b';
+
+			if ( state.winner ) {
+
+				c2d.font = 'bold 88px monospace';
+				c2d.fillText( state.winner === 'player' ? 'YOU WIN' : 'CPU WINS', canvas.width / 2, canvas.height / 2 );
+
+			} else {
+
+				c2d.font = 'bold 120px monospace';
+				c2d.fillText( state.scorePlayer + '   -   ' + state.scoreComputer, canvas.width / 2, canvas.height / 2 );
+
+			}
+
 			texture.needsUpdate = true;
 
 		};
 
 	}
 
-	const drawPlayerScore = makeScoreSprite( playerAnchor );
-	const drawComputerScore = makeScoreSprite( computerAnchor );
+	// ── Camera ── focused behind the player's paddle, angled down the table.
+	// Position/look-target are tuned for a normal landscape window; the FOV
+	// itself is fit to the ACTUAL aspect ratio (see fitFov below) so a narrow
+	// or portrait window widens the vertical FOV to compensate rather than
+	// silently cropping the paddle's ±4.9-unit travel off the sides — the
+	// runtime only ever sets a fixed vertical FOV, which is exactly what let a
+	// narrow window clip the paddle before this.
+	camera.position.set( 0, 8, 19 );
+	camera.lookAt( 0, 1, - 8 );
 
-	function drawScore() {
+	const TARGET_HORIZONTAL_FOV = 75; // degrees — matches this pose's old fixed-50°-vertical framing at a normal 16:9 window
+	function fitFov() {
 
-		const playerText = state.winner === 'player' ? 'WIN' : state.scorePlayer;
-		const computerText = state.winner === 'computer' ? 'WIN' : state.scoreComputer;
-		if ( drawPlayerScore ) drawPlayerScore( playerText );
-		if ( drawComputerScore ) drawComputerScore( computerText );
+		const hFov = TARGET_HORIZONTAL_FOV * Math.PI / 180;
+		const vFov = 2 * Math.atan( Math.tan( hFov / 2 ) / camera.aspect );
+		camera.fov = Math.min( 100, Math.max( 30, vFov * 180 / Math.PI ) );
+		camera.updateProjectionMatrix();
 
 	}
 
-	// ── Camera ── focused behind the player's paddle, angled down the table so
-	// both paddles and the full court stay in frame; pulled in a bit tighter
-	// than before (the old framing budgeted extra height for the now-removed
-	// Scoreboard mesh) so the desert horizon (mesas around z≈-40–-46) reads as
-	// backdrop rather than empty sky.
-	camera.position.set( 0, 8, 19 );
-	camera.lookAt( 0, 1, - 8 );
+	fitFov();
+	window.addEventListener( 'resize', fitFov ); // after the runtime's own resize listener updates camera.aspect first
 
 	let vx = 0, vz = 0;
 
