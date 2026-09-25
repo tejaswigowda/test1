@@ -1,1 +1,1604 @@
-{"metadata":{},"project":{"renderer":"WebGPURenderer","shadows":true,"shadowType":1,"toneMapping":7,"toneMappingExposure":1},"camera":{"metadata":{"version":4.7,"type":"Object","generator":"Object3D.toJSON"},"object":{"uuid":"c640b87e-8289-4db7-a1f2-ed549f6dd0de","type":"PerspectiveCamera","name":"Edit Camera","layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,21,1],"up":[0,1,0],"fov":50,"zoom":1,"near":0.001,"far":10000000000,"focus":10,"aspect":1.2152777777777777,"filmGauge":35,"filmOffset":0}},"controls":{"center":[0,0,0]},"scene":{"metadata":{"version":4.7,"type":"Object","generator":"Object3D.toJSON"},"geometries":[{"uuid":"538216af-2aaa-44da-a203-a055e7582f91","type":"BoxGeometry","width":20,"height":12,"depth":0.2,"widthSegments":1,"heightSegments":1,"depthSegments":1},{"uuid":"43b62317-a00e-409b-ad2a-76ab02dbe6d7","type":"BoxGeometry","width":20.4,"height":0.4,"depth":0.6,"widthSegments":1,"heightSegments":1,"depthSegments":1},{"uuid":"184af137-ecf7-46a5-bb48-6ea5bb08eb05","type":"BoxGeometry","width":20.4,"height":0.4,"depth":0.6,"widthSegments":1,"heightSegments":1,"depthSegments":1},{"uuid":"10221e38-5af6-4043-8bdd-9d03943ea89a","type":"BoxGeometry","width":0.15,"height":12,"depth":0.02,"widthSegments":1,"heightSegments":1,"depthSegments":1},{"uuid":"f577800f-e7fe-4874-bc81-845ff7485177","type":"BoxGeometry","width":0.5,"height":2.5,"depth":0.6,"widthSegments":1,"heightSegments":1,"depthSegments":1},{"uuid":"88333dd6-3323-4284-9104-61e33112b400","type":"BoxGeometry","width":0.5,"height":2.5,"depth":0.6,"widthSegments":1,"heightSegments":1,"depthSegments":1},{"uuid":"f51fe4ae-9194-48a0-ae57-cbf40dd5169d","type":"SphereGeometry","radius":0.4,"widthSegments":24,"heightSegments":24,"phiStart":0,"phiLength":6.283185307179586,"thetaStart":0,"thetaLength":3.141592653589793}],"materials":[{"uuid":"58bb828c-178f-4868-95c6-1a40e7907a4d","type":"MeshStandardMaterial","color":1192266,"roughness":0.6,"metalness":0.05,"emissive":0,"envMapRotation":[0,0,0,"XYZ"],"envMapIntensity":1,"blendColor":0},{"uuid":"d4275da5-72de-4a50-947a-e400460a5d78","type":"MeshStandardMaterial","color":15263976,"roughness":0.6,"metalness":0.05,"emissive":0,"envMapRotation":[0,0,0,"XYZ"],"envMapIntensity":1,"blendColor":0},{"uuid":"33703542-b018-4ce2-a44b-2aca01d53d83","type":"MeshStandardMaterial","color":15263976,"roughness":0.6,"metalness":0.05,"emissive":0,"envMapRotation":[0,0,0,"XYZ"],"envMapIntensity":1,"blendColor":0},{"uuid":"436fe9d8-260b-48a7-bf45-996c82e68658","type":"MeshStandardMaterial","color":3824250,"roughness":0.6,"metalness":0.05,"emissive":0,"envMapRotation":[0,0,0,"XYZ"],"envMapIntensity":1,"blendColor":0},{"uuid":"a5391b79-c654-4e74-b372-5a0e98813bfa","type":"MeshStandardMaterial","color":3122431,"roughness":0.6,"metalness":0.05,"emissive":0,"envMapRotation":[0,0,0,"XYZ"],"envMapIntensity":1,"blendColor":0},{"uuid":"8b4c4cd4-b725-4ff3-a298-f4b4662671dd","type":"MeshStandardMaterial","color":16738863,"roughness":0.6,"metalness":0.05,"emissive":0,"envMapRotation":[0,0,0,"XYZ"],"envMapIntensity":1,"blendColor":0},{"uuid":"a736df0f-9e22-450b-87f6-f08f6ed57713","type":"MeshStandardMaterial","color":16777215,"roughness":0.6,"metalness":0.05,"emissive":0,"envMapRotation":[0,0,0,"XYZ"],"envMapIntensity":1,"blendColor":0}],"object":{"uuid":"680ab816-f7f7-4f48-aa2b-f38cd453b540","type":"Scene","name":"Scene","userData":{"renderShots":[]},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],"up":[0,1,0],"children":[{"uuid":"779403f6-c674-4145-81ca-24946c0307ab","type":"Group","name":"Pong Game","userData":{"label":"pong-game"},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],"up":[0,1,0]},{"uuid":"4af69943-cdaa-4daa-ac61-6efd4f296cea","type":"Mesh","name":"Court","userData":{"label":"court","customClasses":["pong"],"descriptors":{"v":1,"geomHash":"24:11662","bbox":{"center":[0,0,-0.2],"size":[20,12,0.2]},"region":{"x":"center","y":"center","z":"center"},"shape":"flat","orientation":"horizontal","sizeRank":"medium","volume":48,"role":"leaf","childCount":0,"depth":0,"parentName":"Scene","adjacency":[],"color":{"name":"dark blue","base":"blue","hex":"#12314a"},"materials":[],"pair":null}},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,-0.2,1],"up":[0,1,0],"geometry":"538216af-2aaa-44da-a203-a055e7582f91","material":"58bb828c-178f-4868-95c6-1a40e7907a4d"},{"uuid":"c4c3bf1d-727d-41c9-8e03-fb4d86d4965e","type":"Mesh","name":"Wall Top","userData":{"label":"wall-top","customClasses":["wall","pong"],"descriptors":{"v":1,"geomHash":"24:10206","bbox":{"center":[0,6.2,0],"size":[20.4,0.4,0.6]},"region":{"x":"center","y":"center","z":"center"},"shape":"elongated","orientation":"horizontal","sizeRank":"medium","volume":4.896,"role":"leaf","childCount":0,"depth":0,"parentName":"Scene","adjacency":[],"color":{"name":"light gray","base":"gray","hex":"#e8e8e8"},"materials":[],"pair":null}},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,6.2,0,1],"up":[0,1,0],"geometry":"43b62317-a00e-409b-ad2a-76ab02dbe6d7","material":"d4275da5-72de-4a50-947a-e400460a5d78"},{"uuid":"2606adca-0a73-41c8-adda-63197b9badb6","type":"Mesh","name":"Wall Bottom","userData":{"label":"wall-bottom","customClasses":["wall","pong"],"descriptors":{"v":1,"geomHash":"24:10206","bbox":{"center":[0,-6.2,0],"size":[20.4,0.4,0.6]},"region":{"x":"center","y":"center","z":"center"},"shape":"elongated","orientation":"horizontal","sizeRank":"medium","volume":4.896,"role":"leaf","childCount":0,"depth":0,"parentName":"Scene","adjacency":[],"color":{"name":"light gray","base":"gray","hex":"#e8e8e8"},"materials":[],"pair":null}},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,-6.2,0,1],"up":[0,1,0],"geometry":"184af137-ecf7-46a5-bb48-6ea5bb08eb05","material":"33703542-b018-4ce2-a44b-2aca01d53d83"},{"uuid":"5f51d8ab-81d0-4092-8df1-8696f020f142","type":"Mesh","name":"Center Line","userData":{"label":"center-line","customClasses":["pong"],"descriptors":{"v":1,"geomHash":"24:6000","bbox":{"center":[0,0,0.02],"size":[0.15,12,0.02]},"region":{"x":"center","y":"center","z":"center"},"shape":"flat","orientation":"vertical","sizeRank":"medium","volume":0.036,"role":"leaf","childCount":0,"depth":0,"parentName":"Scene","adjacency":[],"color":{"name":"dark blue","base":"blue","hex":"#3a5a7a"},"materials":[],"pair":null}},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0.02,1],"up":[0,1,0],"geometry":"10221e38-5af6-4043-8bdd-9d03943ea89a","material":"436fe9d8-260b-48a7-bf45-996c82e68658"},{"uuid":"a4f1b1c2-64c4-4175-83ad-4b04153a745c","type":"Mesh","name":"Paddle Left","userData":{"label":"paddle-left","customClasses":["paddle","pong"],"descriptors":{"v":1,"geomHash":"24:1310","bbox":{"center":[-9.3,0,0],"size":[0.5,2.5,0.6]},"region":{"x":"center","y":"center","z":"center"},"shape":"elongated","orientation":"vertical","sizeRank":"medium","volume":0.75,"role":"leaf","childCount":0,"depth":0,"parentName":"Scene","adjacency":[],"color":{"name":"blue","base":"blue","hex":"#2fa4ff"},"materials":[],"pair":null}},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,-9.3,0,0,1],"up":[0,1,0],"geometry":"f577800f-e7fe-4874-bc81-845ff7485177","material":"a5391b79-c654-4e74-b372-5a0e98813bfa"},{"uuid":"0cbcef5b-5e51-4192-a179-ef2a868cbf48","type":"Mesh","name":"Paddle Right","userData":{"label":"paddle-right","customClasses":["paddle","pong"],"descriptors":{"v":1,"geomHash":"24:1310","bbox":{"center":[9.3,0,0],"size":[0.5,2.5,0.6]},"region":{"x":"center","y":"center","z":"center"},"shape":"elongated","orientation":"vertical","sizeRank":"medium","volume":0.75,"role":"leaf","childCount":0,"depth":0,"parentName":"Scene","adjacency":[],"color":{"name":"red","base":"red","hex":"#ff6a2f"},"materials":[],"pair":null}},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,9.3,0,0,1],"up":[0,1,0],"geometry":"88333dd6-3323-4284-9104-61e33112b400","material":"8b4c4cd4-b725-4ff3-a298-f4b4662671dd"},{"uuid":"d3ad5546-57ca-48ea-990a-4091eee933db","type":"Mesh","name":"Ball","userData":{"label":"ball","customClasses":["pong"],"descriptors":{"v":1,"geomHash":"625:400","bbox":{"center":[0,0,0],"size":[0.8,0.8,0.8]},"region":{"x":"center","y":"center","z":"center"},"shape":"blocky","orientation":"horizontal","sizeRank":"medium","volume":0.512,"role":"leaf","childCount":0,"depth":0,"parentName":"Scene","adjacency":[],"color":{"name":"white","base":"white","hex":"#ffffff"},"materials":[],"pair":null}},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],"up":[0,1,0],"geometry":"f51fe4ae-9194-48a0-ae57-cbf40dd5169d","material":"a736df0f-9e22-450b-87f6-f08f6ed57713"},{"uuid":"74d38bbe-3aa4-40da-9911-08dcb8ea7223","type":"Object3D","name":"Score Anchor Left","userData":{"label":"score-anchor-left","customClasses":["score-anchor","pong"]},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,-4,5.2,0.5,1],"up":[0,1,0]},{"uuid":"97e11c74-4f85-440c-bcd3-eb4c94f21058","type":"Object3D","name":"Score Anchor Right","userData":{"label":"score-anchor-right","customClasses":["score-anchor","pong"]},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,4,5.2,0.5,1],"up":[0,1,0]},{"uuid":"7682d0ec-95eb-4fda-86bd-7baa1ebd1f9b","type":"Object3D","name":"Ball Spawn","userData":{"label":"ball-spawn","customClasses":["pong"]},"layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],"up":[0,1,0]},{"uuid":"6bd02d75-4a70-4a6a-9443-4933385dad46","type":"AmbientLight","layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],"up":[0,1,0],"color":16777215,"intensity":0.55},{"uuid":"fd5cca36-5ea9-48f7-a1bf-d0411cecfb99","type":"DirectionalLight","layers":1,"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,4,18,1],"up":[0,1,0],"color":16777215,"intensity":1.1,"shadow":{"camera":{"uuid":"e0092f04-0d39-4aea-b5ac-fc35cef1eed0","type":"OrthographicCamera","layers":1,"up":[0,1,0],"zoom":1,"left":-5,"right":5,"top":5,"bottom":-5,"near":0.5,"far":500}},"target":"5e0d21e7-7790-433e-bd1d-7ba7e95c0fad"}],"backgroundRotation":[0,0,0,"XYZ"],"environmentRotation":[0,0,0,"XYZ"]}},"animations":[],"scripts":{},"history":{"undos":[],"redos":[]},"backgroundType":"Default","environmentType":"Default"}
+{
+  "metadata": {},
+  "project": {
+    "renderer": "WebGLRenderer",
+    "shadows": true,
+    "shadowType": 1,
+    "toneMapping": 7,
+    "toneMappingExposure": 1
+  },
+  "camera": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "e29cc656-02b3-48cf-a4da-b5e28b010b85",
+      "type": "PerspectiveCamera",
+      "name": "Edit Camera",
+      "layers": 1,
+      "matrix": [
+        0.997842326055521,
+        8.673617379884035e-19,
+        -0.06565586289210744,
+        0,
+        -0.014820905105621337,
+        0.9741884659872243,
+        -0.2252491365339916,
+        0,
+        0.06396118435392968,
+        0.22573620165462743,
+        0.9720864849171518,
+        0,
+        1.86350007780069,
+        6.776792371731399,
+        20.32160252456014,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "fov": 60,
+      "zoom": 1,
+      "near": 0.001,
+      "far": 10000000000,
+      "focus": 10,
+      "aspect": 0.7889518413597734,
+      "filmGauge": 35,
+      "filmOffset": 0
+    }
+  },
+  "controls": {
+    "center": [
+      0,
+      0.2,
+      -8
+    ]
+  },
+  "scene": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "geometries": [
+      {
+        "uuid": "d0b2817f-8527-40f3-892f-5b1c7ad364de",
+        "type": "BoxGeometry",
+        "width": 12,
+        "height": 0.4,
+        "depth": 24,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "59461a35-ced4-41c0-a10c-0de192a9c476",
+        "type": "BoxGeometry",
+        "width": 0.3,
+        "height": 0.5,
+        "depth": 24.4,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "79eec4e3-7d81-41c3-88fd-bd2a35397826",
+        "type": "BoxGeometry",
+        "width": 0.3,
+        "height": 0.5,
+        "depth": 24.4,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "aa8ff827-5331-4215-bcdd-421dbd2cc79b",
+        "type": "BoxGeometry",
+        "width": 0.12,
+        "height": 0.02,
+        "depth": 24,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "13310cd8-060a-48c3-9ae9-c25da9856aa1",
+        "type": "BoxGeometry",
+        "width": 2.2,
+        "height": 0.7,
+        "depth": 0.4,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "d361101a-321a-486e-9e48-3c3f5b47a929",
+        "type": "BoxGeometry",
+        "width": 2.2,
+        "height": 0.7,
+        "depth": 0.4,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "d163e07c-6bc9-4506-ae02-c99229ce03ba",
+        "type": "SphereGeometry",
+        "radius": 0.35,
+        "widthSegments": 24,
+        "heightSegments": 24,
+        "phiStart": 0,
+        "phiLength": 6.283185307179586,
+        "thetaStart": 0,
+        "thetaLength": 3.141592653589793
+      },
+      {
+        "uuid": "53e3a7eb-8c5f-4425-9d4a-fce86c86650f",
+        "type": "PlaneGeometry",
+        "width": 60,
+        "height": 50,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "46fa4f0d-77d4-4a00-9ad6-4ad0df49faf3",
+        "type": "PlaneGeometry",
+        "width": 24,
+        "height": 12,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "3d661834-c6b6-4886-92e8-43f1cf283605",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.4,
+        "radiusBottom": 0.4,
+        "height": 12,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "4e063252-5f96-4424-84cd-6cd936895744",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.4,
+        "radiusBottom": 0.4,
+        "height": 12,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "89416090-b385-4259-9a9a-2b96d45c8926",
+        "type": "BoxGeometry",
+        "width": 6,
+        "height": 1.6,
+        "depth": 0.3,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      }
+    ],
+    "materials": [
+      {
+        "uuid": "9d0e5373-83fc-483a-bbe4-3596761ae01c",
+        "type": "MeshStandardMaterial",
+        "color": 1858618,
+        "roughness": 0.7,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "77f099a4-4a5e-45c2-a5a9-0e5a8410c8ac",
+        "type": "MeshStandardMaterial",
+        "color": 16777215,
+        "roughness": 0.5,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b1615435-841d-4eca-a9e1-3ede86051454",
+        "type": "MeshStandardMaterial",
+        "color": 3046911,
+        "roughness": 0.4,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "ecf26cd8-1554-4c4f-9d65-6affdaf69fa4",
+        "type": "MeshStandardMaterial",
+        "color": 16729156,
+        "roughness": 0.4,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "08ed9354-6113-411e-ac04-65fcbbd8262d",
+        "type": "MeshStandardMaterial",
+        "color": 16777215,
+        "roughness": 0.3,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "e4bc46b6-bed4-415c-91f1-f138e577807c",
+        "type": "MeshStandardMaterial",
+        "color": 3356740,
+        "roughness": 0.9,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "679bef2d-2125-4c29-b6f3-81ac8e05ee12",
+        "type": "MeshStandardMaterial",
+        "color": 1318956,
+        "roughness": 0.85,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "9d8fb503-15e0-43e1-8560-eccc703471e6",
+        "type": "MeshStandardMaterial",
+        "color": 7831436,
+        "roughness": 0.6,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "ad2bebae-02f1-42d2-9546-1a0cc92a32c0",
+        "type": "MeshStandardMaterial",
+        "color": 1053720,
+        "roughness": 0.5,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      }
+    ],
+    "object": {
+      "uuid": "680ab816-f7f7-4f48-aa2b-f38cd453b540",
+      "type": "Scene",
+      "name": "Scene",
+      "userData": {
+        "renderShots": []
+      },
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "children": [
+        {
+          "uuid": "bf338376-d308-4a54-93b2-287e89b54913",
+          "type": "Group",
+          "name": "Pong Game",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:10",
+              "bbox": {
+                "center": [
+                  0,
+                  0.15,
+                  0
+                ],
+                "size": [
+                  12.6,
+                  1.1,
+                  24.4
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 338.184,
+              "role": "group",
+              "childCount": 10,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#1c5c3a"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "6bc03c36-3ae0-4017-9b15-e996d3e7049e",
+              "type": "Mesh",
+              "name": "Table",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:13418",
+                  "bbox": {
+                    "center": [
+                      0,
+                      -0.2,
+                      0
+                    ],
+                    "size": [
+                      12,
+                      0.4,
+                      24
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "largest",
+                  "volume": 115.2,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong Game",
+                  "adjacency": [
+                    "Rail Left",
+                    "Rail Right",
+                    "Center Line"
+                  ],
+                  "color": {
+                    "name": "dark green",
+                    "base": "green",
+                    "hex": "#1c5c3a"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "f1ef1578-4624-4d7b-ad02-170a5a6f0567",
+                    "mateName": "Center Line",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -0.2,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "d0b2817f-8527-40f3-892f-5b1c7ad364de",
+              "material": "9d0e5373-83fc-483a-bbe4-3596761ae01c"
+            },
+            {
+              "uuid": "9602da52-b9b2-41e9-b0a5-f30846551ac5",
+              "type": "Mesh",
+              "name": "Rail Left",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:12203",
+                  "bbox": {
+                    "center": [
+                      -6.15,
+                      0.25,
+                      0
+                    ],
+                    "size": [
+                      0.3,
+                      0.5,
+                      24.4
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "elongated",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 3.66,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong Game",
+                  "adjacency": [
+                    "Table"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "5b448a84-da4d-46f8-b537-3a3a74e94cc7",
+                    "mateName": "Rail Right",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -6.15,
+                0.25,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "59461a35-ced4-41c0-a10c-0de192a9c476",
+              "material": "77f099a4-4a5e-45c2-a5a9-0e5a8410c8ac"
+            },
+            {
+              "uuid": "5b448a84-da4d-46f8-b537-3a3a74e94cc7",
+              "type": "Mesh",
+              "name": "Rail Right",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:12203",
+                  "bbox": {
+                    "center": [
+                      6.15,
+                      0.25,
+                      0
+                    ],
+                    "size": [
+                      0.3,
+                      0.5,
+                      24.4
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "elongated",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 3.66,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong Game",
+                  "adjacency": [
+                    "Table"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "9602da52-b9b2-41e9-b0a5-f30846551ac5",
+                    "mateName": "Rail Left",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                6.15,
+                0.25,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "79eec4e3-7d81-41c3-88fd-bd2a35397826",
+              "material": "77f099a4-4a5e-45c2-a5a9-0e5a8410c8ac"
+            },
+            {
+              "uuid": "f1ef1578-4624-4d7b-ad02-170a5a6f0567",
+              "type": "Mesh",
+              "name": "Center Line",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:12000",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.01,
+                      0
+                    ],
+                    "size": [
+                      0.12,
+                      0.02,
+                      24
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0.0576,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong Game",
+                  "adjacency": [
+                    "Table",
+                    "Player Paddle",
+                    "Computer Paddle",
+                    "Ball"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "6bc03c36-3ae0-4017-9b15-e996d3e7049e",
+                    "mateName": "Table",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.01,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "aa8ff827-5331-4215-bcdd-421dbd2cc79b",
+              "material": "77f099a4-4a5e-45c2-a5a9-0e5a8410c8ac"
+            },
+            {
+              "uuid": "2d006e99-f86e-4305-82ef-a16621a463de",
+              "type": "Mesh",
+              "name": "Player Paddle",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1172",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.35,
+                      10.5
+                    ],
+                    "size": [
+                      2.2,
+                      0.7,
+                      0.4
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "elongated",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.616,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong Game",
+                  "adjacency": [
+                    "Center Line"
+                  ],
+                  "color": {
+                    "name": "blue",
+                    "base": "blue",
+                    "hex": "#2e7dff"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.35,
+                10.5,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "13310cd8-060a-48c3-9ae9-c25da9856aa1",
+              "material": "b1615435-841d-4eca-a9e1-3ede86051454"
+            },
+            {
+              "uuid": "d94fab3a-6339-4162-9335-d078ec2fd17f",
+              "type": "Mesh",
+              "name": "Computer Paddle",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1172",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.35,
+                      -10.5
+                    ],
+                    "size": [
+                      2.2,
+                      0.7,
+                      0.4
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "back"
+                  },
+                  "shape": "elongated",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.616,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong Game",
+                  "adjacency": [
+                    "Center Line"
+                  ],
+                  "color": {
+                    "name": "red",
+                    "base": "red",
+                    "hex": "#ff4444"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.35,
+                -10.5,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "d361101a-321a-486e-9e48-3c3f5b47a929",
+              "material": "ecf26cd8-1554-4c4f-9d65-6affdaf69fa4"
+            },
+            {
+              "uuid": "1082d95f-2916-47d1-bc41-e1687380dcb4",
+              "type": "Mesh",
+              "name": "Ball",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "625:350",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.35,
+                      0
+                    ],
+                    "size": [
+                      0.7,
+                      0.7,
+                      0.7
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.343,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Pong Game",
+                  "adjacency": [
+                    "Center Line"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.35,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "d163e07c-6bc9-4506-ae02-c99229ce03ba",
+              "material": "08ed9354-6113-411e-ac04-65fcbbd8262d"
+            },
+            {
+              "uuid": "4142574e-7ac8-43d3-8f1f-76a64782ef18",
+              "type": "Group",
+              "name": "Score Anchor Player",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -4.5,
+                3,
+                12,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "uuid": "6b8b3538-b618-407b-8199-cc9767ae3bb2",
+              "type": "Group",
+              "name": "Score Anchor Computer",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                4.5,
+                3,
+                -12,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "uuid": "8bc64b99-1d14-413b-b57b-dce3ad7396a1",
+              "type": "Group",
+              "name": "Ball Spawn",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.35,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "3e2dcf26-22de-48dc-bb72-86559848288b",
+          "type": "Group",
+          "name": "Background Scenery",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:5",
+              "bbox": {
+                "center": [
+                  0,
+                  5.5,
+                  -2
+                ],
+                "size": [
+                  60,
+                  12,
+                  50
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 36000,
+              "role": "group",
+              "childCount": 5,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "blue",
+                "base": "blue",
+                "hex": "#333844"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "53a6869a-9a15-4f2f-a341-614c5c139047",
+              "type": "Mesh",
+              "name": "Floor",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "4:39051",
+                  "bbox": {
+                    "center": [
+                      0,
+                      -0.45,
+                      -2
+                    ],
+                    "size": [
+                      60,
+                      0,
+                      50
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Background Scenery",
+                  "adjacency": [
+                    "Backdrop",
+                    "Pillar Left",
+                    "Pillar Right"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#333844"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                2.220446049250313e-16,
+                -1,
+                0,
+                0,
+                1,
+                2.220446049250313e-16,
+                0,
+                0,
+                -0.45,
+                -2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "53e3a7eb-8c5f-4425-9d4a-fce86c86650f",
+              "material": "e4bc46b6-bed4-415c-91f1-f138e577807c"
+            },
+            {
+              "uuid": "4eacb280-596e-41a5-9ff2-ef3c40fdc782",
+              "type": "Mesh",
+              "name": "Backdrop",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "4:13416",
+                  "bbox": {
+                    "center": [
+                      0,
+                      5.5,
+                      -14
+                    ],
+                    "size": [
+                      24,
+                      12,
+                      0
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "back"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Background Scenery",
+                  "adjacency": [
+                    "Floor",
+                    "Pillar Left",
+                    "Pillar Right",
+                    "Scoreboard"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#14202c"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                5.5,
+                -14,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "46fa4f0d-77d4-4a00-9ad6-4ad0df49faf3",
+              "material": "679bef2d-2125-4c29-b6f3-81ac8e05ee12"
+            },
+            {
+              "uuid": "964056bc-d3a8-4ace-8ec5-ede45113585f",
+              "type": "Mesh",
+              "name": "Pillar Left",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "100:6013",
+                  "bbox": {
+                    "center": [
+                      -8,
+                      5.5,
+                      -14
+                    ],
+                    "size": [
+                      0.8,
+                      12,
+                      0.8
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "center",
+                    "z": "back"
+                  },
+                  "shape": "elongated",
+                  "orientation": "vertical",
+                  "sizeRank": "largest",
+                  "volume": 7.68,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Background Scenery",
+                  "adjacency": [
+                    "Floor",
+                    "Backdrop"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#777f8c"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "dfe81be5-2f62-4ff1-83b7-739c89aaf590",
+                    "mateName": "Pillar Right",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -8,
+                5.5,
+                -14,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "3d661834-c6b6-4886-92e8-43f1cf283605",
+              "material": "9d8fb503-15e0-43e1-8560-eccc703471e6"
+            },
+            {
+              "uuid": "dfe81be5-2f62-4ff1-83b7-739c89aaf590",
+              "type": "Mesh",
+              "name": "Pillar Right",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "100:6013",
+                  "bbox": {
+                    "center": [
+                      8,
+                      5.5,
+                      -14
+                    ],
+                    "size": [
+                      0.8,
+                      12,
+                      0.8
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "center",
+                    "z": "back"
+                  },
+                  "shape": "elongated",
+                  "orientation": "vertical",
+                  "sizeRank": "largest",
+                  "volume": 7.68,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Background Scenery",
+                  "adjacency": [
+                    "Floor",
+                    "Backdrop"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#777f8c"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "964056bc-d3a8-4ace-8ec5-ede45113585f",
+                    "mateName": "Pillar Left",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                8,
+                5.5,
+                -14,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "4e063252-5f96-4424-84cd-6cd936895744",
+              "material": "9d8fb503-15e0-43e1-8560-eccc703471e6"
+            },
+            {
+              "uuid": "be10e4c8-fb46-432f-b571-eac6b701090d",
+              "type": "Mesh",
+              "name": "Scoreboard",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:3108",
+                  "bbox": {
+                    "center": [
+                      0,
+                      10.5,
+                      -14
+                    ],
+                    "size": [
+                      6,
+                      1.6,
+                      0.3
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "back"
+                  },
+                  "shape": "thin",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 2.88,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Background Scenery",
+                  "adjacency": [
+                    "Backdrop"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#101418"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                10.5,
+                -14,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "89416090-b385-4259-9a9a-2b96d45c8926",
+              "material": "ad2bebae-02f1-42d2-9546-1a0cc92a32c0"
+            }
+          ]
+        },
+        {
+          "uuid": "7117e632-d14f-404a-94b1-37d2e6ec2583",
+          "type": "AmbientLight",
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 16777215,
+          "intensity": 0.5
+        },
+        {
+          "uuid": "37415fea-2d02-48fb-913d-a1a44097dfe0",
+          "type": "DirectionalLight",
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            4,
+            12,
+            10,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 16777215,
+          "intensity": 1.2,
+          "shadow": {
+            "camera": {
+              "uuid": "c4f10f82-16f7-4d33-ab50-80d01bc50011",
+              "type": "OrthographicCamera",
+              "layers": 1,
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "zoom": 1,
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          },
+          "target": "c3101925-e1cc-42e4-b001-051c72221a06"
+        }
+      ],
+      "backgroundRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "environmentRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
+    }
+  },
+  "animations": [],
+  "scripts": {},
+  "history": {
+    "undos": [],
+    "redos": []
+  },
+  "backgroundType": "Default",
+  "environmentType": "Default"
+}
