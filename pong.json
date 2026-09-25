@@ -20,15 +20,15 @@
       "layers": 1,
       "matrix": [
         0.9980218086713919,
-        -1.734723475976807e-18,
+        1.734723475976807e-18,
         -0.06286866800150573,
         0,
         -0.019012707156483705,
         0.9531749495080412,
-        -0.3018211930877701,
+        -0.30182119308777006,
         0,
         0.05992483944797303,
-        0.3024194365948446,
+        0.30241943659484455,
         0.9512893870882779,
         0,
         1.7459017387102276,
@@ -91,16 +91,6 @@
         "width": 0.3,
         "height": 0.5,
         "depth": 24.4,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "aa8ff827-5331-4215-bcdd-421dbd2cc79b",
-        "type": "BoxGeometry",
-        "width": 0.12,
-        "height": 0.02,
-        "depth": 24,
         "widthSegments": 1,
         "heightSegments": 1,
         "depthSegments": 1
@@ -664,86 +654,6 @@
                 0
               ],
               "geometry": "79eec4e3-7d81-41c3-88fd-bd2a35397826",
-              "material": "77f099a4-4a5e-45c2-a5a9-0e5a8410c8ac"
-            },
-            {
-              "uuid": "f1ef1578-4624-4d7b-ad02-170a5a6f0567",
-              "type": "Mesh",
-              "name": "Center Line",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "24:12000",
-                  "bbox": {
-                    "center": [
-                      0,
-                      0.01,
-                      0
-                    ],
-                    "size": [
-                      0.12,
-                      0.02,
-                      24
-                    ]
-                  },
-                  "region": {
-                    "x": "center",
-                    "y": "bottom",
-                    "z": "center"
-                  },
-                  "shape": "flat",
-                  "orientation": "horizontal",
-                  "sizeRank": "smallest",
-                  "volume": 0.0576,
-                  "role": "leaf",
-                  "childCount": 0,
-                  "depth": 1,
-                  "parentName": "Pong Game",
-                  "adjacency": [
-                    "Table",
-                    "Player Paddle",
-                    "Computer Paddle",
-                    "Ball"
-                  ],
-                  "color": {
-                    "name": "white",
-                    "base": "white",
-                    "hex": "#ffffff"
-                  },
-                  "materials": [],
-                  "pair": {
-                    "mateUuid": "6bc03c36-3ae0-4017-9b15-e996d3e7049e",
-                    "mateName": "Table",
-                    "axis": "x",
-                    "side": "left"
-                  }
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0.01,
-                0,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "geometry": "aa8ff827-5331-4215-bcdd-421dbd2cc79b",
               "material": "77f099a4-4a5e-45c2-a5a9-0e5a8410c8ac"
             },
             {
