@@ -75,15 +75,17 @@ export default function init( ctx ) {
 
 	}
 
-	// ── Camera ── focused behind the player's paddle, angled down the table.
-	// Position/look-target are tuned for a normal landscape window; the FOV
-	// itself is fit to the ACTUAL aspect ratio (see fitFov below) so a narrow
-	// or portrait window widens the vertical FOV to compensate rather than
-	// silently cropping the paddle's ±4.9-unit travel off the sides — the
-	// runtime only ever sets a fixed vertical FOV, which is exactly what let a
-	// narrow window clip the paddle before this.
-	camera.position.set( 0, 8, 19 );
-	camera.lookAt( 0, 1, - 8 );
+	// ── Camera ── pulled back and raised so BOTH the near player paddle and the
+	// far marquee/AI paddle stay inside frame at any normal aspect ratio (a
+	// closer pose left the near paddle's angular offset from view-center
+	// bigger than the vertical half-FOV, clipping it off the bottom of frame
+	// entirely — not just an aspect-ratio edge case). The FOV itself is ALSO
+	// fit to the actual aspect ratio (see fitFov below), so a narrow/portrait
+	// window widens the vertical FOV to compensate rather than cropping the
+	// paddle's ±4.9-unit horizontal travel — the runtime only ever sets a
+	// fixed vertical FOV, which is exactly what let a narrow window clip it.
+	camera.position.set( 0, 18, 33 );
+	camera.lookAt( 0, 2, - 6 );
 
 	const TARGET_HORIZONTAL_FOV = 75; // degrees — matches this pose's old fixed-50°-vertical framing at a normal 16:9 window
 	function fitFov() {
