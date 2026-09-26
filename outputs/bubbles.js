@@ -257,11 +257,24 @@ export default function init( ctx ) {
 
 	function findFreeCell( row, col ) {
 
-		const candidates = [ [ row, col ], ...neighborsOf( row, col ) ];
-		for ( const [ r, c ] of candidates ) {
+		// BFS outward for the NEAREST free cell — checking only the immediate 6
+		// neighbors isn't enough once the cluster is dense (everything around the
+		// landing spot occupied), which used to fall straight through to a brand
+		// new row far below, leaving an isolated bubble dangling off on its own.
+		const seen = new Set( [ row + ',' + col ] );
+		const queue = [ [ row, col ] ];
+		while ( queue.length ) {
 
-			if ( r < 0 || c < 0 || c >= colsInRow( r ) ) continue;
-			if ( ! grid[ r ] || ! grid[ r ][ c ] ) return { row: r, col: c };
+			const [ r, c ] = queue.shift();
+			if ( r >= 0 && c >= 0 && c < colsInRow( r ) && ( ! grid[ r ] || ! grid[ r ][ c ] ) ) return { row: r, col: c };
+			for ( const [ nr, nc ] of neighborsOf( r, c ) ) {
+
+				const key = nr + ',' + nc;
+				if ( seen.has( key ) || nr < 0 || nr > grid.length ) continue;
+				seen.add( key );
+				queue.push( [ nr, nc ] );
+
+			}
 
 		}
 		return { row: grid.length, col: Math.min( col, colsInRow( grid.length ) - 1 ) };
