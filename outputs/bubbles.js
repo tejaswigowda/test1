@@ -161,7 +161,7 @@ export default function init( ctx ) {
 	// any window shape.
 	const FIXED_VFOV = 46.6;
 	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, - 6 );
-	const CAMERA_DIR = new THREE.Vector3( 0, 5, 28 ).normalize();
+	const CAMERA_DIR = new THREE.Vector3( 0, 20, 22 ).normalize();
 	const FIT_K = 13.5;
 
 	camera.fov = FIXED_VFOV;
