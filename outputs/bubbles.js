@@ -163,10 +163,10 @@ export default function init( ctx ) {
 	// distance along a fixed "behind the shooter" direction adapts to the
 	// current aspect ratio each resize, so the shooter/grid/sign never clip at
 	// any window shape.
-	const FIXED_VFOV = 46.6;
-	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, 0 );
+	const FIXED_VFOV = 60;
+	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, 6 ); // biased toward the shooter so the sign lands near the top edge
 	const CAMERA_DIR = new THREE.Vector3( 0, 20, 22 ).normalize();
-	const FIT_K = 12;
+	const FIT_K = 7;
 
 	camera.fov = FIXED_VFOV;
 
