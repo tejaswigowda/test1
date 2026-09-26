@@ -160,7 +160,7 @@ export default function init( ctx ) {
 	// current aspect ratio each resize, so the shooter/grid/sign never clip at
 	// any window shape.
 	const FIXED_VFOV = 46.6;
-	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, - 6 );
+	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, 0 );
 	const CAMERA_DIR = new THREE.Vector3( 0, 20, 22 ).normalize();
 	const FIT_K = 13.5;
 
