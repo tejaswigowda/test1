@@ -9,11 +9,15 @@
 
 export default function init( ctx ) {
 
-	const { THREE, $S, input, camera, onFrame, onReset, reset, state } = ctx;
+	const { THREE, $S, input, camera, scene, onFrame, onReset, reset, state } = ctx;
 
 	const bubbleProto = $S( '#Bubble' ).toArray()[ 0 ];
 	const signPanel = $S( '#Sign_Panel' ).toArray()[ 0 ];
 	const bubbleParent = bubbleProto.parent;
+
+	// the re-exported scene's ground/backdrop planes are finite; a matching clear
+	// color hides their edges at wide aspect ratios instead of showing void
+	scene.background = new THREE.Color( 0x93b48e );
 
 	// ── Layout (same court this repo's Pong uses: Table x:±6 / z:±12, rails at
 	// x:±6–6.3) — a true hex grid: odd rows are shifted half a bubble to the
