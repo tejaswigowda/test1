@@ -14,7 +14,7 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "c48a4079-deb1-4c0f-8445-2653f41788f5",
+      "uuid": "3057fd1f-1c20-48de-ad7c-c159970f8a8d",
       "type": "PerspectiveCamera",
       "name": "Edit Camera",
       "layers": 1,
@@ -24,16 +24,16 @@
         0,
         0,
         0,
-        0.9927337820337083,
-        -0.12033136751923738,
+        0.992973845936431,
+        -0.1183340242120284,
         0,
         0,
-        0.12033136751923738,
-        0.9927337820337083,
+        0.1183340242120284,
+        0.992973845936431,
         0,
         0,
-        4.5,
-        23,
+        4.433605232006038,
+        23.007980093891454,
         1
       ],
       "up": [
@@ -46,7 +46,7 @@
       "near": 0.001,
       "far": 10000000000,
       "focus": 10,
-      "aspect": 1.0753968253968254,
+      "aspect": 1.4087301587301588,
       "filmGauge": 35,
       "filmOffset": 0
     }
@@ -560,7 +560,7 @@
       {
         "uuid": "9d0e5373-83fc-483a-bbe4-3596761ae01c",
         "type": "MeshStandardMaterial",
-        "color": 1858618,
+        "color": 7500404,
         "roughness": 0.7,
         "metalness": 0,
         "emissive": 0,
@@ -610,7 +610,7 @@
       {
         "uuid": "f5ebbdca-e040-4367-b4d4-5d0fa2d7d058",
         "type": "MeshStandardMaterial",
-        "color": 3100458,
+        "color": 9680014,
         "roughness": 0.95,
         "metalness": 0,
         "emissive": 0,
@@ -1269,7 +1269,7 @@
       {
         "uuid": "3c1f7a6a-ea4f-487a-a557-fa6cb0f62cf9",
         "name": "",
-        "image": "d606345f-4462-47ca-b5ee-0fe87502ceba",
+        "image": "b7eeaa46-6b38-4571-891b-406ea1544f23",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -1305,7 +1305,7 @@
       {
         "uuid": "c390088c-c1ae-4954-a3d5-b8261039df34",
         "name": "",
-        "image": "3dc7cbbc-528e-47ff-accd-41a31a57f6ba",
+        "image": "af4979fe-12d1-428c-8209-7ba5f402d396",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -1341,14 +1341,14 @@
     ],
     "images": [
       {
-        "uuid": "d606345f-4462-47ca-b5ee-0fe87502ceba",
+        "uuid": "b7eeaa46-6b38-4571-891b-406ea1544f23",
         "url": {
           "$img": "assets/img-ed6ce58496c2259212a5b27bd21a50769e01507d.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "3dc7cbbc-528e-47ff-accd-41a31a57f6ba",
+        "uuid": "af4979fe-12d1-428c-8209-7ba5f402d396",
         "url": {
           "$img": "assets/img-b4dbea77883d98629bb8e086a9b518bbcdd418b8.png",
           "mime": "image/png"
@@ -1395,16 +1395,16 @@
           "userData": {
             "descriptors": {
               "v": 1,
-              "geomHash": "grp:9",
+              "geomHash": "grp:6",
               "bbox": {
                 "center": [
                   0,
-                  0.15,
+                  0.05,
                   0
                 ],
                 "size": [
                   12.6,
-                  1.1,
+                  0.9,
                   24.4
                 ]
               },
@@ -1416,9 +1416,9 @@
               "shape": "blocky",
               "orientation": "horizontal",
               "sizeRank": "medium",
-              "volume": 338.184,
+              "volume": 276.696,
               "role": "group",
-              "childCount": 9,
+              "childCount": 6,
               "depth": 0,
               "parentName": "Scene",
               "adjacency": [],
@@ -6502,7 +6502,7 @@
               "far": 500
             }
           },
-          "target": "0dc05630-8163-4400-afa5-a7c84a23e186"
+          "target": "5c6d8926-e367-415f-8c7c-aecafa3b11f4"
         },
         {
           "uuid": "584f5fce-089c-45b9-b758-fad265d36d16",
@@ -6928,10 +6928,10 @@
               "layers": 1,
               "matrix": [
                 0.9838436927881214,
-                0.17902957342582415,
+                0.17902957342582412,
                 0,
                 0,
-                -0.17902957342582415,
+                -0.17902957342582412,
                 0.9838436927881214,
                 0,
                 0,
@@ -7005,10 +7005,10 @@
               "layers": 1,
               "matrix": [
                 0.9838436927881214,
-                -0.17902957342582415,
+                -0.17902957342582412,
                 0,
                 0,
-                0.17902957342582415,
+                0.17902957342582412,
                 0.9838436927881214,
                 0,
                 0,
