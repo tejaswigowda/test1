@@ -25,13 +25,13 @@ export default function init( ctx ) {
 	// its 6 neighbors, not just the 4 directly above/below/left/right.
 	const BUBBLE_RADIUS = 0.45;
 	const COLS = 11;
-	const SPACING = 1;
+	const WALL_X = 6 - BUBBLE_RADIUS; // rail inner face minus bubble radius
+	const SPACING = ( 2 * WALL_X ) / ( COLS - 1 ); // sized so the outer columns reach the rails, not stop short
 	const ROW_SPACING = SPACING * Math.sqrt( 3 ) / 2; // true hex packing: diagonal neighbors end up exactly SPACING apart too
 	const GRID_LEFT_X = - ( COLS - 1 ) / 2 * SPACING;
 	const TOP_Z = - 11;             // topmost grid row's z
 	const SHOOTER_Z = bubbleProto.position.z; // the authored prototype's own spot
 	const DANGER_Z = 6.5;            // a bubble reaching this far down the lane ends the game
-	const WALL_X = 6 - BUBBLE_RADIUS; // rail inner face minus bubble radius
 	const INITIAL_ROWS = 6;
 	const SHOT_SPEED = 14;
 	const AIM_SPEED = 1.6;           // radians/sec
@@ -57,6 +57,15 @@ export default function init( ctx ) {
 			[ row - 1, col + diag[ 0 ] ], [ row - 1, col + diag[ 1 ] ],
 			[ row + 1, col + diag[ 0 ] ], [ row + 1, col + diag[ 1 ] ],
 		];
+
+	}
+
+	const popping = []; // { mesh, t, from } — bubbles mid shrink-and-spin pop animation
+	const POP_DURATION = 0.28;
+
+	function popBubble( mesh ) {
+
+		popping.push( { mesh, t: 0, from: mesh.scale.x } );
 
 	}
 
@@ -222,12 +231,20 @@ export default function init( ctx ) {
 	// off straight-ahead, never backward) the shot direction is already
 	// clamped to, so the player can see where a shot will actually go before
 	// firing. Fixed low + black, deliberately NOT color-matched to the
-	// shooter — it's a sight, not part of the bubble itself.
-	const aimArrow = new THREE.ArrowHelper(
-		new THREE.Vector3( 0, 0, - 1 ),
-		new THREE.Vector3( 0, bubbleProto.position.y + 0.1, SHOOTER_Z - BUBBLE_RADIUS - 0.3 ),
-		2.2, 0x000000, 0.75, 0.55,
-	);
+	// shooter — it's a sight, not part of the bubble itself. Built from mesh
+	// primitives (not ArrowHelper's 1px Line) so the shaft actually reads as
+	// thick regardless of GPU/driver line-width support.
+	const arrowMat = new THREE.MeshBasicMaterial( { color: 0x000000 } );
+	const arrowShaft = new THREE.Mesh( new THREE.CylinderGeometry( 0.09, 0.09, 1.7, 10 ), arrowMat );
+	arrowShaft.position.y = 0.85;
+	const arrowHead = new THREE.Mesh( new THREE.ConeGeometry( 0.24, 0.55, 10 ), arrowMat );
+	arrowHead.position.y = 1.7 + 0.275;
+	const arrowPivot = new THREE.Group();
+	arrowPivot.add( arrowShaft, arrowHead );
+	arrowPivot.rotation.x = - Math.PI / 2; // local +Y (shaft axis) now points along -Z (straight ahead)
+	const aimArrow = new THREE.Group();
+	aimArrow.position.set( 0, bubbleProto.position.y + 0.1, SHOOTER_Z - BUBBLE_RADIUS - 0.3 );
+	aimArrow.add( arrowPivot );
 	bubbleParent.add( aimArrow );
 
 	function fireShot() {
@@ -287,7 +304,7 @@ export default function init( ctx ) {
 
 		if ( group.length >= 3 ) {
 
-			for ( const [ r, c ] of group ) { bubbleParent.remove( grid[ r ][ c ].mesh ); grid[ r ][ c ] = null; }
+			for ( const [ r, c ] of group ) { popBubble( grid[ r ][ c ].mesh ); grid[ r ][ c ] = null; }
 			state.score += group.length * 10;
 
 		}
@@ -322,7 +339,7 @@ export default function init( ctx ) {
 			for ( let c = 0; c < COLS; c ++ ) {
 
 				const cell = grid[ r ][ c ];
-				if ( cell && ! reachable.has( r + ',' + c ) ) { bubbleParent.remove( cell.mesh ); grid[ r ][ c ] = null; fallen ++; }
+				if ( cell && ! reachable.has( r + ',' + c ) ) { popBubble( cell.mesh ); grid[ r ][ c ] = null; fallen ++; }
 
 			}
 
@@ -400,6 +417,8 @@ export default function init( ctx ) {
 
 	function resetGame() {
 
+		for ( const p of popping ) bubbleParent.remove( p.mesh );
+		popping.length = 0;
 		state.score = 0;
 		state.winner = null;
 		shotBubble = null;
@@ -433,7 +452,18 @@ export default function init( ctx ) {
 
 		const axis = input.axis( [ 'ArrowLeft', 'KeyA' ], [ 'ArrowRight', 'KeyD' ] );
 		aimAngle = Math.max( - MAX_AIM, Math.min( MAX_AIM, aimAngle + axis * AIM_SPEED * dt ) );
-		aimArrow.setDirection( new THREE.Vector3( Math.sin( aimAngle ), 0, - Math.cos( aimAngle ) ) );
+		aimArrow.rotation.y = aimAngle;
+
+		for ( let i = popping.length - 1; i >= 0; i -- ) {
+
+			const p = popping[ i ];
+			p.t += dt;
+			const k = Math.min( 1, p.t / POP_DURATION );
+			p.mesh.scale.setScalar( Math.max( 0.0001, p.from * ( 1 - k ) ) );
+			p.mesh.rotation.y += dt * 6;
+			if ( k >= 1 ) { bubbleParent.remove( p.mesh ); popping.splice( i, 1 ); }
+
+		}
 
 		if ( state.winner || ! shotBubble ) return;
 
