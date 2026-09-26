@@ -26,7 +26,8 @@ export default function init( ctx ) {
 	const BUBBLE_RADIUS = 0.45;
 	const COLS = 11;
 	const WALL_X = 6 - BUBBLE_RADIUS; // rail inner face minus bubble radius
-	const SPACING = ( 2 * WALL_X ) / ( COLS - 1 ); // sized so the outer columns reach the rails, not stop short
+	const EDGE_MARGIN = 0.12; // keeps the outer columns a hair clear of the rail instead of exactly tangent (was clipping into it)
+	const SPACING = ( 2 * ( WALL_X - EDGE_MARGIN ) ) / ( COLS - 1 );
 	const ROW_SPACING = SPACING * Math.sqrt( 3 ) / 2; // true hex packing: diagonal neighbors end up exactly SPACING apart too
 	const GRID_LEFT_X = - ( COLS - 1 ) / 2 * SPACING;
 	const TOP_Z = - 11;             // topmost grid row's z
