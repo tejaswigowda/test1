@@ -546,12 +546,13 @@
     ],
     "materials": [
       {
-        "uuid": "9d0e5373-83fc-483a-bbe4-3596761ae01c",
+        "uuid": "84537281-67a9-4a39-9f74-c4f715f78c6a",
         "type": "MeshStandardMaterial",
-        "color": 7500404,
-        "roughness": 0.7,
+        "color": 16777215,
+        "roughness": 0.75,
         "metalness": 0,
         "emissive": 0,
+        "map": "9fb9e067-a352-47cf-95ce-5db659071ff9",
         "envMapRotation": [
           0,
           0,
@@ -1239,6 +1240,42 @@
     ],
     "textures": [
       {
+        "uuid": "9fb9e067-a352-47cf-95ce-5db659071ff9",
+        "name": "",
+        "image": "05b000e8-421b-4781-8131-2c942aec7b32",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      },
+      {
         "uuid": "3c1f7a6a-ea4f-487a-a557-fa6cb0f62cf9",
         "name": "",
         "image": "4fa47c1a-802c-4704-a662-87d22e873a8d",
@@ -1312,6 +1349,13 @@
       }
     ],
     "images": [
+      {
+        "uuid": "05b000e8-421b-4781-8131-2c942aec7b32",
+        "url": {
+          "$img": "assets/img-b185728e26dd53b2559fbba5fb86cea5255e3327.png",
+          "mime": "image/png"
+        }
+      },
       {
         "uuid": "4fa47c1a-802c-4704-a662-87d22e873a8d",
         "url": {
@@ -1505,7 +1549,7 @@
                 0
               ],
               "geometry": "d0b2817f-8527-40f3-892f-5b1c7ad364de",
-              "material": "9d0e5373-83fc-483a-bbe4-3596761ae01c"
+              "material": "84537281-67a9-4a39-9f74-c4f715f78c6a"
             },
             {
               "uuid": "9602da52-b9b2-41e9-b0a5-f30846551ac5",
