@@ -63,6 +63,9 @@ export default function init( ctx ) {
 	const popping = []; // { mesh, t, from } — bubbles mid shrink-and-spin pop animation
 	const POP_DURATION = 0.28;
 
+	const sliding = []; // { mesh, from, to, t } — bubbles easing into their post-descend row instead of snapping
+	const SLIDE_DURATION = 0.35;
+
 	function popBubble( mesh ) {
 
 		popping.push( { mesh, t: 0, from: mesh.scale.x } );
@@ -368,17 +371,43 @@ export default function init( ctx ) {
 
 	function descend() {
 
+		// every existing bubble shifts down one row — record where each one IS
+		// right now so it can ease to its new spot instead of jumping there
+		const moves = [];
+		for ( let row = 0; row < grid.length; row ++ ) {
+
+			if ( ! grid[ row ] ) continue;
+			for ( let col = 0; col < COLS; col ++ ) {
+
+				const cell = grid[ row ][ col ];
+				if ( cell ) moves.push( { mesh: cell.mesh, from: cell.mesh.position.clone(), newRow: row + 1, col } );
+
+			}
+
+		}
+
 		const cols = colsInRow( 0 ); // the new row always lands at index 0 after unshift, below
 		const newRow = new Array( COLS ).fill( null );
 		for ( let col = 0; col < cols; col ++ ) {
 
 			const color = randomGridColor();
 			const mesh = makeBubble( color );
+			// starts one row further out and eases in, matching the direction everything else is sliding
+			mesh.position.set( colX( 0, col ), bubbleProto.position.y, rowZ( 0 ) - ROW_SPACING );
 			newRow[ col ] = { mesh, color };
+			moves.push( { mesh, from: mesh.position.clone(), newRow: 0, col } );
 
 		}
+
 		grid.unshift( newRow );
-		repositionGrid();
+
+		for ( const m of moves ) {
+
+			const to = new THREE.Vector3( colX( m.newRow, m.col ), bubbleProto.position.y, rowZ( m.newRow ) );
+			sliding.push( { mesh: m.mesh, from: m.from, to, t: 0 } );
+
+		}
+
 		checkLose();
 
 	}
@@ -419,6 +448,7 @@ export default function init( ctx ) {
 
 		for ( const p of popping ) bubbleParent.remove( p.mesh );
 		popping.length = 0;
+		sliding.length = 0;
 		state.score = 0;
 		state.winner = null;
 		shotBubble = null;
@@ -462,6 +492,17 @@ export default function init( ctx ) {
 			p.mesh.scale.setScalar( Math.max( 0.0001, p.from * ( 1 - k ) ) );
 			p.mesh.rotation.y += dt * 6;
 			if ( k >= 1 ) { bubbleParent.remove( p.mesh ); popping.splice( i, 1 ); }
+
+		}
+
+		for ( let i = sliding.length - 1; i >= 0; i -- ) {
+
+			const s = sliding[ i ];
+			s.t += dt;
+			const k = Math.min( 1, s.t / SLIDE_DURATION );
+			const eased = 1 - Math.pow( 1 - k, 3 ); // ease-out cubic
+			s.mesh.position.lerpVectors( s.from, s.to, eased );
+			if ( k >= 1 ) sliding.splice( i, 1 );
 
 		}
 
