@@ -43,7 +43,8 @@ export default function init( ctx ) {
 	const QUEUE_SCALE = 0.65;
 	const COLORS = [ 0xff4d4d, 0xffd23f, 0x3dd6d0, 0x4d79ff, 0xb366ff ];
 
-	function isOffsetRow( row ) { return row % 2 === 1; }
+	let topAbsoluteRow = 0; // the true identity of array index 0 — shifts by -1 each descend so a row's real offset parity never flips just because unshift moved it to a new array index
+	function isOffsetRow( row ) { return ( ( topAbsoluteRow + row ) % 2 + 2 ) % 2 === 1; }
 	function colsInRow( row ) { return isOffsetRow( row ) ? COLS - 1 : COLS; }
 	function rowZ( row ) { return TOP_Z + row * ROW_SPACING; }
 	function colX( row, col ) { return GRID_LEFT_X + col * SPACING + ( isOffsetRow( row ) ? SPACING / 2 : 0 ); }
@@ -356,6 +357,8 @@ export default function init( ctx ) {
 
 	function descend() {
 
+		topAbsoluteRow --;
+
 		// every existing bubble shifts down one row — record where each one IS
 		// right now so it can ease to its new spot instead of jumping there
 		const moves = [];
@@ -441,6 +444,7 @@ export default function init( ctx ) {
 		shotBubble = null;
 		shotCount = 0;
 		aimAngle = 0;
+		topAbsoluteRow = 0;
 		fillInitialGrid();
 		upcoming = [];
 		refillUpcoming();
