@@ -104,22 +104,6 @@ export default function init( ctx ) {
 
 	}
 
-	function repositionGrid() {
-
-		for ( let row = 0; row < grid.length; row ++ ) {
-
-			if ( ! grid[ row ] ) continue;
-			for ( let col = 0; col < COLS; col ++ ) {
-
-				const cell = grid[ row ][ col ];
-				if ( cell ) cell.mesh.position.set( colX( row, col ), bubbleProto.position.y, rowZ( row ) );
-
-			}
-
-		}
-
-	}
-
 	function fillInitialGrid() {
 
 		clearGrid();
