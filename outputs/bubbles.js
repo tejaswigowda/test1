@@ -234,7 +234,7 @@ export default function init( ctx ) {
 	// shooter — it's a sight, not part of the bubble itself. Built from mesh
 	// primitives (not ArrowHelper's 1px Line) so the shaft actually reads as
 	// thick regardless of GPU/driver line-width support.
-	const arrowMat = new THREE.MeshBasicMaterial( { color: 0x000000 } );
+	const arrowMat = new THREE.MeshBasicMaterial( { color: 0xffd700 } );
 	const arrowShaft = new THREE.Mesh( new THREE.CylinderGeometry( 0.09, 0.09, 1.7, 10 ), arrowMat );
 	arrowShaft.position.y = 0.85;
 	const arrowHead = new THREE.Mesh( new THREE.ConeGeometry( 0.24, 0.55, 10 ), arrowMat );
@@ -452,7 +452,7 @@ export default function init( ctx ) {
 
 		const axis = input.axis( [ 'ArrowLeft', 'KeyA' ], [ 'ArrowRight', 'KeyD' ] );
 		aimAngle = Math.max( - MAX_AIM, Math.min( MAX_AIM, aimAngle + axis * AIM_SPEED * dt ) );
-		aimArrow.rotation.y = aimAngle;
+		aimArrow.rotation.y = - aimAngle; // THREE's +Y rotation sense is mirrored vs. the shot's sin/cos direction above
 
 		for ( let i = popping.length - 1; i >= 0; i -- ) {
 
