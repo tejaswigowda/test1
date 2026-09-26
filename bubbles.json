@@ -19,21 +19,21 @@
       "name": "Edit Camera",
       "layers": 1,
       "matrix": [
-        1,
+        0.9999181710913002,
+        1.0842021724855044e-19,
+        -0.012792619803205518,
         0,
+        -0.0015758089716192952,
+        0.9923842082326597,
+        -0.12317101962930231,
         0,
+        0.01269519387462555,
+        0.123181099404239,
+        0.9923030025158891,
         0,
-        0,
-        0.992973845936431,
-        -0.1183340242120284,
-        0,
-        0,
-        0.1183340242120284,
-        0.992973845936431,
-        0,
-        0,
-        4.433605232006038,
-        23.007980093891454,
+        0.3681550591116772,
+        4.072197902644996,
+        18.7763522287057,
         1
       ],
       "up": [
@@ -46,7 +46,7 @@
       "near": 0.001,
       "far": 10000000000,
       "focus": 10,
-      "aspect": 1.4087301587301588,
+      "aspect": 0.7956349206349206,
       "filmGauge": 35,
       "filmOffset": 0
     }
@@ -530,14 +530,6 @@
         "depthSegments": 1
       },
       {
-        "uuid": "bbb4448d-3326-421c-b68a-bfe8b9729da6",
-        "type": "PlaneGeometry",
-        "width": 7.2,
-        "height": 2.15,
-        "widthSegments": 1,
-        "heightSegments": 1
-      },
-      {
         "uuid": "cd2ff027-9574-4cba-8412-6038be8eb4c4",
         "type": "CapsuleGeometry",
         "radius": 0.05,
@@ -553,6 +545,14 @@
         "height": 1.4,
         "capSegments": 4,
         "radialSegments": 6,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "343463f6-94b9-4e44-9036-06c3c2855346",
+        "type": "PlaneGeometry",
+        "width": 7.2,
+        "height": 2.15,
+        "widthSegments": 1,
         "heightSegments": 1
       }
     ],
@@ -1232,13 +1232,12 @@
         "blendColor": 0
       },
       {
-        "uuid": "5946b8e1-1cdc-451d-ad89-8cea661426fd",
+        "uuid": "34641400-b041-494b-bed6-02a6d4f15e52",
         "type": "MeshStandardMaterial",
-        "color": 16777215,
-        "roughness": 0.7,
+        "color": 4156212,
+        "roughness": 0.8,
         "metalness": 0,
         "emissive": 0,
-        "map": "c390088c-c1ae-4954-a3d5-b8261039df34",
         "envMapRotation": [
           0,
           0,
@@ -1249,12 +1248,13 @@
         "blendColor": 0
       },
       {
-        "uuid": "34641400-b041-494b-bed6-02a6d4f15e52",
+        "uuid": "90b91f8a-4658-4662-8181-d2905f6c0869",
         "type": "MeshStandardMaterial",
-        "color": 4156212,
-        "roughness": 0.8,
+        "color": 16777215,
+        "roughness": 0.7,
         "metalness": 0,
         "emissive": 0,
+        "map": "496ae040-8133-4e39-970a-814dcb9242cd",
         "envMapRotation": [
           0,
           0,
@@ -1303,9 +1303,9 @@
         "unpackAlignment": 4
       },
       {
-        "uuid": "c390088c-c1ae-4954-a3d5-b8261039df34",
+        "uuid": "496ae040-8133-4e39-970a-814dcb9242cd",
         "name": "",
-        "image": "af4979fe-12d1-428c-8209-7ba5f402d396",
+        "image": "d10084b3-e0fe-4188-9e9f-723921ff1541",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -1348,9 +1348,9 @@
         }
       },
       {
-        "uuid": "af4979fe-12d1-428c-8209-7ba5f402d396",
+        "uuid": "d10084b3-e0fe-4188-9e9f-723921ff1541",
         "url": {
-          "$img": "assets/img-b4dbea77883d98629bb8e086a9b518bbcdd418b8.png",
+          "$img": "assets/img-b1c0b155b911b71313a02d6153bc5533bd4de622.png",
           "mime": "image/png"
         }
       }
@@ -6801,81 +6801,6 @@
               "material": "58dca99b-d04d-4fc1-8b9e-8a7241a43199"
             },
             {
-              "uuid": "d496d639-99a5-4e82-9418-99d2b1e2395b",
-              "type": "Mesh",
-              "name": "Sign Panel",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "4:3757",
-                  "bbox": {
-                    "center": [
-                      0,
-                      8.8,
-                      -13.79
-                    ],
-                    "size": [
-                      7.2,
-                      2.15,
-                      0
-                    ]
-                  },
-                  "region": {
-                    "x": "center",
-                    "y": "top",
-                    "z": "front"
-                  },
-                  "shape": "flat",
-                  "orientation": "horizontal",
-                  "sizeRank": "smallest",
-                  "volume": 0,
-                  "role": "leaf",
-                  "childCount": 0,
-                  "depth": 1,
-                  "parentName": "Wooden Scoreboard",
-                  "adjacency": [],
-                  "color": {
-                    "name": "brown",
-                    "base": "orange",
-                    "hex": "#88653c"
-                  },
-                  "materials": [],
-                  "pair": {
-                    "mateUuid": "e4dbc9c3-efec-4b2c-9fd9-cd9d0aabe9b9",
-                    "mateName": "Sign Frame",
-                    "axis": "x",
-                    "side": "left"
-                  }
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                8.8,
-                -13.79,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "geometry": "bbb4448d-3326-421c-b68a-bfe8b9729da6",
-              "material": "5946b8e1-1cdc-451d-ad89-8cea661426fd"
-            },
-            {
               "uuid": "f025f08a-2fe4-4865-9467-a34d62f642f0",
               "type": "Mesh",
               "name": "Vine 1",
@@ -7028,6 +6953,37 @@
               ],
               "geometry": "8c9bed77-452e-4356-81db-c04b091fb5d4",
               "material": "34641400-b041-494b-bed6-02a6d4f15e52"
+            },
+            {
+              "uuid": "d5a6f698-966c-47df-8142-48dca3b18168",
+              "type": "Mesh",
+              "name": "Sign Panel",
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                8.8,
+                -13.79,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "343463f6-94b9-4e44-9036-06c3c2855346",
+              "material": "90b91f8a-4658-4662-8181-d2905f6c0869"
             }
           ]
         }
