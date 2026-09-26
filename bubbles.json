@@ -14,26 +14,26 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "3057fd1f-1c20-48de-ad7c-c159970f8a8d",
+      "uuid": "5a45b2ea-4fc1-424b-b2d7-940aa4d85de7",
       "type": "PerspectiveCamera",
       "name": "Edit Camera",
       "layers": 1,
       "matrix": [
-        0.9999181710913002,
-        1.0842021724855044e-19,
-        -0.012792619803205518,
+        0.9999974334727776,
         0,
-        -0.0015758089716192952,
-        0.9923842082326597,
-        -0.12317101962930231,
+        0.002265623061737293,
         0,
-        0.01269519387462555,
-        0.123181099404239,
-        0.9923030025158891,
+        0.0021349681568644005,
+        0.33468073665308995,
+        -0.9423291603385274,
         0,
-        0.3681550591116772,
-        4.072197902644996,
-        18.7763522287057,
+        -0.0007582603952804659,
+        0.9423315788581771,
+        0.3346798776858685,
+        0,
+        -0.02198921918037721,
+        27.82720284096999,
+        -0.29443020959269184,
         1
       ],
       "up": [
@@ -502,18 +502,6 @@
         "radius": 0.35,
         "height": 0.77,
         "radialSegments": 6,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "4bb476ad-ec46-445b-a162-9413872c0e71",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.2,
-        "radiusBottom": 0.24,
-        "height": 7.960000000000001,
-        "radialSegments": 8,
         "heightSegments": 1,
         "openEnded": false,
         "thetaStart": 0,
@@ -1200,22 +1188,6 @@
         "blendColor": 0
       },
       {
-        "uuid": "49b85aff-8d60-4537-81c8-17935846e51d",
-        "type": "MeshStandardMaterial",
-        "color": 7031343,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
         "uuid": "58dca99b-d04d-4fc1-8b9e-8a7241a43199",
         "type": "MeshStandardMaterial",
         "color": 8017462,
@@ -1269,7 +1241,7 @@
       {
         "uuid": "3c1f7a6a-ea4f-487a-a557-fa6cb0f62cf9",
         "name": "",
-        "image": "b7eeaa46-6b38-4571-891b-406ea1544f23",
+        "image": "4fa47c1a-802c-4704-a662-87d22e873a8d",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -1305,7 +1277,7 @@
       {
         "uuid": "496ae040-8133-4e39-970a-814dcb9242cd",
         "name": "",
-        "image": "d10084b3-e0fe-4188-9e9f-723921ff1541",
+        "image": "fe8e0ede-907d-4178-871e-6e1a790237ea",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -1341,14 +1313,14 @@
     ],
     "images": [
       {
-        "uuid": "b7eeaa46-6b38-4571-891b-406ea1544f23",
+        "uuid": "4fa47c1a-802c-4704-a662-87d22e873a8d",
         "url": {
           "$img": "assets/img-ed6ce58496c2259212a5b27bd21a50769e01507d.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "d10084b3-e0fe-4188-9e9f-723921ff1541",
+        "uuid": "fe8e0ede-907d-4178-871e-6e1a790237ea",
         "url": {
           "$img": "assets/img-b1c0b155b911b71313a02d6153bc5533bd4de622.png",
           "mime": "image/png"
@@ -6502,7 +6474,7 @@
               "far": 500
             }
           },
-          "target": "5c6d8926-e367-415f-8c7c-aecafa3b11f4"
+          "target": "0f2bb118-8e5d-4a86-82e3-57f591a8bd95"
         },
         {
           "uuid": "584f5fce-089c-45b9-b758-fad265d36d16",
@@ -6554,16 +6526,16 @@
             0,
             0,
             0,
-            1,
+            0.48385151984837793,
+            -0.8751501052621857,
             0,
             0,
+            0.8751501052621857,
+            0.48385151984837793,
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
+            8.264551702294444,
+            0.5819145321052197,
             1
           ],
           "up": [
@@ -6572,156 +6544,6 @@
             0
           ],
           "children": [
-            {
-              "uuid": "83911a90-bf16-43da-948e-ef836b200609",
-              "type": "Mesh",
-              "name": "Post Left",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "52:3987",
-                  "bbox": {
-                    "center": [
-                      -3.1,
-                      3.52,
-                      -14
-                    ],
-                    "size": [
-                      0.48,
-                      7.96,
-                      0.48
-                    ]
-                  },
-                  "region": {
-                    "x": "left",
-                    "y": "bottom",
-                    "z": "center"
-                  },
-                  "shape": "elongated",
-                  "orientation": "vertical",
-                  "sizeRank": "medium",
-                  "volume": 1.834,
-                  "role": "leaf",
-                  "childCount": 0,
-                  "depth": 1,
-                  "parentName": "Wooden Scoreboard",
-                  "adjacency": [],
-                  "color": {
-                    "name": "brown",
-                    "base": "brown",
-                    "hex": "#6b4a2f"
-                  },
-                  "materials": [],
-                  "pair": {
-                    "mateUuid": "ad4a82e0-8cfe-4261-939c-85e8cf4185f1",
-                    "mateName": "Post Right",
-                    "axis": "x",
-                    "side": "left"
-                  }
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                -3.1,
-                3.5200000000000005,
-                -14,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "geometry": "4bb476ad-ec46-445b-a162-9413872c0e71",
-              "material": "49b85aff-8d60-4537-81c8-17935846e51d"
-            },
-            {
-              "uuid": "ad4a82e0-8cfe-4261-939c-85e8cf4185f1",
-              "type": "Mesh",
-              "name": "Post Right",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "52:3987",
-                  "bbox": {
-                    "center": [
-                      3.1,
-                      3.52,
-                      -14
-                    ],
-                    "size": [
-                      0.48,
-                      7.96,
-                      0.48
-                    ]
-                  },
-                  "region": {
-                    "x": "right",
-                    "y": "bottom",
-                    "z": "center"
-                  },
-                  "shape": "elongated",
-                  "orientation": "vertical",
-                  "sizeRank": "medium",
-                  "volume": 1.834,
-                  "role": "leaf",
-                  "childCount": 0,
-                  "depth": 1,
-                  "parentName": "Wooden Scoreboard",
-                  "adjacency": [],
-                  "color": {
-                    "name": "brown",
-                    "base": "brown",
-                    "hex": "#6b4a2f"
-                  },
-                  "materials": [],
-                  "pair": {
-                    "mateUuid": "83911a90-bf16-43da-948e-ef836b200609",
-                    "mateName": "Post Left",
-                    "axis": "x",
-                    "side": "right"
-                  }
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                3.1,
-                3.5200000000000005,
-                -14,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "geometry": "4bb476ad-ec46-445b-a162-9413872c0e71",
-              "material": "49b85aff-8d60-4537-81c8-17935846e51d"
-            },
             {
               "uuid": "e4dbc9c3-efec-4b2c-9fd9-cd9d0aabe9b9",
               "type": "Mesh",
@@ -6766,7 +6588,7 @@
                   },
                   "materials": [],
                   "pair": {
-                    "mateUuid": "d496d639-99a5-4e82-9418-99d2b1e2395b",
+                    "mateUuid": "d5a6f698-966c-47df-8142-48dca3b18168",
                     "mateName": "Sign Panel",
                     "axis": "x",
                     "side": "right"
@@ -6853,10 +6675,10 @@
               "layers": 1,
               "matrix": [
                 0.9838436927881214,
-                0.17902957342582412,
+                0.1790295734258241,
                 0,
                 0,
-                -0.17902957342582412,
+                -0.1790295734258241,
                 0.9838436927881214,
                 0,
                 0,
@@ -6930,10 +6752,10 @@
               "layers": 1,
               "matrix": [
                 0.9838436927881214,
-                -0.17902957342582412,
+                -0.1790295734258241,
                 0,
                 0,
-                0.17902957342582412,
+                0.1790295734258241,
                 0.9838436927881214,
                 0,
                 0,
@@ -6958,6 +6780,50 @@
               "uuid": "d5a6f698-966c-47df-8142-48dca3b18168",
               "type": "Mesh",
               "name": "Sign Panel",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "4:3757",
+                  "bbox": {
+                    "center": [
+                      0,
+                      8.8,
+                      -13.79
+                    ],
+                    "size": [
+                      7.2,
+                      2.15,
+                      0
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Wooden Scoreboard",
+                  "adjacency": [],
+                  "color": {
+                    "name": "brown",
+                    "base": "orange",
+                    "hex": "#8c683d"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "e4dbc9c3-efec-4b2c-9fd9-cd9d0aabe9b9",
+                    "mateName": "Sign Frame",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
               "layers": 1,
               "matrix": [
                 1,
