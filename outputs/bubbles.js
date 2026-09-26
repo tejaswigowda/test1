@@ -409,7 +409,9 @@ export default function init( ctx ) {
 		if ( grid[ row ][ col ] ) { const free = findFreeCell( row, col ); row = free.row; col = free.col; }
 		while ( ! grid[ row ] ) grid[ row ] = new Array( COLS ).fill( null );
 
-		shotBubble.mesh.position.set( colX( row, col ), bubbleProto.position.y, rowZ( row ) );
+		// ease into the snapped cell from wherever it actually collided, instead of jumping there
+		const settleTo = new THREE.Vector3( colX( row, col ), bubbleProto.position.y, rowZ( row ) );
+		sliding.push( { mesh: shotBubble.mesh, from: shotBubble.mesh.position.clone(), to: settleTo, t: 0 } );
 		grid[ row ][ col ] = { mesh: shotBubble.mesh, color: shotBubble.color };
 		shotBubble = null;
 
