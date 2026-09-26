@@ -92,7 +92,7 @@ export default function init( ctx ) {
 	const FIXED_VFOV = 46.6; // degrees
 	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, - 6 );
 	const CAMERA_DIR = new THREE.Vector3( 0, 5, 28 ).normalize();
-	const FIT_K = 11.25;
+	const FIT_K = 13.5; // calibrated with margin so the paddle/scoreboard never clip, incl. near-square windows
 
 	camera.fov = FIXED_VFOV;
 
