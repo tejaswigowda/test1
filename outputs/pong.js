@@ -84,7 +84,7 @@ export default function init( ctx ) {
 	// window widens the vertical FOV to compensate rather than cropping the
 	// paddle's ±4.9-unit horizontal travel — the runtime only ever sets a
 	// fixed vertical FOV, which is exactly what let a narrow window clip it.
-	camera.position.set( 0, 6, 20 );
+	camera.position.set( 0, 7, 22 );
 	camera.lookAt( 0, 2, - 6 );
 
 	const TARGET_HORIZONTAL_FOV = 75; // degrees — matches this pose's old fixed-50°-vertical framing at a normal 16:9 window
