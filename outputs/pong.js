@@ -1,4 +1,4 @@
-// ── game.js (Pong) ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+// ── game.js (Pong) ───────────────────────────────────────────────────────────
 // Strata Play entry module for outputs/pong.glb. This scene ships no physics
 // labels (no .static/.kinematic/.dynamic classes), so there is no cannon-es
 // world (ctx.world is null) and no bodies to bind — per the label → physics
@@ -75,30 +75,42 @@ export default function init( ctx ) {
 
 	}
 
-	// ── Camera ── pulled back and raised so BOTH the near player paddle and the
-	// far marquee/AI paddle stay inside frame at any normal aspect ratio (a
-	// closer pose left the near paddle's angular offset from view-center
-	// bigger than the vertical half-FOV, clipping it off the bottom of frame
-	// entirely — not just an aspect-ratio edge case). The FOV itself is ALSO
-	// fit to the actual aspect ratio (see fitFov below), so a narrow/portrait
-	// window widens the vertical FOV to compensate rather than cropping the
-	// paddle's ±4.9-unit horizontal travel — the runtime only ever sets a
-	// fixed vertical FOV, which is exactly what let a narrow window clip it.
-	camera.position.set( 0, 7, 22 );
-	camera.lookAt( 0, 2, - 6 );
+	// ── Camera (responsive: fit-by-distance, not fit-by-FOV) ──────────────────
+	// The FOV never changes — only the camera's DISTANCE along a fixed "behind
+	// and above the player" direction does, solved each resize so the court +
+	// marquee always fit inside whichever of (horizontal, vertical) FOV is
+	// tighter for the CURRENT aspect ratio. Stretching vertical FOV instead (an
+	// earlier version of this file did that) avoids clipping too, but on a
+	// narrow/portrait window it just pads the frame with empty sky/ground
+	// around a small court — this keeps the exact same look/angle at any
+	// aspect, dollying back only as far as the shape of the window demands.
+	// CAMERA_DIR + FIT_K are calibrated to reproduce this project's own
+	// approved reference framing (camera at (0,7,22) looking at (0,2,-6), 46.6°
+	// vertical FOV, 16:9) exactly at that aspect ratio — landscape stays
+	// identical to that reference for any aspect ≥ 1 (vertical FOV is always
+	// the tighter constraint there), and only portrait dollies back further.
+	const FIXED_VFOV = 46.6; // degrees
+	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, - 6 );
+	const CAMERA_DIR = new THREE.Vector3( 0, 5, 28 ).normalize();
+	const FIT_K = 11.25;
 
-	const TARGET_HORIZONTAL_FOV = 75; // degrees — matches this pose's old fixed-50°-vertical framing at a normal 16:9 window
-	function fitFov() {
+	camera.fov = FIXED_VFOV;
 
-		const hFov = TARGET_HORIZONTAL_FOV * Math.PI / 180;
-		const vFov = 2 * Math.atan( Math.tan( hFov / 2 ) / camera.aspect );
-		camera.fov = Math.min( 100, Math.max( 30, vFov * 180 / Math.PI ) );
+	function fitCamera() {
+
+		const vFovHalf = FIXED_VFOV * Math.PI / 360;
+		const hFovHalf = Math.atan( Math.tan( vFovHalf ) * camera.aspect );
+		const limitingHalf = Math.min( vFovHalf, hFovHalf );
+		const distance = FIT_K / Math.sin( limitingHalf );
+
+		camera.position.copy( CAMERA_LOOKAT ).addScaledVector( CAMERA_DIR, distance );
+		camera.lookAt( CAMERA_LOOKAT );
 		camera.updateProjectionMatrix();
 
 	}
 
-	fitFov();
-	window.addEventListener( 'resize', fitFov ); // after the runtime's own resize listener updates camera.aspect first
+	fitCamera();
+	window.addEventListener( 'resize', fitCamera ); // after the runtime's own resize listener updates camera.aspect first
 
 	let vx = 0, vz = 0;
 
