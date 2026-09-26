@@ -162,7 +162,7 @@ export default function init( ctx ) {
 	const FIXED_VFOV = 46.6;
 	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, 0 );
 	const CAMERA_DIR = new THREE.Vector3( 0, 20, 22 ).normalize();
-	const FIT_K = 13.5;
+	const FIT_K = 12;
 
 	camera.fov = FIXED_VFOV;
 
