@@ -169,6 +169,17 @@ export default function init( ctx ) {
 	let shooterMesh = bubbleProto; // the authored prototype IS the first shooter bubble — already positioned correctly
 	shooterMesh.material.color.setHex( shooterColor );
 
+	// A rotating aim indicator — sweeps the SAME forward hemisphere (±MAX_AIM
+	// off straight-ahead, never backward) the shot direction is already clamped
+	// to, so the player can see where a shot will actually go before firing.
+	// Tinted to match the shooter's current bubble color.
+	const aimArrow = new THREE.ArrowHelper(
+		new THREE.Vector3( 0, 0, - 1 ),
+		new THREE.Vector3( 0, bubbleProto.position.y + 0.6, SHOOTER_Z - BUBBLE_RADIUS - 0.3 ),
+		2.2, shooterColor, 0.75, 0.55,
+	);
+	bubbleParent.add( aimArrow );
+
 	function fireShot() {
 
 		if ( shotBubble || state.winner ) return;
@@ -183,6 +194,7 @@ export default function init( ctx ) {
 		shooterColor = randomColor();
 		shooterMesh = makeBubble( shooterColor );
 		shooterMesh.position.set( 0, bubbleProto.position.y, SHOOTER_Z );
+		aimArrow.setColor( shooterColor );
 
 	}
 
@@ -348,6 +360,7 @@ export default function init( ctx ) {
 		shooterColor = randomColor();
 		shooterMesh.material.color.setHex( shooterColor );
 		shooterMesh.position.set( 0, bubbleProto.position.y, SHOOTER_Z );
+		aimArrow.setColor( shooterColor );
 		drawScore();
 
 	}
@@ -371,6 +384,7 @@ export default function init( ctx ) {
 
 		const axis = input.axis( [ 'ArrowLeft', 'KeyA' ], [ 'ArrowRight', 'KeyD' ] );
 		aimAngle = Math.max( - MAX_AIM, Math.min( MAX_AIM, aimAngle + axis * AIM_SPEED * dt ) );
+		aimArrow.setDirection( new THREE.Vector3( Math.sin( aimAngle ), 0, - Math.cos( aimAngle ) ) );
 
 		if ( state.winner || ! shotBubble ) return;
 
