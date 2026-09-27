@@ -68,6 +68,14 @@ export default function init( ctx ) {
 	const sliding = []; // { mesh, from, to, t } — bubbles easing into their post-descend row instead of snapping
 	const SLIDE_DURATION = 0.35;
 
+	function slideTo( mesh, to ) {
+
+		const existing = sliding.findIndex( ( s ) => s.mesh === mesh );
+		if ( existing !== -1 ) sliding.splice( existing, 1 ); // a mesh only ever rides ONE slide at a time
+		sliding.push( { mesh, from: mesh.position.clone(), to, t: 0 } );
+
+	}
+
 	function popBubble( mesh ) {
 
 		popping.push( { mesh, t: 0, from: mesh.scale.x } );
@@ -381,7 +389,7 @@ export default function init( ctx ) {
 			for ( let col = 0; col < COLS; col ++ ) {
 
 				const cell = grid[ row ][ col ];
-				if ( cell ) moves.push( { mesh: cell.mesh, from: cell.mesh.position.clone(), newRow: row + 1, col } );
+				if ( cell ) moves.push( { mesh: cell.mesh, newRow: row + 1, col } );
 
 			}
 
@@ -396,7 +404,7 @@ export default function init( ctx ) {
 			// starts one row further out and eases in, matching the direction everything else is sliding
 			mesh.position.set( colX( 0, col ), bubbleProto.position.y, rowZ( 0 ) - ROW_SPACING );
 			newRow[ col ] = { mesh, color };
-			moves.push( { mesh, from: mesh.position.clone(), newRow: 0, col } );
+			moves.push( { mesh, newRow: 0, col } );
 
 		}
 
@@ -405,7 +413,7 @@ export default function init( ctx ) {
 		for ( const m of moves ) {
 
 			const to = new THREE.Vector3( colX( m.newRow, m.col ), bubbleProto.position.y, rowZ( m.newRow ) );
-			sliding.push( { mesh: m.mesh, from: m.from, to, t: 0 } );
+			slideTo( m.mesh, to );
 
 		}
 
@@ -427,7 +435,7 @@ export default function init( ctx ) {
 
 		// ease into the snapped cell from wherever it actually collided, instead of jumping there
 		const settleTo = new THREE.Vector3( colX( row, col ), bubbleProto.position.y, rowZ( row ) );
-		sliding.push( { mesh: shotBubble.mesh, from: shotBubble.mesh.position.clone(), to: settleTo, t: 0 } );
+		slideTo( shotBubble.mesh, settleTo );
 		grid[ row ][ col ] = { mesh: shotBubble.mesh, color: shotBubble.color };
 		shotBubble = null;
 
