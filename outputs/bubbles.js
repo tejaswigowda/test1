@@ -506,6 +506,10 @@ export default function init( ctx ) {
 			const k = Math.min( 1, s.t / SLIDE_DURATION );
 			const eased = 1 - Math.pow( 1 - k, 3 ); // ease-out cubic
 			s.mesh.position.lerpVectors( s.from, s.to, eased );
+			// a small hop so the settle always reads as motion even when the actual
+			// from/to correction is tiny (a solid-color sphere sliding half an inch
+			// is nearly invisible; a little arc makes every landing legible)
+			s.mesh.position.y += Math.sin( k * Math.PI ) * 0.16;
 			if ( k >= 1 ) sliding.splice( i, 1 );
 
 		}
