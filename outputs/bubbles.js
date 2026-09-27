@@ -12,7 +12,6 @@ export default function init( ctx ) {
 	const { THREE, $S, input, camera, scene, onFrame, onReset, reset, state } = ctx;
 
 	const bubbleProto = $S( '#Bubble' ).toArray()[ 0 ];
-	const signPanel = $S( '#Sign_Panel' ).toArray()[ 0 ];
 	const bubbleParent = bubbleProto.parent;
 
 	// the re-exported scene's ground/backdrop planes are finite; a matching clear
@@ -174,35 +173,23 @@ export default function init( ctx ) {
 
 	}
 
-	// ── Score / status display — texture the scene's own Sign_Panel, a fresh
-	// material so this never mutates one shared with another Sign_*/Post_* mesh.
-	let drawScore = () => {};
-	if ( signPanel ) {
+	// ── Score / status display — ctx.hud textures the scene's own Sign_Panel
+	// directly (fresh material, never mutates one shared with another
+	// Sign_*/Post_* mesh); a no-op handle if the panel mesh isn't in the scene.
+	const hud = ctx.hud.panel( '#Sign_Panel', { width: 640, height: 192 } );
+	hud.draw( ( c2d, canvas ) => {
 
-		const canvas = document.createElement( 'canvas' );
-		canvas.width = 640; canvas.height = 192;
-		const c2d = canvas.getContext( '2d' );
-		const texture = new THREE.CanvasTexture( canvas );
-		texture.colorSpace = THREE.SRGBColorSpace;
-		signPanel.material = new THREE.MeshBasicMaterial( { map: texture } );
+		c2d.fillStyle = '#12200f';
+		c2d.fillRect( 0, 0, canvas.width, canvas.height );
+		c2d.textAlign = 'center';
+		c2d.textBaseline = 'middle';
+		c2d.fillStyle = '#d9f0c8';
 
-		drawScore = () => {
+		if ( state.winner === 'player' ) { c2d.font = 'bold 90px monospace'; c2d.fillText( 'CLEARED!', canvas.width / 2, canvas.height / 2 ); }
+		else if ( state.winner === 'computer' ) { c2d.font = 'bold 90px monospace'; c2d.fillText( 'GAME OVER', canvas.width / 2, canvas.height / 2 ); }
+		else { c2d.font = 'bold 110px monospace'; c2d.fillText( String( state.score ), canvas.width / 2, canvas.height / 2 ); }
 
-			c2d.fillStyle = '#12200f';
-			c2d.fillRect( 0, 0, canvas.width, canvas.height );
-			c2d.textAlign = 'center';
-			c2d.textBaseline = 'middle';
-			c2d.fillStyle = '#d9f0c8';
-
-			if ( state.winner === 'player' ) { c2d.font = 'bold 90px monospace'; c2d.fillText( 'CLEARED!', canvas.width / 2, canvas.height / 2 ); }
-			else if ( state.winner === 'computer' ) { c2d.font = 'bold 90px monospace'; c2d.fillText( 'GAME OVER', canvas.width / 2, canvas.height / 2 ); }
-			else { c2d.font = 'bold 110px monospace'; c2d.fillText( String( state.score ), canvas.width / 2, canvas.height / 2 ); }
-
-			texture.needsUpdate = true;
-
-		};
-
-	}
+	} );
 
 	// ── Camera — identical fit-by-distance approach as this repo's Pong (same
 	// court, same reference framing): FOV stays fixed, only the camera's
@@ -230,7 +217,7 @@ export default function init( ctx ) {
 	}
 
 	fitCamera();
-	window.addEventListener( 'resize', fitCamera );
+	ctx.onResize( fitCamera );
 
 	// ── Shooter + upcoming queue ──
 	let aimAngle = 0; // radians, 0 = straight up the lane (-z)
@@ -502,7 +489,7 @@ export default function init( ctx ) {
 
 		}
 
-		drawScore();
+		hud.update();
 
 	}
 
@@ -522,7 +509,7 @@ export default function init( ctx ) {
 		refillUpcoming();
 		shooterMesh.position.set( 0, bubbleProto.position.y, SHOOTER_Z );
 		syncQueueVisuals();
-		drawScore();
+		hud.update();
 
 	}
 
