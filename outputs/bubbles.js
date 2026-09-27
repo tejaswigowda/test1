@@ -201,7 +201,12 @@ export default function init( ctx ) {
 	let shotCount = 0;
 
 	bubbleProto.material = bubbleProto.material.clone(); // never mutate anything the GLB might share
-	let shooterMesh = bubbleProto; // the authored prototype IS the first shooter bubble — already positioned correctly
+	// the authored mesh must stay a pristine CLONE TEMPLATE forever — using it directly
+	// as a live bubble meant its first pop/settle animation permanently mutated (shrank)
+	// bubbleProto itself, corrupting every bubble cloned from it for the rest of the game
+	bubbleProto.visible = false;
+	let shooterMesh = makeBubble( bubbleProto.material.color.getHex() );
+	shooterMesh.position.copy( bubbleProto.position );
 	let upcoming = []; // upcoming[0] is the shooter's own (already-loaded) color; the rest are the visible queue behind it
 
 	function refillUpcoming() { while ( upcoming.length < QUEUE_SIZE + 1 ) upcoming.push( randomColor() ); }
