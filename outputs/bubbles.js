@@ -270,11 +270,14 @@ export default function init( ctx ) {
 	// primitives (not ArrowHelper's 1px Line) so the shaft actually reads as
 	// thick regardless of GPU/driver line-width support.
 	const ARROW_SCALE = BUBBLE_RADIUS / 0.45; // sized off the original 0.45-radius bubble this arrow was tuned for
+	const ARROW_LENGTH_SCALE = 0.5; // shortens shaft/head length only — radii stay put, so the arrow doesn't also get thinner
 	const arrowMat = new THREE.MeshBasicMaterial( { color: 0xffd700 } );
-	const arrowShaft = new THREE.Mesh( new THREE.CylinderGeometry( 0.09, 0.09, 1.7, 10 ), arrowMat );
-	arrowShaft.position.y = 0.85;
-	const arrowHead = new THREE.Mesh( new THREE.ConeGeometry( 0.24, 0.55, 10 ), arrowMat );
-	arrowHead.position.y = 1.7 + 0.275;
+	const shaftHeight = 1.7 * ARROW_LENGTH_SCALE;
+	const headHeight = 0.55 * ARROW_LENGTH_SCALE;
+	const arrowShaft = new THREE.Mesh( new THREE.CylinderGeometry( 0.09, 0.09, shaftHeight, 10 ), arrowMat );
+	arrowShaft.position.y = shaftHeight / 2;
+	const arrowHead = new THREE.Mesh( new THREE.ConeGeometry( 0.24, headHeight, 10 ), arrowMat );
+	arrowHead.position.y = shaftHeight + headHeight / 2;
 	const arrowPivot = new THREE.Group();
 	arrowPivot.add( arrowShaft, arrowHead );
 	arrowPivot.rotation.x = - Math.PI / 2; // local +Y (shaft axis) now points along -Z (straight ahead)
