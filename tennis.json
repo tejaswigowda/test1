@@ -1,0 +1,3550 @@
+{
+  "metadata": {},
+  "project": {
+    "renderer": "WebGPURenderer",
+    "shadows": true,
+    "shadowType": 1,
+    "toneMapping": 7,
+    "toneMappingExposure": 1
+  },
+  "camera": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "d70fef9a-0cb5-45af-bd33-bf080493f1bf",
+      "type": "PerspectiveCamera",
+      "name": "Edit Camera",
+      "layers": 1,
+      "matrix": [
+        -1.0000000000000004,
+        0,
+        0,
+        0,
+        0,
+        0.9636840652527157,
+        0.2670449819374995,
+        0,
+        0,
+        0.2670449819374995,
+        -0.963684065252716,
+        0,
+        0,
+        24,
+        -78,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "fov": 45,
+      "zoom": 1,
+      "near": 0.001,
+      "far": 10000000000,
+      "focus": 10,
+      "aspect": 0.7956349206349206,
+      "filmGauge": 35,
+      "filmOffset": 0
+    }
+  },
+  "controls": {
+    "center": [
+      0,
+      1,
+      5
+    ]
+  },
+  "scene": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "geometries": [
+      {
+        "uuid": "7156ff9a-28e6-4abf-962d-fb6b643789bf",
+        "type": "BoxGeometry",
+        "width": 70,
+        "height": 0.1,
+        "depth": 130,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "b29989b9-b141-4898-9916-deb41b571a3a",
+        "type": "BoxGeometry",
+        "width": 46,
+        "height": 0.1,
+        "depth": 100,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "1780f326-8c04-4670-b89e-673d1d1c7b07",
+        "type": "BoxGeometry",
+        "width": 36.15,
+        "height": 0.02,
+        "depth": 0.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "e5d28f85-7e59-4f78-bf9a-547e9c763346",
+        "type": "BoxGeometry",
+        "width": 36.15,
+        "height": 0.02,
+        "depth": 0.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "b8557646-01b4-45d7-9e11-eeed3bedf8f1",
+        "type": "BoxGeometry",
+        "width": 0.15,
+        "height": 0.02,
+        "depth": 78.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "fdb43aba-1c94-484f-9863-0418085f5aca",
+        "type": "BoxGeometry",
+        "width": 0.15,
+        "height": 0.02,
+        "depth": 78.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "43bbb800-9552-4378-acd3-ed19d8b8416a",
+        "type": "BoxGeometry",
+        "width": 0.15,
+        "height": 0.02,
+        "depth": 78.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "5eeb559b-a71a-4443-8abd-585a91bf7483",
+        "type": "BoxGeometry",
+        "width": 0.15,
+        "height": 0.02,
+        "depth": 78.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "86237ada-c0ab-44fc-a834-eb669ed4294b",
+        "type": "BoxGeometry",
+        "width": 27.15,
+        "height": 0.02,
+        "depth": 0.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "a10642e6-f81c-46fe-a2a2-73c608b5563d",
+        "type": "BoxGeometry",
+        "width": 27.15,
+        "height": 0.02,
+        "depth": 0.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "f057ec5b-4d79-4ba7-83ae-69432b406574",
+        "type": "BoxGeometry",
+        "width": 0.15,
+        "height": 0.02,
+        "depth": 42,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "7910c7f4-685f-4d26-b973-e8fedd01b52b",
+        "type": "BoxGeometry",
+        "width": 0.15,
+        "height": 0.02,
+        "depth": 0.5,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "1695c3f9-e71d-4e77-8311-f7e963a2169e",
+        "type": "BoxGeometry",
+        "width": 0.15,
+        "height": 0.02,
+        "depth": 0.5,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "f251548c-0cd2-45e0-a6e8-fc5980a77f3e",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.18,
+        "radiusBottom": 0.18,
+        "height": 3.6,
+        "radialSegments": 12,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "44e188a9-85e0-4994-8520-c288bec13ab7",
+        "type": "PlaneGeometry",
+        "width": 39,
+        "height": 3.3,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "2d15b495-f250-4d57-8b31-c35a1d8a8a80",
+        "type": "BoxGeometry",
+        "width": 39,
+        "height": 0.2,
+        "depth": 0.05,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "4317c9ec-d4ca-4af5-a6c4-10633d06f3d7",
+        "type": "SphereGeometry",
+        "radius": 0.42,
+        "widthSegments": 20,
+        "heightSegments": 20,
+        "phiStart": 0,
+        "phiLength": 6.283185307179586,
+        "thetaStart": 0,
+        "thetaLength": 3.141592653589793
+      },
+      {
+        "uuid": "b9058a60-ed43-4bac-bfe2-5ae65342572f",
+        "type": "PlaneGeometry",
+        "width": 260,
+        "height": 260,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "b5dc0bbe-b7d4-4dee-b861-6bd5855be742",
+        "type": "PlaneGeometry",
+        "width": 62,
+        "height": 4,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "4fd7b874-c925-442b-bf44-e2974c800338",
+        "type": "PlaneGeometry",
+        "width": 62,
+        "height": 4,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "228f0909-bd7b-4d9e-bb00-5d08b55f164b",
+        "type": "PlaneGeometry",
+        "width": 120,
+        "height": 4,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "3984d979-f6e8-4439-9cd0-ceda2bc2be5c",
+        "type": "PlaneGeometry",
+        "width": 120,
+        "height": 4,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      {
+        "uuid": "924c3364-db86-41b3-97b0-798517738382",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.35,
+        "radiusBottom": 0.4,
+        "height": 20,
+        "radialSegments": 10,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "4d0f6d34-cbf6-450f-98bd-15364251a4d4",
+        "type": "BoxGeometry",
+        "width": 2.6,
+        "height": 1,
+        "depth": 1.6,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "e4ae0b73-43e5-413b-996b-a24bc51289c6",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.35,
+        "radiusBottom": 0.4,
+        "height": 20,
+        "radialSegments": 10,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "b66283cf-609e-4357-82a5-109df4a8b196",
+        "type": "BoxGeometry",
+        "width": 2.6,
+        "height": 1,
+        "depth": 1.6,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "50c63961-04cd-481f-9dd8-75d5f1feed38",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.35,
+        "radiusBottom": 0.4,
+        "height": 20,
+        "radialSegments": 10,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "1e6986f4-e5e2-4b8e-ba35-bce9665b95cf",
+        "type": "BoxGeometry",
+        "width": 2.6,
+        "height": 1,
+        "depth": 1.6,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      {
+        "uuid": "4e986133-1213-4aac-97c1-0800f97deac9",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.35,
+        "radiusBottom": 0.4,
+        "height": 20,
+        "radialSegments": 10,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "abf5d4f7-f833-41c8-a8c3-470bcba28a3f",
+        "type": "BoxGeometry",
+        "width": 2.6,
+        "height": 1,
+        "depth": 1.6,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      }
+    ],
+    "materials": [
+      {
+        "uuid": "ee59aafe-aa71-40e1-b2a2-ef2a5269bb1f",
+        "type": "MeshStandardMaterial",
+        "color": 2059066,
+        "roughness": 0.9,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "6b924c7b-ca46-46b8-a9ee-c1941b028772",
+        "type": "MeshStandardMaterial",
+        "color": 2051724,
+        "roughness": 0.85,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "9804c4a8-9c5b-4048-b780-0df3d52ef779",
+        "type": "MeshStandardMaterial",
+        "color": 16777215,
+        "roughness": 0.6,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "31fb9dcb-013a-4b83-a8de-6422e27554a2",
+        "type": "MeshStandardMaterial",
+        "color": 1710618,
+        "roughness": 0.5,
+        "metalness": 0.4,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "cbfbca39-8a26-48e2-8c1d-358615ef106a",
+        "type": "MeshStandardMaterial",
+        "color": 16777215,
+        "roughness": 0.8,
+        "metalness": 0,
+        "emissive": 0,
+        "map": "bd360371-f520-411d-a43f-9d0de8d5b654",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b70f94a1-f692-48ea-baba-4c2dd3a647be",
+        "type": "MeshStandardMaterial",
+        "color": 13164586,
+        "roughness": 0.6,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "f3d713a1-2cd9-462f-9365-8ab87b071df3",
+        "type": "MeshStandardMaterial",
+        "color": 3042100,
+        "roughness": 0.95,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "8cab2157-785f-4d90-9c91-ad121fbf323f",
+        "type": "MeshStandardMaterial",
+        "color": 11184810,
+        "roughness": 0.7,
+        "metalness": 0,
+        "emissive": 0,
+        "map": "c9105d0d-7346-45a1-9bb3-0eefad70aa13",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "1875ed9d-7eee-43a8-83f2-477c54230093",
+        "type": "MeshStandardMaterial",
+        "color": 11184810,
+        "roughness": 0.7,
+        "metalness": 0,
+        "emissive": 0,
+        "map": "28ac9808-cfe5-4bad-993e-7dd1adb427dc",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "b68e5546-5654-4c78-b3ed-7f85e38295f8",
+        "type": "MeshStandardMaterial",
+        "color": 11184810,
+        "roughness": 0.7,
+        "metalness": 0,
+        "emissive": 0,
+        "map": "04723e4f-42fd-43b1-b7ba-876137a3c84d",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "d71d1ed8-ec11-42c5-8e2a-62991943adcb",
+        "type": "MeshStandardMaterial",
+        "color": 11184810,
+        "roughness": 0.7,
+        "metalness": 0,
+        "emissive": 0,
+        "map": "f3f9f7f4-48e3-44a7-9ead-438d604a5b4a",
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "side": 2,
+        "transparent": true,
+        "blendColor": 0
+      },
+      {
+        "uuid": "284ff016-1a53-46be-8996-d18ba7d7301f",
+        "type": "MeshStandardMaterial",
+        "color": 5593696,
+        "roughness": 0.6,
+        "metalness": 0.5,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "5ef54830-710c-4bdc-b053-c73c14e56c26",
+        "type": "MeshStandardMaterial",
+        "color": 2237480,
+        "roughness": 0.5,
+        "metalness": 0.4,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      }
+    ],
+    "textures": [
+      {
+        "uuid": "bd360371-f520-411d-a43f-9d0de8d5b654",
+        "name": "",
+        "image": "3ac7f314-b1a2-4bb3-8b1c-0202263839f1",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          20,
+          2
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      },
+      {
+        "uuid": "c9105d0d-7346-45a1-9bb3-0eefad70aa13",
+        "name": "",
+        "image": "ac0f1dab-20c9-43eb-8299-fd1665e322d9",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          30,
+          1.5
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      },
+      {
+        "uuid": "28ac9808-cfe5-4bad-993e-7dd1adb427dc",
+        "name": "",
+        "image": "ac0f1dab-20c9-43eb-8299-fd1665e322d9",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          30,
+          1.5
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      },
+      {
+        "uuid": "04723e4f-42fd-43b1-b7ba-876137a3c84d",
+        "name": "",
+        "image": "ac0f1dab-20c9-43eb-8299-fd1665e322d9",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          58,
+          1.5
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      },
+      {
+        "uuid": "f3f9f7f4-48e3-44a7-9ead-438d604a5b4a",
+        "name": "",
+        "image": "ac0f1dab-20c9-43eb-8299-fd1665e322d9",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": [
+          58,
+          1.5
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "wrap": [
+          1000,
+          1000
+        ],
+        "format": 1023,
+        "internalFormat": null,
+        "type": 1009,
+        "normalized": false,
+        "colorSpace": "",
+        "minFilter": 1008,
+        "magFilter": 1006,
+        "anisotropy": 1,
+        "flipY": true,
+        "generateMipmaps": true,
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4
+      }
+    ],
+    "images": [
+      {
+        "uuid": "3ac7f314-b1a2-4bb3-8b1c-0202263839f1",
+        "url": {
+          "$img": "assets/img-ae6e02ba0c14a6dfc7099f9a29bd5ac8b5326e37.png",
+          "mime": "image/png"
+        }
+      },
+      {
+        "uuid": "ac0f1dab-20c9-43eb-8299-fd1665e322d9",
+        "url": {
+          "$img": "assets/img-b900b5ec4f329cc76124b4161211fbf04568d47a.png",
+          "mime": "image/png"
+        }
+      }
+    ],
+    "object": {
+      "uuid": "680ab816-f7f7-4f48-aa2b-f38cd453b540",
+      "type": "Scene",
+      "name": "Scene",
+      "userData": {
+        "renderShots": []
+      },
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "background": 9422578,
+      "children": [
+        {
+          "uuid": "9815661a-9f13-46ba-b03d-92638769e358",
+          "type": "Group",
+          "name": "Tennis Court",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:15",
+              "bbox": {
+                "center": [
+                  0,
+                  1.75,
+                  0
+                ],
+                "size": [
+                  70,
+                  3.7,
+                  130
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 33669.9996,
+              "role": "group",
+              "childCount": 15,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "white",
+                "base": "white",
+                "hex": "#1f6b3a"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "2458e4c7-2e12-49b6-b0ba-b361a07e96d2",
+              "type": "Mesh",
+              "name": "Court Apron",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:73824",
+                  "bbox": {
+                    "center": [
+                      0,
+                      -0.05,
+                      0
+                    ],
+                    "size": [
+                      70,
+                      0.1,
+                      130
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "largest",
+                  "volume": 910,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface"
+                  ],
+                  "color": {
+                    "name": "dark green",
+                    "base": "green",
+                    "hex": "#1f6b3a"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "dbfa1014-9c93-4f2c-8544-69aa794b7a6b",
+                    "mateName": "Court Surface",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -0.05,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "7156ff9a-28e6-4abf-962d-fb6b643789bf",
+              "material": "ee59aafe-aa71-40e1-b2a2-ef2a5269bb1f"
+            },
+            {
+              "uuid": "dbfa1014-9c93-4f2c-8544-69aa794b7a6b",
+              "type": "Mesh",
+              "name": "Court Surface",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:55036",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.01,
+                      0
+                    ],
+                    "size": [
+                      46,
+                      0.1,
+                      100
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 460,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Apron",
+                    "Baseline Near",
+                    "Baseline Far",
+                    "Doubles Sideline Left",
+                    "Doubles Sideline Right",
+                    "Singles Sideline Left",
+                    "Singles Sideline Right",
+                    "Service Line Near",
+                    "Service Line Far",
+                    "Center Service Line",
+                    "Center Mark Near",
+                    "Center Mark Far",
+                    "Net",
+                    "Tennis Ball"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#1f4e8c"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "2458e4c7-2e12-49b6-b0ba-b361a07e96d2",
+                    "mateName": "Court Apron",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.01,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "b29989b9-b141-4898-9916-deb41b571a3a",
+              "material": "6b924c7b-ca46-46b8-a9ee-c1941b028772"
+            },
+            {
+              "uuid": "1ac07b46-c52c-4350-a25a-021c46a82a30",
+              "type": "Mesh",
+              "name": "Baseline Near",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:18075",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.07,
+                      -39
+                    ],
+                    "size": [
+                      36.15,
+                      0.02,
+                      0.15
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1085,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Doubles Sideline Left",
+                    "Doubles Sideline Right",
+                    "Singles Sideline Left",
+                    "Singles Sideline Right",
+                    "Center Mark Near"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.07,
+                -39,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "1780f326-8c04-4670-b89e-673d1d1c7b07",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "59298267-59f5-4463-9446-8da72eb9ade6",
+              "type": "Mesh",
+              "name": "Baseline Far",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:18075",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.07,
+                      39
+                    ],
+                    "size": [
+                      36.15,
+                      0.02,
+                      0.15
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "front"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.1085,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Doubles Sideline Left",
+                    "Doubles Sideline Right",
+                    "Singles Sideline Left",
+                    "Singles Sideline Right",
+                    "Center Mark Far"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.07,
+                39,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "e5d28f85-7e59-4f78-bf9a-547e9c763346",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "5bef8754-bd91-4bec-8a4b-fa01783d8836",
+              "type": "Mesh",
+              "name": "Doubles Sideline Left",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:39075",
+                  "bbox": {
+                    "center": [
+                      -18,
+                      0.07,
+                      0
+                    ],
+                    "size": [
+                      0.15,
+                      0.02,
+                      78.15
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.2345,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Baseline Near",
+                    "Baseline Far",
+                    "Net"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "8d0eefae-2b9b-4961-9e78-de6dcb4e011e",
+                    "mateName": "Doubles Sideline Right",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -18,
+                0.07,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "b8557646-01b4-45d7-9e11-eeed3bedf8f1",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "8d0eefae-2b9b-4961-9e78-de6dcb4e011e",
+              "type": "Mesh",
+              "name": "Doubles Sideline Right",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:39075",
+                  "bbox": {
+                    "center": [
+                      18,
+                      0.07,
+                      0
+                    ],
+                    "size": [
+                      0.15,
+                      0.02,
+                      78.15
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.2345,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Baseline Near",
+                    "Baseline Far",
+                    "Net"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "5bef8754-bd91-4bec-8a4b-fa01783d8836",
+                    "mateName": "Doubles Sideline Left",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                18,
+                0.07,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "fdb43aba-1c94-484f-9863-0418085f5aca",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "860d7ac5-6360-46ef-8d30-6f06fce2eada",
+              "type": "Mesh",
+              "name": "Singles Sideline Left",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:39075",
+                  "bbox": {
+                    "center": [
+                      -13.5,
+                      0.07,
+                      0
+                    ],
+                    "size": [
+                      0.15,
+                      0.02,
+                      78.15
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.2345,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Baseline Near",
+                    "Baseline Far",
+                    "Service Line Near",
+                    "Service Line Far",
+                    "Net"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "3a1a3fa6-35e2-47cd-ae20-26c677249691",
+                    "mateName": "Singles Sideline Right",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -13.5,
+                0.07,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "43bbb800-9552-4378-acd3-ed19d8b8416a",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "3a1a3fa6-35e2-47cd-ae20-26c677249691",
+              "type": "Mesh",
+              "name": "Singles Sideline Right",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:39075",
+                  "bbox": {
+                    "center": [
+                      13.5,
+                      0.07,
+                      0
+                    ],
+                    "size": [
+                      0.15,
+                      0.02,
+                      78.15
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.2345,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Baseline Near",
+                    "Baseline Far",
+                    "Service Line Near",
+                    "Service Line Far",
+                    "Net"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "860d7ac5-6360-46ef-8d30-6f06fce2eada",
+                    "mateName": "Singles Sideline Left",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                13.5,
+                0.07,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "5eeb559b-a71a-4443-8abd-585a91bf7483",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "326ca618-32aa-433d-83ec-6f0fe16e2597",
+              "type": "Mesh",
+              "name": "Service Line Near",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:13575",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.07,
+                      -21
+                    ],
+                    "size": [
+                      27.15,
+                      0.02,
+                      0.15
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0815,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Singles Sideline Left",
+                    "Singles Sideline Right",
+                    "Center Service Line"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.07,
+                -21,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "86237ada-c0ab-44fc-a834-eb669ed4294b",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "32cf6da8-b028-4ef3-8e5c-a1d1ac40a525",
+              "type": "Mesh",
+              "name": "Service Line Far",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:13575",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.07,
+                      21
+                    ],
+                    "size": [
+                      27.15,
+                      0.02,
+                      0.15
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "front"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.0815,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Singles Sideline Left",
+                    "Singles Sideline Right",
+                    "Center Service Line"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.07,
+                21,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "a10642e6-f81c-46fe-a2a2-73c608b5563d",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "c943e50e-d06b-4528-8b50-2c44ca34ff32",
+              "type": "Mesh",
+              "name": "Center Service Line",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:21000",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.07,
+                      0
+                    ],
+                    "size": [
+                      0.15,
+                      0.02,
+                      42
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.126,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Service Line Near",
+                    "Service Line Far",
+                    "Net"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.07,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "f057ec5b-4d79-4ba7-83ae-69432b406574",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "a72893cf-7d17-4254-9630-ddd68144b742",
+              "type": "Mesh",
+              "name": "Center Mark Near",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:261",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.07,
+                      -38.75
+                    ],
+                    "size": [
+                      0.15,
+                      0.02,
+                      0.5
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0.0015,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Baseline Near"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.07,
+                -38.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "7910c7f4-685f-4d26-b973-e8fedd01b52b",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "a3ff6892-154d-45aa-a862-b701176420cb",
+              "type": "Mesh",
+              "name": "Center Mark Far",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:261",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.07,
+                      38.75
+                    ],
+                    "size": [
+                      0.15,
+                      0.02,
+                      0.5
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "front"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0.0015,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Baseline Far"
+                  ],
+                  "color": {
+                    "name": "white",
+                    "base": "white",
+                    "hex": "#ffffff"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.07,
+                38.75,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "1695c3f9-e71d-4e77-8311-f7e963a2169e",
+              "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+            },
+            {
+              "uuid": "1f5d5bdd-b06a-4006-b2e5-d7b802e7c2ca",
+              "type": "Group",
+              "name": "Net",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:4",
+                  "bbox": {
+                    "center": [
+                      0,
+                      1.8,
+                      0
+                    ],
+                    "size": [
+                      39.36,
+                      3.6,
+                      0.36
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 51.0106,
+                  "role": "group",
+                  "childCount": 4,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface",
+                    "Doubles Sideline Left",
+                    "Doubles Sideline Right",
+                    "Singles Sideline Left",
+                    "Singles Sideline Right",
+                    "Center Service Line"
+                  ],
+                  "color": {
+                    "name": "black",
+                    "base": "black",
+                    "hex": "#1a1a1a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "children": [
+                {
+                  "uuid": "a922fa13-08dc-4994-96c1-38d242290544",
+                  "type": "Mesh",
+                  "name": "Net Post Left",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "76:1809",
+                      "bbox": {
+                        "center": [
+                          -19.5,
+                          1.8,
+                          0
+                        ],
+                        "size": [
+                          0.36,
+                          3.6,
+                          0.36
+                        ]
+                      },
+                      "region": {
+                        "x": "left",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "elongated",
+                      "orientation": "vertical",
+                      "sizeRank": "largest",
+                      "volume": 0.4666,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Net",
+                      "adjacency": [
+                        "Net Mesh",
+                        "Net Tape"
+                      ],
+                      "color": {
+                        "name": "black",
+                        "base": "black",
+                        "hex": "#1a1a1a"
+                      },
+                      "materials": [],
+                      "pair": {
+                        "mateUuid": "4201482e-65d8-4c0b-8c91-ba4245e3508e",
+                        "mateName": "Net Post Right",
+                        "axis": "x",
+                        "side": "left"
+                      }
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    -19.5,
+                    1.8,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "f251548c-0cd2-45e0-a6e8-fc5980a77f3e",
+                  "material": "31fb9dcb-013a-4b83-a8de-6422e27554a2"
+                },
+                {
+                  "uuid": "4201482e-65d8-4c0b-8c91-ba4245e3508e",
+                  "type": "Mesh",
+                  "name": "Net Post Right",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "76:1809",
+                      "bbox": {
+                        "center": [
+                          19.5,
+                          1.8,
+                          0
+                        ],
+                        "size": [
+                          0.36,
+                          3.6,
+                          0.36
+                        ]
+                      },
+                      "region": {
+                        "x": "right",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "elongated",
+                      "orientation": "vertical",
+                      "sizeRank": "largest",
+                      "volume": 0.4666,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Net",
+                      "adjacency": [
+                        "Net Mesh",
+                        "Net Tape"
+                      ],
+                      "color": {
+                        "name": "black",
+                        "base": "black",
+                        "hex": "#1a1a1a"
+                      },
+                      "materials": [],
+                      "pair": {
+                        "mateUuid": "a922fa13-08dc-4994-96c1-38d242290544",
+                        "mateName": "Net Post Left",
+                        "axis": "x",
+                        "side": "right"
+                      }
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    19.5,
+                    1.8,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "f251548c-0cd2-45e0-a6e8-fc5980a77f3e",
+                  "material": "31fb9dcb-013a-4b83-a8de-6422e27554a2"
+                },
+                {
+                  "uuid": "42614f41-e97d-4a51-91b9-7f735ff1928e",
+                  "type": "Mesh",
+                  "name": "Net Mesh",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "4:19570",
+                      "bbox": {
+                        "center": [
+                          0,
+                          1.65,
+                          0
+                        ],
+                        "size": [
+                          39,
+                          3.3,
+                          0
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "flat",
+                      "orientation": "horizontal",
+                      "sizeRank": "smallest",
+                      "volume": 0,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Net",
+                      "adjacency": [
+                        "Net Post Left",
+                        "Net Post Right",
+                        "Net Tape"
+                      ],
+                      "color": {
+                        "name": "white",
+                        "base": "white",
+                        "hex": "#ffffff"
+                      },
+                      "materials": [],
+                      "pair": {
+                        "mateUuid": "aae30c7c-a2e8-42ec-a150-2b9a0112c7f7",
+                        "mateName": "Net Tape",
+                        "axis": "x",
+                        "side": "right"
+                      }
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1.65,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "44e188a9-85e0-4994-8520-c288bec13ab7",
+                  "material": "cbfbca39-8a26-48e2-8c1d-358615ef106a"
+                },
+                {
+                  "uuid": "aae30c7c-a2e8-42ec-a150-2b9a0112c7f7",
+                  "type": "Mesh",
+                  "name": "Net Tape",
+                  "userData": {
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "24:19500",
+                      "bbox": {
+                        "center": [
+                          0,
+                          3.3,
+                          0
+                        ],
+                        "size": [
+                          39,
+                          0.2,
+                          0.05
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "top",
+                        "z": "center"
+                      },
+                      "shape": "thin",
+                      "orientation": "horizontal",
+                      "sizeRank": "medium",
+                      "volume": 0.39,
+                      "role": "leaf",
+                      "childCount": 0,
+                      "depth": 2,
+                      "parentName": "Net",
+                      "adjacency": [
+                        "Net Post Left",
+                        "Net Post Right",
+                        "Net Mesh"
+                      ],
+                      "color": {
+                        "name": "white",
+                        "base": "white",
+                        "hex": "#ffffff"
+                      },
+                      "materials": [],
+                      "pair": {
+                        "mateUuid": "42614f41-e97d-4a51-91b9-7f735ff1928e",
+                        "mateName": "Net Mesh",
+                        "axis": "x",
+                        "side": "left"
+                      }
+                    }
+                  },
+                  "layers": 1,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    3.3,
+                    0,
+                    1
+                  ],
+                  "up": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "geometry": "2d15b495-f250-4d57-8b31-c35a1d8a8a80",
+                  "material": "9804c4a8-9c5b-4048-b780-0df3d52ef779"
+                }
+              ]
+            },
+            {
+              "uuid": "f34d16f8-e0d6-4adf-bd45-72ad5a96267e",
+              "type": "Mesh",
+              "name": "Tennis Ball",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "441:420",
+                  "bbox": {
+                    "center": [
+                      3,
+                      0.42,
+                      -12
+                    ],
+                    "size": [
+                      0.84,
+                      0.84,
+                      0.84
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0.5927,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Tennis Court",
+                  "adjacency": [
+                    "Court Surface"
+                  ],
+                  "color": {
+                    "name": "lime",
+                    "base": "lime",
+                    "hex": "#c8e02a"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                3,
+                0.42,
+                -12,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "4317c9ec-d4ca-4af5-a6c4-10633d06f3d7",
+              "material": "b70f94a1-f692-48ea-baba-4c2dd3a647be"
+            }
+          ]
+        },
+        {
+          "uuid": "a433223d-515d-4b1e-8fac-fecf54bb9588",
+          "type": "Group",
+          "name": "Stadium Scenery",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:13",
+              "bbox": {
+                "center": [
+                  0,
+                  10.14,
+                  0
+                ],
+                "size": [
+                  260,
+                  20.52,
+                  260
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 1387152,
+              "role": "group",
+              "childCount": 13,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "blue",
+                "base": "blue",
+                "hex": "#2e6b34"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "952f62a9-e1cc-4aa2-a1ed-72b4ee6cb043",
+              "type": "Mesh",
+              "name": "Grounds",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "4:183848",
+                  "bbox": {
+                    "center": [
+                      0,
+                      -0.12,
+                      0
+                    ],
+                    "size": [
+                      260,
+                      0,
+                      260
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Fence Near",
+                    "Fence Far",
+                    "Fence Left",
+                    "Fence Right"
+                  ],
+                  "color": {
+                    "name": "dark green",
+                    "base": "green",
+                    "hex": "#2e6b34"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                2.220446049250313e-16,
+                -1,
+                0,
+                0,
+                1,
+                2.220446049250313e-16,
+                0,
+                0,
+                -0.12,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "b9058a60-ed43-4bac-bfe2-5ae65342572f",
+              "material": "f3d713a1-2cd9-462f-9365-8ab87b071df3"
+            },
+            {
+              "uuid": "c0bece72-e2c0-4772-97ce-9b5fbcab2c7c",
+              "type": "Mesh",
+              "name": "Fence Near",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "4:31064",
+                  "bbox": {
+                    "center": [
+                      0,
+                      1.88,
+                      -60
+                    ],
+                    "size": [
+                      62,
+                      4,
+                      0
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "back"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Grounds",
+                    "Fence Left",
+                    "Fence Right"
+                  ],
+                  "color": {
+                    "name": "gray",
+                    "base": "gray",
+                    "hex": "#aaaaaa"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.88,
+                -60,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "b5dc0bbe-b7d4-4dee-b861-6bd5855be742",
+              "material": "8cab2157-785f-4d90-9c91-ad121fbf323f"
+            },
+            {
+              "uuid": "dbd33220-b864-4b01-a69d-2cefe6b95f92",
+              "type": "Mesh",
+              "name": "Fence Far",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "4:31064",
+                  "bbox": {
+                    "center": [
+                      0,
+                      1.88,
+                      60
+                    ],
+                    "size": [
+                      62,
+                      4,
+                      0
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "front"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Grounds",
+                    "Fence Left",
+                    "Fence Right"
+                  ],
+                  "color": {
+                    "name": "gray",
+                    "base": "gray",
+                    "hex": "#aaaaaa"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.88,
+                60,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "4fd7b874-c925-442b-bf44-e2974c800338",
+              "material": "1875ed9d-7eee-43a8-83f2-477c54230093"
+            },
+            {
+              "uuid": "b019c300-4191-48dc-9166-cf83ff750d4e",
+              "type": "Mesh",
+              "name": "Fence Left",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "4:60033",
+                  "bbox": {
+                    "center": [
+                      -31,
+                      1.88,
+                      0
+                    ],
+                    "size": [
+                      0,
+                      4,
+                      120
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Grounds",
+                    "Fence Near",
+                    "Fence Far"
+                  ],
+                  "color": {
+                    "name": "gray",
+                    "base": "gray",
+                    "hex": "#aaaaaa"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "8e33d3d0-cb3a-4662-a1e3-130e74dad531",
+                    "mateName": "Fence Right",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -31,
+                1.88,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "228f0909-bd7b-4d9e-bb00-5d08b55f164b",
+              "material": "b68e5546-5654-4c78-b3ed-7f85e38295f8"
+            },
+            {
+              "uuid": "8e33d3d0-cb3a-4662-a1e3-130e74dad531",
+              "type": "Mesh",
+              "name": "Fence Right",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "4:60033",
+                  "bbox": {
+                    "center": [
+                      31,
+                      1.88,
+                      0
+                    ],
+                    "size": [
+                      0,
+                      4,
+                      120
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "bottom",
+                    "z": "center"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Grounds",
+                    "Fence Near",
+                    "Fence Far"
+                  ],
+                  "color": {
+                    "name": "gray",
+                    "base": "gray",
+                    "hex": "#aaaaaa"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "b019c300-4191-48dc-9166-cf83ff750d4e",
+                    "mateName": "Fence Left",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                31,
+                1.88,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "3984d979-f6e8-4439-9cd0-ceda2bc2be5c",
+              "material": "d71d1ed8-ec11-42c5-8e2a-62991943adcb"
+            },
+            {
+              "uuid": "e5863109-7729-470a-9a9d-34ae585d3551",
+              "type": "Mesh",
+              "name": "Light Pole 1",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "64:10008",
+                  "bbox": {
+                    "center": [
+                      -34,
+                      9.9,
+                      -63
+                    ],
+                    "size": [
+                      0.7608,
+                      20,
+                      0.8
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "center",
+                    "z": "back"
+                  },
+                  "shape": "elongated",
+                  "orientation": "vertical",
+                  "sizeRank": "largest",
+                  "volume": 12.1735,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Light Fixture 1"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#555a60"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "4d3ed985-e71b-4c64-ac4e-5a07ce8c40af",
+                    "mateName": "Light Pole 2",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -34,
+                9.9,
+                -63,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "924c3364-db86-41b3-97b0-798517738382",
+              "material": "284ff016-1a53-46be-8996-d18ba7d7301f"
+            },
+            {
+              "uuid": "b6bc048b-c911-4c16-84de-9126777c1af4",
+              "type": "Mesh",
+              "name": "Light Fixture 1",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1606",
+                  "bbox": {
+                    "center": [
+                      -34,
+                      19.9,
+                      -63
+                    ],
+                    "size": [
+                      2.6,
+                      1,
+                      1.6
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 4.16,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Light Pole 1"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#222428"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "4d6a00bb-d77f-4c97-ac15-76a57f12d201",
+                    "mateName": "Light Fixture 2",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -34,
+                19.9,
+                -63,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "4d0f6d34-cbf6-450f-98bd-15364251a4d4",
+              "material": "5ef54830-710c-4bdc-b053-c73c14e56c26"
+            },
+            {
+              "uuid": "4d3ed985-e71b-4c64-ac4e-5a07ce8c40af",
+              "type": "Mesh",
+              "name": "Light Pole 2",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "64:10008",
+                  "bbox": {
+                    "center": [
+                      34,
+                      9.9,
+                      -63
+                    ],
+                    "size": [
+                      0.7608,
+                      20,
+                      0.8
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "center",
+                    "z": "back"
+                  },
+                  "shape": "elongated",
+                  "orientation": "vertical",
+                  "sizeRank": "largest",
+                  "volume": 12.1735,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Light Fixture 2"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#555a60"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "e5863109-7729-470a-9a9d-34ae585d3551",
+                    "mateName": "Light Pole 1",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                34,
+                9.9,
+                -63,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "e4ae0b73-43e5-413b-996b-a24bc51289c6",
+              "material": "284ff016-1a53-46be-8996-d18ba7d7301f"
+            },
+            {
+              "uuid": "4d6a00bb-d77f-4c97-ac15-76a57f12d201",
+              "type": "Mesh",
+              "name": "Light Fixture 2",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1606",
+                  "bbox": {
+                    "center": [
+                      34,
+                      19.9,
+                      -63
+                    ],
+                    "size": [
+                      2.6,
+                      1,
+                      1.6
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 4.16,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Light Pole 2"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#222428"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "b6bc048b-c911-4c16-84de-9126777c1af4",
+                    "mateName": "Light Fixture 1",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                34,
+                19.9,
+                -63,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "b66283cf-609e-4357-82a5-109df4a8b196",
+              "material": "5ef54830-710c-4bdc-b053-c73c14e56c26"
+            },
+            {
+              "uuid": "ab885092-6e87-42e4-9d89-0d840b2f32e8",
+              "type": "Mesh",
+              "name": "Light Pole 3",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "64:10008",
+                  "bbox": {
+                    "center": [
+                      -34,
+                      9.9,
+                      63
+                    ],
+                    "size": [
+                      0.7608,
+                      20,
+                      0.8
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "center",
+                    "z": "front"
+                  },
+                  "shape": "elongated",
+                  "orientation": "vertical",
+                  "sizeRank": "largest",
+                  "volume": 12.1735,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Light Fixture 3"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#555a60"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "d277e845-0366-4b7a-8fb2-581d63e31fdd",
+                    "mateName": "Light Pole 4",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -34,
+                9.9,
+                63,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "50c63961-04cd-481f-9dd8-75d5f1feed38",
+              "material": "284ff016-1a53-46be-8996-d18ba7d7301f"
+            },
+            {
+              "uuid": "f12eb6c7-828c-4ea4-9c03-ca55a63dd45a",
+              "type": "Mesh",
+              "name": "Light Fixture 3",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1606",
+                  "bbox": {
+                    "center": [
+                      -34,
+                      19.9,
+                      63
+                    ],
+                    "size": [
+                      2.6,
+                      1,
+                      1.6
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 4.16,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Light Pole 3"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#222428"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "c75b0be1-d619-4f3d-bff1-d5404a965817",
+                    "mateName": "Light Fixture 4",
+                    "axis": "x",
+                    "side": "left"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -34,
+                19.9,
+                63,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "1e6986f4-e5e2-4b8e-ba35-bce9665b95cf",
+              "material": "5ef54830-710c-4bdc-b053-c73c14e56c26"
+            },
+            {
+              "uuid": "d277e845-0366-4b7a-8fb2-581d63e31fdd",
+              "type": "Mesh",
+              "name": "Light Pole 4",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "64:10008",
+                  "bbox": {
+                    "center": [
+                      34,
+                      9.9,
+                      63
+                    ],
+                    "size": [
+                      0.7608,
+                      20,
+                      0.8
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "center",
+                    "z": "front"
+                  },
+                  "shape": "elongated",
+                  "orientation": "vertical",
+                  "sizeRank": "largest",
+                  "volume": 12.1735,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Light Fixture 4"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#555a60"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "ab885092-6e87-42e4-9d89-0d840b2f32e8",
+                    "mateName": "Light Pole 3",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                34,
+                9.9,
+                63,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "4e986133-1213-4aac-97c1-0800f97deac9",
+              "material": "284ff016-1a53-46be-8996-d18ba7d7301f"
+            },
+            {
+              "uuid": "c75b0be1-d619-4f3d-bff1-d5404a965817",
+              "type": "Mesh",
+              "name": "Light Fixture 4",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "24:1606",
+                  "bbox": {
+                    "center": [
+                      34,
+                      19.9,
+                      63
+                    ],
+                    "size": [
+                      2.6,
+                      1,
+                      1.6
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 4.16,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 1,
+                  "parentName": "Stadium Scenery",
+                  "adjacency": [
+                    "Light Pole 4"
+                  ],
+                  "color": {
+                    "name": "dark blue",
+                    "base": "blue",
+                    "hex": "#222428"
+                  },
+                  "materials": [],
+                  "pair": {
+                    "mateUuid": "f12eb6c7-828c-4ea4-9c03-ca55a63dd45a",
+                    "mateName": "Light Fixture 3",
+                    "axis": "x",
+                    "side": "right"
+                  }
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                34,
+                19.9,
+                63,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "abf5d4f7-f833-41c8-a8c3-470bcba28a3f",
+              "material": "5ef54830-710c-4bdc-b053-c73c14e56c26"
+            }
+          ]
+        },
+        {
+          "uuid": "dcd659f6-a828-4ba6-a43b-3f5e8a6c93e4",
+          "type": "AmbientLight",
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 13623551,
+          "intensity": 0.55
+        },
+        {
+          "uuid": "11f8cfc9-0acb-4808-aae4-2545536be6c1",
+          "type": "DirectionalLight",
+          "name": "Sun Light",
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -30,
+            45,
+            -20,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 16774102,
+          "intensity": 1.3,
+          "shadow": {
+            "camera": {
+              "uuid": "c481499e-4877-4d79-8b08-07fe397607e0",
+              "type": "OrthographicCamera",
+              "layers": 1,
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "zoom": 1,
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          },
+          "target": "c40141c7-3a82-48cb-8e8c-44a96273eeee"
+        }
+      ],
+      "fog": {
+        "type": "FogExp2",
+        "name": "",
+        "color": 12376562,
+        "density": 0.003
+      },
+      "backgroundRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "environmentRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
+    }
+  },
+  "animations": [],
+  "scripts": {},
+  "history": {
+    "undos": [],
+    "redos": []
+  },
+  "backgroundType": "Color",
+  "environmentType": "Default"
+}
