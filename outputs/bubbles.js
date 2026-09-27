@@ -19,15 +19,18 @@ export default function init( ctx ) {
 	// color hides their edges at wide aspect ratios instead of showing void
 	scene.background = new THREE.Color( 0x93b48e );
 
-	// ── Layout (same court this repo's Pong uses: Table x:±6 / z:±12, rails at
-	// x:±6–6.3) — a true hex grid: odd rows are shifted half a bubble to the
-	// right (and have one fewer column) so every bubble sits snugly against
-	// its 6 neighbors, not just the 4 directly above/below/left/right.
-	const BUBBLE_RADIUS = 0.45;
-	const COLS = 11;
-	const WALL_X = 6 - BUBBLE_RADIUS; // rail inner face minus bubble radius
-	const EDGE_MARGIN = 0.12; // keeps the outer columns a hair clear of the rail instead of exactly tangent (was clipping into it)
-	const SPACING = ( 2 * ( WALL_X - EDGE_MARGIN ) ) / ( COLS - 1 );
+	// ── Layout — width/size-dependent numbers are derived from the loaded
+	// scene's own Table/Bubble meshes (never hardcoded), so a re-exported GLB
+	// with a different table width or bubble scale still lines up correctly:
+	// a true hex grid, odd rows shifted half a bubble right (one fewer column),
+	// so every bubble sits snugly against all 6 neighbors, not just 4.
+	const TABLE_HALF_WIDTH = new THREE.Box3().setFromObject( $S( '#Table' ).toArray()[ 0 ] ).max.x;
+	const BUBBLE_RADIUS = new THREE.Box3().setFromObject( bubbleProto ).getSize( new THREE.Vector3() ).x / 2;
+	const WALL_X = TABLE_HALF_WIDTH - BUBBLE_RADIUS; // rail inner face minus bubble radius
+	const EDGE_MARGIN = BUBBLE_RADIUS * 0.27; // keeps the outer columns a hair clear of the rail instead of exactly tangent
+	const USABLE_WIDTH = 2 * ( WALL_X - EDGE_MARGIN );
+	const COLS = Math.max( 5, Math.round( USABLE_WIDTH / ( BUBBLE_RADIUS * 2 * 1.23 ) ) + 1 ); // ~snug hex spacing at whatever bubble size this export uses
+	const SPACING = USABLE_WIDTH / ( COLS - 1 );
 	const ROW_SPACING = SPACING * Math.sqrt( 3 ) / 2; // true hex packing: diagonal neighbors end up exactly SPACING apart too
 	const GRID_LEFT_X = - ( COLS - 1 ) / 2 * SPACING;
 	const TOP_Z = - 11;             // topmost grid row's z
@@ -39,8 +42,8 @@ export default function init( ctx ) {
 	const MAX_AIM = Math.PI / 2.6;   // ~69° either side of straight ahead
 	const DESCEND_EVERY = 6;         // shots between a new row dropping in — the genre's own pressure valve
 	const QUEUE_SIZE = 3;            // upcoming bubbles shown behind the shooter
-	const QUEUE_SPACING = 0.65;
-	const QUEUE_SCALE = 0.65;
+	const QUEUE_SPACING = BUBBLE_RADIUS * 1.44;
+	const QUEUE_SCALE_RATIO = 0.65; // relative to the shooter's own baked-in scale, not an absolute size
 	const COLORS = [ 0xff4d4d, 0xffd23f, 0x3dd6d0, 0x4d79ff, 0xb366ff ];
 
 	let topAbsoluteRow = 0; // the true identity of array index 0 — shifts by -1 each descend so a row's real offset parity never flips just because unshift moved it to a new array index
@@ -172,7 +175,7 @@ export default function init( ctx ) {
 	const FIXED_VFOV = 60;
 	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, 6 ); // biased toward the shooter so the sign lands near the top edge
 	const CAMERA_DIR = new THREE.Vector3( 0, 20, 22 ).normalize();
-	const FIT_K = 7;
+	const FIT_K = 7 * ( TABLE_HALF_WIDTH / 6 ); // scales with the table's actual width so a wider re-export doesn't clip the sides
 
 	camera.fov = FIXED_VFOV;
 
@@ -207,7 +210,7 @@ export default function init( ctx ) {
 	for ( let i = 0; i < QUEUE_SIZE; i ++ ) {
 
 		const mesh = makeBubble( 0xffffff );
-		mesh.scale.setScalar( QUEUE_SCALE );
+		mesh.scale.setScalar( bubbleProto.scale.x * QUEUE_SCALE_RATIO );
 		queueMeshes.push( mesh );
 
 	}
@@ -231,6 +234,7 @@ export default function init( ctx ) {
 	// shooter — it's a sight, not part of the bubble itself. Built from mesh
 	// primitives (not ArrowHelper's 1px Line) so the shaft actually reads as
 	// thick regardless of GPU/driver line-width support.
+	const ARROW_SCALE = BUBBLE_RADIUS / 0.45; // sized off the original 0.45-radius bubble this arrow was tuned for
 	const arrowMat = new THREE.MeshBasicMaterial( { color: 0xffd700 } );
 	const arrowShaft = new THREE.Mesh( new THREE.CylinderGeometry( 0.09, 0.09, 1.7, 10 ), arrowMat );
 	arrowShaft.position.y = 0.85;
@@ -239,8 +243,9 @@ export default function init( ctx ) {
 	const arrowPivot = new THREE.Group();
 	arrowPivot.add( arrowShaft, arrowHead );
 	arrowPivot.rotation.x = - Math.PI / 2; // local +Y (shaft axis) now points along -Z (straight ahead)
+	arrowPivot.scale.setScalar( ARROW_SCALE );
 	const aimArrow = new THREE.Group();
-	aimArrow.position.set( 0, bubbleProto.position.y + 0.1, SHOOTER_Z - BUBBLE_RADIUS - 0.3 );
+	aimArrow.position.set( 0, bubbleProto.position.y + 0.1, SHOOTER_Z - BUBBLE_RADIUS - 0.3 * ARROW_SCALE );
 	aimArrow.add( arrowPivot );
 	bubbleParent.add( aimArrow );
 
