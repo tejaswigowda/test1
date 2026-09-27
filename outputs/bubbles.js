@@ -173,9 +173,9 @@ export default function init( ctx ) {
 	// current aspect ratio each resize, so the shooter/grid/sign never clip at
 	// any window shape.
 	const FIXED_VFOV = 60;
-	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, 6 ); // biased toward the shooter so the sign lands near the top edge
+	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, 7 ); // biased toward the shooter so the sign lands near the top edge
 	const CAMERA_DIR = new THREE.Vector3( 0, 20, 22 ).normalize();
-	const FIT_K = 6; // tuned so the board fills most of the frame while the sign/queue still clear the top/bottom edges
+	const FIT_K = 7; // re-tuned for this export's sign sitting much further back (deeper total lane), keeping both edges clear
 
 	camera.fov = FIXED_VFOV;
 
