@@ -19,6 +19,43 @@ export default function init( ctx ) {
 	// color hides their edges at wide aspect ratios instead of showing void
 	scene.background = new THREE.Color( 0x93b48e );
 
+	// ── Sound effects — Web Audio only (no audio files), all routed through
+	// ctx.audio.destination so the strata-play header's mute toggle silences
+	// every one of these for free, with no mute bookkeeping in this file at all.
+	const audioCtx = ctx.audio.context;
+
+	function tone( { freq, duration = 0.12, type = 'sine', gain = 0.2, freqEnd, delay = 0 } ) {
+
+		const start = audioCtx.currentTime + delay;
+		const osc = audioCtx.createOscillator();
+		const g = audioCtx.createGain();
+		osc.type = type;
+		osc.frequency.setValueAtTime( freq, start );
+		if ( freqEnd ) osc.frequency.exponentialRampToValueAtTime( freqEnd, start + duration );
+		g.gain.setValueAtTime( gain, start );
+		g.gain.exponentialRampToValueAtTime( 0.0001, start + duration );
+		osc.connect( g ).connect( ctx.audio.destination );
+		osc.start( start );
+		osc.stop( start + duration );
+
+	}
+
+	function sfxFire() { tone( { freq: 720, freqEnd: 380, duration: 0.09, type: 'triangle', gain: 0.18 } ); }
+	function sfxBounce() { tone( { freq: 260, duration: 0.05, type: 'square', gain: 0.08 } ); }
+	function sfxSettle() { tone( { freq: 160, duration: 0.06, type: 'sine', gain: 0.1 } ); }
+	function sfxDescend() { tone( { freq: 100, freqEnd: 70, duration: 0.35, type: 'sawtooth', gain: 0.12 } ); }
+
+	function sfxPop( comboSize ) {
+
+		const notes = [ 523.25, 659.25, 783.99, 1046.5 ]; // C5 E5 G5 C6 — bigger combos ring further up the arpeggio
+		const count = Math.min( notes.length, Math.max( 1, comboSize - 2 ) );
+		for ( let i = 0; i < count; i ++ ) tone( { freq: notes[ i ], duration: 0.14, type: 'sine', gain: 0.16, delay: i * 0.05 } );
+
+	}
+
+	function sfxWin() { [ 523.25, 659.25, 783.99, 1046.5 ].forEach( ( f, i ) => tone( { freq: f, duration: 0.18, type: 'triangle', gain: 0.18, delay: i * 0.12 } ) ); }
+	function sfxLose() { [ 392, 349.23, 293.66, 246.94 ].forEach( ( f, i ) => tone( { freq: f, duration: 0.22, type: 'sawtooth', gain: 0.15, delay: i * 0.14 } ) ); }
+
 	// ── Layout — width/size-dependent numbers are derived from the loaded
 	// scene's own Table/Bubble meshes (never hardcoded), so a re-exported GLB
 	// with a different table width or bubble scale still lines up correctly:
@@ -258,6 +295,7 @@ export default function init( ctx ) {
 
 		if ( shotBubble || state.winner ) return;
 
+		sfxFire();
 		shotBubble = {
 			mesh: shooterMesh,
 			color: upcoming[ 0 ],
@@ -326,6 +364,7 @@ export default function init( ctx ) {
 
 			for ( const [ r, c ] of group ) { popBubble( grid[ r ][ c ].mesh ); grid[ r ][ c ] = null; }
 			state.score += group.length * 10;
+			sfxPop( group.length );
 
 		}
 
@@ -380,7 +419,7 @@ export default function init( ctx ) {
 
 		for ( let row = 0; row < grid.length; row ++ ) {
 
-			if ( grid[ row ] && grid[ row ].some( ( c ) => c ) && rowZ( row ) >= DANGER_Z ) { state.winner = 'computer'; return; }
+			if ( grid[ row ] && grid[ row ].some( ( c ) => c ) && rowZ( row ) >= DANGER_Z ) { state.winner = 'computer'; sfxLose(); return; }
 
 		}
 
@@ -388,6 +427,7 @@ export default function init( ctx ) {
 
 	function descend() {
 
+		sfxDescend();
 		topAbsoluteRow --;
 
 		// every existing bubble shifts down one row — record where each one IS
@@ -446,13 +486,14 @@ export default function init( ctx ) {
 		// ease into the snapped cell from wherever it actually collided, instead of jumping there
 		const settleTo = new THREE.Vector3( colX( row, col ), bubbleProto.position.y, rowZ( row ) );
 		slideTo( shotBubble.mesh, settleTo );
+		sfxSettle();
 		grid[ row ][ col ] = { mesh: shotBubble.mesh, color: shotBubble.color };
 		shotBubble = null;
 
 		popMatches( row, col );
 		dropFloating();
 
-		if ( isGridEmpty() ) state.winner = 'player';
+		if ( isGridEmpty() ) { state.winner = 'player'; sfxWin(); }
 		else {
 
 			shotCount ++;
@@ -537,8 +578,8 @@ export default function init( ctx ) {
 		shotBubble.mesh.position.x += shotBubble.vx * dt;
 		shotBubble.mesh.position.z += shotBubble.vz * dt;
 
-		if ( shotBubble.mesh.position.x > WALL_X ) { shotBubble.mesh.position.x = WALL_X; shotBubble.vx = - Math.abs( shotBubble.vx ); }
-		else if ( shotBubble.mesh.position.x < - WALL_X ) { shotBubble.mesh.position.x = - WALL_X; shotBubble.vx = Math.abs( shotBubble.vx ); }
+		if ( shotBubble.mesh.position.x > WALL_X ) { shotBubble.mesh.position.x = WALL_X; shotBubble.vx = - Math.abs( shotBubble.vx ); sfxBounce(); }
+		else if ( shotBubble.mesh.position.x < - WALL_X ) { shotBubble.mesh.position.x = - WALL_X; shotBubble.vx = Math.abs( shotBubble.vx ); sfxBounce(); }
 
 		let collided = shotBubble.mesh.position.z <= TOP_Z - BUBBLE_RADIUS;
 		if ( ! collided ) {
