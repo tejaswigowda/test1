@@ -9,6 +9,54 @@ export default function init( ctx ) {
 
 	const { THREE, $S, input, camera, onFrame, onReset, reset, state } = ctx;
 
+	// ── Background music — Web Audio only (no audio files), a short looping
+	// chiptune-y arpeggio scheduled ahead of real time. Routed through its own
+	// gain into ctx.audio.destination, so the header's mute toggle silences it
+	// exactly like every other sound; ticked from onFrame below (not a
+	// standalone timer) so it naturally pauses/resumes with the rest of the
+	// game (tab blur, click-to-play gate, etc.) instead of playing underneath.
+	const audioCtx = ctx.audio.context;
+	const musicGain = audioCtx.createGain();
+	musicGain.gain.value = 0.07;
+	musicGain.connect( ctx.audio.destination );
+
+	const MELODY = [ 261.63, 329.63, 392.0, 523.25, 392.0, 329.63, 293.66, 392.0 ]; // C4 E4 G4 C5 G4 E4 D4 G4
+	const NOTE_DURATION = 0.26;
+	const NOTE_GAP = 0.02;
+	const LOOP_DURATION = MELODY.length * ( NOTE_DURATION + NOTE_GAP );
+	let nextLoopStart = 0;
+
+	function scheduleMusicLoop() {
+
+		for ( let i = 0; i < MELODY.length; i ++ ) {
+
+			const start = nextLoopStart + i * ( NOTE_DURATION + NOTE_GAP );
+			const osc = audioCtx.createOscillator();
+			const g = audioCtx.createGain();
+			osc.type = 'triangle';
+			osc.frequency.value = MELODY[ i ];
+			g.gain.setValueAtTime( 0.0001, start );
+			g.gain.exponentialRampToValueAtTime( 1, start + 0.02 );
+			g.gain.exponentialRampToValueAtTime( 0.0001, start + NOTE_DURATION );
+			osc.connect( g ).connect( musicGain );
+			osc.start( start );
+			osc.stop( start + NOTE_DURATION + 0.02 );
+
+		}
+
+		nextLoopStart += LOOP_DURATION;
+
+	}
+
+	// keep ~2 loops queued up at all times; only tops up while onFrame is
+	// actually running (see the pause guard below), never via its own timer
+	function tickMusic() {
+
+		if ( nextLoopStart === 0 ) nextLoopStart = audioCtx.currentTime;
+		while ( nextLoopStart < audioCtx.currentTime + LOOP_DURATION * 2 ) scheduleMusicLoop();
+
+	}
+
 	const player = $S( '#Player_Paddle' ).toArray()[ 0 ];
 	const ai = $S( '#Computer_Paddle' ).toArray()[ 0 ];
 	const ball = $S( '#Ball' ).toArray()[ 0 ];
@@ -140,6 +188,8 @@ export default function init( ctx ) {
 	} );
 
 	onFrame( ( dt ) => {
+
+		tickMusic();
 
 		// Player input — arrow keys / A-D (a touch/pointer drag falls back to
 		// the SAME axis() call; see sandbox.html's makeInput).
