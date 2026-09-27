@@ -62,6 +62,12 @@ export default function init( ctx ) {
 	// so every bubble sits snugly against all 6 neighbors, not just 4.
 	const TABLE_HALF_WIDTH = new THREE.Box3().setFromObject( $S( '#Table' ).toArray()[ 0 ] ).max.x;
 	const BUBBLE_RADIUS = new THREE.Box3().setFromObject( bubbleProto ).getSize( new THREE.Vector3() ).x / 2;
+	// the authored prototype's own Y sits it half-sunk into the table (a modeling
+	// offset, not a gameplay choice) — every bubble instead rests tangent to the
+	// table's own top surface, derived from the table's geometry, not baked-in.
+	const TABLE_TOP_Y = new THREE.Box3().setFromObject( $S( '#Table' ).toArray()[ 0 ] ).max.y;
+	const BUBBLE_Y = TABLE_TOP_Y + BUBBLE_RADIUS;
+	const TOUCH_DIST = BUBBLE_RADIUS * 2; // true sphere-tangent distance — the threshold a flying shot snaps to the grid at
 	const WALL_X = TABLE_HALF_WIDTH - BUBBLE_RADIUS; // rail inner face minus bubble radius
 	const EDGE_MARGIN = BUBBLE_RADIUS * 0.27; // keeps the outer columns a hair clear of the rail instead of exactly tangent
 	const USABLE_WIDTH = 2 * ( WALL_X - EDGE_MARGIN );
@@ -72,7 +78,7 @@ export default function init( ctx ) {
 	const TOP_Z = - 11;             // topmost grid row's z
 	const SHOOTER_Z = bubbleProto.position.z; // the authored prototype's own spot
 	const DANGER_Z = 6.5;            // a bubble reaching this far down the lane ends the game
-	const INITIAL_ROWS = 6;
+	const INITIAL_ROWS = 3;
 	const SHOT_SPEED = 14;
 	const AIM_SPEED = 1.6;           // radians/sec
 	const MAX_AIM = Math.PI / 2.6;   // ~69° either side of straight ahead
@@ -164,7 +170,7 @@ export default function init( ctx ) {
 
 				const color = randomGridColor();
 				const mesh = makeBubble( color );
-				mesh.position.set( colX( row, col ), bubbleProto.position.y, rowZ( row ) );
+				mesh.position.set( colX( row, col ), BUBBLE_Y, rowZ( row ) );
 				grid[ row ][ col ] = { mesh, color };
 
 			}
@@ -230,7 +236,7 @@ export default function init( ctx ) {
 	// bubbleProto itself, corrupting every bubble cloned from it for the rest of the game
 	bubbleProto.visible = false;
 	let shooterMesh = makeBubble( bubbleProto.material.color.getHex() );
-	shooterMesh.position.copy( bubbleProto.position );
+	shooterMesh.position.set( bubbleProto.position.x, BUBBLE_Y, bubbleProto.position.z );
 	let upcoming = []; // upcoming[0] is the shooter's own (already-loaded) color; the rest are the visible queue behind it
 
 	function refillUpcoming() { while ( upcoming.length < QUEUE_SIZE + 1 ) upcoming.push( randomColor() ); }
@@ -250,7 +256,7 @@ export default function init( ctx ) {
 		for ( let i = 0; i < QUEUE_SIZE; i ++ ) {
 
 			queueMeshes[ i ].material.color.setHex( upcoming[ i + 1 ] );
-			queueMeshes[ i ].position.set( 0, bubbleProto.position.y, SHOOTER_Z + ( i + 1 ) * QUEUE_SPACING );
+			queueMeshes[ i ].position.set( 0, BUBBLE_Y, SHOOTER_Z + ( i + 1 ) * QUEUE_SPACING );
 
 		}
 
@@ -274,7 +280,7 @@ export default function init( ctx ) {
 	arrowPivot.rotation.x = - Math.PI / 2; // local +Y (shaft axis) now points along -Z (straight ahead)
 	arrowPivot.scale.setScalar( ARROW_SCALE );
 	const aimArrow = new THREE.Group();
-	aimArrow.position.set( 0, bubbleProto.position.y + 0.1, SHOOTER_Z - BUBBLE_RADIUS - 0.3 * ARROW_SCALE );
+	aimArrow.position.set( 0, BUBBLE_Y + 0.1, SHOOTER_Z - BUBBLE_RADIUS - 0.3 * ARROW_SCALE );
 	aimArrow.add( arrowPivot );
 	bubbleParent.add( aimArrow );
 
@@ -293,7 +299,7 @@ export default function init( ctx ) {
 		upcoming.shift();
 		refillUpcoming();
 		shooterMesh = makeBubble( upcoming[ 0 ] );
-		shooterMesh.position.set( 0, bubbleProto.position.y, SHOOTER_Z );
+		shooterMesh.position.set( 0, BUBBLE_Y, SHOOTER_Z );
 		syncQueueVisuals();
 
 	}
@@ -439,7 +445,7 @@ export default function init( ctx ) {
 			const color = randomGridColor();
 			const mesh = makeBubble( color );
 			// starts one row further out and eases in, matching the direction everything else is sliding
-			mesh.position.set( colX( 0, col ), bubbleProto.position.y, rowZ( 0 ) - ROW_SPACING );
+			mesh.position.set( colX( 0, col ), BUBBLE_Y, rowZ( 0 ) - ROW_SPACING );
 			newRow[ col ] = { mesh, color };
 			moves.push( { mesh, newRow: 0, col } );
 
@@ -449,7 +455,7 @@ export default function init( ctx ) {
 
 		for ( const m of moves ) {
 
-			const to = new THREE.Vector3( colX( m.newRow, m.col ), bubbleProto.position.y, rowZ( m.newRow ) );
+			const to = new THREE.Vector3( colX( m.newRow, m.col ), BUBBLE_Y, rowZ( m.newRow ) );
 			slideTo( m.mesh, to );
 
 		}
@@ -471,7 +477,7 @@ export default function init( ctx ) {
 		while ( ! grid[ row ] ) grid[ row ] = new Array( COLS ).fill( null );
 
 		// ease into the snapped cell from wherever it actually collided, instead of jumping there
-		const settleTo = new THREE.Vector3( colX( row, col ), bubbleProto.position.y, rowZ( row ) );
+		const settleTo = new THREE.Vector3( colX( row, col ), BUBBLE_Y, rowZ( row ) );
 		slideTo( shotBubble.mesh, settleTo );
 		sfxSettle();
 		grid[ row ][ col ] = { mesh: shotBubble.mesh, color: shotBubble.color };
@@ -507,7 +513,7 @@ export default function init( ctx ) {
 		fillInitialGrid();
 		upcoming = [];
 		refillUpcoming();
-		shooterMesh.position.set( 0, bubbleProto.position.y, SHOOTER_Z );
+		shooterMesh.position.set( 0, BUBBLE_Y, SHOOTER_Z );
 		syncQueueVisuals();
 		hud.update();
 
@@ -568,14 +574,14 @@ export default function init( ctx ) {
 		if ( shotBubble.mesh.position.x > WALL_X ) { shotBubble.mesh.position.x = WALL_X; shotBubble.vx = - Math.abs( shotBubble.vx ); sfxBounce(); }
 		else if ( shotBubble.mesh.position.x < - WALL_X ) { shotBubble.mesh.position.x = - WALL_X; shotBubble.vx = Math.abs( shotBubble.vx ); sfxBounce(); }
 
-		let collided = shotBubble.mesh.position.z <= TOP_Z - BUBBLE_RADIUS;
+		let collided = shotBubble.mesh.position.z <= TOP_Z; // leading edge of a flying bubble reaches the back wall exactly when its center passes row 0's own line — the wall sits BUBBLE_RADIUS behind row 0, tangent to it
 		if ( ! collided ) {
 
 			search: for ( const row of grid ) if ( row ) for ( const cell of row ) if ( cell ) {
 
 				const dx = cell.mesh.position.x - shotBubble.mesh.position.x;
 				const dz = cell.mesh.position.z - shotBubble.mesh.position.z;
-				if ( dx * dx + dz * dz < ( BUBBLE_RADIUS * 1.9 ) * ( BUBBLE_RADIUS * 1.9 ) ) { collided = true; break search; }
+				if ( dx * dx + dz * dz < TOUCH_DIST * TOUCH_DIST ) { collided = true; break search; }
 
 			}
 
