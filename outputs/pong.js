@@ -20,6 +20,13 @@ export default function init( ctx ) {
 	musicGain.gain.value = 0.07;
 	musicGain.connect( ctx.audio.destination );
 
+	// §1 lifecycle: disconnecting on cleanup silences both the currently
+	// audible note AND every note already scheduled ahead of time by
+	// tickMusic() below (they still fire internally on schedule, but with
+	// nowhere left to route to) — so a Code-tab Save never leaves the OLD
+	// instance's music playing underneath the new one.
+	ctx.onCleanup( () => musicGain.disconnect() );
+
 	const MELODY = [ 261.63, 329.63, 392.0, 523.25, 392.0, 329.63, 293.66, 392.0 ]; // C4 E4 G4 C5 G4 E4 D4 G4
 	const NOTE_DURATION = 0.26;
 	const NOTE_GAP = 0.02;
@@ -61,7 +68,6 @@ export default function init( ctx ) {
 	const ai = $S( '#Computer_Paddle' ).toArray()[ 0 ];
 	const ball = $S( '#Ball' ).toArray()[ 0 ];
 	const spawn = $S( '#Ball_Spawn' ).toArray()[ 0 ];
-	const marqueePanel = $S( '#Marquee_Panel' ).toArray()[ 0 ];
 
 	// Derived from the authored scene's own bounds (Table ±6 x / ±12 z,
 	// Rail_Left/Right at ±6–6.3 x, paddles ±1.1 half-width at z ±10.3–10.7) —
@@ -82,46 +88,32 @@ export default function init( ctx ) {
 	const SPEEDUP = 1.07;      // multiplier applied on each paddle hit
 	const WIN_SCORE = 7;
 
-	// ── Score display ── the scene now ships a proper Marquee_Scoreboard (posts +
-	// bezel + bulbs + a blank Marquee_Panel "screen"); texture that panel
-	// directly — a fresh material, so this never mutates one shared with
-	// another Marquee_* mesh — instead of any DOM/HUD overlay (the ctx contract
-	// has no hook for one).
-	let drawScore = () => {};
-	if ( marqueePanel ) {
+	// ── Score display ── the scene ships a proper Marquee_Scoreboard (posts +
+	// bezel + bulbs + a blank Marquee_Panel "screen"); ctx.hud textures that
+	// panel directly (fresh material, never mutates one shared with another
+	// Marquee_* mesh) — a no-op handle if the panel mesh isn't in the scene.
+	const hud = ctx.hud.panel( '#Marquee_Panel', { width: 640, height: 192 } );
+	hud.draw( ( c2d, canvas ) => {
 
-		const canvas = document.createElement( 'canvas' );
-		canvas.width = 640; canvas.height = 192;
-		const c2d = canvas.getContext( '2d' );
-		const texture = new THREE.CanvasTexture( canvas );
-		texture.colorSpace = THREE.SRGBColorSpace;
-		marqueePanel.material = new THREE.MeshBasicMaterial( { map: texture } );
+		c2d.fillStyle = '#0b0e12';
+		c2d.fillRect( 0, 0, canvas.width, canvas.height );
+		c2d.textAlign = 'center';
+		c2d.textBaseline = 'middle';
+		c2d.fillStyle = '#ffcf6b';
 
-		drawScore = () => {
+		if ( state.winner ) {
 
-			c2d.fillStyle = '#0b0e12';
-			c2d.fillRect( 0, 0, canvas.width, canvas.height );
-			c2d.textAlign = 'center';
-			c2d.textBaseline = 'middle';
-			c2d.fillStyle = '#ffcf6b';
+			c2d.font = 'bold 88px monospace';
+			c2d.fillText( state.winner === 'player' ? 'YOU WIN' : 'CPU WINS', canvas.width / 2, canvas.height / 2 );
 
-			if ( state.winner ) {
+		} else {
 
-				c2d.font = 'bold 88px monospace';
-				c2d.fillText( state.winner === 'player' ? 'YOU WIN' : 'CPU WINS', canvas.width / 2, canvas.height / 2 );
+			c2d.font = 'bold 120px monospace';
+			c2d.fillText( state.scorePlayer + '   -   ' + state.scoreComputer, canvas.width / 2, canvas.height / 2 );
 
-			} else {
+		}
 
-				c2d.font = 'bold 120px monospace';
-				c2d.fillText( state.scorePlayer + '   -   ' + state.scoreComputer, canvas.width / 2, canvas.height / 2 );
-
-			}
-
-			texture.needsUpdate = true;
-
-		};
-
-	}
+	} );
 
 	// ── Camera (responsive: fit-by-distance, not fit-by-FOV) ──────────────────
 	// The FOV never changes — only the camera's DISTANCE along a fixed "behind
@@ -158,7 +150,7 @@ export default function init( ctx ) {
 	}
 
 	fitCamera();
-	window.addEventListener( 'resize', fitCamera ); // after the runtime's own resize listener updates camera.aspect first
+	ctx.onResize( fitCamera ); // after the harness's own resize listener updates camera.aspect first; also unregistered automatically on the next Save/reload
 
 	let vx = 0, vz = 0;
 
@@ -174,10 +166,10 @@ export default function init( ctx ) {
 
 	}
 
-	onReset( () => { state.scorePlayer = 0; state.scoreComputer = 0; state.winner = null; serve( true ); drawScore(); } );
+	onReset( () => { state.scorePlayer = 0; state.scoreComputer = 0; state.winner = null; serve( true ); hud.update(); } );
 
 	serve( true );
-	drawScore();
+	hud.update();
 
 	// Once a match ends, freeze play until Enter/Space starts a new one —
 	// ctx.reset() re-runs the SAME onReset handler above, no separate lifecycle.
@@ -235,14 +227,14 @@ export default function init( ctx ) {
 			state.scoreComputer ++;
 			if ( state.scoreComputer >= WIN_SCORE ) { state.winner = 'computer'; ball.position.set( spawn.position.x, spawn.position.y, spawn.position.z ); vx = 0; vz = 0; }
 			else serve( false );
-			drawScore();
+			hud.update();
 
 		} else if ( ball.position.z < - OUT_OF_BOUNDS_Z ) {
 
 			state.scorePlayer ++;
 			if ( state.scorePlayer >= WIN_SCORE ) { state.winner = 'player'; ball.position.set( spawn.position.x, spawn.position.y, spawn.position.z ); vx = 0; vz = 0; }
 			else serve( true );
-			drawScore();
+			hud.update();
 
 		}
 
