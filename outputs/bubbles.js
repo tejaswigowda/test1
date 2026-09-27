@@ -42,7 +42,7 @@ export default function init( ctx ) {
 	const MAX_AIM = Math.PI / 2.6;   // ~69° either side of straight ahead
 	const DESCEND_EVERY = 6;         // shots between a new row dropping in — the genre's own pressure valve
 	const QUEUE_SIZE = 3;            // upcoming bubbles shown behind the shooter
-	const QUEUE_SPACING = BUBBLE_RADIUS * 1.44;
+	const QUEUE_SPACING = BUBBLE_RADIUS * 0.8; // tight enough that the camera can stay zoomed in on the board
 	const QUEUE_SCALE_RATIO = 0.65; // relative to the shooter's own baked-in scale, not an absolute size
 	const COLORS = [ 0xff4d4d, 0xffd23f, 0x3dd6d0, 0x4d79ff, 0xb366ff ];
 
@@ -175,7 +175,7 @@ export default function init( ctx ) {
 	const FIXED_VFOV = 60;
 	const CAMERA_LOOKAT = new THREE.Vector3( 0, 2, 6 ); // biased toward the shooter so the sign lands near the top edge
 	const CAMERA_DIR = new THREE.Vector3( 0, 20, 22 ).normalize();
-	const FIT_K = 7 * ( TABLE_HALF_WIDTH / 6 ); // scales with the table's actual width so a wider re-export doesn't clip the sides
+	const FIT_K = 6; // tuned so the board fills most of the frame while the sign/queue still clear the top/bottom edges
 
 	camera.fov = FIXED_VFOV;
 
