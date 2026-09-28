@@ -7,14 +7,23 @@
 // movement/ball flight are plain per-frame math against the court's own
 // authored line geometry.
 //
-// Honesty note: the rig's two skins ship with every joint set to `null` (a
-// broken export — outputs/tennis.glb was patched to drop the unusable skins
-// so GLTFLoader can parse the file at all). With no working skin there is no
-// skeletal deformation, so both clones render in their authored bind pose
-// (a T-pose) and only ever translate as a whole rigid body — there is no
-// walking/swinging animation. The racquet is attached to the (still very
-// much real, still posable-in-principle) mmRightHand bone so at least the
-// bone hierarchy — and anything parented to it — behaves correctly.
+// Rig note: the file originally shipped with both skins' `joints` arrays set
+// to `null` (a broken export — GLTFLoader can't even parse a file in that
+// state). outputs/tennis.glb has since been patched twice: first to drop the
+// unusable skins just to get it loading at all, then properly repaired by
+// reconstructing the real joints list (recovered from the file's own leftover
+// animation-channel targets, cross-checked against every bone's inverse bind
+// matrix — a bone-for-bone match to float precision). Real skeletal skinning
+// now works, which is what makes the procedural walk/idle/swing animation
+// below actually deform the mesh instead of just moving an inert prop.
+//
+// Cloning a SkinnedMesh with plain Object3D#clone(true) leaves both copies
+// sharing ONE THREE.Skeleton (a well-known three.js gotcha) — every clone
+// below goes through SkeletonUtils.clone() instead, which rebuilds an
+// independent skeleton per clone so the player and computer can be posed
+// separately.
+
+import { clone as cloneSkinned } from 'three/addons/utils/SkeletonUtils.js';
 
 export default function init( ctx ) {
 
@@ -121,20 +130,88 @@ export default function init( ctx ) {
 
 	}
 
+	// ── Procedural animation — no baked walk/serve clip ships in the file (its
+	// one leftover "animation" is a single static pose, not real motion), so
+	// movement and hits are posed by hand each frame: a speed-scaled walk
+	// cycle (hips/knees/shoulders swing on a phase that advances with
+	// distance actually travelled, so a stationary rig reads as idle, not
+	// frozen mid-stride), plus a short eased forehand swing on every hit.
+	// All angles are authored directly on the named bone nodes — now that
+	// each clone has its own real Skeleton (see SkeletonUtils note above),
+	// this actually deforms each figure's mesh independently.
+	const WALK_STRIDE = 3;         // world units of travel per full stride cycle
+	const HIP_SWING = 0.5;         // radians, hip flexion amplitude at full speed
+	const KNEE_BEND = 0.7;
+	const ARM_SWING = 0.3;
+	const IDLE_BOB_AMP = 0.035;    // world units — a subtle standing weight-shift, always on
+	const SWING_DURATION = 0.3;    // seconds, the forehand's full backswing-to-follow-through arc
+
+	function makeAnimator( rig ) {
+
+		const bones = {
+			hips: rig.getObjectByName( 'mmHips' ),
+			rUpLeg: rig.getObjectByName( 'mmRightUpLeg' ), rLeg: rig.getObjectByName( 'mmRightLeg' ),
+			lUpLeg: rig.getObjectByName( 'mmLeftUpLeg' ), lLeg: rig.getObjectByName( 'mmLeftLeg' ),
+			rArm: rig.getObjectByName( 'mmRightArm' ), rForeArm: rig.getObjectByName( 'mmRightForeArm' ),
+			lArm: rig.getObjectByName( 'mmLeftArm' ),
+		};
+
+		let walkPhase = 0;
+		let idleT = Math.random() * 10; // desynced so both rigs don't bob in lockstep
+		let swingT = SWING_DURATION; // not currently swinging
+
+		function triggerSwing() { swingT = 0; }
+
+		function update( dt, distanceMoved, baseY ) {
+
+			idleT += dt;
+			rig.position.y = baseY + Math.sin( idleT * 2 ) * IDLE_BOB_AMP;
+
+			const speed = Math.min( 1, Math.abs( distanceMoved ) / dt / PLAYER_SPEED );
+			walkPhase += ( distanceMoved / WALK_STRIDE ) * Math.PI * 2;
+
+			const hipSwing = Math.sin( walkPhase ) * HIP_SWING * speed;
+			bones.rUpLeg.rotation.x = hipSwing;
+			bones.lUpLeg.rotation.x = - hipSwing;
+			bones.rLeg.rotation.x = Math.max( 0, - Math.sin( walkPhase ) ) * KNEE_BEND * speed;
+			bones.lLeg.rotation.x = Math.max( 0, Math.sin( walkPhase ) ) * KNEE_BEND * speed;
+			bones.lArm.rotation.y = hipSwing * ( ARM_SWING / HIP_SWING );
+
+			if ( swingT < SWING_DURATION ) {
+
+				swingT += dt;
+				const k = Math.min( 1, swingT / SWING_DURATION );
+				const arc = Math.sin( k * Math.PI ); // 0 -> 1 -> 0, a single clean swing
+				bones.rArm.rotation.y = - hipSwing * ( ARM_SWING / HIP_SWING ) + arc * 1.1;
+				bones.rForeArm.rotation.y = arc * 0.6;
+
+			} else {
+
+				bones.rArm.rotation.y = - hipSwing * ( ARM_SWING / HIP_SWING );
+				bones.rForeArm.rotation.y = 0;
+
+			}
+
+		}
+
+		return { update, triggerSwing };
+
+	}
+
 	function makeRig( z, facing ) {
 
-		const rig = humanProto.clone( true );
+		const rig = cloneSkinned( humanProto );
 		rig.visible = true;
 		rig.position.set( 0, 0, z );
 		rig.rotation.y = facing;
 		humanProto.parent.add( rig );
 		attachRacquet( rig );
-		return rig;
+		return { rig, animator: makeAnimator( rig ) };
 
 	}
 
-	const playerRig = makeRig( PLAYER_Z, Math.PI ); // faces -Z (the net) from the near baseline
-	const computerRig = makeRig( COMPUTER_Z, 0 );   // the rig's own unrotated front already faces +Z (the net) from the far baseline
+	const player = makeRig( PLAYER_Z, Math.PI ); // faces -Z (the net) from the near baseline
+	const computer = makeRig( COMPUTER_Z, 0 );   // the rig's own unrotated front already faces +Z (the net) from the far baseline
 
 	// ── Camera (fit-by-distance, same approach as this repo's Pong/Bubbles) —
 	// a real tennis court's own extreme aspect ratio (long and narrow) is
@@ -168,6 +245,7 @@ export default function init( ctx ) {
 	let vx = 0, vy = 0, vz = 0;
 	let lastHitBy = null; // 'player' | 'computer' | null — whoever last sent the ball this way, for fault attribution
 	let prevZ = 0;
+	let bounces = 0; // ground touches since the last hit — a real tennis point ends on the second one
 
 	state.scorePlayer = 0;
 	state.scoreComputer = 0;
@@ -180,6 +258,7 @@ export default function init( ctx ) {
 		vz = towardPlayer ? RALLY_VZ : - RALLY_VZ;
 		vy = LAUNCH_VY;
 		lastHitBy = towardPlayer ? 'computer' : 'player'; // the "server" — whoever it's launched away from
+		bounces = 0;
 		prevZ = ball.position.z;
 
 	}
@@ -210,19 +289,22 @@ export default function init( ctx ) {
 
 	} );
 
-	function tryHit( rig, z, facing, halfX, side ) {
+	function tryHit( rigInfo, z, facing, side ) {
 
+		const rig = rigInfo.rig;
 		const withinDepth = Math.abs( ball.position.z - z ) < HIT_DEPTH;
 		const approaching = facing > 0 ? vz > 0 : vz < 0; // heading toward this baseline
 		const withinReach = Math.abs( ball.position.x - rig.position.x ) < HIT_REACH;
 		if ( ! withinDepth || ! approaching || ! withinReach ) return false;
 
 		sfxHit();
+		rigInfo.animator.triggerSwing();
 		const offset = ( ball.position.x - rig.position.x ) / HIT_REACH; // -1..1 across the racquet's reach
 		vx = offset * 6;
 		vz = facing > 0 ? - RALLY_VZ : RALLY_VZ;
 		vy = LAUNCH_VY;
 		lastHitBy = side;
+		bounces = 0;
 		return true;
 
 	}
@@ -233,12 +315,17 @@ export default function init( ctx ) {
 
 		// Player: held-key axis, same input contract as every other game here.
 		const axis = input.axis( [ 'ArrowLeft', 'KeyA' ], [ 'ArrowRight', 'KeyD' ] );
-		playerRig.position.x = Math.max( - PLAYER_HALF_X, Math.min( PLAYER_HALF_X, playerRig.position.x + axis * PLAYER_SPEED * dt ) );
+		const playerDx = Math.max( - PLAYER_HALF_X - player.rig.position.x, Math.min( PLAYER_HALF_X - player.rig.position.x, axis * PLAYER_SPEED * dt ) );
+		player.rig.position.x += playerDx;
 
 		// Computer: lerp toward the ball, capped speed — beatable, no ML.
-		const diff = ball.position.x - computerRig.position.x;
-		const step = Math.max( - AI_SPEED * dt, Math.min( AI_SPEED * dt, diff ) );
-		computerRig.position.x = Math.max( - PLAYER_HALF_X, Math.min( PLAYER_HALF_X, computerRig.position.x + step ) );
+		const diff = ball.position.x - computer.rig.position.x;
+		const rawComputerDx = Math.max( - AI_SPEED * dt, Math.min( AI_SPEED * dt, diff ) );
+		const computerDx = Math.max( - PLAYER_HALF_X - computer.rig.position.x, Math.min( PLAYER_HALF_X - computer.rig.position.x, rawComputerDx ) );
+		computer.rig.position.x += computerDx;
+
+		player.animator.update( dt, playerDx, 0 );
+		computer.animator.update( dt, computerDx, 0 );
 
 		// Ball integration — no physics body for an unlabeled scene; plain math.
 		prevZ = ball.position.z;
@@ -247,7 +334,15 @@ export default function init( ctx ) {
 		ball.position.y += vy * dt;
 		ball.position.z += vz * dt;
 
-		if ( ball.position.y <= BALL_REST_Y && vy < 0 ) { ball.position.y = BALL_REST_Y; vy = - vy * 0.55; sfxBounce(); }
+		if ( ball.position.y <= BALL_REST_Y && vy < 0 ) {
+
+			ball.position.y = BALL_REST_Y;
+			vy = - vy * 0.55;
+			sfxBounce();
+			bounces ++;
+			if ( bounces >= 2 ) { pointTo( lastHitBy ); return; } // a real tennis rule: the second bounce ends the point, wherever it lands
+
+		}
 
 		// Went wide of the singles sidelines — a fault against whoever hit it.
 		if ( Math.abs( ball.position.x ) > SINGLES_HALF_X ) {
@@ -269,8 +364,8 @@ export default function init( ctx ) {
 
 		// In range of either racquet — auto-return, exactly like this repo's
 		// Pong paddle (position yourself; contact does the rest).
-		if ( tryHit( playerRig, PLAYER_Z, 1, PLAYER_HALF_X, 'player' ) ) return;
-		if ( tryHit( computerRig, COMPUTER_Z, -1, PLAYER_HALF_X, 'computer' ) ) return;
+		if ( tryHit( player, PLAYER_Z, 1, 'player' ) ) return;
+		if ( tryHit( computer, COMPUTER_Z, -1, 'computer' ) ) return;
 
 		// Missed entirely — past a baseline uncaught.
 		if ( ball.position.z > OUT_OF_BOUNDS_Z ) pointTo( 'computer' );
