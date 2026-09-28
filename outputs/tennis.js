@@ -56,7 +56,7 @@ export default function init( ctx ) {
 	const GRAVITY = - 8 * APEX_HEIGHT / ( FLIGHT_TIME * FLIGHT_TIME );
 	const LAUNCH_VY = - GRAVITY * FLIGHT_TIME / 2;
 
-	const REACH_RADIUS = 4;  // 2D (x,z) radius around a player's own position where a return is possible
+	const REACH_RADIUS = 6;  // 2D (x,z) radius around a player's own position where a return is possible — wider than a bot's own reach would need, since a human's reaction time (unlike the AI's perfect tracking) needs the extra margin to actually connect
 	const MAX_HIT_Y = BALL_REST_Y + APEX_HEIGHT * 2; // generous vs. a normal arc's own apex, but firmly rules out an overhead ball no racquet could reach
 	const PLAYER_SPEED = 16;
 	const AI_SPEED = 9;      // capped below the player's — beatable, same convention as Pong/Bubbles
@@ -304,6 +304,7 @@ export default function init( ctx ) {
 	const computer = makeRig( COMPUTER_Z, 0, 0xef4444 );   // the rig's own unrotated front already faces +Z (the net) from the far baseline — red
 
 
+
 	// ── Camera (fit-by-distance, same approach as this repo's Pong/Bubbles) —
 	// a real tennis court's own extreme aspect ratio (long and narrow) is
 	// exactly what that approach is for: whichever of horizontal/vertical FOV
@@ -312,7 +313,7 @@ export default function init( ctx ) {
 	const FIXED_VFOV = 50;
 	const CAMERA_LOOKAT = new THREE.Vector3( 0, 1, 0 );
 	const CAMERA_DIR = new THREE.Vector3( 0, 30, 38 ).normalize();
-	const FIT_K = 30;
+	const FIT_K = 42; // wide enough that PLAYER_Z_MAX/COMPUTER_Z_MIN (baseline + BACK_MARGIN run-off) stay in frame, not just the court's own line markings — a fixed, low broadcast-style camera angle like this one needs MORE margin for near-camera depths, not less (same world-space offset subtends a bigger screen angle up close), so this was previously cropping the player's own back-court run-off room
 
 	camera.fov = FIXED_VFOV;
 
