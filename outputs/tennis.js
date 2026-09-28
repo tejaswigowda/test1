@@ -56,10 +56,29 @@ export default function init( ctx ) {
 	const GRAVITY = - 8 * APEX_HEIGHT / ( FLIGHT_TIME * FLIGHT_TIME );
 	const LAUNCH_VY = - GRAVITY * FLIGHT_TIME / 2;
 
-	const HIT_DEPTH = 6;   // z-window either side of a player's own baseline z where a return is possible — wider than before since a hit now only ever lands in the post-bounce half of this window (see tryHit's bounces check)
-	const HIT_REACH = 3.5; // x-window around the hitter's current x
+	const REACH_RADIUS = 4;  // 2D (x,z) radius around a player's own position where a return is possible
+	const MAX_HIT_Y = BALL_REST_Y + APEX_HEIGHT * 2; // generous vs. a normal arc's own apex, but firmly rules out an overhead ball no racquet could reach
 	const PLAYER_SPEED = 16;
-	const AI_SPEED = 9;    // capped below the player's — beatable, same convention as Pong/Bubbles
+	const AI_SPEED = 9;      // capped below the player's — beatable, same convention as Pong/Bubbles
+
+	// ── Full-court movement — both axes now, each clamped to a player's own
+	// half so neither side can cross the net; some run-off room behind the
+	// baseline (a real player stands back there for a deep return) and a
+	// hard stop just short of the net itself.
+	const NET_APPROACH_MARGIN = 5; // kept comfortably beyond REACH_RADIUS — every serve starts dead center at the net (z=0), so anyone allowed closer than the reach radius could volley their own side's serve the instant it spawns
+	const BACK_MARGIN = 3;
+	const PLAYER_Z_MIN = NET_APPROACH_MARGIN;
+	const PLAYER_Z_MAX = BASELINE_Z + BACK_MARGIN;
+	const COMPUTER_Z_MIN = - PLAYER_Z_MAX;
+	const COMPUTER_Z_MAX = - NET_APPROACH_MARGIN;
+
+	// ── Effort — hold Space to charge a stroke (an audible rising pitch tracks
+	// it live); releasing isn't required — a charged racquet swings the
+	// instant the ball is actually in range, at whatever power has built up
+	// so far, so timing the approach still matters as much as the hold.
+	const CHARGE_TIME = 0.7;    // seconds to reach full charge from a cold tap
+	const MIN_POWER_MULT = 0.6; // shot-speed multiplier for a bare tap
+	const MAX_POWER_MULT = 1.4; // shot-speed multiplier at full charge — enough to sail a mistimed full-power shot long
 
 	// ── Sound effects — Web Audio only (no audio files), routed through
 	// ctx.audio.destination so the header's mute toggle silences all of it.
@@ -86,6 +105,37 @@ export default function init( ctx ) {
 	function sfxFault() { tone( { freq: 300, freqEnd: 140, duration: 0.22, type: 'sawtooth', gain: 0.16 } ); }
 	function sfxWin() { [ 523.25, 659.25, 783.99, 1046.5 ].forEach( ( f, i ) => tone( { freq: f, duration: 0.18, type: 'triangle', gain: 0.18, delay: i * 0.12 } ) ); }
 	function sfxLose() { [ 392, 349.23, 293.66, 246.94 ].forEach( ( f, i ) => tone( { freq: f, duration: 0.22, type: 'sawtooth', gain: 0.15, delay: i * 0.14 } ) ); }
+
+	// A held oscillator whose pitch tracks charge live (0..1) — the "natural"
+	// feedback for an otherwise invisible hold-to-charge effort meter, same
+	// synth-only convention as every other sound here. Cleaned up on a
+	// Code-tab Save / new game load like any other live audio node.
+	let chargeOsc = null, chargeGain = null;
+	function setCharging( active, charge ) {
+
+		if ( active && ! chargeOsc ) {
+
+			chargeOsc = audioCtx.createOscillator();
+			chargeGain = audioCtx.createGain();
+			chargeOsc.type = 'sine';
+			chargeGain.gain.value = 0.07;
+			chargeOsc.connect( chargeGain ).connect( ctx.audio.destination );
+			chargeOsc.start();
+
+		}
+
+		if ( chargeOsc ) chargeOsc.frequency.setTargetAtTime( 220 + charge * 440, audioCtx.currentTime, 0.05 );
+
+		if ( ! active && chargeOsc ) {
+
+			chargeGain.gain.setTargetAtTime( 0, audioCtx.currentTime, 0.05 );
+			chargeOsc.stop( audioCtx.currentTime + 0.12 );
+			chargeOsc = null; chargeGain = null;
+
+		}
+
+	}
+	ctx.onCleanup( () => { try { chargeOsc && chargeOsc.stop(); } catch ( e ) {} } );
 
 	// ── Racquet — a small procedural mesh (no racquet asset in the scene),
 	// parented to a rig's own mmRightHand bone. The hand's world rotation is
@@ -177,24 +227,26 @@ export default function init( ctx ) {
 
 		}
 
-		function update( dt, distanceMoved, baseY ) {
+		function update( dt, dx, dz, baseY ) {
 
 			idleT += dt;
 			rig.position.y = baseY + Math.sin( idleT * 2 ) * IDLE_BOB_AMP;
 
 			const swinging = swingAction && swingAction.isRunning();
-			const speed = Math.min( 1, Math.abs( distanceMoved ) / dt / PLAYER_SPEED );
+			const dist = Math.sqrt( dx * dx + dz * dz );
+			const speed = Math.min( 1, dist / dt / PLAYER_SPEED );
 			const idleWeight = swinging ? 0 : 1 - speed;
 			idleAction.setEffectiveWeight( idleWeight );
 			runAction.setEffectiveWeight( swinging ? 0 : speed );
 			if ( swingAction ) swingAction.setEffectiveWeight( swinging ? 1 : 0 );
 
-			// Movement here is strictly lateral (along the baseline) — the Run
-			// clip is an ordinary forward gait, so without this the figure would
-			// slide sideways with a forward-running stride, feet crossing the
-			// direction of travel. Turn the whole rig to actually face the way
-			// it's running, and back to facing the net once it stops.
-			const targetYaw = speed > 0.05 ? ( distanceMoved > 0 ? Math.PI / 2 : - Math.PI / 2 ) : baseFacing;
+			// Full-court movement is a real 2D heading now, not just left/right —
+			// turn the whole rig to actually face the way it's running (the Run
+			// clip is an ordinary forward gait), and back to facing the net once
+			// it stops. atan2(dx,dz) matches this rig's own bind orientation:
+			// yaw 0 faces +Z, yaw +90° faces +X (confirmed live against the
+			// loaded rig), i.e. exactly the world heading of (dx,dz).
+			const targetYaw = speed > 0.05 ? Math.atan2( dx, dz ) : baseFacing;
 			const yawDiff = ( ( targetYaw - rig.rotation.y + Math.PI ) % ( Math.PI * 2 ) + Math.PI * 2 ) % ( Math.PI * 2 ) - Math.PI;
 			const maxStep = TURN_SPEED * dt;
 			rig.rotation.y += Math.max( - maxStep, Math.min( maxStep, yawDiff ) );
@@ -241,6 +293,7 @@ export default function init( ctx ) {
 	const player = makeRig( PLAYER_Z, Math.PI ); // faces -Z (the net) from the near baseline
 	const computer = makeRig( COMPUTER_Z, 0 );   // the rig's own unrotated front already faces +Z (the net) from the far baseline
 
+
 	// ── Camera (fit-by-distance, same approach as this repo's Pong/Bubbles) —
 	// a real tennis court's own extreme aspect ratio (long and narrow) is
 	// exactly what that approach is for: whichever of horizontal/vertical FOV
@@ -274,6 +327,7 @@ export default function init( ctx ) {
 	let lastHitBy = null; // 'player' | 'computer' | null — whoever last sent the ball this way, for fault attribution
 	let prevZ = 0;
 	let bounces = 0; // ground touches since the last hit — a real tennis point ends on the second one
+	let playerCharge = 0; // 0..1, held Space charges a stroke's effort — see tryHit
 
 	state.scorePlayer = 0;
 	state.scoreComputer = 0;
@@ -305,7 +359,14 @@ export default function init( ctx ) {
 
 	}
 
-	onReset( () => { state.scorePlayer = 0; state.scoreComputer = 0; state.winner = null; serve( true ); } );
+	onReset( () => {
+
+		state.scorePlayer = 0; state.scoreComputer = 0; state.winner = null;
+		player.rig.position.set( 0, 0, PLAYER_Z );
+		computer.rig.position.set( 0, 0, COMPUTER_Z );
+		serve( true );
+
+	} );
 
 	serve( true );
 
@@ -317,20 +378,24 @@ export default function init( ctx ) {
 
 	} );
 
-	function tryHit( rigInfo, z, facing, side ) {
+	function tryHit( rigInfo, facing, side, power ) {
 
 		const rig = rigInfo.rig;
-		const withinDepth = Math.abs( ball.position.z - z ) < HIT_DEPTH;
-		const approaching = facing > 0 ? vz > 0 : vz < 0; // heading toward this baseline
-		const withinReach = Math.abs( ball.position.x - rig.position.x ) < HIT_REACH;
-		if ( ! withinDepth || ! approaching || ! withinReach || bounces < 1 ) return false; // real tennis: no volleys — it has to bounce first
+		const onThisSide = facing > 0 ? ball.position.z > 0 : ball.position.z < 0;
+		const approaching = facing > 0 ? vz > 0 : vz < 0; // heading toward this side, not just hit away from it
+		const dx = ball.position.x - rig.position.x;
+		const dz = ball.position.z - rig.position.z;
+		const withinReach = ( dx * dx + dz * dz ) < REACH_RADIUS * REACH_RADIUS; // full 2D reach — the player can be anywhere in their half now
+		const withinRacquetHeight = ball.position.y < MAX_HIT_Y; // a racquet can't reach a ball sailing far overhead — without this, back-to-back volleys near the net can re-launch the ball with a fresh upward LAUNCH_VY before it ever comes back down, ratcheting the height indefinitely
+		if ( ! onThisSide || ! approaching || ! withinReach || ! withinRacquetHeight ) return false;
 
 		sfxHit();
-		const offset = ( ball.position.x - rig.position.x ) / HIT_REACH; // -1..1 across the racquet's reach
-		rigInfo.animator.triggerSwing( offset > 0 ); // which side of the body the ball arrived on picks forehand vs backhand
-		vx = offset * 6;
-		vz = facing > 0 ? - RALLY_VZ : RALLY_VZ;
-		vy = LAUNCH_VY;
+		const lateralOffset = Math.max( - 1, Math.min( 1, dx / REACH_RADIUS ) ); // -1..1 across the racquet's reach — aim, and which side of the body picks forehand vs backhand
+		rigInfo.animator.triggerSwing( lateralOffset > 0 );
+		const speedMul = MIN_POWER_MULT + ( MAX_POWER_MULT - MIN_POWER_MULT ) * power;
+		vx = lateralOffset * 6 * speedMul;
+		vz = ( facing > 0 ? - RALLY_VZ : RALLY_VZ ) * speedMul;
+		vy = LAUNCH_VY * speedMul;
 		lastHitBy = side;
 		bounces = 0;
 		return true;
@@ -341,19 +406,35 @@ export default function init( ctx ) {
 
 		if ( state.winner ) return;
 
-		// Player: held-key axis, same input contract as every other game here.
-		const axis = input.axis( [ 'ArrowLeft', 'KeyA' ], [ 'ArrowRight', 'KeyD' ] );
-		const playerDx = Math.max( - PLAYER_HALF_X - player.rig.position.x, Math.min( PLAYER_HALF_X - player.rig.position.x, axis * PLAYER_SPEED * dt ) );
+		// Player: full 2D court movement — held-key axis on both, same input
+		// contract as every other game here. "Up"/W steps toward the net
+		// (decreasing z, since the player's own half is the positive side).
+		const axisX = input.axis( [ 'ArrowLeft', 'KeyA' ], [ 'ArrowRight', 'KeyD' ] );
+		const axisZ = input.axis( [ 'ArrowUp', 'KeyW' ], [ 'ArrowDown', 'KeyS' ] );
+		const playerDx = Math.max( - PLAYER_HALF_X - player.rig.position.x, Math.min( PLAYER_HALF_X - player.rig.position.x, axisX * PLAYER_SPEED * dt ) );
+		const playerDz = Math.max( PLAYER_Z_MIN - player.rig.position.z, Math.min( PLAYER_Z_MAX - player.rig.position.z, axisZ * PLAYER_SPEED * dt ) );
 		player.rig.position.x += playerDx;
+		player.rig.position.z += playerDz;
 
-		// Computer: lerp toward the ball, capped speed — beatable, no ML.
-		const diff = ball.position.x - computer.rig.position.x;
-		const rawComputerDx = Math.max( - AI_SPEED * dt, Math.min( AI_SPEED * dt, diff ) );
+		// Computer: chase the ball's own (x,z) directly, capped speed on each
+		// axis — beatable, no ML, same convention as this repo's Pong/Bubbles.
+		const diffX = ball.position.x - computer.rig.position.x;
+		const diffZ = ball.position.z - computer.rig.position.z;
+		const rawComputerDx = Math.max( - AI_SPEED * dt, Math.min( AI_SPEED * dt, diffX ) );
+		const rawComputerDz = Math.max( - AI_SPEED * dt, Math.min( AI_SPEED * dt, diffZ ) );
 		const computerDx = Math.max( - PLAYER_HALF_X - computer.rig.position.x, Math.min( PLAYER_HALF_X - computer.rig.position.x, rawComputerDx ) );
+		const computerDz = Math.max( COMPUTER_Z_MIN - computer.rig.position.z, Math.min( COMPUTER_Z_MAX - computer.rig.position.z, rawComputerDz ) );
 		computer.rig.position.x += computerDx;
+		computer.rig.position.z += computerDz;
 
-		player.animator.update( dt, playerDx, 0 );
-		computer.animator.update( dt, computerDx, 0 );
+		player.animator.update( dt, playerDx, playerDz, 0 );
+		computer.animator.update( dt, computerDx, computerDz, 0 );
+
+		// Effort — hold Space to charge; releasing isn't required, whatever's
+		// built up fires the instant a hit actually connects (see tryHit below).
+		const charging = input.isDown( 'Space' );
+		playerCharge = charging ? Math.min( 1, playerCharge + dt / CHARGE_TIME ) : 0;
+		setCharging( charging, playerCharge );
 
 		// Ball integration — no physics body for an unlabeled scene; plain math.
 		prevZ = ball.position.z;
@@ -390,10 +471,11 @@ export default function init( ctx ) {
 
 		}
 
-		// In range of either racquet — auto-return, exactly like this repo's
-		// Pong paddle (position yourself; contact does the rest).
-		if ( tryHit( player, PLAYER_Z, 1, 'player' ) ) return;
-		if ( tryHit( computer, COMPUTER_Z, -1, 'computer' ) ) return;
+		// In reach — a real stroke now: the player only ever swings while
+		// actively charging (Space held), volley or after one bounce alike;
+		// the computer still swings automatically, picking its own effort.
+		if ( charging && tryHit( player, 1, 'player', playerCharge ) ) { playerCharge = 0; return; }
+		if ( tryHit( computer, -1, 'computer', 0.45 + Math.random() * 0.45 ) ) return;
 
 		// Missed entirely — past a baseline uncaught.
 		if ( ball.position.z > OUT_OF_BOUNDS_Z ) pointTo( 'computer' );
