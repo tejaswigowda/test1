@@ -145,8 +145,9 @@ export default function init( ctx ) {
 	const clipBackhand = animations.find( ( a ) => a.name === 'Swing Backhand' );
 
 	const IDLE_BOB_AMP = 0.035; // world units — a subtle standing weight-shift, layered on top of the mixer
+	const TURN_SPEED = Math.PI * 4; // radians/sec — how fast the rig turns to face its direction of travel
 
-	function makeAnimator( rig ) {
+	function makeAnimator( rig, baseFacing ) {
 
 		const mixer = new THREE.AnimationMixer( rig );
 		const idleAction = mixer.clipAction( clipIdle ).play();
@@ -176,6 +177,16 @@ export default function init( ctx ) {
 			runAction.setEffectiveWeight( swinging ? 0 : speed );
 			if ( swingAction ) swingAction.setEffectiveWeight( swinging ? 1 : 0 );
 
+			// Movement here is strictly lateral (along the baseline) — the Run
+			// clip is an ordinary forward gait, so without this the figure would
+			// slide sideways with a forward-running stride, feet crossing the
+			// direction of travel. Turn the whole rig to actually face the way
+			// it's running, and back to facing the net once it stops.
+			const targetYaw = speed > 0.05 ? ( distanceMoved > 0 ? Math.PI / 2 : - Math.PI / 2 ) : baseFacing;
+			const yawDiff = ( ( targetYaw - rig.rotation.y + Math.PI ) % ( Math.PI * 2 ) + Math.PI * 2 ) % ( Math.PI * 2 ) - Math.PI;
+			const maxStep = TURN_SPEED * dt;
+			rig.rotation.y += Math.max( - maxStep, Math.min( maxStep, yawDiff ) );
+
 			mixer.update( dt );
 
 		}
@@ -197,7 +208,7 @@ export default function init( ctx ) {
 		rig.traverse( ( o ) => { if ( o.isSkinnedMesh ) o.frustumCulled = false; } );
 		humanProto.parent.add( rig );
 		attachRacquet( rig );
-		return { rig, animator: makeAnimator( rig ) };
+		return { rig, animator: makeAnimator( rig, facing ) };
 
 	}
 
