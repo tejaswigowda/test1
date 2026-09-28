@@ -27,7 +27,7 @@ import { clone as cloneSkinned } from 'three/addons/utils/SkeletonUtils.js';
 
 export default function init( ctx ) {
 
-	const { THREE, $S, input, camera, onFrame, onReset, reset, state } = ctx;
+	const { THREE, $S, input, camera, onFrame, onReset, reset, state, animations } = ctx;
 
 	const humanProto = $S( '#human' ).toArray()[ 0 ];
 	humanProto.visible = false; // the pristine template — cloned below, never used live directly
@@ -130,77 +130,53 @@ export default function init( ctx ) {
 
 	}
 
-	// ── Animation — a real 79-clip mocap library (idle/dodgeSide/punch1) was
-	// retargeted onto this rig's own mmXXX bones via three's own
-	// SkeletonUtils.retargetClip and DID run end-to-end with no errors, but
-	// the result renders as a badly distorted pose: this target rig's bones
-	// carry pure-identity bind ROTATIONS (its T-pose comes entirely from
-	// bone TRANSLATIONS — see the file-level note above), while retargetClip
-	// effectively copies each source bone's own world rotation onto the
-	// matching target bone. That's the right approach when both rigs share a
-	// comparable bind-pose convention, but this source rig's own bones are
-	// NOT bind-identity, so their rest rotations land on top of a target
-	// skeleton with no equivalent baseline to cancel them against — hence
-	// the twist. Fixing this properly needs a per-bone bind-pose delta
-	// (source bind rotation vs. target bind rotation) computed and baked in
-	// before applying any clip, which is more calibration than fits here
-	// safely — so this keeps the hand-authored, speed-scaled procedural
-	// walk/idle/swing pose below instead, which is visually correct and
-	// already verified. (Retargeting harness + the extracted, rotation-only
-	// outputs/tennis-anim.json are still in the repo/history if resuming
-	// this later.)
-	const WALK_STRIDE = 3;         // world units of travel per full stride cycle
-	const HIP_SWING = 0.5;         // radians, hip flexion amplitude at full speed
-	const KNEE_BEND = 0.7;
-	const ARM_SWING = 0.3;
-	const IDLE_BOB_AMP = 0.035;    // world units — a subtle standing weight-shift, always on
-	const SWING_DURATION = 0.3;    // seconds, the forehand's full backswing-to-follow-through arc
+	// ── Animation — outputs/tennis.glb ships 4 clips authored directly for
+	// this rig (Idle, Run, Swing Forehand, Swing Backhand) — no retargeting
+	// needed (a prior attempt to reuse an unrelated rig's mocap library via
+	// SkeletonUtils.retargetClip distorted the pose from a bind-rotation
+	// mismatch between skeletons; these clips have no such mismatch since
+	// they're keyed against this exact rig's own bind pose). Real
+	// THREE.AnimationMixer playback: Idle/Run cross-fade by movement speed,
+	// Forehand/Backhand play as a one-shot on hit (picked by which side of
+	// the racquet the ball was struck from).
+	const clipIdle = animations.find( ( a ) => a.name === 'Idle' );
+	const clipRun = animations.find( ( a ) => a.name === 'Run' );
+	const clipForehand = animations.find( ( a ) => a.name === 'Swing Forehand' );
+	const clipBackhand = animations.find( ( a ) => a.name === 'Swing Backhand' );
+
+	const IDLE_BOB_AMP = 0.035; // world units — a subtle standing weight-shift, layered on top of the mixer
 
 	function makeAnimator( rig ) {
 
-		const bones = {
-			hips: rig.getObjectByName( 'mmHips' ),
-			rUpLeg: rig.getObjectByName( 'mmRightUpLeg' ), rLeg: rig.getObjectByName( 'mmRightLeg' ),
-			lUpLeg: rig.getObjectByName( 'mmLeftUpLeg' ), lLeg: rig.getObjectByName( 'mmLeftLeg' ),
-			rArm: rig.getObjectByName( 'mmRightArm' ), rForeArm: rig.getObjectByName( 'mmRightForeArm' ),
-			lArm: rig.getObjectByName( 'mmLeftArm' ),
-		};
+		const mixer = new THREE.AnimationMixer( rig );
+		const idleAction = mixer.clipAction( clipIdle ).play();
+		const runAction = mixer.clipAction( clipRun ).play();
+		const foreAction = mixer.clipAction( clipForehand );
+		const backAction = mixer.clipAction( clipBackhand );
+		for ( const a of [ foreAction, backAction ] ) { a.loop = THREE.LoopOnce; a.clampWhenFinished = true; }
 
-		let walkPhase = 0;
 		let idleT = Math.random() * 10; // desynced so both rigs don't bob in lockstep
-		let swingT = SWING_DURATION; // not currently swinging
+		let swingAction = null;
 
-		function triggerSwing() { swingT = 0; }
+		function triggerSwing( forehand ) {
+
+			swingAction = forehand ? foreAction : backAction;
+			swingAction.reset().play();
+
+		}
 
 		function update( dt, distanceMoved, baseY ) {
 
 			idleT += dt;
 			rig.position.y = baseY + Math.sin( idleT * 2 ) * IDLE_BOB_AMP;
 
+			const swinging = swingAction && swingAction.isRunning();
 			const speed = Math.min( 1, Math.abs( distanceMoved ) / dt / PLAYER_SPEED );
-			walkPhase += ( distanceMoved / WALK_STRIDE ) * Math.PI * 2;
+			idleAction.setEffectiveWeight( swinging ? 0 : 1 - speed );
+			runAction.setEffectiveWeight( swinging ? 0 : speed );
+			if ( swingAction ) swingAction.setEffectiveWeight( swinging ? 1 : 0 );
 
-			const hipSwing = Math.sin( walkPhase ) * HIP_SWING * speed;
-			bones.rUpLeg.rotation.x = hipSwing;
-			bones.lUpLeg.rotation.x = - hipSwing;
-			bones.rLeg.rotation.x = Math.max( 0, - Math.sin( walkPhase ) ) * KNEE_BEND * speed;
-			bones.lLeg.rotation.x = Math.max( 0, Math.sin( walkPhase ) ) * KNEE_BEND * speed;
-			bones.lArm.rotation.y = hipSwing * ( ARM_SWING / HIP_SWING );
-
-			if ( swingT < SWING_DURATION ) {
-
-				swingT += dt;
-				const k = Math.min( 1, swingT / SWING_DURATION );
-				const arc = Math.sin( k * Math.PI ); // 0 -> 1 -> 0, a single clean swing
-				bones.rArm.rotation.y = - hipSwing * ( ARM_SWING / HIP_SWING ) + arc * 1.1;
-				bones.rForeArm.rotation.y = arc * 0.6;
-
-			} else {
-
-				bones.rArm.rotation.y = - hipSwing * ( ARM_SWING / HIP_SWING );
-				bones.rForeArm.rotation.y = 0;
-
-			}
+			mixer.update( dt );
 
 		}
 
@@ -313,8 +289,8 @@ export default function init( ctx ) {
 		if ( ! withinDepth || ! approaching || ! withinReach ) return false;
 
 		sfxHit();
-		rigInfo.animator.triggerSwing();
 		const offset = ( ball.position.x - rig.position.x ) / HIT_REACH; // -1..1 across the racquet's reach
+		rigInfo.animator.triggerSwing( offset > 0 ); // which side of the body the ball arrived on picks forehand vs backhand
 		vx = offset * 6;
 		vz = facing > 0 ? - RALLY_VZ : RALLY_VZ;
 		vy = LAUNCH_VY;
