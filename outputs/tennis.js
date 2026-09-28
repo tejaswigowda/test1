@@ -25,7 +25,7 @@
 
 import { clone as cloneSkinned } from 'three/addons/utils/SkeletonUtils.js';
 
-export default async function init( ctx ) {
+export default function init( ctx ) {
 
 	const { THREE, $S, input, camera, onFrame, onReset, reset, state } = ctx;
 
@@ -130,73 +130,77 @@ export default async function init( ctx ) {
 
 	}
 
-	// ── Procedural animation — no baked walk/serve clip ships in the file (its
-	// one leftover "animation" is a single static pose, not real motion), so
-	// movement and hits are posed by hand each frame: a speed-scaled walk
-	// cycle (hips/knees/shoulders swing on a phase that advances with
-	// distance actually travelled, so a stationary rig reads as idle, not
-	// frozen mid-stride), plus a short eased forehand swing on every hit.
-	// All angles are authored directly on the named bone nodes — now that
-	// each clone has its own real Skeleton (see SkeletonUtils note above),
-	// this actually deforms each figure's mesh independently.
-	// ── Animation — idle/side-step/swing clips retargeted (bone rotation
-	// curves only — no mesh/texture/character reused) from a large third-
-	// party mocap library onto this rig's own mmXXX bone names via three's
-	// SkeletonUtils.retargetClip, then baked to outputs/tennis-anim.json.
-	// Real THREE.AnimationMixer playback, not hand-posed bones — now that
-	// each clone has its own real Skeleton this deforms each figure
-	// correctly and independently.
-	const animClips = await ( async () => {
-
-		for ( const url of [
-			'https://raw.githubusercontent.com/tejaswigowda/test1/main/outputs/tennis-anim.json',
-			'https://cdn.jsdelivr.net/gh/tejaswigowda/test1@main/outputs/tennis-anim.json',
-		] ) {
-
-			try { return await ( await fetch( url ) ).json(); } catch ( e ) { /* try the next CDN */ }
-
-		}
-
-	} )();
-	const clipIdle = THREE.AnimationClip.parse( animClips.idle );
-	const clipMove = THREE.AnimationClip.parse( animClips.dodgeSide );
-	const clipSwing = THREE.AnimationClip.parse( animClips.punch1 );
-
-	const IDLE_BOB_AMP = 0.035; // world units — a subtle standing weight-shift, layered on top of the mixer
+	// ── Animation — a real 79-clip mocap library (idle/dodgeSide/punch1) was
+	// retargeted onto this rig's own mmXXX bones via three's own
+	// SkeletonUtils.retargetClip and DID run end-to-end with no errors, but
+	// the result renders as a badly distorted pose: this target rig's bones
+	// carry pure-identity bind ROTATIONS (its T-pose comes entirely from
+	// bone TRANSLATIONS — see the file-level note above), while retargetClip
+	// effectively copies each source bone's own world rotation onto the
+	// matching target bone. That's the right approach when both rigs share a
+	// comparable bind-pose convention, but this source rig's own bones are
+	// NOT bind-identity, so their rest rotations land on top of a target
+	// skeleton with no equivalent baseline to cancel them against — hence
+	// the twist. Fixing this properly needs a per-bone bind-pose delta
+	// (source bind rotation vs. target bind rotation) computed and baked in
+	// before applying any clip, which is more calibration than fits here
+	// safely — so this keeps the hand-authored, speed-scaled procedural
+	// walk/idle/swing pose below instead, which is visually correct and
+	// already verified. (Retargeting harness + the extracted, rotation-only
+	// outputs/tennis-anim.json are still in the repo/history if resuming
+	// this later.)
+	const WALK_STRIDE = 3;         // world units of travel per full stride cycle
+	const HIP_SWING = 0.5;         // radians, hip flexion amplitude at full speed
+	const KNEE_BEND = 0.7;
+	const ARM_SWING = 0.3;
+	const IDLE_BOB_AMP = 0.035;    // world units — a subtle standing weight-shift, always on
+	const SWING_DURATION = 0.3;    // seconds, the forehand's full backswing-to-follow-through arc
 
 	function makeAnimator( rig ) {
 
-		const surface = rig.getObjectByName( 'Alpha_Surface' );
-		const mixer = new THREE.AnimationMixer( surface );
+		const bones = {
+			hips: rig.getObjectByName( 'mmHips' ),
+			rUpLeg: rig.getObjectByName( 'mmRightUpLeg' ), rLeg: rig.getObjectByName( 'mmRightLeg' ),
+			lUpLeg: rig.getObjectByName( 'mmLeftUpLeg' ), lLeg: rig.getObjectByName( 'mmLeftLeg' ),
+			rArm: rig.getObjectByName( 'mmRightArm' ), rForeArm: rig.getObjectByName( 'mmRightForeArm' ),
+			lArm: rig.getObjectByName( 'mmLeftArm' ),
+		};
 
-		const idleAction = mixer.clipAction( clipIdle );
-		const moveAction = mixer.clipAction( clipMove );
-		const swingAction = mixer.clipAction( clipSwing );
-		swingAction.loop = THREE.LoopOnce;
-		swingAction.clampWhenFinished = true;
-		idleAction.play();
-		moveAction.play();
-		swingAction.play();
-		swingAction.paused = true;
-
+		let walkPhase = 0;
 		let idleT = Math.random() * 10; // desynced so both rigs don't bob in lockstep
-		let swinging = false;
+		let swingT = SWING_DURATION; // not currently swinging
 
-		function triggerSwing() { swingAction.reset().play(); swinging = true; }
+		function triggerSwing() { swingT = 0; }
 
 		function update( dt, distanceMoved, baseY ) {
 
 			idleT += dt;
 			rig.position.y = baseY + Math.sin( idleT * 2 ) * IDLE_BOB_AMP;
 
-			if ( swinging && swingAction.time >= swingAction.getClip().duration - 0.001 ) swinging = false;
-
 			const speed = Math.min( 1, Math.abs( distanceMoved ) / dt / PLAYER_SPEED );
-			idleAction.setEffectiveWeight( swinging ? 0 : 1 - speed );
-			moveAction.setEffectiveWeight( swinging ? 0 : speed );
-			swingAction.setEffectiveWeight( swinging ? 1 : 0 );
+			walkPhase += ( distanceMoved / WALK_STRIDE ) * Math.PI * 2;
 
-			mixer.update( dt );
+			const hipSwing = Math.sin( walkPhase ) * HIP_SWING * speed;
+			bones.rUpLeg.rotation.x = hipSwing;
+			bones.lUpLeg.rotation.x = - hipSwing;
+			bones.rLeg.rotation.x = Math.max( 0, - Math.sin( walkPhase ) ) * KNEE_BEND * speed;
+			bones.lLeg.rotation.x = Math.max( 0, Math.sin( walkPhase ) ) * KNEE_BEND * speed;
+			bones.lArm.rotation.y = hipSwing * ( ARM_SWING / HIP_SWING );
+
+			if ( swingT < SWING_DURATION ) {
+
+				swingT += dt;
+				const k = Math.min( 1, swingT / SWING_DURATION );
+				const arc = Math.sin( k * Math.PI ); // 0 -> 1 -> 0, a single clean swing
+				bones.rArm.rotation.y = - hipSwing * ( ARM_SWING / HIP_SWING ) + arc * 1.1;
+				bones.rForeArm.rotation.y = arc * 0.6;
+
+			} else {
+
+				bones.rArm.rotation.y = - hipSwing * ( ARM_SWING / HIP_SWING );
+				bones.rForeArm.rotation.y = 0;
+
+			}
 
 		}
 
