@@ -216,6 +216,8 @@ export default function init( ctx ) {
 		const rShoulder = rig.getObjectByName( 'mmRightArm' );
 		const ARMS_DOWN = Math.PI / 2;
 		const armsDownAxis = new THREE.Vector3( 0, 0, 1 );
+		const armsDownQuatL = new THREE.Quaternion().setFromAxisAngle( armsDownAxis, - ARMS_DOWN );
+		const armsDownQuatR = new THREE.Quaternion().setFromAxisAngle( armsDownAxis, ARMS_DOWN );
 
 		let idleT = Math.random() * 10; // desynced so both rigs don't bob in lockstep
 		let swingAction = null;
@@ -253,17 +255,18 @@ export default function init( ctx ) {
 
 			mixer.update( dt );
 
-			// Overrides the mixer's own T-pose arms once fully idle, with an
-			// ABSOLUTE setFromAxisAngle (never a relative +=/*= on top of
-			// whatever's already there) — the mixer doesn't necessarily rewrite
-			// a static single-keyframe track's quaternion every tick, so a
-			// relative correction compounded across frames instead of holding
-			// steady. Skipped entirely mid-blend so it never fights the Run/
-			// swing clips' own arm poses.
-			if ( idleWeight > 0.99 ) {
+			// Blends the mixer's own T-pose arms toward "arms down" by
+			// idleWeight — NOT a binary gate at idleWeight>0.99, because the AI
+			// is almost never fully stationary (constant tiny corrective steps
+			// chasing the ball keep speed just above 0), which left the
+			// computer stuck in a permanent half-T-pose blend. Safe from the
+			// earlier accumulation bug (see memory notes) because the slerp
+			// always starts fresh FROM whatever the mixer just wrote this
+			// frame, never from our own previous frame's corrected output.
+			if ( ! swinging ) {
 
-				lShoulder.quaternion.setFromAxisAngle( armsDownAxis, - ARMS_DOWN );
-				rShoulder.quaternion.setFromAxisAngle( armsDownAxis, ARMS_DOWN );
+				lShoulder.quaternion.slerp( armsDownQuatL, idleWeight );
+				rShoulder.quaternion.slerp( armsDownQuatR, idleWeight );
 
 			}
 
@@ -273,7 +276,7 @@ export default function init( ctx ) {
 
 	}
 
-	function makeRig( z, facing ) {
+	function makeRig( z, facing, bodyColor ) {
 
 		const rig = cloneSkinned( humanProto );
 		rig.visible = true;
@@ -284,14 +287,21 @@ export default function init( ctx ) {
 		// off-court) — moved + re-posed like this, it no longer reliably
 		// overlaps the camera frustum, silently culling one whole clone.
 		rig.traverse( ( o ) => { if ( o.isSkinnedMesh ) o.frustumCulled = false; } );
+		// Tell player and computer apart — SkeletonUtils.clone() shares the
+		// body's own material instance across every clone (unlike a couple of
+		// the racquet's own materials, which it happens to clone already), so
+		// recoloring it in place would tint BOTH rigs at once; clone it first.
+		const body = rig.getObjectByName( 'Alpha_Surface' );
+		body.material = body.material.clone();
+		body.material.color.set( bodyColor );
 		humanProto.parent.add( rig );
 		attachRacquet( rig );
 		return { rig, animator: makeAnimator( rig, facing ) };
 
 	}
 
-	const player = makeRig( PLAYER_Z, Math.PI ); // faces -Z (the net) from the near baseline
-	const computer = makeRig( COMPUTER_Z, 0 );   // the rig's own unrotated front already faces +Z (the net) from the far baseline
+	const player = makeRig( PLAYER_Z, Math.PI, 0x3b82f6 ); // faces -Z (the net) from the near baseline — blue
+	const computer = makeRig( COMPUTER_Z, 0, 0xef4444 );   // the rig's own unrotated front already faces +Z (the net) from the far baseline — red
 
 
 	// ── Camera (fit-by-distance, same approach as this repo's Pong/Bubbles) —
