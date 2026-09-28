@@ -56,7 +56,7 @@ export default function init( ctx ) {
 	const GRAVITY = - 8 * APEX_HEIGHT / ( FLIGHT_TIME * FLIGHT_TIME );
 	const LAUNCH_VY = - GRAVITY * FLIGHT_TIME / 2;
 
-	const HIT_DEPTH = 3;   // z-window either side of a player's own baseline z where a return is possible
+	const HIT_DEPTH = 6;   // z-window either side of a player's own baseline z where a return is possible — wider than before since a hit now only ever lands in the post-bounce half of this window (see tryHit's bounces check)
 	const HIT_REACH = 3.5; // x-window around the hitter's current x
 	const PLAYER_SPEED = 16;
 	const AI_SPEED = 9;    // capped below the player's — beatable, same convention as Pong/Bubbles
@@ -156,6 +156,17 @@ export default function init( ctx ) {
 		const backAction = mixer.clipAction( clipBackhand );
 		for ( const a of [ foreAction, backAction ] ) { a.loop = THREE.LoopOnce; a.clampWhenFinished = true; }
 
+		// The scene's own "Idle" clip is just a single held keyframe of the
+		// rig's bind pose (a T-pose), not a relaxed stance — corrected here by
+		// rotating the shoulders so the arms hang at the sides instead, scaled
+		// by how much of the blend is actually idle (0 while running/swinging,
+		// so it never fights the Run clip's own arm swing or a swing's own
+		// pose).
+		const lShoulder = rig.getObjectByName( 'mmLeftArm' );
+		const rShoulder = rig.getObjectByName( 'mmRightArm' );
+		const ARMS_DOWN = Math.PI / 2;
+		const armsDownAxis = new THREE.Vector3( 0, 0, 1 );
+
 		let idleT = Math.random() * 10; // desynced so both rigs don't bob in lockstep
 		let swingAction = null;
 
@@ -173,7 +184,8 @@ export default function init( ctx ) {
 
 			const swinging = swingAction && swingAction.isRunning();
 			const speed = Math.min( 1, Math.abs( distanceMoved ) / dt / PLAYER_SPEED );
-			idleAction.setEffectiveWeight( swinging ? 0 : 1 - speed );
+			const idleWeight = swinging ? 0 : 1 - speed;
+			idleAction.setEffectiveWeight( idleWeight );
 			runAction.setEffectiveWeight( swinging ? 0 : speed );
 			if ( swingAction ) swingAction.setEffectiveWeight( swinging ? 1 : 0 );
 
@@ -188,6 +200,20 @@ export default function init( ctx ) {
 			rig.rotation.y += Math.max( - maxStep, Math.min( maxStep, yawDiff ) );
 
 			mixer.update( dt );
+
+			// Overrides the mixer's own T-pose arms once fully idle, with an
+			// ABSOLUTE setFromAxisAngle (never a relative +=/*= on top of
+			// whatever's already there) — the mixer doesn't necessarily rewrite
+			// a static single-keyframe track's quaternion every tick, so a
+			// relative correction compounded across frames instead of holding
+			// steady. Skipped entirely mid-blend so it never fights the Run/
+			// swing clips' own arm poses.
+			if ( idleWeight > 0.99 ) {
+
+				lShoulder.quaternion.setFromAxisAngle( armsDownAxis, - ARMS_DOWN );
+				rShoulder.quaternion.setFromAxisAngle( armsDownAxis, ARMS_DOWN );
+
+			}
 
 		}
 
@@ -297,7 +323,7 @@ export default function init( ctx ) {
 		const withinDepth = Math.abs( ball.position.z - z ) < HIT_DEPTH;
 		const approaching = facing > 0 ? vz > 0 : vz < 0; // heading toward this baseline
 		const withinReach = Math.abs( ball.position.x - rig.position.x ) < HIT_REACH;
-		if ( ! withinDepth || ! approaching || ! withinReach ) return false;
+		if ( ! withinDepth || ! approaching || ! withinReach || bounces < 1 ) return false; // real tennis: no volleys — it has to bounce first
 
 		sfxHit();
 		const offset = ( ball.position.x - rig.position.x ) / HIT_REACH; // -1..1 across the racquet's reach
