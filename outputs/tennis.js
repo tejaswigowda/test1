@@ -25,7 +25,7 @@
 
 import { clone as cloneSkinned } from 'three/addons/utils/SkeletonUtils.js';
 
-export default function init( ctx ) {
+export default async function init( ctx ) {
 
 	const { THREE, $S, input, camera, onFrame, onReset, reset, state } = ctx;
 
@@ -139,58 +139,64 @@ export default function init( ctx ) {
 	// All angles are authored directly on the named bone nodes — now that
 	// each clone has its own real Skeleton (see SkeletonUtils note above),
 	// this actually deforms each figure's mesh independently.
-	const WALK_STRIDE = 3;         // world units of travel per full stride cycle
-	const HIP_SWING = 0.5;         // radians, hip flexion amplitude at full speed
-	const KNEE_BEND = 0.7;
-	const ARM_SWING = 0.3;
-	const IDLE_BOB_AMP = 0.035;    // world units — a subtle standing weight-shift, always on
-	const SWING_DURATION = 0.3;    // seconds, the forehand's full backswing-to-follow-through arc
+	// ── Animation — idle/side-step/swing clips retargeted (bone rotation
+	// curves only — no mesh/texture/character reused) from a large third-
+	// party mocap library onto this rig's own mmXXX bone names via three's
+	// SkeletonUtils.retargetClip, then baked to outputs/tennis-anim.json.
+	// Real THREE.AnimationMixer playback, not hand-posed bones — now that
+	// each clone has its own real Skeleton this deforms each figure
+	// correctly and independently.
+	const animClips = await ( async () => {
+
+		for ( const url of [
+			'https://raw.githubusercontent.com/tejaswigowda/test1/main/outputs/tennis-anim.json',
+			'https://cdn.jsdelivr.net/gh/tejaswigowda/test1@main/outputs/tennis-anim.json',
+		] ) {
+
+			try { return await ( await fetch( url ) ).json(); } catch ( e ) { /* try the next CDN */ }
+
+		}
+
+	} )();
+	const clipIdle = THREE.AnimationClip.parse( animClips.idle );
+	const clipMove = THREE.AnimationClip.parse( animClips.dodgeSide );
+	const clipSwing = THREE.AnimationClip.parse( animClips.punch1 );
+
+	const IDLE_BOB_AMP = 0.035; // world units — a subtle standing weight-shift, layered on top of the mixer
 
 	function makeAnimator( rig ) {
 
-		const bones = {
-			hips: rig.getObjectByName( 'mmHips' ),
-			rUpLeg: rig.getObjectByName( 'mmRightUpLeg' ), rLeg: rig.getObjectByName( 'mmRightLeg' ),
-			lUpLeg: rig.getObjectByName( 'mmLeftUpLeg' ), lLeg: rig.getObjectByName( 'mmLeftLeg' ),
-			rArm: rig.getObjectByName( 'mmRightArm' ), rForeArm: rig.getObjectByName( 'mmRightForeArm' ),
-			lArm: rig.getObjectByName( 'mmLeftArm' ),
-		};
+		const surface = rig.getObjectByName( 'Alpha_Surface' );
+		const mixer = new THREE.AnimationMixer( surface );
 
-		let walkPhase = 0;
+		const idleAction = mixer.clipAction( clipIdle );
+		const moveAction = mixer.clipAction( clipMove );
+		const swingAction = mixer.clipAction( clipSwing );
+		swingAction.loop = THREE.LoopOnce;
+		swingAction.clampWhenFinished = true;
+		idleAction.play();
+		moveAction.play();
+		swingAction.play();
+		swingAction.paused = true;
+
 		let idleT = Math.random() * 10; // desynced so both rigs don't bob in lockstep
-		let swingT = SWING_DURATION; // not currently swinging
+		let swinging = false;
 
-		function triggerSwing() { swingT = 0; }
+		function triggerSwing() { swingAction.reset().play(); swinging = true; }
 
 		function update( dt, distanceMoved, baseY ) {
 
 			idleT += dt;
 			rig.position.y = baseY + Math.sin( idleT * 2 ) * IDLE_BOB_AMP;
 
+			if ( swinging && swingAction.time >= swingAction.getClip().duration - 0.001 ) swinging = false;
+
 			const speed = Math.min( 1, Math.abs( distanceMoved ) / dt / PLAYER_SPEED );
-			walkPhase += ( distanceMoved / WALK_STRIDE ) * Math.PI * 2;
+			idleAction.setEffectiveWeight( swinging ? 0 : 1 - speed );
+			moveAction.setEffectiveWeight( swinging ? 0 : speed );
+			swingAction.setEffectiveWeight( swinging ? 1 : 0 );
 
-			const hipSwing = Math.sin( walkPhase ) * HIP_SWING * speed;
-			bones.rUpLeg.rotation.x = hipSwing;
-			bones.lUpLeg.rotation.x = - hipSwing;
-			bones.rLeg.rotation.x = Math.max( 0, - Math.sin( walkPhase ) ) * KNEE_BEND * speed;
-			bones.lLeg.rotation.x = Math.max( 0, Math.sin( walkPhase ) ) * KNEE_BEND * speed;
-			bones.lArm.rotation.y = hipSwing * ( ARM_SWING / HIP_SWING );
-
-			if ( swingT < SWING_DURATION ) {
-
-				swingT += dt;
-				const k = Math.min( 1, swingT / SWING_DURATION );
-				const arc = Math.sin( k * Math.PI ); // 0 -> 1 -> 0, a single clean swing
-				bones.rArm.rotation.y = - hipSwing * ( ARM_SWING / HIP_SWING ) + arc * 1.1;
-				bones.rForeArm.rotation.y = arc * 0.6;
-
-			} else {
-
-				bones.rArm.rotation.y = - hipSwing * ( ARM_SWING / HIP_SWING );
-				bones.rForeArm.rotation.y = 0;
-
-			}
+			mixer.update( dt );
 
 		}
 
@@ -204,6 +210,11 @@ export default function init( ctx ) {
 		rig.visible = true;
 		rig.position.set( 0, 0, z );
 		rig.rotation.y = facing;
+		// A SkinnedMesh's default frustum-culling bounding sphere is computed
+		// once from the bind pose in the PROTO's own local space (parked well
+		// off-court) — moved + re-posed like this, it no longer reliably
+		// overlaps the camera frustum, silently culling one whole clone.
+		rig.traverse( ( o ) => { if ( o.isSkinnedMesh ) o.frustumCulled = false; } );
 		humanProto.parent.add( rig );
 		attachRacquet( rig );
 		return { rig, animator: makeAnimator( rig ) };
