@@ -5,9 +5,20 @@
 // body vocabulary, no label means no body. Movement/collision here are plain
 // per-frame math against the scene's own authored geometry instead.
 
+// §3 declarative settings — host renders the actual UI (Menu -> Settings),
+// this module only ever declares the schema and reads ctx.settings/onSetting.
+export const config = { settings: [ { key: 'ballSpeed', type: 'range', min: 0.5, max: 4, step: 0.25, default: 2, label: 'Ball Speed' } ] };
+
 export default function init( ctx ) {
 
 	const { THREE, $S, input, camera, onFrame, onReset, reset, state } = ctx;
+
+	// live-updatable — read at init for the initial value, kept in sync by
+	// onSetting below for a change made mid-game (scales the next serve and
+	// the rally speed-up cap; doesn't retroactively rescale a ball already in
+	// flight).
+	let speedMult = ctx.settings.ballSpeed ?? 1;
+	ctx.onSetting( ( key, value ) => { if ( key === 'ballSpeed' ) speedMult = value; } );
 
 	// ── Background music — Web Audio only (no audio files), a short looping
 	// chiptune-y arpeggio scheduled ahead of real time. Routed through its own
@@ -160,9 +171,13 @@ export default function init( ctx ) {
 
 	function serve( towardPlayer ) {
 
-		ball.position.set( spawn.position.x, spawn.position.y, spawn.position.z );
-		vx = ( Math.random() * 2 - 1 ) * 0.5 * SERVE_SPEED;
-		vz = ( towardPlayer ? 1 : - 1 ) * SERVE_SPEED;
+		// Starts right in front of whichever paddle is serving it away, not the
+		// board's center — matches that paddle's current x so it looks like it
+		// actually comes off the racquet/paddle.
+		const server = towardPlayer ? ai : player;
+		ball.position.set( server.position.x, spawn.position.y, towardPlayer ? AI_FRONT_Z + BALL_RADIUS : PLAYER_FRONT_Z - BALL_RADIUS );
+		vx = ( Math.random() * 2 - 1 ) * 0.5 * SERVE_SPEED * speedMult;
+		vz = ( towardPlayer ? 1 : - 1 ) * SERVE_SPEED * speedMult;
 
 	}
 
@@ -209,14 +224,14 @@ export default function init( ctx ) {
 		if ( vz > 0 && ball.position.z + BALL_RADIUS >= PLAYER_FRONT_Z && Math.abs( ball.position.x - player.position.x ) <= PADDLE_HALF_WIDTH + BALL_RADIUS ) {
 
 			ball.position.z = PLAYER_FRONT_Z - BALL_RADIUS;
-			vz = - Math.min( Math.abs( vz ) * SPEEDUP, MAX_BALL_SPEED );
-			vx = Math.max( - MAX_BALL_SPEED, Math.min( MAX_BALL_SPEED, vx * SPEEDUP ) );
+			vz = - Math.min( Math.abs( vz ) * SPEEDUP, MAX_BALL_SPEED * speedMult );
+			vx = Math.max( - MAX_BALL_SPEED * speedMult, Math.min( MAX_BALL_SPEED * speedMult, vx * SPEEDUP ) );
 
 		} else if ( vz < 0 && ball.position.z - BALL_RADIUS <= AI_FRONT_Z && Math.abs( ball.position.x - ai.position.x ) <= PADDLE_HALF_WIDTH + BALL_RADIUS ) {
 
 			ball.position.z = AI_FRONT_Z + BALL_RADIUS;
-			vz = Math.min( Math.abs( vz ) * SPEEDUP, MAX_BALL_SPEED );
-			vx = Math.max( - MAX_BALL_SPEED, Math.min( MAX_BALL_SPEED, vx * SPEEDUP ) );
+			vz = Math.min( Math.abs( vz ) * SPEEDUP, MAX_BALL_SPEED * speedMult );
+			vx = Math.max( - MAX_BALL_SPEED * speedMult, Math.min( MAX_BALL_SPEED * speedMult, vx * SPEEDUP ) );
 
 		}
 
