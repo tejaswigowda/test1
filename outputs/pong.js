@@ -80,6 +80,20 @@ export default function init( ctx ) {
 	const ball = $S( '#Ball' ).toArray()[ 0 ];
 	const spawn = $S( '#Ball_Spawn' ).toArray()[ 0 ];
 
+	// ── Night time — the scene ships with daytime lighting (a warm "sun" +
+	// fill directional light, bright ambient, a white day-sky dome); dim and
+	// cool the lights and tint the sky/ground instead of swapping any
+	// geometry or textures. Marquee_Glow (the scoreboard's own warm point
+	// light) is left alone — a lit-up sign glowing against a dark scene reads
+	// as MORE night-like, not less.
+	for ( const light of $S( 'DirectionalLight' ).toArray() ) { light.color.set( 0x8fa6ff ); light.intensity *= 0.18; }
+	const ambient = $S( 'AmbientLight' ).toArray()[ 0 ];
+	if ( ambient ) { ambient.color.set( 0x3b4a7a ); ambient.intensity *= 0.3; }
+	const sky = $S( '#Sky' ).toArray()[ 0 ];
+	if ( sky ) sky.material.color.set( 0x0c0f2e ); // MeshBasicMaterial multiplies texture × color — darkens/tints even a baked day-sky texture
+	const ground = $S( '#Sand_Ground' ).toArray()[ 0 ];
+	if ( ground ) ground.material.color.multiplyScalar( 0.35 );
+
 	// Derived from the authored scene's own bounds (Table ±6 x / ±12 z,
 	// Rail_Left/Right at ±6–6.3 x, paddles ±1.1 half-width at z ±10.3–10.7) —
 	// unchanged across the scenery re-skins, so the court/paddle/ball constants
