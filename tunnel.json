@@ -1,0 +1,120 @@
+{
+  "metadata": {},
+  "project": {
+    "renderer": "WebGPURenderer",
+    "shadows": true,
+    "shadowType": 1,
+    "toneMapping": 7,
+    "toneMappingExposure": 1
+  },
+  "camera": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "35ddeadd-a4e8-406f-999b-13f72d5c0709",
+      "type": "PerspectiveCamera",
+      "name": "Edit Camera",
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.8944271909999159,
+        -0.4472135954999579,
+        0,
+        0,
+        0.4472135954999579,
+        0.8944271909999159,
+        0,
+        0,
+        5,
+        10,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "fov": 50,
+      "zoom": 1,
+      "near": 0.001,
+      "far": 10000000000,
+      "focus": 10,
+      "aspect": 1.2447089947089947,
+      "filmGauge": 35,
+      "filmOffset": 0
+    }
+  },
+  "controls": {
+    "center": [
+      0,
+      0,
+      0
+    ]
+  },
+  "scene": {
+    "metadata": {
+      "version": 4.7,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "object": {
+      "uuid": "b2b2ebf1-8a44-4eaa-b01f-7e4fd9ad4f9a",
+      "type": "Scene",
+      "name": "Scene",
+      "userData": {
+        "renderShots": []
+      },
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "backgroundRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "environmentRotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ]
+    }
+  },
+  "animations": [],
+  "scripts": {},
+  "history": {
+    "undos": [],
+    "redos": []
+  },
+  "backgroundType": "Default",
+  "environmentType": "Default"
+}
