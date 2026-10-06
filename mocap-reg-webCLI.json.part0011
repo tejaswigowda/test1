@@ -1,13 +1,4 @@
-          0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
+           0,
               0,
               0,
               0,
@@ -80131,7 +80122,7 @@
               0,
               0
             ],
-            "72506ac7-9764-48a4-bd4a-da12885d889a": [
+            "506338b1-df62-4dcd-a376-81d46ed59876": [
               0,
               0,
               0,
@@ -161355,336 +161346,336 @@
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "d0f3bb88-da9d-4682-95fb-350e5f68817d",
+                "data": "4fc0e008-8e74-4240-adfa-968faac25606",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "9a34aea7-c584-4179-a38f-01216f907102",
+                "data": "4207b551-eabb-4c95-ba1d-72a21c3e3422",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "21805793-fa6e-45c3-94c0-acffbb8056be",
+                "data": "0c02ff49-6e99-4cf5-bea1-7691dd774b53",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "6cc5680b-b0d7-41f3-afae-0d368051cd2d",
+                "data": "28ca40c1-941f-4c7b-8362-e2ce5d8b192c",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "7daba14f-742b-4162-9182-6850c652b193",
+                "data": "7d628f5b-d444-4a7a-8ad1-14dcb406b4b7",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "a681973a-c745-414b-8546-39236feeefbb",
+                "data": "0dce42f7-6200-46d4-be2c-54042dc9f8e0",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "0dcd41de-4c3a-44d9-a23c-8d888ddbe39c",
+                "data": "bb7535fb-d711-4971-af51-18a442f6d50e",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "50e089e5-0451-49bf-94fd-e0325915d3f5",
+                "data": "7bd69ac2-5646-4d94-877a-1f14fecd6dcb",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "47af78a9-1570-4f59-b690-c74cb2aaf70f",
+                "data": "ba8dff8a-f854-4fbf-8932-a35778e1020c",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "bbac05a8-21fa-456e-b32e-4c2ce7d2b2cc",
+                "data": "4e677e77-c867-4dc0-9a68-1921c012253e",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "a69537fa-d3cd-40c1-91a0-907a2452fba2",
+                "data": "74b3880b-2cd2-4b2d-a03b-0fd0aa83d8ab",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "f2189cc1-3742-410d-93cd-12b28940c501",
+                "data": "0086b5ea-dd4f-4150-82b1-ac6642d9afe4",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "b9a2b179-9e28-4b2d-8d9b-42120a37fbb4",
+                "data": "5d41d91f-37c2-44d8-9aef-b7472d140693",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "b3feb1d9-87c9-4aab-bca5-7a1f75bae62f",
+                "data": "4d7a0cd8-eff9-485d-8a1d-cea22a0c2d4d",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "fe443ad2-82df-41dd-b144-4185cff512e6",
+                "data": "bdba08b0-331f-478d-b48d-887d9112f056",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "68397afb-616a-4c1d-bdc8-ba35c4995887",
+                "data": "307bfd54-7739-4b37-bafc-ad6a540b92f7",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "295d9cd4-f6fb-44f3-948e-efc3ce8e92cc",
+                "data": "5b22fe6f-da14-40cd-9b9c-1b8c04f86a30",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "13fd1764-8964-4e3f-b4fd-1a457d140b2b",
+                "data": "8ede5c16-5b9b-41f8-85cf-d46afe8c47a5",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "32cbbdcf-4e45-43e6-afdd-4fb028b49001",
+                "data": "84696f1d-951f-4ff8-a721-35986f8e0fe5",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "1ad6fbb5-0c70-4e10-82f0-f0e7c4a62ce1",
+                "data": "22f703a1-342d-4e03-a2cc-5ed1c1449857",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "4521fed6-e0ca-4c18-be32-68a06545bd17",
+                "data": "f0e58193-8091-401a-9a46-5a8f49cfbbb3",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "9df7dc97-1a51-4f0d-b0b2-6b4ac787d1a6",
+                "data": "78631d76-0510-48d9-afff-f0a6d26dd7d0",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "1b26bbb0-e370-412e-8c3a-78cb49f02f0f",
+                "data": "bd0429b2-9d1a-46d4-a953-570382926dde",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "16d2873a-ffbf-4c8f-93bc-742c4390be9d",
+                "data": "6b8fc8e6-3d15-4e4a-ac60-c73984bc6dce",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "d747fc5e-7203-4be3-81ad-4c6046f55046",
+                "data": "5dcb8bc3-3b28-4c33-9e38-a23e941dd56d",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "229e3303-e72a-471f-b3cf-d2c8060f9816",
+                "data": "4d04df9b-d65b-4c7b-aadf-1609e6b1fa9f",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "ecbbb5e7-81e7-4754-b444-0766402f75d4",
+                "data": "933bd1a1-e39b-4b4e-9080-b466a9ec140a",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "65ced3d4-5605-47e0-81aa-4558c489ca2b",
+                "data": "189c04cb-35a1-4e16-80eb-d53dc5d2e088",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "ea4085d2-908b-43c4-a0a9-93ae28152122",
+                "data": "3539d8aa-46e5-4e84-95f9-fa44a6ccb322",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "5bfdd9e2-0832-4d6b-8418-fb1bc6ae3ab4",
+                "data": "cb1f74bc-c416-49ce-8f37-56f84ce699b7",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "6ac47936-e629-4e2f-b6d6-899ee510c07c",
+                "data": "030dec67-4488-4299-8d2c-399ccfb5ac06",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "c65de18b-100f-409a-9729-caeac29c69aa",
+                "data": "1049ac92-d6d3-4853-89e8-5928e5e09577",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "31497aab-3693-4811-a124-5c01ee15f64c",
+                "data": "f49ae22a-08b2-4222-acad-a270a5f50f49",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "e9f19738-8182-4fe2-8b24-93af855bea0b",
+                "data": "c0c9998f-fe90-4c93-b44c-88626505884e",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "85344df6-2a51-472f-abee-b56b00f0e1c7",
+                "data": "8f00ca31-7bce-47ad-a735-6de3dbfad205",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "1a037676-98a8-4caf-8386-dbe675c252b6",
+                "data": "6cfcb796-0cad-44fe-b636-cd3348127bbe",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "6a097891-38e6-4dc4-a074-fd273dbe4ff7",
+                "data": "857c1606-62ce-47ee-9f25-a29b96619eb2",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "c7b9c29e-8d6b-4cc6-ac0d-74c4a3698bc6",
+                "data": "fb450d87-c178-4418-b98c-32921766e418",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "af5669db-b1c0-42e7-85a5-3a7311ad7bfb",
+                "data": "b8079e5b-635c-487f-aa49-e4461dab9211",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "e2e06e4d-2512-4dd6-88d0-577becb12b9a",
+                "data": "1d98f9c1-98d4-481d-a8e8-7e48b55dd0f7",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "e62188c3-041a-4231-9306-3b62f689d031",
+                "data": "c88edc49-009c-4ef3-8e06-c07d5f77ec8a",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "781dc7a9-67f8-4971-97db-96f26e865835",
+                "data": "0001f2e5-b9f3-47ea-ad16-05847c2d1db6",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "2335043f-8ffc-4b40-8daa-eeee66ea6b06",
+                "data": "d51a10d1-0548-46dc-8459-7777d8c000a9",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "645611de-a308-4fa2-bde8-4f07d3d19f02",
+                "data": "f9cc2faf-89b3-4079-aecb-66491aae1287",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "66449fb9-7793-45dc-b93a-f7382f07ad10",
+                "data": "b10a1774-3578-48b7-ba16-50daf62ae84d",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "3151cd3a-f13e-4a92-9b33-a9b41ac36f9b",
+                "data": "f7f544f1-9aaa-4b1e-8006-9831b984c665",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "6611c3b8-812c-478f-bd2c-c40ad661a43c",
+                "data": "c9925a32-0abf-4899-966b-424ae11a0d36",
                 "offset": 0,
                 "normalized": true
               },
               {
                 "isInterleavedBufferAttribute": true,
                 "itemSize": 3,
-                "data": "01649e54-253a-4c83-9067-da2d1cbd1a37",
+                "data": "76f5ab00-6148-4d57-b358-840afc485264",
                 "offset": 0,
                 "normalized": true
               }
@@ -161702,7 +161693,7 @@
         }
       },
       {
-        "uuid": "b4a027f9-8f1e-49c7-a4c6-2609491afb09",
+        "uuid": "9637a859-3704-4f97-8dac-d5844f407cc9",
         "type": "BufferGeometry",
         "data": {
           "attributes": {
@@ -161719,7 +161710,7 @@
             "position": {
               "isInterleavedBufferAttribute": true,
               "itemSize": 3,
-              "data": "6acf48e6-83e2-42e7-9af0-174dd4d57ba8",
+              "data": "bb7364c2-1203-4893-a2eb-79db30a5e6cc",
               "offset": 0,
               "normalized": true
             },
@@ -161736,7 +161727,7 @@
             "normal": {
               "isInterleavedBufferAttribute": true,
               "itemSize": 3,
-              "data": "0694dacc-8d9c-4d4a-9bef-c8806b7a95ef",
+              "data": "d9bbf923-f3ca-4eee-acc2-dcb447dab260",
               "offset": 0,
               "normalized": true
             },
@@ -161752,21 +161743,21 @@
             }
           },
           "interleavedBuffers": {
-            "6acf48e6-83e2-42e7-9af0-174dd4d57ba8": {
-              "uuid": "6acf48e6-83e2-42e7-9af0-174dd4d57ba8",
-              "buffer": "56c94bc6-88bc-4fe8-a5e1-70c5dfb17223",
+            "bb7364c2-1203-4893-a2eb-79db30a5e6cc": {
+              "uuid": "bb7364c2-1203-4893-a2eb-79db30a5e6cc",
+              "buffer": "519be22f-726f-4e81-bfaf-5da9ac6bcce1",
               "type": "Int16Array",
               "stride": 4
             },
-            "0694dacc-8d9c-4d4a-9bef-c8806b7a95ef": {
-              "uuid": "0694dacc-8d9c-4d4a-9bef-c8806b7a95ef",
-              "buffer": "b00cb632-3c48-47bd-895f-6bb29572f60e",
+            "d9bbf923-f3ca-4eee-acc2-dcb447dab260": {
+              "uuid": "d9bbf923-f3ca-4eee-acc2-dcb447dab260",
+              "buffer": "2c1f6458-7a24-4cb1-8adc-49e3c9598e37",
               "type": "Int16Array",
               "stride": 4
             }
           },
           "arrayBuffers": {
-            "56c94bc6-88bc-4fe8-a5e1-70c5dfb17223": [
+            "519be22f-726f-4e81-bfaf-5da9ac6bcce1": [
               4000370283,
               55075,
               3893151959,
@@ -188828,7 +188819,7 @@
               3962352738,
               2400
             ],
-            "b00cb632-3c48-47bd-895f-6bb29572f60e": [
+            "2c1f6458-7a24-4cb1-8adc-49e3c9598e37": [
               4013426627,
               33089,
               33630484,
@@ -215902,7 +215893,7 @@
         }
       },
       {
-        "uuid": "f72b94da-2f6b-42f5-9ae0-a41dc7c2d5ce",
+        "uuid": "23d1a98b-1223-447b-94f0-185531c23162",
         "type": "BufferGeometry",
         "data": {
           "attributes": {
@@ -215919,7 +215910,7 @@
             "position": {
               "isInterleavedBufferAttribute": true,
               "itemSize": 3,
-              "data": "fd1eae00-d6eb-47d7-bf9b-9857f7b12d34",
+              "data": "5ec9381a-393e-4495-b8c2-5eeb0b7f0974",
               "offset": 0,
               "normalized": true
             },
@@ -215936,7 +215927,7 @@
             "normal": {
               "isInterleavedBufferAttribute": true,
               "itemSize": 3,
-              "data": "8639b6b2-848f-407b-a117-660de0b06bd3",
+              "data": "40fcd963-288a-4572-bcd0-e6ed24dee287",
               "offset": 0,
               "normalized": true
             },
@@ -215952,21 +215943,21 @@
             }
           },
           "interleavedBuffers": {
-            "fd1eae00-d6eb-47d7-bf9b-9857f7b12d34": {
-              "uuid": "fd1eae00-d6eb-47d7-bf9b-9857f7b12d34",
-              "buffer": "1aed7275-4b3c-4219-847e-5451a072fc0d",
+            "5ec9381a-393e-4495-b8c2-5eeb0b7f0974": {
+              "uuid": "5ec9381a-393e-4495-b8c2-5eeb0b7f0974",
+              "buffer": "f70dbab9-a9ba-469e-ab35-0da9ec204951",
               "type": "Int16Array",
               "stride": 4
             },
-            "8639b6b2-848f-407b-a117-660de0b06bd3": {
-              "uuid": "8639b6b2-848f-407b-a117-660de0b06bd3",
-              "buffer": "f1973bb6-b7ac-4d57-ba0c-849a0aade926",
+            "40fcd963-288a-4572-bcd0-e6ed24dee287": {
+              "uuid": "40fcd963-288a-4572-bcd0-e6ed24dee287",
+              "buffer": "3663d6dd-61d1-45d1-a0c5-3910608da2ec",
               "type": "Int16Array",
               "stride": 4
             }
           },
           "arrayBuffers": {
-            "1aed7275-4b3c-4219-847e-5451a072fc0d": [
+            "f70dbab9-a9ba-469e-ab35-0da9ec204951": [
               3106586907,
               60164,
               3063332186,
@@ -242140,7 +242131,7 @@
               565789590,
               61012
             ],
-            "f1973bb6-b7ac-4d57-ba0c-849a0aade926": [
+            "3663d6dd-61d1-45d1-a0c5-3910608da2ec": [
               353012743,
               52840,
               399214019,
@@ -268326,7 +268317,7 @@
         }
       },
       {
-        "uuid": "a9c7b022-c5d1-49b7-a494-8f6066168e05",
+        "uuid": "9b42591b-6522-47df-8ede-4535f07c6b01",
         "type": "BufferGeometry",
         "data": {
           "attributes": {
@@ -268343,7 +268334,7 @@
             "position": {
               "isInterleavedBufferAttribute": true,
               "itemSize": 3,
-              "data": "b19a6656-4a10-47f3-a388-fb25838ce598",
+              "data": "d8d5c14c-071e-49d3-bb7e-4153b5cc4564",
               "offset": 0,
               "normalized": true
             },
@@ -268360,7 +268351,7 @@
             "normal": {
               "isInterleavedBufferAttribute": true,
               "itemSize": 3,
-              "data": "23f18ec4-e49e-445e-adc0-9b440c577560",
+              "data": "452068eb-04e3-410e-868e-efc3708b3033",
               "offset": 0,
               "normalized": true
             },
@@ -268376,21 +268367,21 @@
             }
           },
           "interleavedBuffers": {
-            "b19a6656-4a10-47f3-a388-fb25838ce598": {
-              "uuid": "b19a6656-4a10-47f3-a388-fb25838ce598",
-              "buffer": "1253d70a-6407-4151-a751-c2dfaaf128a1",
+            "d8d5c14c-071e-49d3-bb7e-4153b5cc4564": {
+              "uuid": "d8d5c14c-071e-49d3-bb7e-4153b5cc4564",
+              "buffer": "7ecf1acb-e9d7-458f-a67e-61062461a67d",
               "type": "Int16Array",
               "stride": 4
             },
-            "23f18ec4-e49e-445e-adc0-9b440c577560": {
-              "uuid": "23f18ec4-e49e-445e-adc0-9b440c577560",
-              "buffer": "b410718d-2c1f-42c3-96dc-32644f6ac309",
+            "452068eb-04e3-410e-868e-efc3708b3033": {
+              "uuid": "452068eb-04e3-410e-868e-efc3708b3033",
+              "buffer": "df7b154b-b8b3-4541-b0b7-77078ac1eee2",
               "type": "Int16Array",
               "stride": 4
             }
           },
           "arrayBuffers": {
-            "1253d70a-6407-4151-a751-c2dfaaf128a1": [
+            "7ecf1acb-e9d7-458f-a67e-61062461a67d": [
               172805515,
               48830,
               632673643,
@@ -296388,7 +296379,7 @@
               168351291,
               23878
             ],
-            "b410718d-2c1f-42c3-96dc-32644f6ac309": [
+            "df7b154b-b8b3-4541-b0b7-77078ac1eee2": [
               659790670,
               48030,
               798465872,
@@ -324398,7 +324389,7 @@
         }
       },
       {
-        "uuid": "889bcd76-fbe0-4f3d-abd7-d48963c919c2",
+        "uuid": "c2f38373-591b-4e29-9b55-1295f351f497",
         "type": "BufferGeometry",
         "data": {
           "attributes": {
@@ -324415,7 +324406,7 @@
             "position": {
               "isInterleavedBufferAttribute": true,
               "itemSize": 3,
-              "data": "0fbb0b63-0559-4584-952a-01991959c0a1",
+              "data": "1f91c0d3-2fa2-4c68-aa03-10453d492f5a",
               "offset": 0,
               "normalized": true
             },
@@ -324432,7 +324423,7 @@
             "normal": {
               "isInterleavedBufferAttribute": true,
               "itemSize": 3,
-              "data": "73df053c-1ae7-490d-ad54-160b0b1d848e",
+              "data": "0e047d0b-3fbd-4214-abea-5b22b73dd4ad",
               "offset": 0,
               "normalized": true
             },
@@ -324448,21 +324439,21 @@
             }
           },
           "interleavedBuffers": {
-            "0fbb0b63-0559-4584-952a-01991959c0a1": {
-              "uuid": "0fbb0b63-0559-4584-952a-01991959c0a1",
-              "buffer": "44c9e3da-4d68-4ed9-a798-e59cde6aefdb",
+            "1f91c0d3-2fa2-4c68-aa03-10453d492f5a": {
+              "uuid": "1f91c0d3-2fa2-4c68-aa03-10453d492f5a",
+              "buffer": "c733e584-99f5-47dc-94ab-05bbe4b1c98b",
               "type": "Int16Array",
               "stride": 4
             },
-            "73df053c-1ae7-490d-ad54-160b0b1d848e": {
-              "uuid": "73df053c-1ae7-490d-ad54-160b0b1d848e",
-              "buffer": "07382e23-1c3f-4ffa-aa0b-66d3529b2d28",
+            "0e047d0b-3fbd-4214-abea-5b22b73dd4ad": {
+              "uuid": "0e047d0b-3fbd-4214-abea-5b22b73dd4ad",
+              "buffer": "7cd467de-bf24-4b65-addc-a849beeca404",
               "type": "Int16Array",
               "stride": 4
             }
           },
           "arrayBuffers": {
-            "44c9e3da-4d68-4ed9-a798-e59cde6aefdb": [
+            "c733e584-99f5-47dc-94ab-05bbe4b1c98b": [
               592032786,
               43506,
               516206782,
@@ -363428,7 +363419,7 @@
               93602974,
               5380
             ],
-            "07382e23-1c3f-4ffa-aa0b-66d3529b2d28": [
+            "7cd467de-bf24-4b65-addc-a849beeca404": [
               710236781,
               20520,
               731210417,
@@ -402440,15 +402431,15 @@
         "blendColor": 0
       },
       {
-        "uuid": "772f5a7b-a5d7-4f1d-b480-d32d5d42afdd",
+        "uuid": "df32bd90-536a-458f-a479-83aedd55ecd4",
         "type": "MeshStandardMaterial",
         "name": "Bodymat",
         "color": 16777215,
         "roughness": 1,
         "metalness": 0,
         "emissive": 0,
-        "map": "c30a9be4-32e0-421d-80ee-d719297b8513",
-        "normalMap": "7bd54494-9d5d-4a7f-b8e7-912d0ab1ab7e",
+        "map": "06cca697-b34e-418f-96f6-2b133534f021",
+        "normalMap": "0344f65b-3df2-4c91-92fc-522f02fca73c",
         "normalMapType": 0,
         "normalScale": [
           1,
@@ -402461,20 +402452,19 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "alphaTest": 0.5
       },
       {
-        "uuid": "58b7e0c0-f3a7-4710-9b90-33e4b5bcced1",
+        "uuid": "a373aa84-3c6f-45fc-988c-98a17540a941",
         "type": "MeshStandardMaterial",
         "name": "Bottommat",
         "color": 16777215,
         "roughness": 1,
         "metalness": 0,
         "emissive": 0,
-        "map": "153c0598-9279-443f-8b64-679d1d9d7322",
-        "normalMap": "04e70e86-3a7d-4fd5-a4a2-c2d2a4746763",
+        "map": "76d20046-e230-404e-a987-6f44f1de048c",
+        "normalMap": "dffbf283-9b34-4650-a884-b1bcb192d725",
         "normalMapType": 0,
         "normalScale": [
           1,
@@ -402487,20 +402477,19 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "alphaTest": 0.5
       },
       {
-        "uuid": "6feebd8a-7693-4942-a3f2-51fef10b3dfe",
+        "uuid": "0cc82558-fff5-4c39-ad52-3a481c522b0f",
         "type": "MeshStandardMaterial",
         "name": "Topmat",
         "color": 16777215,
         "roughness": 1,
         "metalness": 0,
         "emissive": 0,
-        "map": "875525af-879c-49a4-ae8d-4f29acad1e31",
-        "normalMap": "d2dbf30f-da68-4020-bbc4-5a25745e1f9b",
+        "map": "800c7398-d8fb-4cff-94f7-db260afadf2b",
+        "normalMap": "33befcf5-a418-45a6-9b35-81891fe3bd35",
         "normalMapType": 0,
         "normalScale": [
           1,
@@ -402513,20 +402502,19 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "alphaTest": 0.5
       },
       {
-        "uuid": "3633d12b-236d-47b7-b248-238177594633",
+        "uuid": "e2f41664-1fd7-4459-869f-695fc4a95576",
         "type": "MeshStandardMaterial",
         "name": "Hairmat",
         "color": 16777215,
         "roughness": 1,
         "metalness": 0,
         "emissive": 0,
-        "map": "e3fa383c-fae5-4306-a4dc-885df186b263",
-        "normalMap": "c3dca030-daa4-428b-a196-5ff928dce15a",
+        "map": "67da6d86-beb9-407c-815c-42c9b61fa3eb",
+        "normalMap": "ea9287a4-0127-4472-a957-1354ea640c79",
         "normalMapType": 0,
         "normalScale": [
           1,
@@ -402539,20 +402527,19 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "transparent": true,
         "blendColor": 0,
-        "depthWrite": false
+        "alphaTest": 0.5
       },
       {
-        "uuid": "c12f9f54-2278-4890-9934-8a5cd4a17b01",
+        "uuid": "fba2b3fe-65e0-46e4-9997-c0636f477312",
         "type": "MeshStandardMaterial",
         "name": "Shoesmat",
         "color": 16777215,
         "roughness": 1,
         "metalness": 0,
         "emissive": 0,
-        "map": "aa05c3cd-0903-4746-8d5c-202e7f9ea06e",
-        "normalMap": "fd81036d-9642-4bc3-adf4-7554d1da2cbe",
+        "map": "9f8d01fb-9677-4df0-b0bc-71c5c71337a0",
+        "normalMap": "0100996e-ba25-436d-a9b4-2000028a97b4",
         "normalMapType": 0,
         "normalScale": [
           1,
@@ -402565,16 +402552,14 @@
           "XYZ"
         ],
         "envMapIntensity": 1,
-        "transparent": true,
-        "blendColor": 0,
-        "depthWrite": false
+        "blendColor": 0
       }
     ],
     "textures": [
       {
-        "uuid": "c30a9be4-32e0-421d-80ee-d719297b8513",
+        "uuid": "06cca697-b34e-418f-96f6-2b133534f021",
         "name": "",
-        "image": "2c785d1a-5241-49ad-b84d-ddb9021647af",
+        "image": "744b4ba3-ff8e-4fa3-a46e-fc3da88e241a",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -402611,9 +402596,9 @@
         }
       },
       {
-        "uuid": "7bd54494-9d5d-4a7f-b8e7-912d0ab1ab7e",
+        "uuid": "0344f65b-3df2-4c91-92fc-522f02fca73c",
         "name": "",
-        "image": "6224914c-885c-4b53-a691-c3762fdb4c6f",
+        "image": "79587cc6-cef2-4d87-b172-ea810bc36592",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -402650,9 +402635,9 @@
         }
       },
       {
-        "uuid": "153c0598-9279-443f-8b64-679d1d9d7322",
+        "uuid": "76d20046-e230-404e-a987-6f44f1de048c",
         "name": "",
-        "image": "7c89e9cb-4e80-4f1a-9cc7-d08dc089792c",
+        "image": "344ee1ba-f6ca-44a7-90b4-3e118bc224ed",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -402689,9 +402674,9 @@
         }
       },
       {
-        "uuid": "04e70e86-3a7d-4fd5-a4a2-c2d2a4746763",
+        "uuid": "dffbf283-9b34-4650-a884-b1bcb192d725",
         "name": "",
-        "image": "23df57bc-1556-406e-ab48-dd1ec44f57a3",
+        "image": "2d06b618-c620-4a87-9933-736829d97e43",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -402728,9 +402713,9 @@
         }
       },
       {
-        "uuid": "875525af-879c-49a4-ae8d-4f29acad1e31",
+        "uuid": "800c7398-d8fb-4cff-94f7-db260afadf2b",
         "name": "",
-        "image": "5afc3f10-2d72-4ac9-9c9a-ec89f5fb7eb9",
+        "image": "6af345da-11ee-4f63-9c2d-10bc51f6234f",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -402767,9 +402752,9 @@
         }
       },
       {
-        "uuid": "d2dbf30f-da68-4020-bbc4-5a25745e1f9b",
+        "uuid": "33befcf5-a418-45a6-9b35-81891fe3bd35",
         "name": "",
-        "image": "3b3382ef-e350-439a-ae50-2b5899084e2c",
+        "image": "15e1383a-6e27-4654-b19b-f0a62518e4ea",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -402806,9 +402791,9 @@
         }
       },
       {
-        "uuid": "e3fa383c-fae5-4306-a4dc-885df186b263",
+        "uuid": "67da6d86-beb9-407c-815c-42c9b61fa3eb",
         "name": "",
-        "image": "14f88750-042b-4d54-b3ee-1a11a77f0738",
+        "image": "d3fd5921-ce31-4521-acf0-99da29e547a1",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -402845,9 +402830,9 @@
         }
       },
       {
-        "uuid": "c3dca030-daa4-428b-a196-5ff928dce15a",
+        "uuid": "ea9287a4-0127-4472-a957-1354ea640c79",
         "name": "",
-        "image": "b7e8218e-ff94-461f-8dec-67f5e413c555",
+        "image": "6dbc23fe-7d34-460b-a6d0-4f5605446909",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -402877,4 +402862,16 @@
         "anisotropy": 1,
         "flipY": false,
         "generateMipmaps": true,
-       
+        "premultiplyAlpha": false,
+        "unpackAlignment": 4,
+        "userData": {
+          "mimeType": "image/png"
+        }
+      },
+      {
+        "uuid": "9f8d01fb-9677-4df0-b0bc-71c5c71337a0",
+        "name": "",
+        "image": "be323723-0903-4456-8742-8892adfe98e4",
+        "mapping": 300,
+        "channel": 0,
+        "repeat": 
