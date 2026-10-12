@@ -14,26 +14,26 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "8150eacc-d5ea-4aed-9625-d7e37b50c882",
+      "uuid": "9ed25536-1b9e-49d2-9e84-73eb9efdb52a",
       "type": "PerspectiveCamera",
       "name": "Edit Camera",
       "layers": 1,
       "matrix": [
-        1,
+        0.9999207659446993,
+        1.0842021724855044e-19,
+        -0.01258816239829593,
         0,
+        -0.0011843758062612141,
+        0.995564028844376,
+        -0.09407901851690449,
         0,
+        0.012532321672994779,
+        0.09408647336973851,
+        0.9954851462690592,
         0,
-        0,
-        0.9998918860475785,
-        -0.014704292441876172,
-        0,
-        0,
-        0.014704292441876172,
-        0.9998918860475785,
-        0,
-        0,
-        0.9,
-        3.4,
+        0.012856457628070136,
+        1.2242739972851235,
+        2.449106389576223,
         1
       ],
       "up": [
@@ -53,9 +53,9 @@
   },
   "controls": {
     "center": [
-      0,
-      0.85,
-      0
+      -0.020129272479234395,
+      0.976633448446525,
+      -0.17106289888211662
     ]
   },
   "scene": {
@@ -29112,30 +29112,6 @@
         "thetaLength": 6.283185307179586
       },
       {
-        "uuid": "2eb21422-ad15-488d-8957-7e4308e8496d",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.092,
-        "radiusBottom": 0.088,
-        "height": 0.3606045658751979,
-        "radialSegments": 28,
-        "heightSegments": 1,
-        "openEnded": true,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "9218e1c5-9b0c-414a-ba31-81ce575c5832",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.092,
-        "radiusBottom": 0.088,
-        "height": 0.36060457382908356,
-        "radialSegments": 28,
-        "heightSegments": 1,
-        "openEnded": true,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
         "uuid": "5f9869e2-1baf-4b5b-9857-ae889c9c838f",
         "type": "BufferGeometry",
         "userData": {
@@ -34115,7 +34091,7 @@
         "type": "MeshBasicMaterial",
         "name": "N00_000_00_Body_00_SKIN",
         "color": 13871503,
-        "map": "cae2a233-0718-41f9-8691-17338efc934d",
+        "map": "991308f0-3184-499d-9297-58766277dcb3",
         "envMapRotation": [
           0,
           0,
@@ -34162,7 +34138,7 @@
         "type": "MeshBasicMaterial",
         "name": "N00_000_00_Body_00_SKIN",
         "color": 13871503,
-        "map": "cae2a233-0718-41f9-8691-17338efc934d",
+        "map": "991308f0-3184-499d-9297-58766277dcb3",
         "envMapRotation": [
           0,
           0,
@@ -34209,7 +34185,7 @@
         "type": "MeshBasicMaterial",
         "name": "N00_000_00_Body_00_SKIN",
         "color": 13871503,
-        "map": "cae2a233-0718-41f9-8691-17338efc934d",
+        "map": "991308f0-3184-499d-9297-58766277dcb3",
         "envMapRotation": [
           0,
           0,
@@ -34256,7 +34232,7 @@
         "type": "MeshBasicMaterial",
         "name": "N00_000_00_Body_00_SKIN",
         "color": 13871503,
-        "map": "cae2a233-0718-41f9-8691-17338efc934d",
+        "map": "991308f0-3184-499d-9297-58766277dcb3",
         "envMapRotation": [
           0,
           0,
@@ -34348,7 +34324,7 @@
         "uuid": "e65a3a85-5fe6-463a-a5d2-68c1797d5357",
         "type": "MeshBasicMaterial",
         "name": "N00_004_01_Shoes_01_CLOTH",
-        "color": 789517,
+        "color": 9211024,
         "map": "fd1f5128-1b76-464f-af03-332ad5c23ee5",
         "envMapRotation": [
           0,
@@ -34491,21 +34467,6 @@
         "uuid": "43ca2f20-b4ee-46a1-9127-6a9f359432d9",
         "type": "MeshBasicMaterial",
         "color": 8008264,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "reflectivity": 1,
-        "refractionRatio": 0.98,
-        "side": 2,
-        "blendColor": 0
-      },
-      {
-        "uuid": "0c47909c-debe-41e8-8af2-f0d36879ed5b",
-        "type": "MeshBasicMaterial",
-        "color": 1184276,
         "envMapRotation": [
           0,
           0,
@@ -36970,7 +36931,7 @@
       {
         "uuid": "368be964-ebf7-4c2e-8707-be24c733ceea",
         "name": "_01",
-        "image": "ce7dbbeb-db5b-4ee9-848a-13e670d0e4ed",
+        "image": "4ed6ad3c-dbce-40f4-b0e7-5c610a8674ff",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37009,7 +36970,7 @@
       {
         "uuid": "06db9c8b-f5ab-4f96-b36f-ba9989037004",
         "name": "_02",
-        "image": "81d0c4c5-a72c-41c6-8556-3b3ba86838a9",
+        "image": "b3017406-4612-40ee-bed3-370a3091c9bf",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37048,7 +37009,7 @@
       {
         "uuid": "34366547-8782-4e2a-8c24-7ce9fe878072",
         "name": "_03",
-        "image": "a184cc84-85ec-47ee-92f4-3bb84dc5d475",
+        "image": "d28be1b6-c367-4e8f-9d01-6b0ee823e2bc",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37087,7 +37048,7 @@
       {
         "uuid": "b260719d-d73e-4caa-9804-d6eefbc781b8",
         "name": "",
-        "image": "d546f015-deb8-495b-af22-e49f8ea840d5",
+        "image": "3923509d-a04c-4414-bc51-fbe4124cefbf",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37123,7 +37084,7 @@
       {
         "uuid": "52dd8a8e-ad4f-4873-afb5-5a9c713ca83f",
         "name": "_06",
-        "image": "4e6c09be-9655-4aa0-b297-c2fae582cca7",
+        "image": "061cb63c-dfbd-4e7a-9983-f039a2c2a9af",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37162,7 +37123,7 @@
       {
         "uuid": "1484ce64-6039-4013-ad2a-78a089638d1c",
         "name": "_07",
-        "image": "8b9cc863-5dd2-4276-98d0-23d9bf7dac71",
+        "image": "b979bc68-0316-4d4a-8b13-0a3bb6afb5ee",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37201,7 +37162,7 @@
       {
         "uuid": "c2fdf6bb-dc62-4371-8199-0b144924ae50",
         "name": "_08",
-        "image": "2b56d238-7565-4cc3-b51d-2aeddea48fd2",
+        "image": "84f79f31-a8b9-41a6-8463-b9e79808a51d",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37240,7 +37201,7 @@
       {
         "uuid": "2382e5e8-b264-4188-ab8f-232ec18dc82c",
         "name": "_09",
-        "image": "9cbdcf97-9712-4139-b3c8-0253e616cccd",
+        "image": "cae462d8-d9e3-49ff-abd3-87bc2da55fca",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37277,9 +37238,9 @@
         }
       },
       {
-        "uuid": "cae2a233-0718-41f9-8691-17338efc934d",
-        "name": "_10",
-        "image": "11a64b8a-e328-4042-b622-ffc18e0acf11",
+        "uuid": "991308f0-3184-499d-9297-58766277dcb3",
+        "name": "",
+        "image": "94119663-dade-423f-8be3-c9916188b5bf",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37304,21 +37265,18 @@
         "type": 1009,
         "normalized": false,
         "colorSpace": "srgb",
-        "minFilter": 1006,
+        "minFilter": 1008,
         "magFilter": 1006,
-        "anisotropy": 1,
+        "anisotropy": 8,
         "flipY": false,
-        "generateMipmaps": false,
+        "generateMipmaps": true,
         "premultiplyAlpha": false,
-        "unpackAlignment": 4,
-        "userData": {
-          "mimeType": "image/png"
-        }
+        "unpackAlignment": 4
       },
       {
         "uuid": "fd1f5128-1b76-464f-af03-332ad5c23ee5",
         "name": "_13",
-        "image": "3ef34dec-d043-4a11-9ac3-c9a91090e07f",
+        "image": "2837ddda-ca4f-4c83-9718-f813335976ab",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37357,7 +37315,7 @@
       {
         "uuid": "f5d612b8-de97-43b7-a46b-7e744daa2aad",
         "name": "_14",
-        "image": "72232b61-14c9-41a9-b759-14fe2ccb19ca",
+        "image": "dfac5f63-8d57-4b5d-9ffb-978a95078e41",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37396,7 +37354,7 @@
       {
         "uuid": "76ab934d-e152-467c-946b-936a8d32b49e",
         "name": "_15",
-        "image": "8b7f8259-b3d6-4f0c-b73c-6efcd44f0dc6",
+        "image": "2b25eee6-7703-4968-9c4d-7af7d76505d3",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37435,7 +37393,7 @@
       {
         "uuid": "cd6ac3ec-65f5-41a7-830f-1204aebe2ba9",
         "name": "_16",
-        "image": "d6cc4888-2bfc-47f0-a478-53248dc8a023",
+        "image": "0055d86a-39d8-4d86-bef3-c626cd1aa2fd",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -37474,91 +37432,91 @@
     ],
     "images": [
       {
-        "uuid": "ce7dbbeb-db5b-4ee9-848a-13e670d0e4ed",
+        "uuid": "4ed6ad3c-dbce-40f4-b0e7-5c610a8674ff",
         "url": {
           "$img": "assets/img-e2d769560537db0cf6a6d1e76a63aad3da926357.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "81d0c4c5-a72c-41c6-8556-3b3ba86838a9",
+        "uuid": "b3017406-4612-40ee-bed3-370a3091c9bf",
         "url": {
           "$img": "assets/img-5632c8291a1beecaed6d984a904c9410526f3165.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "a184cc84-85ec-47ee-92f4-3bb84dc5d475",
+        "uuid": "d28be1b6-c367-4e8f-9d01-6b0ee823e2bc",
         "url": {
           "$img": "assets/img-b8e9fecc35dab0597987ab1eb7f1a18b7625d158.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "d546f015-deb8-495b-af22-e49f8ea840d5",
+        "uuid": "3923509d-a04c-4414-bc51-fbe4124cefbf",
         "url": {
           "$img": "assets/img-16d099fb022c56a70931eb12350f25281c0c5126.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "4e6c09be-9655-4aa0-b297-c2fae582cca7",
+        "uuid": "061cb63c-dfbd-4e7a-9983-f039a2c2a9af",
         "url": {
           "$img": "assets/img-a139d5f77db33a006fb607f7c5287b7dae777319.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "8b9cc863-5dd2-4276-98d0-23d9bf7dac71",
+        "uuid": "b979bc68-0316-4d4a-8b13-0a3bb6afb5ee",
         "url": {
           "$img": "assets/img-45f9427d174ce65ad693c945a6147a0d34d0deae.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "2b56d238-7565-4cc3-b51d-2aeddea48fd2",
+        "uuid": "84f79f31-a8b9-41a6-8463-b9e79808a51d",
         "url": {
           "$img": "assets/img-cf55d5a4825d20789584aca1c2898d802c750f88.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "9cbdcf97-9712-4139-b3c8-0253e616cccd",
+        "uuid": "cae462d8-d9e3-49ff-abd3-87bc2da55fca",
         "url": {
           "$img": "assets/img-f0bfcc6068d97a25539f984598ca109748abf621.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "11a64b8a-e328-4042-b622-ffc18e0acf11",
+        "uuid": "94119663-dade-423f-8be3-c9916188b5bf",
         "url": {
-          "$img": "assets/img-5e10e82d457dacc64a98fa6474d08755431687ca.png",
+          "$img": "assets/img-19f694cb740939361f24f0d04a87f85fe79dbacd.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "3ef34dec-d043-4a11-9ac3-c9a91090e07f",
+        "uuid": "2837ddda-ca4f-4c83-9718-f813335976ab",
         "url": {
           "$img": "assets/img-61e8bf2e34ad8e6cdd2e6dc1c9a9fbf9980b5c75.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "72232b61-14c9-41a9-b759-14fe2ccb19ca",
+        "uuid": "dfac5f63-8d57-4b5d-9ffb-978a95078e41",
         "url": {
           "$img": "assets/img-3b62710b8d08787a88f59ff57f58c54eb4d959b5.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "8b7f8259-b3d6-4f0c-b73c-6efcd44f0dc6",
+        "uuid": "2b25eee6-7703-4968-9c4d-7af7d76505d3",
         "url": {
           "$img": "assets/img-b38d5625ef11c4b189252d7051d8adcee9774866.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "d6cc4888-2bfc-47f0-a478-53248dc8a023",
+        "uuid": "0055d86a-39d8-4d86-bef3-c626cd1aa2fd",
         "url": {
           "$img": "assets/img-19cd26e489be642f2efacd3c9145d083c7afa14a.png",
           "mime": "image/png"
@@ -43832,6 +43790,7 @@
         1,
         0
       ],
+      "background": 16052721,
       "children": [
         {
           "uuid": "26e76a79-bfed-43fc-98f9-95f7e7e6ee1b",
@@ -44160,16 +44119,16 @@
                     ],
                     "descriptors": {
                       "v": 1,
-                      "geomHash": "4709:251",
+                      "geomHash": "4709:202",
                       "bbox": {
                         "center": [
                           0,
-                          1.6242,
+                          1.6224,
                           0.0061
                         ],
                         "size": [
                           0.2176,
-                          0.2463,
+                          0.2498,
                           0.1477
                         ]
                       },
@@ -44181,7 +44140,7 @@
                       "shape": "blocky",
                       "orientation": "vertical",
                       "sizeRank": "largest",
-                      "volume": 0.0079,
+                      "volume": 0.008,
                       "role": "leaf",
                       "childCount": 0,
                       "depth": 2,
@@ -44197,9 +44156,9 @@
                         "Facebaked_custom_custom_custom_8"
                       ],
                       "color": {
-                        "name": "pink",
-                        "base": "pink",
-                        "hex": "#ea9894"
+                        "name": "brown",
+                        "base": "brown",
+                        "hex": "#b98070"
                       },
                       "materials": [
                         "N00_000_00_FaceMouth_00_FACE"
@@ -44640,16 +44599,16 @@
                     ],
                     "descriptors": {
                       "v": 1,
-                      "geomHash": "4709:251",
+                      "geomHash": "4709:202",
                       "bbox": {
                         "center": [
                           0,
-                          1.6242,
+                          1.6224,
                           0.0061
                         ],
                         "size": [
                           0.2176,
-                          0.2463,
+                          0.2498,
                           0.1477
                         ]
                       },
@@ -44661,7 +44620,7 @@
                       "shape": "blocky",
                       "orientation": "vertical",
                       "sizeRank": "largest",
-                      "volume": 0.0079,
+                      "volume": 0.008,
                       "role": "leaf",
                       "childCount": 0,
                       "depth": 2,
@@ -44677,9 +44636,9 @@
                         "Facebaked_custom_custom_custom_8"
                       ],
                       "color": {
-                        "name": "dark gray",
-                        "base": "gray",
-                        "hex": "#373c3a"
+                        "name": "brown",
+                        "base": "brown",
+                        "hex": "#3a2416"
                       },
                       "materials": [
                         "N00_000_00_EyeIris_00_EYE"
@@ -45120,16 +45079,16 @@
                     ],
                     "descriptors": {
                       "v": 1,
-                      "geomHash": "4709:251",
+                      "geomHash": "4709:202",
                       "bbox": {
                         "center": [
                           0,
-                          1.6242,
+                          1.6224,
                           0.0061
                         ],
                         "size": [
                           0.2176,
-                          0.2463,
+                          0.2498,
                           0.1477
                         ]
                       },
@@ -45141,7 +45100,7 @@
                       "shape": "blocky",
                       "orientation": "vertical",
                       "sizeRank": "largest",
-                      "volume": 0.0079,
+                      "volume": 0.008,
                       "role": "leaf",
                       "childCount": 0,
                       "depth": 2,
@@ -45600,16 +45559,16 @@
                     ],
                     "descriptors": {
                       "v": 1,
-                      "geomHash": "4709:251",
+                      "geomHash": "4709:202",
                       "bbox": {
                         "center": [
                           0,
-                          1.6242,
+                          1.6224,
                           0.0061
                         ],
                         "size": [
                           0.2176,
-                          0.2463,
+                          0.2498,
                           0.1477
                         ]
                       },
@@ -45621,7 +45580,7 @@
                       "shape": "blocky",
                       "orientation": "vertical",
                       "sizeRank": "largest",
-                      "volume": 0.0079,
+                      "volume": 0.008,
                       "role": "leaf",
                       "childCount": 0,
                       "depth": 2,
@@ -45637,9 +45596,9 @@
                         "Facebaked_custom_custom_custom_8"
                       ],
                       "color": {
-                        "name": "light orange",
+                        "name": "orange",
                         "base": "orange",
-                        "hex": "#f9e7da"
+                        "hex": "#d3a98f"
                       },
                       "materials": [
                         "N00_000_00_Face_00_SKIN"
@@ -46080,16 +46039,16 @@
                     ],
                     "descriptors": {
                       "v": 1,
-                      "geomHash": "4709:251",
+                      "geomHash": "4709:202",
                       "bbox": {
                         "center": [
                           0,
-                          1.6242,
+                          1.6224,
                           0.0061
                         ],
                         "size": [
                           0.2176,
-                          0.2463,
+                          0.2498,
                           0.1477
                         ]
                       },
@@ -46101,7 +46060,7 @@
                       "shape": "blocky",
                       "orientation": "vertical",
                       "sizeRank": "largest",
-                      "volume": 0.0079,
+                      "volume": 0.008,
                       "role": "leaf",
                       "childCount": 0,
                       "depth": 2,
@@ -46117,9 +46076,9 @@
                         "Facebaked_custom_custom_custom_8"
                       ],
                       "color": {
-                        "name": "light gray",
-                        "base": "gray",
-                        "hex": "#c7c1bf"
+                        "name": "orange",
+                        "base": "orange",
+                        "hex": "#e9e2da"
                       },
                       "materials": [
                         "N00_000_00_EyeWhite_00_EYE"
@@ -46560,16 +46519,16 @@
                     ],
                     "descriptors": {
                       "v": 1,
-                      "geomHash": "4709:251",
+                      "geomHash": "4709:202",
                       "bbox": {
                         "center": [
                           0,
-                          1.6242,
+                          1.6224,
                           0.0061
                         ],
                         "size": [
                           0.2176,
-                          0.2463,
+                          0.2498,
                           0.1477
                         ]
                       },
@@ -46581,7 +46540,7 @@
                       "shape": "blocky",
                       "orientation": "vertical",
                       "sizeRank": "largest",
-                      "volume": 0.0079,
+                      "volume": 0.008,
                       "role": "leaf",
                       "childCount": 0,
                       "depth": 2,
@@ -46597,9 +46556,9 @@
                         "Facebaked_custom_custom_custom_8"
                       ],
                       "color": {
-                        "name": "gray",
-                        "base": "gray",
-                        "hex": "#9a9a9a"
+                        "name": "brown",
+                        "base": "brown",
+                        "hex": "#1e130d"
                       },
                       "materials": [
                         "N00_000_00_FaceBrow_00_FACE"
@@ -47040,16 +46999,16 @@
                     ],
                     "descriptors": {
                       "v": 1,
-                      "geomHash": "4709:251",
+                      "geomHash": "4709:202",
                       "bbox": {
                         "center": [
                           0,
-                          1.6242,
+                          1.6224,
                           0.0061
                         ],
                         "size": [
                           0.2176,
-                          0.2463,
+                          0.2498,
                           0.1477
                         ]
                       },
@@ -47061,7 +47020,7 @@
                       "shape": "blocky",
                       "orientation": "vertical",
                       "sizeRank": "largest",
-                      "volume": 0.0079,
+                      "volume": 0.008,
                       "role": "leaf",
                       "childCount": 0,
                       "depth": 2,
@@ -47077,9 +47036,9 @@
                         "Facebaked_custom_custom_custom_8"
                       ],
                       "color": {
-                        "name": "white",
-                        "base": "white",
-                        "hex": "#ffffff"
+                        "name": "brown",
+                        "base": "brown",
+                        "hex": "#140d0a"
                       },
                       "materials": [
                         "N00_000_00_FaceEyelash_00_FACE"
@@ -47520,16 +47479,16 @@
                     ],
                     "descriptors": {
                       "v": 1,
-                      "geomHash": "4709:251",
+                      "geomHash": "4709:202",
                       "bbox": {
                         "center": [
                           0,
-                          1.6242,
+                          1.6224,
                           0.0061
                         ],
                         "size": [
                           0.2176,
-                          0.2463,
+                          0.2498,
                           0.1477
                         ]
                       },
@@ -47541,7 +47500,7 @@
                       "shape": "blocky",
                       "orientation": "vertical",
                       "sizeRank": "largest",
-                      "volume": 0.0079,
+                      "volume": 0.008,
                       "role": "leaf",
                       "childCount": 0,
                       "depth": 2,
@@ -47557,9 +47516,9 @@
                         "Facebaked_custom_custom_custom_8"
                       ],
                       "color": {
-                        "name": "gray",
-                        "base": "gray",
-                        "hex": "#5c5958"
+                        "name": "brown",
+                        "base": "brown",
+                        "hex": "#140d0a"
                       },
                       "materials": [
                         "N00_000_00_FaceEyeline_00_FACE"
@@ -48000,16 +47959,16 @@
                     ],
                     "descriptors": {
                       "v": 1,
-                      "geomHash": "4709:251",
+                      "geomHash": "4709:202",
                       "bbox": {
                         "center": [
                           0,
-                          1.6242,
+                          1.6224,
                           0.0061
                         ],
                         "size": [
                           0.2176,
-                          0.2463,
+                          0.2498,
                           0.1477
                         ]
                       },
@@ -48021,7 +47980,7 @@
                       "shape": "blocky",
                       "orientation": "vertical",
                       "sizeRank": "largest",
-                      "volume": 0.0079,
+                      "volume": 0.008,
                       "role": "leaf",
                       "childCount": 0,
                       "depth": 2,
@@ -48037,9 +47996,9 @@
                         "Facebaked_custom_custom_custom_7"
                       ],
                       "color": {
-                        "name": "light orange",
+                        "name": "orange",
                         "base": "orange",
-                        "hex": "#f9e7da"
+                        "hex": "#d3a98f"
                       },
                       "materials": [
                         "N00_000_00_Face_00_SKIN"
@@ -48433,16 +48392,16 @@
                     "targetNames": [],
                     "descriptors": {
                       "v": 1,
-                      "geomHash": "9158:1190",
+                      "geomHash": "9158:941",
                       "bbox": {
                         "center": [
                           0,
-                          0.8802,
+                          0.8902,
                           0.009
                         ],
                         "size": [
                           1.5689,
-                          1.7603,
+                          1.7803,
                           0.3183
                         ]
                       },
@@ -48454,7 +48413,7 @@
                       "shape": "blocky",
                       "orientation": "vertical",
                       "sizeRank": "largest",
-                      "volume": 0.879,
+                      "volume": 0.889,
                       "role": "leaf",
                       "childCount": 0,
                       "depth": 2,
@@ -48469,9 +48428,9 @@
                         "Bodybaked_7"
                       ],
                       "color": {
-                        "name": "light orange",
+                        "name": "orange",
                         "base": "orange",
-                        "hex": "#f0dccf"
+                        "hex": "#d3a98f"
                       },
                       "materials": [
                         "N00_000_00_Body_00_SKIN"
@@ -49296,7 +49255,46 @@
               "name": "Root",
               "userData": {
                 "name": "Root",
-                "classes": {}
+                "classes": {},
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "grp:1",
+                  "bbox": {
+                    "center": [
+                      0,
+                      0.9079,
+                      -0.0204
+                    ],
+                    "size": [
+                      0.3488,
+                      1.07,
+                      0.2076
+                    ]
+                  },
+                  "region": {
+                    "x": "center",
+                    "y": "center",
+                    "z": "center"
+                  },
+                  "shape": "blocky",
+                  "orientation": "vertical",
+                  "sizeRank": "medium",
+                  "volume": 0.0775,
+                  "role": "group",
+                  "childCount": 1,
+                  "depth": 1,
+                  "parentName": "VRoid_V110_Male_v1.1.3.vrm",
+                  "adjacency": [
+                    "Body"
+                  ],
+                  "color": {
+                    "name": "blue",
+                    "base": "blue",
+                    "hex": "#7a3248"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
               },
               "layers": 1,
               "matrix": [
@@ -49329,7 +49327,44 @@
                   "name": "J_Bip_C_Hips",
                   "userData": {
                     "name": "J_Bip_C_Hips",
-                    "classes": {}
+                    "classes": {},
+                    "descriptors": {
+                      "v": 1,
+                      "geomHash": "grp:3",
+                      "bbox": {
+                        "center": [
+                          0,
+                          0.9079,
+                          -0.0204
+                        ],
+                        "size": [
+                          0.3488,
+                          1.07,
+                          0.2076
+                        ]
+                      },
+                      "region": {
+                        "x": "center",
+                        "y": "center",
+                        "z": "center"
+                      },
+                      "shape": "blocky",
+                      "orientation": "vertical",
+                      "sizeRank": "medium",
+                      "volume": 0.0775,
+                      "role": "group",
+                      "childCount": 3,
+                      "depth": 2,
+                      "parentName": "Root",
+                      "adjacency": [],
+                      "color": {
+                        "name": "blue",
+                        "base": "blue",
+                        "hex": "#7a3248"
+                      },
+                      "materials": [],
+                      "pair": null
+                    }
                   },
                   "layers": 1,
                   "matrix": [
@@ -49362,7 +49397,44 @@
                       "name": "J_Bip_C_Spine",
                       "userData": {
                         "name": "J_Bip_C_Spine",
-                        "classes": {}
+                        "classes": {},
+                        "descriptors": {
+                          "v": 1,
+                          "geomHash": "grp:1",
+                          "bbox": {
+                            "center": [
+                              0,
+                              1.4296,
+                              -0.0425
+                            ],
+                            "size": [
+                              0.192,
+                              0.0266,
+                              0.1632
+                            ]
+                          },
+                          "region": {
+                            "x": "center",
+                            "y": "top",
+                            "z": "center"
+                          },
+                          "shape": "blocky",
+                          "orientation": "horizontal",
+                          "sizeRank": "smallest",
+                          "volume": 0.0008,
+                          "role": "group",
+                          "childCount": 1,
+                          "depth": 3,
+                          "parentName": "J_Bip_C_Hips",
+                          "adjacency": [],
+                          "color": {
+                            "name": "brown",
+                            "base": "brown",
+                            "hex": "#7a3248"
+                          },
+                          "materials": [],
+                          "pair": null
+                        }
                       },
                       "layers": 1,
                       "matrix": [
@@ -49395,7 +49467,44 @@
                           "name": "J_Bip_C_Chest",
                           "userData": {
                             "name": "J_Bip_C_Chest",
-                            "classes": {}
+                            "classes": {},
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:1",
+                              "bbox": {
+                                "center": [
+                                  0,
+                                  1.4296,
+                                  -0.0425
+                                ],
+                                "size": [
+                                  0.192,
+                                  0.0266,
+                                  0.1632
+                                ]
+                              },
+                              "region": {
+                                "x": "center",
+                                "y": "center",
+                                "z": "center"
+                              },
+                              "shape": "blocky",
+                              "orientation": "horizontal",
+                              "sizeRank": "medium",
+                              "volume": 0.0008,
+                              "role": "group",
+                              "childCount": 1,
+                              "depth": 4,
+                              "parentName": "J_Bip_C_Spine",
+                              "adjacency": [],
+                              "color": {
+                                "name": "brown",
+                                "base": "brown",
+                                "hex": "#7a3248"
+                              },
+                              "materials": [],
+                              "pair": null
+                            }
                           },
                           "layers": 1,
                           "matrix": [
@@ -49428,7 +49537,44 @@
                               "name": "J_Bip_C_UpperChest",
                               "userData": {
                                 "name": "J_Bip_C_UpperChest",
-                                "classes": {}
+                                "classes": {},
+                                "descriptors": {
+                                  "v": 1,
+                                  "geomHash": "grp:6",
+                                  "bbox": {
+                                    "center": [
+                                      0,
+                                      1.4296,
+                                      -0.0425
+                                    ],
+                                    "size": [
+                                      0.192,
+                                      0.0266,
+                                      0.1632
+                                    ]
+                                  },
+                                  "region": {
+                                    "x": "center",
+                                    "y": "center",
+                                    "z": "center"
+                                  },
+                                  "shape": "blocky",
+                                  "orientation": "horizontal",
+                                  "sizeRank": "medium",
+                                  "volume": 0.0008,
+                                  "role": "group",
+                                  "childCount": 6,
+                                  "depth": 5,
+                                  "parentName": "J_Bip_C_Chest",
+                                  "adjacency": [],
+                                  "color": {
+                                    "name": "brown",
+                                    "base": "brown",
+                                    "hex": "#7a3248"
+                                  },
+                                  "materials": [],
+                                  "pair": null
+                                }
                               },
                               "layers": 1,
                               "matrix": [
@@ -52343,6 +52489,45 @@
                                   "uuid": "59e27bf0-1afa-4efa-8216-83d7485d07d0",
                                   "type": "Mesh",
                                   "name": "polo-collar",
+                                  "userData": {
+                                    "descriptors": {
+                                      "v": 1,
+                                      "geomHash": "407:96",
+                                      "bbox": {
+                                        "center": [
+                                          0,
+                                          1.4296,
+                                          -0.0425
+                                        ],
+                                        "size": [
+                                          0.192,
+                                          0.0266,
+                                          0.1632
+                                        ]
+                                      },
+                                      "region": {
+                                        "x": "center",
+                                        "y": "center",
+                                        "z": "center"
+                                      },
+                                      "shape": "flat",
+                                      "orientation": "horizontal",
+                                      "sizeRank": "medium",
+                                      "volume": 0.0008,
+                                      "role": "leaf",
+                                      "childCount": 0,
+                                      "depth": 6,
+                                      "parentName": "J_Bip_C_UpperChest",
+                                      "adjacency": [],
+                                      "color": {
+                                        "name": "brown",
+                                        "base": "brown",
+                                        "hex": "#7a3248"
+                                      },
+                                      "materials": [],
+                                      "pair": null
+                                    }
+                                  },
                                   "layers": 1,
                                   "matrix": [
                                     -1,
@@ -52382,7 +52567,46 @@
                       "name": "J_Bip_L_UpperLeg",
                       "userData": {
                         "name": "J_Bip_L_UpperLeg",
-                        "classes": {}
+                        "classes": {},
+                        "descriptors": {
+                          "v": 1,
+                          "geomHash": "grp:4",
+                          "bbox": {
+                            "center": [
+                              0.0777,
+                              0.56,
+                              -0.0178
+                            ],
+                            "size": [
+                              0.1935,
+                              0.3743,
+                              0.2025
+                            ]
+                          },
+                          "region": {
+                            "x": "right",
+                            "y": "bottom",
+                            "z": "center"
+                          },
+                          "shape": "blocky",
+                          "orientation": "vertical",
+                          "sizeRank": "medium",
+                          "volume": 0.0147,
+                          "role": "group",
+                          "childCount": 4,
+                          "depth": 3,
+                          "parentName": "J_Bip_C_Hips",
+                          "adjacency": [
+                            "J_Bip_R_UpperLeg"
+                          ],
+                          "color": {
+                            "name": "blue",
+                            "base": "blue",
+                            "hex": "#121214"
+                          },
+                          "materials": [],
+                          "pair": null
+                        }
                       },
                       "layers": 1,
                       "matrix": [
@@ -52619,7 +52843,44 @@
                           "name": "J_Bip_L_LowerLeg",
                           "userData": {
                             "name": "J_Bip_L_LowerLeg",
-                            "classes": {}
+                            "classes": {},
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:2",
+                              "bbox": {
+                                "center": [
+                                  0.0777,
+                                  0.56,
+                                  -0.0178
+                                ],
+                                "size": [
+                                  0.1935,
+                                  0.3743,
+                                  0.2025
+                                ]
+                              },
+                              "region": {
+                                "x": "center",
+                                "y": "center",
+                                "z": "center"
+                              },
+                              "shape": "blocky",
+                              "orientation": "vertical",
+                              "sizeRank": "medium",
+                              "volume": 0.0147,
+                              "role": "group",
+                              "childCount": 2,
+                              "depth": 4,
+                              "parentName": "J_Bip_L_UpperLeg",
+                              "adjacency": [],
+                              "color": {
+                                "name": "blue",
+                                "base": "blue",
+                                "hex": "#121214"
+                              },
+                              "materials": [],
+                              "pair": null
+                            }
                           },
                           "layers": 1,
                           "matrix": [
@@ -52713,37 +52974,6 @@
                                   ]
                                 }
                               ]
-                            },
-                            {
-                              "uuid": "78885eae-da76-4345-8ba8-cee327f192ef",
-                              "type": "Mesh",
-                              "name": "trouser-knee-L",
-                              "layers": 1,
-                              "matrix": [
-                                -0.9996602774550404,
-                                -0.02605524003855303,
-                                0.0006739028462021191,
-                                0,
-                                -0.026055240038553036,
-                                0.9983234658337432,
-                                -0.051685414114971455,
-                                0,
-                                0.0006739028462018744,
-                                -0.05168541411497146,
-                                -0.998663188378704,
-                                0,
-                                0.0004982154250256776,
-                                -0.019089447999999898,
-                                0.00098830294876643,
-                                1
-                              ],
-                              "up": [
-                                0,
-                                1,
-                                0
-                              ],
-                              "geometry": "2eb21422-ad15-488d-8957-7e4308e8496d",
-                              "material": "0c47909c-debe-41e8-8af2-f0d36879ed5b"
                             }
                           ]
                         }
@@ -52755,7 +52985,46 @@
                       "name": "J_Bip_R_UpperLeg",
                       "userData": {
                         "name": "J_Bip_R_UpperLeg",
-                        "classes": {}
+                        "classes": {},
+                        "descriptors": {
+                          "v": 1,
+                          "geomHash": "grp:4",
+                          "bbox": {
+                            "center": [
+                              -0.0777,
+                              0.56,
+                              -0.0178
+                            ],
+                            "size": [
+                              0.1935,
+                              0.3743,
+                              0.2025
+                            ]
+                          },
+                          "region": {
+                            "x": "left",
+                            "y": "bottom",
+                            "z": "center"
+                          },
+                          "shape": "blocky",
+                          "orientation": "vertical",
+                          "sizeRank": "largest",
+                          "volume": 0.0147,
+                          "role": "group",
+                          "childCount": 4,
+                          "depth": 3,
+                          "parentName": "J_Bip_C_Hips",
+                          "adjacency": [
+                            "J_Bip_L_UpperLeg"
+                          ],
+                          "color": {
+                            "name": "blue",
+                            "base": "blue",
+                            "hex": "#121214"
+                          },
+                          "materials": [],
+                          "pair": null
+                        }
                       },
                       "layers": 1,
                       "matrix": [
@@ -52992,7 +53261,44 @@
                           "name": "J_Bip_R_LowerLeg",
                           "userData": {
                             "name": "J_Bip_R_LowerLeg",
-                            "classes": {}
+                            "classes": {},
+                            "descriptors": {
+                              "v": 1,
+                              "geomHash": "grp:2",
+                              "bbox": {
+                                "center": [
+                                  -0.0777,
+                                  0.56,
+                                  -0.0178
+                                ],
+                                "size": [
+                                  0.1935,
+                                  0.3743,
+                                  0.2025
+                                ]
+                              },
+                              "region": {
+                                "x": "center",
+                                "y": "center",
+                                "z": "center"
+                              },
+                              "shape": "blocky",
+                              "orientation": "vertical",
+                              "sizeRank": "medium",
+                              "volume": 0.0147,
+                              "role": "group",
+                              "childCount": 2,
+                              "depth": 4,
+                              "parentName": "J_Bip_R_UpperLeg",
+                              "adjacency": [],
+                              "color": {
+                                "name": "blue",
+                                "base": "blue",
+                                "hex": "#121214"
+                              },
+                              "materials": [],
+                              "pair": null
+                            }
                           },
                           "layers": 1,
                           "matrix": [
@@ -53086,37 +53392,6 @@
                                   ]
                                 }
                               ]
-                            },
-                            {
-                              "uuid": "d763afa9-14db-47ab-a6d0-976dad640f3d",
-                              "type": "Mesh",
-                              "name": "trouser-knee-R",
-                              "layers": 1,
-                              "matrix": [
-                                -0.9996602164112187,
-                                0.02605758068747315,
-                                -0.000673953552249671,
-                                0,
-                                0.026057580687473145,
-                                0.9983234438136381,
-                                -0.05168465943385479,
-                                0,
-                                -0.0006739535522499156,
-                                -0.05168465943385479,
-                                -0.998663227402419,
-                                0,
-                                -0.0004982586266674277,
-                                -0.01908938799999982,
-                                0.0009882854336383633,
-                                1
-                              ],
-                              "up": [
-                                0,
-                                1,
-                                0
-                              ],
-                              "geometry": "9218e1c5-9b0c-414a-ba31-81ce575c5832",
-                              "material": "0c47909c-debe-41e8-8af2-f0d36879ed5b"
                             }
                           ]
                         }
@@ -53282,17 +53557,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -53301,9 +53576,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -53361,9 +53636,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -53433,17 +53708,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -53452,9 +53727,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -53512,9 +53787,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -53584,17 +53859,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -53603,9 +53878,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -53663,9 +53938,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -53735,17 +54010,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -53754,9 +54029,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -53814,9 +54089,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -53886,17 +54161,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -53905,9 +54180,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -53965,9 +54240,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -54037,17 +54312,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -54056,9 +54331,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -54116,9 +54391,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -54188,17 +54463,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -54207,9 +54482,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -54267,9 +54542,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -54339,17 +54614,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -54358,9 +54633,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -54418,9 +54693,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -54490,17 +54765,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -54509,9 +54784,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -54569,9 +54844,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -54641,17 +54916,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -54660,9 +54935,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -54720,9 +54995,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -54792,17 +55067,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -54811,9 +55086,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -54871,9 +55146,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -54943,17 +55218,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -54962,9 +55237,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -55022,9 +55297,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -55094,17 +55369,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -55113,9 +55388,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -55173,9 +55448,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -55245,17 +55520,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -55264,9 +55539,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -55324,9 +55599,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -55396,17 +55671,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -55415,9 +55690,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -55475,9 +55750,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -55547,17 +55822,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -55566,9 +55841,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -55626,9 +55901,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -55698,17 +55973,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -55717,9 +55992,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -55777,9 +56052,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -55849,17 +56124,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -55868,9 +56143,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -55928,9 +56203,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -56000,17 +56275,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -56019,9 +56294,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -56079,9 +56354,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -56151,17 +56426,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -56170,9 +56445,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -56230,9 +56505,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -56302,17 +56577,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -56321,9 +56596,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -56381,9 +56656,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -56453,17 +56728,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -56472,9 +56747,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -56532,9 +56807,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -56604,17 +56879,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -56623,9 +56898,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -56683,9 +56958,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -56755,17 +57030,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -56774,9 +57049,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -56834,9 +57109,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -56906,17 +57181,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -56925,9 +57200,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -56985,9 +57260,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -57057,17 +57332,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -57076,9 +57351,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -57136,9 +57411,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -57208,17 +57483,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -57227,9 +57502,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -57287,9 +57562,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -57359,17 +57634,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -57378,9 +57653,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -57438,9 +57713,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -57510,17 +57785,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -57529,9 +57804,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -57589,9 +57864,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -57661,17 +57936,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -57680,9 +57955,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -57740,9 +58015,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -57812,17 +58087,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -57831,9 +58106,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -57891,9 +58166,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -57963,17 +58238,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -57982,9 +58257,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -58042,9 +58317,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -58114,17 +58389,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -58133,9 +58408,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -58193,9 +58468,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -58265,17 +58540,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -58284,9 +58559,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -58344,9 +58619,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -58416,17 +58691,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -58435,9 +58710,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -58495,9 +58770,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -58567,17 +58842,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -58586,9 +58861,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -58646,9 +58921,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -58718,17 +58993,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -58737,9 +59012,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -58797,9 +59072,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -58869,17 +59144,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -58888,9 +59163,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -58948,9 +59223,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -59020,17 +59295,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -59039,9 +59314,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -59099,9 +59374,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -59171,17 +59446,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -59190,9 +59465,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -59250,9 +59525,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -59322,17 +59597,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -59341,9 +59616,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -59401,9 +59676,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -59473,17 +59748,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -59492,9 +59767,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -59552,9 +59827,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -59624,17 +59899,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -59643,9 +59918,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -59703,9 +59978,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -59775,17 +60050,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -59794,9 +60069,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -59854,9 +60129,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -59926,17 +60201,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -59945,9 +60220,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -60005,9 +60280,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -60077,17 +60352,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -60096,9 +60371,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -60156,9 +60431,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -60228,17 +60503,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -60247,9 +60522,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -60307,9 +60582,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -60379,17 +60654,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -60398,9 +60673,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -60458,9 +60733,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -60530,17 +60805,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -60549,9 +60824,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -60609,9 +60884,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -60681,17 +60956,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -60700,9 +60975,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -60760,9 +61035,9 @@
                             "Hair001baked_50"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -60832,17 +61107,17 @@
                         "targetNames": [],
                         "descriptors": {
                           "v": 1,
-                          "geomHash": "8650:214",
+                          "geomHash": "8650:151",
                           "bbox": {
                             "center": [
-                              0,
-                              1.65,
-                              -0.0404
+                              -0.0001,
+                              1.6991,
+                              -0.0413
                             ],
                             "size": [
-                              0.2262,
-                              0.2583,
-                              0.2554
+                              0.2299,
+                              0.2502,
+                              0.2535
                             ]
                           },
                           "region": {
@@ -60851,9 +61126,9 @@
                             "z": "center"
                           },
                           "shape": "blocky",
-                          "orientation": "vertical",
+                          "orientation": "horizontal",
                           "sizeRank": "largest",
-                          "volume": 0.0149,
+                          "volume": 0.0146,
                           "role": "leaf",
                           "childCount": 0,
                           "depth": 3,
@@ -60911,9 +61186,9 @@
                             "Hair001baked_49"
                           ],
                           "color": {
-                            "name": "gray",
-                            "base": "gray",
-                            "hex": "#9d9c9c"
+                            "name": "dark blue",
+                            "base": "blue",
+                            "hex": "#2b3036"
                           },
                           "materials": [
                             "N00_000_Hair_00_HAIR"
@@ -61029,6 +61304,6 @@
     "undos": [],
     "redos": []
   },
-  "backgroundType": "Default",
+  "backgroundType": "Color",
   "environmentType": "Default"
 }
