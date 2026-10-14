@@ -14,22 +14,22 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "4cc54641-6aac-49d3-86a4-b93805dd01ac",
+      "uuid": "4ae487f2-8a04-4055-9ac1-9b58cf4fb34c",
       "type": "PerspectiveCamera",
       "name": "Edit Camera",
       "layers": 1,
       "matrix": [
-        -0.9869588118482435,
-        3.4694469519536126e-18,
+        -0.9869588118482436,
+        1.3877787807814446e-17,
         -0.16097299063849815,
         0,
-        -0.04575979288915925,
+        -0.045759792889159254,
         0.958744264197683,
-        0.2805627865964812,
+        0.2805627865964813,
         0,
         0.15433193146540755,
         0.2842700052204619,
-        -0.9462410998588645,
+        -0.9462410998588646,
         0,
         0.9849393608977248,
         2.593702384329063,
@@ -46,7 +46,7 @@
       "near": 0.005,
       "far": 60,
       "focus": 10,
-      "aspect": 1.3566137566137566,
+      "aspect": 1.0746887966804979,
       "filmGauge": 35,
       "filmOffset": 0
     }
@@ -2674,7 +2674,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 122202,
               "offset": 0,
@@ -2700,7 +2700,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 33081,
                 "offset": 488808,
@@ -2712,7 +2712,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 33081,
                 "offset": 621136,
@@ -2724,7 +2724,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 44108,
                 "offset": 753464,
@@ -2736,7 +2736,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 27372,
               "offset": 929896,
@@ -2762,7 +2762,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 3102,
                 "offset": 1039384,
@@ -2774,7 +2774,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 3102,
                 "offset": 1051792,
@@ -2786,7 +2786,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 4136,
                 "offset": 1064200,
@@ -2798,7 +2798,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 2068,
                 "offset": 1080744,
@@ -2810,7 +2810,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 2068,
                 "offset": 1089016,
@@ -2822,7 +2822,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 2406,
               "offset": 1097288,
@@ -2848,7 +2848,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 5376,
                 "offset": 1106912,
@@ -2860,7 +2860,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 5376,
                 "offset": 1128416,
@@ -2872,7 +2872,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 7168,
                 "offset": 1149920,
@@ -2884,7 +2884,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 3584,
                 "offset": 1178592,
@@ -2896,7 +2896,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 3584,
                 "offset": 1192928,
@@ -2908,7 +2908,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 5544,
               "offset": 1207264,
@@ -2934,7 +2934,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 942,
                 "offset": 1229440,
@@ -2946,7 +2946,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 942,
                 "offset": 1233208,
@@ -2958,7 +2958,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 1256,
                 "offset": 1236976,
@@ -2970,7 +2970,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 628,
                 "offset": 1242000,
@@ -2982,7 +2982,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 628,
                 "offset": 1244512,
@@ -2994,7 +2994,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 948,
               "offset": 1247024,
@@ -3020,7 +3020,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 9618,
                 "offset": 1250816,
@@ -3032,7 +3032,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 9618,
                 "offset": 1289288,
@@ -3044,7 +3044,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 12824,
                 "offset": 1327760,
@@ -3056,7 +3056,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 8898,
               "offset": 1379056,
@@ -3082,7 +3082,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 1548,
                 "offset": 1414648,
@@ -3094,7 +3094,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 1548,
                 "offset": 1420840,
@@ -3106,7 +3106,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 2064,
                 "offset": 1427032,
@@ -3118,7 +3118,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 1032,
                 "offset": 1435288,
@@ -3130,7 +3130,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 1032,
                 "offset": 1439416,
@@ -3142,7 +3142,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 1152,
               "offset": 1443544,
@@ -3168,7 +3168,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 1548,
                 "offset": 1448152,
@@ -3180,7 +3180,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 1548,
                 "offset": 1454344,
@@ -3192,7 +3192,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 2064,
                 "offset": 1460536,
@@ -3204,7 +3204,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 1032,
                 "offset": 1468792,
@@ -3216,7 +3216,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 1032,
                 "offset": 1472920,
@@ -3228,7 +3228,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 1152,
               "offset": 1477048,
@@ -3254,7 +3254,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 216,
                 "offset": 1481656,
@@ -3266,7 +3266,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 216,
                 "offset": 1482520,
@@ -3278,7 +3278,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 288,
                 "offset": 1483384,
@@ -3290,7 +3290,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 144,
                 "offset": 1484536,
@@ -3302,7 +3302,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 144,
                 "offset": 1485112,
@@ -3314,7 +3314,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 138,
               "offset": 1485688,
@@ -3340,7 +3340,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 72,
                 "offset": 1486240,
@@ -3352,7 +3352,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 72,
                 "offset": 1486528,
@@ -3364,7 +3364,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 96,
                 "offset": 1486816,
@@ -3376,7 +3376,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 48,
                 "offset": 1487200,
@@ -3388,7 +3388,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 48,
                 "offset": 1487392,
@@ -3400,7 +3400,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 66,
               "offset": 1487584,
@@ -3426,7 +3426,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 474,
                 "offset": 1487848,
@@ -3438,7 +3438,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 474,
                 "offset": 1489744,
@@ -3450,7 +3450,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 632,
                 "offset": 1491640,
@@ -3462,7 +3462,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 316,
                 "offset": 1494168,
@@ -3474,7 +3474,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 316,
                 "offset": 1495432,
@@ -3486,7 +3486,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 612,
               "offset": 1496696,
@@ -3512,7 +3512,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1499144,
@@ -3524,7 +3524,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1499496,
@@ -3536,7 +3536,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1499848,
@@ -3548,7 +3548,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1500312,
@@ -3560,7 +3560,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1500544,
@@ -3572,7 +3572,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1500776,
@@ -3598,7 +3598,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1501136,
@@ -3610,7 +3610,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1501488,
@@ -3622,7 +3622,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1501840,
@@ -3634,7 +3634,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1502304,
@@ -3646,7 +3646,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1502536,
@@ -3658,7 +3658,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1502768,
@@ -3684,7 +3684,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1503128,
@@ -3696,7 +3696,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1503480,
@@ -3708,7 +3708,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1503832,
@@ -3720,7 +3720,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1504296,
@@ -3732,7 +3732,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1504528,
@@ -3744,7 +3744,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1504760,
@@ -3770,7 +3770,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1505120,
@@ -3782,7 +3782,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1505472,
@@ -3794,7 +3794,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1505824,
@@ -3806,7 +3806,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1506288,
@@ -3818,7 +3818,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1506520,
@@ -3830,7 +3830,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1506752,
@@ -3856,7 +3856,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1507112,
@@ -3868,7 +3868,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1507464,
@@ -3880,7 +3880,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1507816,
@@ -3892,7 +3892,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1508280,
@@ -3904,7 +3904,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1508512,
@@ -3916,7 +3916,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1508744,
@@ -3942,7 +3942,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1509104,
@@ -3954,7 +3954,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1509456,
@@ -3966,7 +3966,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1509808,
@@ -3978,7 +3978,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1510272,
@@ -3990,7 +3990,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1510504,
@@ -4002,7 +4002,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1510736,
@@ -4028,7 +4028,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1511096,
@@ -4040,7 +4040,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1511448,
@@ -4052,7 +4052,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1511800,
@@ -4064,7 +4064,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1512264,
@@ -4076,7 +4076,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1512496,
@@ -4088,7 +4088,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1512728,
@@ -4114,7 +4114,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1513088,
@@ -4126,7 +4126,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1513440,
@@ -4138,7 +4138,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1513792,
@@ -4150,7 +4150,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1514256,
@@ -4162,7 +4162,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1514488,
@@ -4174,7 +4174,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1514720,
@@ -4200,7 +4200,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1515080,
@@ -4212,7 +4212,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1515432,
@@ -4224,7 +4224,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1515784,
@@ -4236,7 +4236,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1516248,
@@ -4248,7 +4248,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1516480,
@@ -4260,7 +4260,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1516712,
@@ -4286,7 +4286,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1517072,
@@ -4298,7 +4298,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1517424,
@@ -4310,7 +4310,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1517776,
@@ -4322,7 +4322,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1518240,
@@ -4334,7 +4334,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1518472,
@@ -4346,7 +4346,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1518704,
@@ -4372,7 +4372,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1519064,
@@ -4384,7 +4384,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1519416,
@@ -4396,7 +4396,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1519768,
@@ -4408,7 +4408,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1520232,
@@ -4420,7 +4420,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1520464,
@@ -4432,7 +4432,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1520696,
@@ -4458,7 +4458,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1521056,
@@ -4470,7 +4470,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 87,
                 "offset": 1521408,
@@ -4482,7 +4482,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 116,
                 "offset": 1521760,
@@ -4494,7 +4494,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1522224,
@@ -4506,7 +4506,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 58,
                 "offset": 1522456,
@@ -4518,7 +4518,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 90,
               "offset": 1522688,
@@ -4544,7 +4544,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 462,
                 "offset": 1523048,
@@ -4556,7 +4556,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 462,
                 "offset": 1524896,
@@ -4568,7 +4568,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 616,
                 "offset": 1526744,
@@ -4580,7 +4580,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 308,
                 "offset": 1529208,
@@ -4592,7 +4592,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 308,
                 "offset": 1530440,
@@ -4604,7 +4604,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 384,
               "offset": 1531672,
@@ -4630,7 +4630,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 48,
                 "offset": 1533208,
@@ -4642,7 +4642,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 48,
                 "offset": 1533400,
@@ -4654,7 +4654,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 64,
                 "offset": 1533592,
@@ -4666,7 +4666,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 32,
                 "offset": 1533848,
@@ -4678,7 +4678,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 32,
                 "offset": 1533976,
@@ -4690,7 +4690,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 42,
               "offset": 1534104,
@@ -4716,7 +4716,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 342,
                 "offset": 1534272,
@@ -4728,7 +4728,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 342,
                 "offset": 1535640,
@@ -4740,7 +4740,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 456,
                 "offset": 1537008,
@@ -4752,7 +4752,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 228,
                 "offset": 1538832,
@@ -4764,7 +4764,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 228,
                 "offset": 1539744,
@@ -4776,7 +4776,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 348,
               "offset": 1540656,
@@ -4802,7 +4802,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 351,
                 "offset": 1542048,
@@ -4814,7 +4814,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 351,
                 "offset": 1543456,
@@ -4826,7 +4826,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 468,
                 "offset": 1544864,
@@ -4838,7 +4838,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 234,
                 "offset": 1546736,
@@ -4850,7 +4850,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 234,
                 "offset": 1547672,
@@ -4862,7 +4862,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 348,
               "offset": 1548608,
@@ -4888,7 +4888,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 465,
                 "offset": 1550000,
@@ -4900,7 +4900,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 465,
                 "offset": 1551864,
@@ -4912,7 +4912,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 620,
                 "offset": 1553728,
@@ -4924,7 +4924,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 310,
                 "offset": 1556208,
@@ -4936,7 +4936,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 310,
                 "offset": 1557448,
@@ -4948,7 +4948,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 540,
               "offset": 1558688,
@@ -4974,7 +4974,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 465,
                 "offset": 1560848,
@@ -4986,7 +4986,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 465,
                 "offset": 1562712,
@@ -4998,7 +4998,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 620,
                 "offset": 1564576,
@@ -5010,7 +5010,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 310,
                 "offset": 1567056,
@@ -5022,7 +5022,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 310,
                 "offset": 1568296,
@@ -5034,7 +5034,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 540,
               "offset": 1569536,
@@ -5060,7 +5060,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 465,
                 "offset": 1571696,
@@ -5072,7 +5072,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 465,
                 "offset": 1573560,
@@ -5084,7 +5084,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 620,
                 "offset": 1575424,
@@ -5096,7 +5096,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 310,
                 "offset": 1577904,
@@ -5108,7 +5108,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 310,
                 "offset": 1579144,
@@ -5120,7 +5120,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 540,
               "offset": 1580384,
@@ -5146,7 +5146,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 513,
                 "offset": 1582544,
@@ -5158,7 +5158,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 513,
                 "offset": 1584600,
@@ -5170,7 +5170,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 684,
                 "offset": 1586656,
@@ -5182,7 +5182,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 342,
                 "offset": 1589392,
@@ -5194,7 +5194,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 342,
                 "offset": 1590760,
@@ -5206,7 +5206,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 195,
               "offset": 1592128,
@@ -5232,7 +5232,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 507,
                 "offset": 1592912,
@@ -5244,7 +5244,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 507,
                 "offset": 1594944,
@@ -5256,7 +5256,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 676,
                 "offset": 1596976,
@@ -5268,7 +5268,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 338,
                 "offset": 1599680,
@@ -5280,7 +5280,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 338,
                 "offset": 1601032,
@@ -5292,7 +5292,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 195,
               "offset": 1602384,
@@ -5318,7 +5318,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 507,
                 "offset": 1603168,
@@ -5330,7 +5330,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 507,
                 "offset": 1605200,
@@ -5342,7 +5342,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 676,
                 "offset": 1607232,
@@ -5354,7 +5354,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 338,
                 "offset": 1609936,
@@ -5366,7 +5366,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 338,
                 "offset": 1611288,
@@ -5378,7 +5378,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 195,
               "offset": 1612640,
@@ -5404,7 +5404,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 7737,
                 "offset": 1613424,
@@ -5416,7 +5416,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 7737,
                 "offset": 1644376,
@@ -5428,7 +5428,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 10316,
                 "offset": 1675328,
@@ -5440,7 +5440,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 5158,
                 "offset": 1716592,
@@ -5452,7 +5452,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 5158,
                 "offset": 1737224,
@@ -5464,7 +5464,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 4581,
               "offset": 1757856,
@@ -5490,7 +5490,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 7254,
                 "offset": 1776184,
@@ -5502,7 +5502,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 7254,
                 "offset": 1805200,
@@ -5514,7 +5514,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 9672,
                 "offset": 1834216,
@@ -5526,7 +5526,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 4836,
                 "offset": 1872904,
@@ -5538,7 +5538,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 5022,
               "offset": 1892248,
@@ -5564,7 +5564,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 7254,
                 "offset": 1912336,
@@ -5576,7 +5576,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 7254,
                 "offset": 1941352,
@@ -5588,7 +5588,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 9672,
                 "offset": 1970368,
@@ -5600,7 +5600,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 4836,
                 "offset": 2009056,
@@ -5612,7 +5612,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 5022,
               "offset": 2028400,
@@ -5638,7 +5638,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 7254,
                 "offset": 2048488,
@@ -5650,7 +5650,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 7254,
                 "offset": 2077504,
@@ -5662,7 +5662,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 9672,
                 "offset": 2106520,
@@ -5674,7 +5674,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 4836,
                 "offset": 2145208,
@@ -5686,7 +5686,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 5022,
               "offset": 2164552,
@@ -5712,7 +5712,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 510,
                 "offset": 2184640,
@@ -5724,7 +5724,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 510,
                 "offset": 2186680,
@@ -5736,7 +5736,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 680,
                 "offset": 2188720,
@@ -5748,7 +5748,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 340,
                 "offset": 2191440,
@@ -5760,7 +5760,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 408,
               "offset": 2192800,
@@ -5786,7 +5786,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 42,
                 "offset": 2194432,
@@ -5798,7 +5798,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 42,
                 "offset": 2194600,
@@ -5810,7 +5810,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 56,
                 "offset": 2194768,
@@ -5822,7 +5822,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 28,
                 "offset": 2194992,
@@ -5834,7 +5834,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 36,
               "offset": 2195104,
@@ -5860,7 +5860,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 42,
                 "offset": 2195248,
@@ -5872,7 +5872,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 42,
                 "offset": 2195416,
@@ -5884,7 +5884,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 56,
                 "offset": 2195584,
@@ -5896,7 +5896,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 28,
                 "offset": 2195808,
@@ -5908,7 +5908,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 36,
               "offset": 2195920,
@@ -5934,7 +5934,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 42,
                 "offset": 2196064,
@@ -5946,7 +5946,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 42,
                 "offset": 2196232,
@@ -5958,7 +5958,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 56,
                 "offset": 2196400,
@@ -5970,7 +5970,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 28,
                 "offset": 2196624,
@@ -5982,7 +5982,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 36,
               "offset": 2196736,
@@ -6008,7 +6008,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 42,
                 "offset": 2196880,
@@ -6020,7 +6020,7 @@
               "itemSize": 3,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 42,
                 "offset": 2197048,
@@ -6032,7 +6032,7 @@
               "itemSize": 4,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 56,
                 "offset": 2197216,
@@ -6044,7 +6044,7 @@
               "itemSize": 2,
               "type": "Float32Array",
               "array": {
-                "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
                 "dtype": "Float32Array",
                 "length": 28,
                 "offset": 2197440,
@@ -6056,7 +6056,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 36,
               "offset": 2197552,
@@ -6591,28 +6591,40 @@
               "data": "8883c87c-7081-4c9e-bc91-d8d4334c1674",
               "offset": 3,
               "normalized": false
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
+                "dtype": "Float32Array",
+                "length": 20649,
+                "offset": 2197696,
+                "bytes": 82596
+              },
+              "normalized": false
             }
           },
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 34812,
-              "offset": 2197696,
+              "offset": 2280296,
               "bytes": 139248
             }
           },
           "interleavedBuffers": {
             "8883c87c-7081-4c9e-bc91-d8d4334c1674": {
               "uuid": "8883c87c-7081-4c9e-bc91-d8d4334c1674",
-              "buffer": "47688baf-a830-4ce4-b0bc-ef58d4b3e800",
+              "buffer": "8feb5972-1e79-4830-96d3-2ad648e89636",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "47688baf-a830-4ce4-b0bc-ef58d4b3e800": [
+            "8feb5972-1e79-4830-96d3-2ad648e89636": [
               1056643921,
               1055955675,
               3177566056,
@@ -41058,28 +41070,40 @@
               "data": "c60b6ee6-a246-444a-b920-5b070e829c76",
               "offset": 3,
               "normalized": false
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
+                "dtype": "Float32Array",
+                "length": 22863,
+                "offset": 2419544,
+                "bytes": 91452
+              },
+              "normalized": false
             }
           },
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 31278,
-              "offset": 2336944,
+              "offset": 2511000,
               "bytes": 125112
             }
           },
           "interleavedBuffers": {
             "c60b6ee6-a246-444a-b920-5b070e829c76": {
               "uuid": "c60b6ee6-a246-444a-b920-5b070e829c76",
-              "buffer": "be6c4c70-68e5-4ea5-a596-e992cadced20",
+              "buffer": "c24f856c-77cf-4bea-9651-9d9ec0b49b37",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "be6c4c70-68e5-4ea5-a596-e992cadced20": [
+            "c24f856c-77cf-4bea-9651-9d9ec0b49b37": [
               3193701261,
               3152744263,
               1009460256,
@@ -79215,28 +79239,40 @@
               "data": "45d7bf97-404f-49a6-a431-06b1cbb9fca9",
               "offset": 3,
               "normalized": false
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
+                "dtype": "Float32Array",
+                "length": 19461,
+                "offset": 2636112,
+                "bytes": 77844
+              },
+              "normalized": false
             }
           },
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 27870,
-              "offset": 2462056,
+              "offset": 2713960,
               "bytes": 111480
             }
           },
           "interleavedBuffers": {
             "45d7bf97-404f-49a6-a431-06b1cbb9fca9": {
               "uuid": "45d7bf97-404f-49a6-a431-06b1cbb9fca9",
-              "buffer": "0b2c1301-42ad-4175-95a7-17780d6e7f64",
+              "buffer": "17d29e3c-28df-4426-9489-45d5cac43543",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "0b2c1301-42ad-4175-95a7-17780d6e7f64": [
+            "17d29e3c-28df-4426-9489-45d5cac43543": [
               3193814472,
               3175312227,
               1022531241,
@@ -111702,28 +111738,40 @@
               "data": "4053482f-96cf-40ab-93a7-5b142764c154",
               "offset": 3,
               "normalized": false
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
+                "dtype": "Float32Array",
+                "length": 24195,
+                "offset": 2825440,
+                "bytes": 96780
+              },
+              "normalized": false
             }
           },
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 40824,
-              "offset": 2573536,
+              "offset": 2922224,
               "bytes": 163296
             }
           },
           "interleavedBuffers": {
             "4053482f-96cf-40ab-93a7-5b142764c154": {
               "uuid": "4053482f-96cf-40ab-93a7-5b142764c154",
-              "buffer": "02a05e2f-14c9-48c1-ad1f-ea8b630d5c18",
+              "buffer": "22d08218-a4bb-4270-a8de-d06726b26449",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "02a05e2f-14c9-48c1-ad1f-ea8b630d5c18": [
+            "22d08218-a4bb-4270-a8de-d06726b26449": [
               3196348043,
               3180928102,
               3176576597,
@@ -152079,28 +152127,40 @@
               "data": "6b6ce673-ab68-442d-99ff-4760d1599f9c",
               "offset": 3,
               "normalized": false
+            },
+            "normal": {
+              "itemSize": 3,
+              "type": "Float32Array",
+              "array": {
+                "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
+                "dtype": "Float32Array",
+                "length": 104538,
+                "offset": 3085520,
+                "bytes": 418152
+              },
+              "normalized": false
             }
           },
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-e06db23c1dacca8445d6f052658c30f2ef302ab5.bin",
+              "$bin": "assets/pack-e1a145bac4734e8dda473da2631d7215c48de323.bin",
               "dtype": "Uint32Array",
               "length": 136218,
-              "offset": 2736832,
+              "offset": 3503672,
               "bytes": 544872
             }
           },
           "interleavedBuffers": {
             "6b6ce673-ab68-442d-99ff-4760d1599f9c": {
               "uuid": "6b6ce673-ab68-442d-99ff-4760d1599f9c",
-              "buffer": "571a7bc5-25e6-4d5f-a659-c2accf4b7460",
+              "buffer": "812380ce-e93b-4e9a-ba04-b90e0b2b7c89",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "571a7bc5-25e6-4d5f-a659-c2accf4b7460": [
+            "812380ce-e93b-4e9a-ba04-b90e0b2b7c89": [
               1036455115,
               1036226730,
               1048176669,
@@ -321234,83 +321294,4 @@
               3201891793,
               1042190215,
               3193536899,
-              1062504991,
-              1027050880,
-              3202025352,
-              1042228681,
-              3193620644,
-              1062471684,
-              1026938032,
-              3202022405,
-              1041986863,
-              3193573357,
-              1062469647,
-              1027290848,
-              3201873354,
-              1041400887,
-              3193322283,
-              1062502374,
-              1028225296,
-              3201956520,
-              1041438159,
-              3193651902,
-              1062458171,
-              1028097248,
-              3201970556,
-              1048906041,
-              3192982561,
-              1064299763,
-              1059833996,
-              3201858608,
-              1048921069,
-              3193165853,
-              1064287843,
-              1059864280,
-              3201763450,
-              1048943535,
-              3192771995,
-              1064252943,
-              1059833996,
-              3201841112,
-              1049036728,
-              3192472907,
-              1034333119,
-              1055055332,
-              3201791841,
-              1048885325,
-              3192079075,
-              1034221505,
-              1054965872,
-              3201764653,
-              1048684022,
-              3191129977,
-              1034284441,
-              1054761500,
-              3201870715,
-              1040168141,
-              3191935108,
-              1053474455,
-              1033243344,
-              3201973221,
-              1014794401,
-              3190383549,
-              1060904242,
-              1062592946,
-              3201762907,
-              1047370530,
-              3190461436,
-              1033667431,
-              1054471298,
-              3201771366,
-              1044301426,
-              3190058075,
-              1032096535,
-              1053983588,
-              3201769518,
-              1040700038,
-              3189034538,
-              1029504065,
-              1053351070,
-              3201791954,
-              1036758936,
-   
+              1062504991
