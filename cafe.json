@@ -14,26 +14,26 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "e7706eb8-9766-49ea-9038-e2ae633351d0",
+      "uuid": "bdf4472b-a3cd-4e94-8d72-8bc8ca098541",
       "type": "PerspectiveCamera",
       "name": "Edit Camera",
       "layers": 1,
       "matrix": [
-        -0.04657954316933566,
-        -2.7755575615628914e-17,
-        -0.9989145840151379,
+        1.1102230246251564e-16,
+        -2.775557561562891e-17,
+        0.9999999999999999,
         0,
-        -0.2213877807923209,
-        0.975131211184588,
-        0.010323346818233074,
+        0.2719570052259475,
+        0.962309403107199,
+        -2.775557561562891e-17,
         0,
-        0.9740727881806304,
-        0.2216283397349677,
-        -0.04542116634713911,
+        -0.9623094031071993,
+        0.27195700522594757,
+        1.1102230246251565e-16,
         0,
-        5.026694697987114,
-        1.6155881421435905,
-        -0.23439977337701107,
+        0,
+        0.22,
+        0.105,
         1
       ],
       "up": [
@@ -46,7 +46,7 @@
       "near": 0.005,
       "far": 60,
       "focus": 10,
-      "aspect": 1.0881578947368422,
+      "aspect": 1.2764976958525345,
       "filmGauge": 35,
       "filmOffset": 0
     }
@@ -6198,273 +6198,6 @@
         "thetaLength": 6.283185307179586
       },
       {
-        "uuid": "b838e257-4130-49ab-8994-64afdb872c25",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.05,
-        "radiusBottom": 0.05,
-        "height": 0.006,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "ad53dec2-6a01-41f3-bb48-ed498395651c",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.006,
-        "radiusBottom": 0.006,
-        "height": 0.07,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "923bffd5-2292-4d1b-8aa1-0d0deaabbdc2",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.025,
-        "radiusBottom": 0.025,
-        "height": 0.004,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "a45153d7-3324-4f89-b2de-0dd15275596d",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.009,
-        "radiusBottom": 0.007,
-        "height": 0.012,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "55fe6189-879a-4da8-a723-06340d9989df",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.0078,
-        "radiusBottom": 0.0078,
-        "height": 0.0006,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "6d4559c2-9e2d-4deb-8f2e-9862f7bb6566",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.014,
-        "radiusBottom": 0.014,
-        "height": 0.0016,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "5992ce12-9c7a-41a3-8fca-11dd903444a3",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.009,
-        "radiusBottom": 0.007,
-        "height": 0.012,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "9ec2e713-59b3-4c86-864f-73219a3c8829",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.0078,
-        "radiusBottom": 0.0078,
-        "height": 0.0006,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "a4ac05b8-dd31-41ff-9ed0-ecf5b46635e7",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.014,
-        "radiusBottom": 0.014,
-        "height": 0.0016,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "55010da4-af24-42e1-98d0-9fdaf5ecc930",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.013,
-        "radiusBottom": 0.013,
-        "height": 0.002,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "6a24256d-4543-4be2-a2ec-e9c29cf308c3",
-        "type": "SphereGeometry",
-        "radius": 0.0075,
-        "widthSegments": 12,
-        "heightSegments": 8,
-        "phiStart": 0,
-        "phiLength": 6.283185307179586,
-        "thetaStart": 0,
-        "thetaLength": 3.141592653589793
-      },
-      {
-        "uuid": "75c8f531-044f-41d2-8ac7-cce58d0bd599",
-        "type": "BoxGeometry",
-        "width": 0.05,
-        "height": 0.006,
-        "depth": 0.05,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "30c06672-6cc8-49d8-8132-dc5e4a46cf94",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.0025,
-        "radiusBottom": 0.0025,
-        "height": 0.04,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "5abdd43e-7e61-4452-9111-acc26871ff2f",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.0025,
-        "radiusBottom": 0.0025,
-        "height": 0.04,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "5837ea64-18cc-4d3b-8f51-f7c277395c83",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.0025,
-        "radiusBottom": 0.0025,
-        "height": 0.04,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "6f3bb9a3-9111-41fc-badd-35a188698acd",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.0025,
-        "radiusBottom": 0.0025,
-        "height": 0.04,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "7187ba4e-4720-4c2e-9085-6586ee867984",
-        "type": "BoxGeometry",
-        "width": 0.05,
-        "height": 0.042,
-        "depth": 0.005,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "b672572e-b149-4833-a4d2-888c07246931",
-        "type": "BoxGeometry",
-        "width": 0.05,
-        "height": 0.006,
-        "depth": 0.05,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
-        "uuid": "ee6b19bd-35d9-4c72-92a4-e2be9be161b1",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.0025,
-        "radiusBottom": 0.0025,
-        "height": 0.04,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "f0acc85c-1c00-463a-ab49-905517071329",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.0025,
-        "radiusBottom": 0.0025,
-        "height": 0.04,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "d4a8f8d8-c164-454e-a014-b0e8f02d36fb",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.0025,
-        "radiusBottom": 0.0025,
-        "height": 0.04,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "adaf488a-ae74-4a38-bac4-f2b6a9d92617",
-        "type": "CylinderGeometry",
-        "radiusTop": 0.0025,
-        "radiusBottom": 0.0025,
-        "height": 0.04,
-        "radialSegments": 24,
-        "heightSegments": 1,
-        "openEnded": false,
-        "thetaStart": 0,
-        "thetaLength": 6.283185307179586
-      },
-      {
-        "uuid": "75c0fba1-3ab7-4932-95ea-f9b3b7b8b7e3",
-        "type": "BoxGeometry",
-        "width": 0.05,
-        "height": 0.042,
-        "depth": 0.005,
-        "widthSegments": 1,
-        "heightSegments": 1,
-        "depthSegments": 1
-      },
-      {
         "uuid": "f445527a-9a8f-4902-9be2-2f7f3612eeaf",
         "type": "CylinderGeometry",
         "radiusTop": 0.0012,
@@ -6959,13 +6692,13 @@
           "interleavedBuffers": {
             "8883c87c-7081-4c9e-bc91-d8d4334c1674": {
               "uuid": "8883c87c-7081-4c9e-bc91-d8d4334c1674",
-              "buffer": "713ef3c6-a5af-48f1-96da-b75150d35025",
+              "buffer": "7ec32e00-1641-46d1-bf4d-fa10034889d3",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "713ef3c6-a5af-48f1-96da-b75150d35025": [
+            "7ec32e00-1641-46d1-bf4d-fa10034889d3": [
               1056643921,
               1055955675,
               3177566056,
@@ -41426,13 +41159,13 @@
           "interleavedBuffers": {
             "c60b6ee6-a246-444a-b920-5b070e829c76": {
               "uuid": "c60b6ee6-a246-444a-b920-5b070e829c76",
-              "buffer": "c4ef4a1b-7d60-4210-81bc-0d1833000ac9",
+              "buffer": "71bab7a2-3f5f-4dcd-a1af-7173c10e1143",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "c4ef4a1b-7d60-4210-81bc-0d1833000ac9": [
+            "71bab7a2-3f5f-4dcd-a1af-7173c10e1143": [
               3193701261,
               3152744263,
               1009460256,
@@ -79583,13 +79316,13 @@
           "interleavedBuffers": {
             "45d7bf97-404f-49a6-a431-06b1cbb9fca9": {
               "uuid": "45d7bf97-404f-49a6-a431-06b1cbb9fca9",
-              "buffer": "f8680733-c284-4e91-a8b9-4ae250711d32",
+              "buffer": "bb9c97dc-97cb-4e7a-9df7-ca3c09a7a06e",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "f8680733-c284-4e91-a8b9-4ae250711d32": [
+            "bb9c97dc-97cb-4e7a-9df7-ca3c09a7a06e": [
               3193814472,
               3175312227,
               1022531241,
@@ -112036,6 +111769,78 @@
             ]
           }
         }
+      },
+      {
+        "uuid": "a45153d7-3324-4f89-b2de-0dd15275596d",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.007,
+        "height": 0.012,
+        "radialSegments": 24,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "55fe6189-879a-4da8-a723-06340d9989df",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.0078,
+        "radiusBottom": 0.0078,
+        "height": 0.0006,
+        "radialSegments": 24,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "6d4559c2-9e2d-4deb-8f2e-9862f7bb6566",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.014,
+        "radiusBottom": 0.014,
+        "height": 0.0016,
+        "radialSegments": 24,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "5992ce12-9c7a-41a3-8fca-11dd903444a3",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.007,
+        "height": 0.012,
+        "radialSegments": 24,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "9ec2e713-59b3-4c86-864f-73219a3c8829",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.0078,
+        "radiusBottom": 0.0078,
+        "height": 0.0006,
+        "radialSegments": 24,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      {
+        "uuid": "a4ac05b8-dd31-41ff-9ed0-ecf5b46635e7",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.014,
+        "radiusBottom": 0.014,
+        "height": 0.0016,
+        "radialSegments": 24,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
       }
     ],
     "materials": [
@@ -112424,374 +112229,6 @@
         "transparent": true,
         "blendColor": 0,
         "depthWrite": false
-      },
-      {
-        "uuid": "602ebade-a4f0-47c7-a65f-ba39a9f2a0c4",
-        "type": "MeshStandardMaterial",
-        "color": 11565642,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "f58828ac-814d-49ce-b19f-94a551ab1592",
-        "type": "MeshStandardMaterial",
-        "color": 4864560,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "35bc8578-c9e1-4ddf-9a32-b78c8fc5f3a5",
-        "type": "MeshStandardMaterial",
-        "color": 4864560,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "d4acd437-82f9-4e21-a3b9-a53eedd941df",
-        "type": "MeshStandardMaterial",
-        "color": 15986146,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "7bcdbf18-cbff-4ac0-8a52-8b69f1584403",
-        "type": "MeshStandardMaterial",
-        "color": 3810328,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "982e096c-61c1-4f01-9015-ba600f1c1810",
-        "type": "MeshStandardMaterial",
-        "color": 15986146,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "3052dece-8bfd-4b63-94c7-0ebc9e884023",
-        "type": "MeshStandardMaterial",
-        "color": 15986146,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "a719accc-12b5-4bec-8290-0c32867f35c0",
-        "type": "MeshStandardMaterial",
-        "color": 3810328,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "1dc71ca1-b744-4421-8496-87f0d2632e73",
-        "type": "MeshStandardMaterial",
-        "color": 15986146,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "751b7e6a-ac37-4fbc-9bd6-5c113eddd47e",
-        "type": "MeshStandardMaterial",
-        "color": 15261904,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "9d7a5192-53b3-431f-81e9-a93ed97307f8",
-        "type": "MeshStandardMaterial",
-        "color": 14260827,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "818683f1-25cb-4b92-96e2-abe3d0b23aa5",
-        "type": "MeshStandardMaterial",
-        "color": 4165516,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "d6a4eef6-e4c1-4a46-9bc9-38ea25f8bf95",
-        "type": "MeshStandardMaterial",
-        "color": 3352874,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "3e6853e4-41be-4de8-b2a4-5ce59abb6c1e",
-        "type": "MeshStandardMaterial",
-        "color": 3352874,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "813c1cf8-c4b0-4db8-8b6b-d2edc19b8bd9",
-        "type": "MeshStandardMaterial",
-        "color": 3352874,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "fea7eb29-1a74-4921-8942-a5f77a7d3b69",
-        "type": "MeshStandardMaterial",
-        "color": 3352874,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "61b69526-cb40-4c19-b7e8-78c10ef92e4e",
-        "type": "MeshStandardMaterial",
-        "color": 4165516,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "364ecbf2-a3d8-49bd-a42b-59a661661947",
-        "type": "MeshStandardMaterial",
-        "color": 12869711,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "1d462a29-ac4c-413a-a22d-7002ea0cad61",
-        "type": "MeshStandardMaterial",
-        "color": 3352874,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "9cee7c01-52de-484c-87a6-e81da44b75de",
-        "type": "MeshStandardMaterial",
-        "color": 3352874,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "c4463282-65ff-4d8e-99ea-e86eb53f7413",
-        "type": "MeshStandardMaterial",
-        "color": 3352874,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "d7b8eae1-98db-4e76-803a-0240a95da27d",
-        "type": "MeshStandardMaterial",
-        "color": 3352874,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
-      },
-      {
-        "uuid": "7006f9fc-07b9-4eb5-8c55-9971bfd7a538",
-        "type": "MeshStandardMaterial",
-        "color": 12869711,
-        "roughness": 0.85,
-        "metalness": 0,
-        "emissive": 0,
-        "envMapRotation": [
-          0,
-          0,
-          0,
-          "XYZ"
-        ],
-        "envMapIntensity": 1,
-        "blendColor": 0
       },
       {
         "uuid": "d209b642-53c4-4476-b2f6-b12acdca7a02",
@@ -113450,7 +112887,7 @@
         "uuid": "b06bdbc8-b583-4bd5-bc26-b663a55a57ca",
         "type": "MeshBasicMaterial",
         "color": 16777215,
-        "map": "8831bab2-76fe-4f56-9333-446adeaa93ff",
+        "map": "fbe97fd1-6e99-4b66-a2dc-c59afb8bb86c",
         "envMapRotation": [
           0,
           0,
@@ -113517,13 +112954,109 @@
         "envMapIntensity": 1,
         "blendColor": 0,
         "flatShading": true
+      },
+      {
+        "uuid": "d4acd437-82f9-4e21-a3b9-a53eedd941df",
+        "type": "MeshStandardMaterial",
+        "color": 15986146,
+        "roughness": 0.85,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "7bcdbf18-cbff-4ac0-8a52-8b69f1584403",
+        "type": "MeshStandardMaterial",
+        "color": 3810328,
+        "roughness": 0.85,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "982e096c-61c1-4f01-9015-ba600f1c1810",
+        "type": "MeshStandardMaterial",
+        "color": 15986146,
+        "roughness": 0.85,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "3052dece-8bfd-4b63-94c7-0ebc9e884023",
+        "type": "MeshStandardMaterial",
+        "color": 15986146,
+        "roughness": 0.85,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "a719accc-12b5-4bec-8290-0c32867f35c0",
+        "type": "MeshStandardMaterial",
+        "color": 3810328,
+        "roughness": 0.85,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
+      },
+      {
+        "uuid": "1dc71ca1-b744-4421-8496-87f0d2632e73",
+        "type": "MeshStandardMaterial",
+        "color": 15986146,
+        "roughness": 0.85,
+        "metalness": 0,
+        "emissive": 0,
+        "envMapRotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "envMapIntensity": 1,
+        "blendColor": 0
       }
     ],
     "textures": [
       {
         "uuid": "32d8181b-243b-4d60-8bbf-226cdded6099",
         "name": "baseColor.jpg",
-        "image": "1b4a185d-b75a-4946-ba04-133c0e639391",
+        "image": "60fcf004-4c89-461f-8f08-f02bdcfc698e",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -113562,7 +113095,7 @@
       {
         "uuid": "5ce72749-b49e-4792-9fe7-1996707d55d4",
         "name": "metallicRoughness.png",
-        "image": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "image": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "mapping": 300,
         "channel": 1,
         "repeat": [
@@ -113601,7 +113134,7 @@
       {
         "uuid": "953a397e-1adc-4720-ae5c-cfec7bfbdf98",
         "name": "metallicRoughness.png",
-        "image": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "image": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "mapping": 300,
         "channel": 1,
         "repeat": [
@@ -113640,7 +113173,7 @@
       {
         "uuid": "21c8969f-1f1b-41f9-9329-35e916bbe01f",
         "name": "metallicRoughness.png",
-        "image": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "image": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "mapping": 300,
         "channel": 1,
         "repeat": [
@@ -113679,7 +113212,7 @@
       {
         "uuid": "f224528d-c382-4b25-9fb5-4013193c6793",
         "name": "metallicRoughness.png",
-        "image": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "image": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "mapping": 300,
         "channel": 1,
         "repeat": [
@@ -113718,7 +113251,7 @@
       {
         "uuid": "a94ac0b2-e715-4128-936e-7fd39580d4b6",
         "name": "alpha_baseColor.png",
-        "image": "bf9841ce-09de-4167-8bda-98fa7c60d59e",
+        "image": "b7199b26-d7cd-4c4e-908e-6a6c7f528d31",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -113757,7 +113290,7 @@
       {
         "uuid": "380f8976-145b-43af-8739-031e9a8b33e8",
         "name": "metallicRoughness.png",
-        "image": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "image": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "mapping": 300,
         "channel": 1,
         "repeat": [
@@ -113796,7 +113329,7 @@
       {
         "uuid": "c706a14d-9335-465b-8450-e1f1116004b1",
         "name": "metallicRoughness.png",
-        "image": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "image": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "mapping": 300,
         "channel": 1,
         "repeat": [
@@ -113835,7 +113368,7 @@
       {
         "uuid": "44e5002d-bc63-488f-b5c6-6ac0b6b7c14f",
         "name": "metallicRoughness.png",
-        "image": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "image": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "mapping": 300,
         "channel": 1,
         "repeat": [
@@ -113874,7 +113407,7 @@
       {
         "uuid": "1a5d3b00-fc94-4cb9-ad46-bf375e8c840f",
         "name": "metallicRoughness.png",
-        "image": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "image": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -113913,7 +113446,7 @@
       {
         "uuid": "b9f40b79-0601-4422-94c9-53064fe22e4f",
         "name": "interiors_baseColor.jpg",
-        "image": "189f4c8a-7566-48ad-8b0e-5eb4310b5144",
+        "image": "8a3253cb-c12a-44d9-990e-5053a73b3119",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -113952,7 +113485,7 @@
       {
         "uuid": "bfce5455-a341-441c-9507-eba682e4c4fa",
         "name": "metallicRoughness.png",
-        "image": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "image": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "mapping": 300,
         "channel": 1,
         "repeat": [
@@ -113991,7 +113524,7 @@
       {
         "uuid": "89bb61dc-82a2-4433-a051-6ef269a36058",
         "name": "metallicRoughness.png",
-        "image": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "image": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "mapping": 300,
         "channel": 1,
         "repeat": [
@@ -114030,7 +113563,7 @@
       {
         "uuid": "2c1bd6f4-bbc0-47eb-8763-7d4f68438e44",
         "name": "",
-        "image": "bcfdd9d1-a486-4a24-825e-6071974dc0ce",
+        "image": "8b9ec5d2-c986-4c8d-9324-0e7d5996c7d4",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -114066,7 +113599,7 @@
       {
         "uuid": "bf81b57f-d1ce-4cd9-a367-51b9e40f970b",
         "name": "",
-        "image": "f2ce2777-d14d-45dc-8986-19df334f5a0b",
+        "image": "aac8c3b5-607c-4f8e-bec2-09a38ba3b349",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -114102,7 +113635,7 @@
       {
         "uuid": "c6dfa968-0839-440a-8bb4-b3c713052139",
         "name": "",
-        "image": "2662b6f9-f214-4a48-a589-585af7c7f25e",
+        "image": "d5292b86-d20a-4172-bfdc-1f1fb6986002",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -114138,7 +113671,7 @@
       {
         "uuid": "70fc5133-1a1f-4c11-8df7-2d1a625cd176",
         "name": "",
-        "image": "c5a5b731-9d4e-40d3-95e2-3c8893d60165",
+        "image": "4bfd0ea3-c083-4d0a-bc88-7db198852647",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -114172,9 +113705,9 @@
         "unpackAlignment": 4
       },
       {
-        "uuid": "8831bab2-76fe-4f56-9333-446adeaa93ff",
+        "uuid": "fbe97fd1-6e99-4b66-a2dc-c59afb8bb86c",
         "name": "",
-        "image": "0c7003ac-e914-4f1c-87f7-a49987b0e2f9",
+        "image": "f13c7084-5851-4b19-ab87-131a73ef6d74",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -114210,7 +113743,7 @@
       {
         "uuid": "653c14c0-15f7-4031-91a1-589665ab7319",
         "name": "",
-        "image": "7078ed47-025c-4ddb-b9b6-d2dbdd34fafe",
+        "image": "1d95bee2-18f7-4ecd-82bd-e37bf754c020",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -114249,7 +113782,7 @@
       {
         "uuid": "af4e1e34-3173-4195-8c30-02c91956948c",
         "name": "",
-        "image": "20035c7c-7fa2-41da-a5e3-920e715fb8f3",
+        "image": "916c12c1-b7b6-4a24-8bba-db9bd48593d3",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -114288,7 +113821,7 @@
       {
         "uuid": "5cb1c939-71fe-48aa-abc4-b145c30bcde2",
         "name": "",
-        "image": "7332eee6-00ab-420f-8e4a-edeaa3cde560",
+        "image": "9271b5f1-a2c9-4a12-a247-cf5a5ac686fa",
         "mapping": 300,
         "channel": 0,
         "repeat": [
@@ -114327,7 +113860,7 @@
     ],
     "images": [
       {
-        "uuid": "1b4a185d-b75a-4946-ba04-133c0e639391",
+        "uuid": "60fcf004-4c89-461f-8f08-f02bdcfc698e",
         "url": {
           "$img": "assets/img-5915dc009c0373e57e193040bc0f8405d8323a0b.png",
           "mime": "image/png",
@@ -114335,77 +113868,77 @@
         }
       },
       {
-        "uuid": "39ab2117-96ab-4b0d-9e05-4095aacfecb4",
+        "uuid": "0f49bbb9-49e5-443c-99fd-2efb86267e1b",
         "url": {
           "$img": "assets/img-5e4539a17111ea24002eb626da48ca6cf1b2ef7a.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "bf9841ce-09de-4167-8bda-98fa7c60d59e",
+        "uuid": "b7199b26-d7cd-4c4e-908e-6a6c7f528d31",
         "url": {
           "$img": "assets/img-9a478f1d2fe961a4c26284f81d0d6b53b7bd2718.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "189f4c8a-7566-48ad-8b0e-5eb4310b5144",
+        "uuid": "8a3253cb-c12a-44d9-990e-5053a73b3119",
         "url": {
           "$img": "assets/img-72fd152961adda29e5ec7cc9a5d75bfc2ea5a449.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "bcfdd9d1-a486-4a24-825e-6071974dc0ce",
+        "uuid": "8b9ec5d2-c986-4c8d-9324-0e7d5996c7d4",
         "url": {
           "$img": "assets/img-3bd243923010b19ab8d82dbae45dcab94ed874a2.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "f2ce2777-d14d-45dc-8986-19df334f5a0b",
+        "uuid": "aac8c3b5-607c-4f8e-bec2-09a38ba3b349",
         "url": {
           "$img": "assets/img-d02c5973aa6ea06d93d0f379e93ea95cba7d9a24.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "2662b6f9-f214-4a48-a589-585af7c7f25e",
+        "uuid": "d5292b86-d20a-4172-bfdc-1f1fb6986002",
         "url": {
           "$img": "assets/img-a93db28e61db0ef108e416019b248bcc54cff8d4.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "c5a5b731-9d4e-40d3-95e2-3c8893d60165",
+        "uuid": "4bfd0ea3-c083-4d0a-bc88-7db198852647",
         "url": {
           "$img": "assets/img-b6a887c39a5b3725d2bc48e7f501795995e1e213.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "0c7003ac-e914-4f1c-87f7-a49987b0e2f9",
+        "uuid": "f13c7084-5851-4b19-ab87-131a73ef6d74",
         "url": {
-          "$img": "assets/img-99b049f95f10d917bfa4fd6afb3ae0b8f9e6b5a8.png",
+          "$img": "assets/img-a780b22904e48a410d92a1c25bd0c9750c73e27f.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "7078ed47-025c-4ddb-b9b6-d2dbdd34fafe",
+        "uuid": "1d95bee2-18f7-4ecd-82bd-e37bf754c020",
         "url": {
           "$img": "assets/img-553c429a434784f99b77327052c2ae3f21b486c5.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "20035c7c-7fa2-41da-a5e3-920e715fb8f3",
+        "uuid": "916c12c1-b7b6-4a24-8bba-db9bd48593d3",
         "url": {
           "$img": "assets/img-7bc0de8b3e9613c45b7f5019715ea6460ec1c05d.png",
           "mime": "image/png"
         }
       },
       {
-        "uuid": "7332eee6-00ab-420f-8e4a-edeaa3cde560",
+        "uuid": "9271b5f1-a2c9-4a12-a247-cf5a5ac686fa",
         "url": {
           "$img": "assets/img-826a2cf978bb732d661783ae248a2b9e8fa9440f.png",
           "mime": "image/png"
@@ -156984,7 +156517,7 @@
             "type": "number"
           }
         ],
-        "uuid": "be8bba7e-6cdd-4b9d-97d4-2cfe75e897ae",
+        "uuid": "00e6ddaf-ded8-47a8-9286-46e7fe37468f",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
@@ -167250,15 +166783,15 @@
                                                   "layers": 1,
                                                   "matrix": [
                                                     0.9958624862319989,
-                                                    2.0489096417085425e-8,
+                                                    2.048909641708543e-8,
                                                     0.09087303500666624,
                                                     0,
-                                                    -2.0574222542506707e-8,
+                                                    -2.057422254250671e-8,
                                                     0.9999999999999998,
-                                                    -3.977255363387572e-17,
+                                                    -3.9772553427080565e-17,
                                                     0,
                                                     -0.09087303500666621,
-                                                    -1.8696420057321594e-9,
+                                                    -1.86964200573216e-9,
                                                     0.9958624862319991,
                                                     0,
                                                     3.5125579833984375,
@@ -167286,17 +166819,17 @@
                                           },
                                           "layers": 1,
                                           "matrix": [
-                                            -0.07124618351317794,
-                                            -2.984128411793492e-8,
-                                            -0.9974587284040942,
+                                            -0.07124618351338953,
+                                            -2.984117803612165e-8,
+                                            -0.9974587284041853,
                                             0,
-                                            -0.9974587306086922,
-                                            2.7786028948366593e-8,
-                                            0.07124618367085901,
+                                            -0.9974587306087984,
+                                            2.778561872096581e-8,
+                                            0.07124618367076022,
                                             0,
-                                            2.5589128299619505e-8,
-                                            0.9999999689775828,
-                                            -3.1744871079569493e-8,
+                                            2.5589037261328868e-8,
+                                            0.9999999689776816,
+                                            -3.174506980947799e-8,
                                             0,
                                             50.79049301147461,
                                             -162.530517578125,
@@ -167325,10 +166858,10 @@
                                                 0,
                                                 0.07129053066510585,
                                                 0.9974557127533141,
-                                                3.7102739258948174e-32,
+                                                3.710273925894818e-32,
                                                 0,
-                                                2.194410358051649e-32,
-                                                -3.876577732101897e-32,
+                                                2.1944103580516493e-32,
+                                                -3.8765777321018975e-32,
                                                 1,
                                                 0,
                                                 4.4989013671875,
@@ -167422,17 +166955,17 @@
                                           },
                                           "layers": 1,
                                           "matrix": [
-                                            -0.09517441253652659,
-                                            -0.5808175685219727,
-                                            0.8084507914284599,
+                                            -0.09517441253800817,
+                                            -0.5808175685212272,
+                                            0.8084507914299756,
                                             0,
-                                            0.9901931695187869,
-                                            0.028199968815513777,
-                                            0.13682971394007656,
+                                            0.9901931695195323,
+                                            0.02819996881404479,
+                                            0.13682971394103752,
                                             0,
-                                            -0.1022713905437201,
-                                            0.8135451525940044,
-                                            0.5724376830398493,
+                                            -0.10227139054220448,
+                                            0.8135451525949653,
+                                            0.5724376830393909,
                                             0,
                                             -98.94984436035156,
                                             178.93167114257812,
@@ -167492,15 +167025,15 @@
                                           "matrix": [
                                             0.08511135929686742,
                                             0.9268302670730292,
-                                            -0.3657065226657098,
+                                            -0.3657065226657097,
                                             0,
-                                            -0.9894257030786568,
+                                            -0.989425703078657,
                                             0.035356116375327554,
-                                            -0.14066538205143359,
+                                            -0.14066538205143353,
                                             0,
-                                            -0.11744299638389498,
-                                            0.3738117352121652,
-                                            0.9200390927321613,
+                                            -0.11744299638389488,
+                                            0.37381173521216515,
+                                            0.9200390927321614,
                                             0,
                                             -98.94546508789062,
                                             179.07675170898438,
@@ -167626,17 +167159,17 @@
                                           },
                                           "layers": 1,
                                           "matrix": [
-                                            0.2581336523290521,
-                                            -0.5808178849262491,
-                                            0.7720217578616522,
+                                            0.2581336523290535,
+                                            -0.5808178849262511,
+                                            0.7720217578616486,
                                             0,
-                                            0.9542018183184829,
-                                            0.028200175257545052,
-                                            -0.29783154675692225,
+                                            0.9542018183184807,
+                                            0.028200175257548917,
+                                            -0.29783154675692325,
                                             0,
-                                            0.15121472312234782,
-                                            0.8135448183192735,
-                                            0.5614968328147797,
+                                            0.15121472312234413,
+                                            0.8135448183192725,
+                                            0.5614968328147809,
                                             0,
                                             -79.65608215332031,
                                             178.93167114257812,
@@ -167695,15 +167228,15 @@
                                           "layers": 1,
                                           "matrix": [
                                             0.3443995395791584,
-                                            0.9268303627312924,
-                                            0.1495799980325068,
+                                            0.9268303627312926,
+                                            0.14957999803250638,
                                             0,
-                                            0.3165513744998039,
-                                            0.03535621413765736,
-                                            -0.9479165815611215,
+                                            0.3165513744998042,
+                                            0.03535621413765749,
+                                            -0.9479165815611217,
                                             0,
-                                            -0.8838461928404602,
-                                            0.3738116787982058,
+                                            -0.8838461928404605,
+                                            0.37381167879820537,
                                             -0.28121267906118164,
                                             0,
                                             130.27706909179688,
@@ -167763,16 +167296,16 @@
                                           "layers": 1,
                                           "matrix": [
                                             -0.7780929942335311,
-                                            -0.5808171884368452,
-                                            -0.23921261290749515,
+                                            -0.580817188436845,
+                                            -0.2392126129074952,
                                             0,
-                                            -0.3129169922460419,
+                                            -0.312916992246042,
                                             0.028200286878341765,
                                             0.9493617637682972,
                                             0,
-                                            -0.5446598380813537,
-                                            0.8135455361880273,
-                                            -0.20369004021308545,
+                                            -0.5446598380813538,
+                                            0.8135455361880274,
+                                            -0.2036900402130855,
                                             0,
                                             130.2784881591797,
                                             42.606014251708984,
@@ -167931,17 +167464,17 @@
                                               },
                                               "layers": 1,
                                               "matrix": [
-                                                0.9936215241099203,
-                                                1.9428902921870291e-16,
-                                                0.11276642596746417,
+                                                0.9936215241099202,
+                                                1.942890292187029e-16,
+                                                0.11276642596746415,
                                                 0,
                                                 -1.9553625251280492e-16,
                                                 1,
-                                                1.934311006022506e-25,
+                                                1.9343110368373851e-25,
                                                 0,
-                                                -0.11276642596746417,
-                                                -2.2049924535137898e-17,
-                                                0.9936215241099203,
+                                                -0.11276642596746415,
+                                                -2.2049924535137895e-17,
+                                                0.9936215241099202,
                                                 0,
                                                 4.1360626220703125,
                                                 -0.00023651123046875,
@@ -167966,17 +167499,17 @@
                                           },
                                           "layers": 1,
                                           "matrix": [
-                                            -0.39746403917517087,
+                                            -0.3974640391751709,
                                             0.8995758358130198,
-                                            0.18106577565404205,
+                                            0.18106577565404192,
                                             0,
                                             0.4753985565545228,
-                                            0.03309365896040372,
-                                            0.8791477793734935,
+                                            0.03309365896040395,
+                                            0.8791477793734938,
                                             0,
                                             0.7848683287291917,
-                                            0.4355082351915202,
-                                            -0.44081079502841375,
+                                            0.4355082351915203,
+                                            -0.44081079502841336,
                                             0,
                                             172.83740234375,
                                             102.87803649902344,
@@ -168034,17 +167567,17 @@
                                           },
                                           "layers": 1,
                                           "matrix": [
-                                            0.7066436722059884,
-                                            -0.5808181074134777,
-                                            -0.40411112306705005,
+                                            0.7066436722059877,
+                                            -0.580818107413484,
+                                            -0.40411112306704505,
                                             0,
-                                            -0.47866600322829084,
-                                            0.028200060215640064,
-                                            -0.8775442882970776,
+                                            -0.4786660032282972,
+                                            0.028200060215636324,
+                                            -0.8775442882970782,
                                             0,
-                                            0.5210892909325517,
-                                            0.8135449377533305,
-                                            -0.25809034940274517,
+                                            0.5210892909325567,
+                                            0.8135449377533299,
+                                            -0.2580903494027547,
                                             0,
                                             172.83949279785156,
                                             102.73295593261719,
@@ -168102,16 +167635,16 @@
                                           },
                                           "layers": 1,
                                           "matrix": [
-                                            -0.01719464652154149,
+                                            -0.017194646521541488,
                                             0.926830350239292,
-                                            -0.3750860919895302,
+                                            -0.3750860919895301,
                                             0,
                                             -0.9905161937219674,
-                                            0.03535620161596362,
+                                            0.0353562016159636,
                                             0.13277158928397856,
                                             0,
-                                            0.13631832948542974,
-                                            0.37381173026302245,
+                                            0.13631832948542985,
+                                            0.3738117302630224,
                                             0.917432340847576,
                                             0,
                                             35.85231399536133,
@@ -168170,17 +167703,17 @@
                                           },
                                           "layers": 1,
                                           "matrix": [
-                                            0.12750853057704095,
-                                            -0.5808174346319209,
-                                            0.8039855545237371,
+                                            0.12750853057703565,
+                                            -0.580817434631916,
+                                            0.8039855545237458,
                                             0,
-                                            0.9902149221066662,
-                                            0.028200218414062905,
-                                            -0.13667120079422307,
+                                            0.9902149221066711,
+                                            0.028200218414053863,
+                                            -0.1366712007942194,
                                             0,
-                                            0.05670844722937765,
-                                            0.8135452262632182,
-                                            0.5787298514005552,
+                                            0.05670844722938634,
+                                            0.8135452262632218,
+                                            0.5787298514005524,
                                             0,
                                             35.847938537597656,
                                             192.9333953857422,
@@ -169048,9 +168581,9 @@
                                         0,
                                         0.3145348429679871,
                                         0,
-                                        4.162635224057126e-17,
-                                        0.3157362937927237,
-                                        3.505377030784948e-17,
+                                        4.1626352240571254e-17,
+                                        0.31573629379272367,
+                                        3.5053770307849477e-17,
                                         0,
                                         70.30178001380702,
                                         -179.98287015747337,
@@ -169986,7 +169519,7 @@
                                             0,
                                             -6.124977559472654e-17,
                                             1,
-                                            8.866187718895274e-25,
+                                            8.866187734302713e-25,
                                             0,
                                             -0.4226181801595518,
                                             -2.5885269500573774e-17,
@@ -170210,7 +169743,7 @@
                                             0,
                                             -6.124977559472654e-17,
                                             1,
-                                            -8.866187718895274e-25,
+                                            -8.866187734302713e-25,
                                             0,
                                             0.4226181801595518,
                                             2.5885269500573774e-17,
@@ -170914,17 +170447,17 @@
                                       },
                                       "layers": 1,
                                       "matrix": [
-                                        2.6496534725521533e-13,
-                                        -1.9992839838348067e-13,
-                                        3.099474906921187,
+                                        3.9435102331749405e-13,
+                                        -2.9731176627078086e-13,
+                                        3.0994749069210896,
                                         0,
-                                        3.099475323363119,
-                                        2.656536046293099e-13,
-                                        -1.9992842524563345e-13,
+                                        3.0994753233630217,
+                                        3.9503929807570123e-13,
+                                        -2.9731180621725246e-13,
                                         0,
-                                        -2.0061664701928452e-13,
-                                        3.099475323363119,
-                                        2.649653828556588e-13,
+                                        -2.9800002799090355e-13,
+                                        3.0994753233630217,
+                                        3.943510763020502e-13,
                                         0,
                                         -54.38043212890625,
                                         114.48329162597656,
@@ -173345,7 +172878,7 @@
                                             0,
                                             3.973766819118779e-18,
                                             1,
-                                            -8.67361703796877e-19,
+                                            -8.673617037968772e-19,
                                             0,
                                             -0.32799436678321825,
                                             2.1227520967370733e-18,
@@ -173569,7 +173102,7 @@
                                             0,
                                             3.973766819118779e-18,
                                             1,
-                                            -8.67361703796877e-19,
+                                            -8.673617037968772e-19,
                                             0,
                                             -0.32799436678321825,
                                             2.1227520967370733e-18,
@@ -174882,17 +174415,17 @@
                                       },
                                       "layers": 1,
                                       "matrix": [
-                                        -0.31558115175707485,
-                                        6.612326988185476e-8,
-                                        -0.9488987845691166,
+                                        -0.3155811517570689,
+                                        6.61232731015027e-8,
+                                        -0.9488987845691154,
                                         0,
-                                        -0.9488987428346268,
-                                        -4.769322357825252e-8,
-                                        0.3155811378771669,
+                                        -0.9488987428346236,
+                                        -4.76932171389584e-8,
+                                        0.3155811378771691,
                                         0,
-                                        -2.4388774401774003e-8,
-                                        1.000000139368488,
-                                        7.779534723728824e-8,
+                                        -2.4388775623019664e-8,
+                                        1.0000001393684859,
+                                        7.779535967178836e-8,
                                         0,
                                         170.33450317382812,
                                         105.08512115478516,
@@ -174966,9 +174499,9 @@
                                         -5.715457270130491e-8,
                                         -0.9553413751829506,
                                         0,
-                                        -9.264456297330405e-10,
-                                        1.0000001061382255,
-                                        -5.953977410216905e-8,
+                                        -9.264456297330403e-10,
+                                        1.0000001061382253,
+                                        -5.953977410216904e-8,
                                         0,
                                         -83.170654296875,
                                         184.59500122070312,
@@ -175368,16 +174901,16 @@
                                       "layers": 1,
                                       "matrix": [
                                         -0.4299249385356435,
-                                        -1.649314099305566e-8,
-                                        0.9028646918061012,
+                                        -1.6493140882033357e-8,
+                                        0.9028646918061013,
                                         0,
-                                        0.9028646776244772,
-                                        -1.0413886134207756e-8,
-                                        0.42992493178265573,
+                                        0.9028646776244771,
+                                        -1.0413885690118532e-8,
+                                        0.4299249317826558,
                                         0,
-                                        2.3115172843227017e-9,
+                                        2.3115171733003955e-9,
                                         1.0000000365351367,
-                                        1.9368262479801187e-8,
+                                        1.93682625908235e-8,
                                         0,
                                         126.55106353759766,
                                         7.102768898010254,
@@ -175632,7 +175165,7 @@
                                         -0.5854928417702183,
                                         0,
                                         -0.5854928444542036,
-                                        6.366220847792001e-10,
+                                        6.366220847792002e-10,
                                         0.8106775670903367,
                                         0,
                                         -1.2233242682948907e-9,
@@ -175931,17 +175464,17 @@
                                       },
                                       "layers": 1,
                                       "matrix": [
-                                        -0.9851347224904938,
-                                        -3.593525446248903e-9,
-                                        -0.17178446137991946,
+                                        -0.9851347224904936,
+                                        -3.593525418493322e-9,
+                                        -0.17178446137991943,
                                         0,
                                         -0.1717844476280593,
                                         3.1096816539656637e-10,
                                         0.9851346436275117,
                                         0,
-                                        -3.4866863620779054e-9,
-                                        1.000000081260985,
-                                        -9.236570037769237e-10,
+                                        -3.486686334322327e-9,
+                                        1.0000000812609848,
+                                        -9.236570037769235e-10,
                                         0,
                                         148.08216857910156,
                                         111.7081298828125,
@@ -176114,17 +175647,17 @@
                                       },
                                       "layers": 1,
                                       "matrix": [
-                                        -0.15097560991191492,
-                                        -1.3767564918736281e-8,
-                                        0.988537520446911,
+                                        -0.15097560991187198,
+                                        -1.3767586734620114e-8,
+                                        0.9885375204468958,
                                         0,
-                                        0.988537516289778,
-                                        -1.1824581421423737e-8,
-                                        0.15097560927696732,
+                                        0.9885375162897562,
+                                        -1.1824537234546649e-8,
+                                        0.15097560927698614,
                                         0,
-                                        9.610431884872592e-9,
-                                        1.000000027854456,
-                                        1.5394926429483552e-8,
+                                        9.610447094928878e-9,
+                                        1.0000000278544372,
+                                        1.5395013693016398e-8,
                                         0,
                                         75.75125122070312,
                                         32.19824981689453,
@@ -176191,15 +175724,15 @@
                                       },
                                       "layers": 1,
                                       "matrix": [
-                                        0.9851237239345376,
-                                        -0.004743425138031578,
-                                        0.1717825480509386,
+                                        0.9851237239345374,
+                                        -0.00474342513803155,
+                                        0.17178254805093854,
                                         0,
-                                        0.17178446567531325,
+                                        0.17178446567531327,
                                         0.000001315325603673915,
                                         -0.9851346846411867,
                                         0,
-                                        -0.004672685520171351,
+                                        -0.004672685520171323,
                                         -0.9999888746653949,
                                         -0.0008161423091243187,
                                         0,
@@ -176382,9 +175915,9 @@
                                         -2.7433096942854484e-9,
                                         0.8688724102808107,
                                         0,
-                                        -7.640528502055642e-9,
-                                        1.0000000418418036,
-                                        7.510479108688872e-9,
+                                        -7.64052850205564e-9,
+                                        1.0000000418418034,
+                                        7.51047910868887e-9,
                                         0,
                                         452.9700012207031,
                                         28.88640594482422,
@@ -176451,17 +175984,17 @@
                                       },
                                       "layers": 1,
                                       "matrix": [
-                                        -0.4766069249700496,
-                                        -4.389215381478733e-8,
-                                        -0.8791163339431052,
+                                        -0.47660692497004925,
+                                        -4.389215398132077e-8,
+                                        -0.879116333943105,
                                         0,
-                                        -0.8791163779909489,
-                                        2.6131742242935692e-8,
-                                        0.4766069488502861,
+                                        -0.8791163779909485,
+                                        2.6131742909069444e-8,
+                                        0.47660694885028615,
                                         0,
-                                        2.0535364026453584e-9,
-                                        0.9999998948721478,
-                                        -5.104088881202555e-8,
+                                        2.053536569178795e-9,
+                                        0.9999998948721476,
+                                        -5.1040888589980984e-8,
                                         0,
                                         172.1028594970703,
                                         108.39628601074219,
@@ -176678,17 +176211,17 @@
                                       },
                                       "layers": 1,
                                       "matrix": [
-                                        0.47526286584772837,
-                                        -0.07505318262403987,
+                                        0.47526286584772826,
+                                        -0.07505318262403975,
                                         0.8766370055571366,
                                         0,
                                         0.8791165437251761,
-                                        0.0000013646567596239478,
+                                        0.000001364656759401903,
                                         -0.47660701398021504,
                                         0,
-                                        -0.03576967326239477,
-                                        -0.9971796069291058,
-                                        -0.06598113626966402,
+                                        -0.03576967326239487,
+                                        -0.9971796069291059,
+                                        -0.06598113626966423,
                                         0,
                                         169.1531524658203,
                                         108.39628601074219,
@@ -176904,17 +176437,17 @@
                                       },
                                       "layers": 1,
                                       "matrix": [
-                                        -0.9909483830568458,
-                                        -0.0038443366617599024,
-                                        0.1341883863736256,
+                                        -0.9909483830568457,
+                                        -0.003844336661759874,
+                                        0.13418838637362557,
                                         0,
-                                        0.13418937170724976,
-                                        0.0000013432151137210853,
+                                        0.13418937170724973,
+                                        0.000001343215114054152,
                                         0.9909556979859485,
                                         0,
-                                        0.0038097475641113454,
-                                        -0.999992601935576,
-                                        -0.000514538064467434,
+                                        0.003809747564111359,
+                                        -0.9999926019355759,
+                                        -0.0005145380644672119,
                                         0,
                                         38.825321197509766,
                                         198.59669494628906,
@@ -177132,15 +176665,15 @@
                                       "matrix": [
                                         0.9854482515341194,
                                         -0.10528319736208636,
-                                        -0.1334435901288,
+                                        -0.13344359012879997,
                                         0,
-                                        -0.13418937923539126,
-                                        -3.115507336490864e-8,
-                                        -0.9909556969669684,
+                                        -0.1341893792353912,
+                                        -3.115507269877483e-8,
+                                        -0.9909556969669682,
                                         0,
-                                        0.10433098007150313,
-                                        0.9944422715233175,
-                                        -0.014127917600743735,
+                                        0.10433098007150315,
+                                        0.9944422715233172,
+                                        -0.014127917600743068,
                                         0,
                                         32.69224548339844,
                                         198.59669494628906,
@@ -177313,17 +176846,17 @@
                                       },
                                       "layers": 1,
                                       "matrix": [
-                                        -0.16912203265137,
-                                        -2.5380465147897907e-8,
-                                        0.9855951798269774,
+                                        -0.16912203265131387,
+                                        -2.5380493736144222e-8,
+                                        0.9855951798269584,
                                         0,
-                                        0.9855951712421893,
-                                        -2.139634069094683e-8,
-                                        0.16912203117821534,
+                                        0.9855951712421607,
+                                        -2.139628318139242e-8,
+                                        0.1691220311782393,
                                         0,
-                                        1.679567660411447e-8,
-                                        1.000000051502884,
-                                        2.8633387581291603e-8,
+                                        1.6795695588930136e-8,
+                                        1.00000005150286,
+                                        2.8633501490181447e-8,
                                         0,
                                         246.5584716796875,
                                         21.1044921875,
@@ -178834,16 +178367,16 @@
                                       "layers": 1,
                                       "matrix": [
                                         0.995986570375983,
-                                        -0.057599232515438185,
+                                        -0.057599232515438165,
                                         -0.06850606241381803,
                                         0,
-                                        -0.06861999349404757,
-                                        1.1554662003911523e-8,
-                                        -0.9976429856974659,
+                                        -0.06861999349404756,
+                                        1.1554662336978469e-8,
+                                        -0.9976429856974658,
                                         0,
-                                        0.05746347107654368,
-                                        0.9983399010705004,
-                                        -0.003952447451110081,
+                                        0.057463471076543676,
+                                        0.9983399010705003,
+                                        -0.003952447451109637,
                                         0,
                                         -3.7681732177734375,
                                         -84.4428939819336,
@@ -178904,10 +178437,10 @@
                                           "layers": 1,
                                           "matrix": [
                                             0.997642870968227,
-                                            -0.06861998255806956,
+                                            -0.06861998255806957,
                                             0,
                                             0,
-                                            0.06861998255806956,
+                                            0.06861998255806957,
                                             0.997642870968227,
                                             0,
                                             0,
@@ -179061,16 +178594,16 @@
                                       "layers": 1,
                                       "matrix": [
                                         0.9863499432331053,
-                                        -0.0015197331401199533,
+                                        -0.0015197331401198978,
                                         0.16465563775116762,
                                         0,
-                                        0.16465582360172917,
-                                        -3.241785088686084e-8,
-                                        -0.9863510568479188,
+                                        0.1646558236017292,
+                                        -3.241785133095004e-8,
+                                        -0.986351056847919,
                                         0,
                                         0.001498995727774563,
-                                        0.9999988193139717,
-                                        0.00025020093668091454,
+                                        0.9999988193139718,
+                                        0.0002502009366805815,
                                         0,
                                         50.92132568359375,
                                         -99.01292419433594,
@@ -179769,17 +179302,17 @@
                                           },
                                           "layers": 1,
                                           "matrix": [
-                                            0.10242867313681071,
-                                            -0.7738901889866724,
-                                            0.1308787461880063,
+                                            0.10242867313681234,
+                                            -0.7738901889866715,
+                                            0.1308787461880051,
                                             0,
-                                            0.5060265177778861,
-                                            -0.03578144064687078,
-                                            -0.6076046185392013,
+                                            0.5060265177778867,
+                                            -0.03578144064686891,
+                                            -0.6076046185391996,
                                             0,
-                                            0.5999766793568567,
-                                            0.16229771364832155,
-                                            0.4901161951514149,
+                                            0.5999766793568555,
+                                            0.16229771364832324,
+                                            0.4901161951514153,
                                             0,
                                             80.20849609375,
                                             -105.99496459960938,
@@ -179991,17 +179524,17 @@
                                           },
                                           "layers": 1,
                                           "matrix": [
-                                            0.10242867313681071,
-                                            -0.7738901889866724,
-                                            0.1308787461880063,
+                                            0.10242867313681234,
+                                            -0.7738901889866715,
+                                            0.1308787461880051,
                                             0,
-                                            0.5060265177778861,
-                                            -0.03578144064687078,
-                                            -0.6076046185392013,
+                                            0.5060265177778867,
+                                            -0.03578144064686891,
+                                            -0.6076046185391996,
                                             0,
-                                            0.5999766793568567,
-                                            0.16229771364832155,
-                                            0.4901161951514149,
+                                            0.5999766793568555,
+                                            0.16229771364832324,
+                                            0.4901161951514153,
                                             0,
                                             -62.02587890625,
                                             -105.94561767578125,
@@ -180213,17 +179746,17 @@
                                           },
                                           "layers": 1,
                                           "matrix": [
-                                            0.10242867313681071,
-                                            -0.7738901889866724,
-                                            0.1308787461880063,
+                                            0.10242867313681234,
+                                            -0.7738901889866715,
+                                            0.1308787461880051,
                                             0,
-                                            0.5060265177778861,
-                                            -0.03578144064687078,
-                                            -0.6076046185392013,
+                                            0.5060265177778867,
+                                            -0.03578144064686891,
+                                            -0.6076046185391996,
                                             0,
-                                            0.5999766793568567,
-                                            0.16229771364832155,
-                                            0.4901161951514149,
+                                            0.5999766793568555,
+                                            0.16229771364832324,
+                                            0.4901161951514153,
                                             0,
                                             -81.0531005859375,
                                             105.38568878173828,
@@ -181514,7 +181047,7 @@
               "far": 500
             }
           },
-          "target": "29e68e02-5976-4801-b63f-29eb5db0a5d6"
+          "target": "57229b88-f428-44d0-b560-677c01754b38"
         },
         {
           "uuid": "0ca73c8e-d00f-4275-ae9c-716d4aa8efea",
@@ -182025,7 +181558,7 @@
               "far": 500
             }
           },
-          "target": "6afd4f4f-3d64-47a9-b69a-de909a978808"
+          "target": "a390b230-f281-4d79-b0cc-54fb4424f67a"
         },
         {
           "uuid": "9b9a1727-9f79-40a6-892e-2ff5daf1191f",
@@ -182095,1924 +181628,6 @@
             0
           ],
           "children": [
-            {
-              "uuid": "dd71a630-a996-4cc3-91b1-a125ca8d2396",
-              "type": "Group",
-              "name": "cafe-table",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "grp:11",
-                  "bbox": {
-                    "center": [
-                      0.46,
-                      0.103,
-                      0.105
-                    ],
-                    "size": [
-                      0.1,
-                      0.09,
-                      0.1
-                    ]
-                  },
-                  "region": {
-                    "x": "right",
-                    "y": "bottom",
-                    "z": "center"
-                  },
-                  "shape": "blocky",
-                  "orientation": "horizontal",
-                  "sizeRank": "largest",
-                  "volume": 0.0009,
-                  "role": "group",
-                  "childCount": 11,
-                  "depth": 1,
-                  "parentName": "CAFE",
-                  "adjacency": [],
-                  "color": {
-                    "name": "orange",
-                    "base": "orange",
-                    "hex": "#b07a4a"
-                  },
-                  "materials": [],
-                  "pair": null
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0.46,
-                0.058,
-                0.105,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "children": [
-                {
-                  "uuid": "9b8a4958-4fa8-438f-b371-bec895970182",
-                  "type": "Mesh",
-                  "name": "table-top",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:50",
-                      "bbox": {
-                        "center": [
-                          0.46,
-                          0.128,
-                          0.105
-                        ],
-                        "size": [
-                          0.1,
-                          0.006,
-                          0.1
-                        ]
-                      },
-                      "region": {
-                        "x": "center",
-                        "y": "top",
-                        "z": "center"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "largest",
-                      "volume": 0.0001,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [
-                        "table-stem",
-                        "cup-nico",
-                        "cup-nico-saucer",
-                        "cup-maya",
-                        "cup-maya-saucer",
-                        "plate"
-                      ],
-                      "color": {
-                        "name": "brown",
-                        "base": "brown",
-                        "hex": "#b07a4a"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0.07,
-                    0,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "b838e257-4130-49ab-8994-64afdb872c25",
-                  "material": "602ebade-a4f0-47c7-a65f-ba39a9f2a0c4"
-                },
-                {
-                  "uuid": "9a6480a7-a852-49b6-bec6-cd5ed3ae9f14",
-                  "type": "Mesh",
-                  "name": "table-stem",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:36",
-                      "bbox": {
-                        "center": [
-                          0.46,
-                          0.093,
-                          0.105
-                        ],
-                        "size": [
-                          0.012,
-                          0.07,
-                          0.012
-                        ]
-                      },
-                      "region": {
-                        "x": "center",
-                        "y": "center",
-                        "z": "center"
-                      },
-                      "shape": "elongated",
-                      "orientation": "vertical",
-                      "sizeRank": "medium",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [
-                        "table-top",
-                        "table-foot"
-                      ],
-                      "color": {
-                        "name": "brown",
-                        "base": "brown",
-                        "hex": "#4a3a30"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0.035,
-                    0,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "ad53dec2-6a01-41f3-bb48-ed498395651c",
-                  "material": "f58828ac-814d-49ce-b19f-94a551ab1592"
-                },
-                {
-                  "uuid": "c7ce0788-d66f-4e29-a9be-d405a58bb6f0",
-                  "type": "Mesh",
-                  "name": "table-foot",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:25",
-                      "bbox": {
-                        "center": [
-                          0.46,
-                          0.06,
-                          0.105
-                        ],
-                        "size": [
-                          0.05,
-                          0.004,
-                          0.05
-                        ]
-                      },
-                      "region": {
-                        "x": "center",
-                        "y": "bottom",
-                        "z": "center"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "medium",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [
-                        "table-stem"
-                      ],
-                      "color": {
-                        "name": "brown",
-                        "base": "brown",
-                        "hex": "#4a3a30"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0.002,
-                    0,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "923bffd5-2292-4d1b-8aa1-0d0deaabbdc2",
-                  "material": "35bc8578-c9e1-4ddf-9a32-b78c8fc5f3a5"
-                },
-                {
-                  "uuid": "505ab752-e087-4c7a-b725-7000b154d895",
-                  "type": "Mesh",
-                  "name": "cup-nico",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:11",
-                      "bbox": {
-                        "center": [
-                          0.438,
-                          0.137,
-                          0.089
-                        ],
-                        "size": [
-                          0.018,
-                          0.012,
-                          0.018
-                        ]
-                      },
-                      "region": {
-                        "x": "left",
-                        "y": "top",
-                        "z": "back"
-                      },
-                      "shape": "blocky",
-                      "orientation": "horizontal",
-                      "sizeRank": "medium",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [
-                        "table-top",
-                        "cup-nico-coffee",
-                        "cup-nico-saucer"
-                      ],
-                      "color": {
-                        "name": "light orange",
-                        "base": "orange",
-                        "hex": "#f3ede2"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -0.022,
-                    0.079,
-                    -0.016,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "a45153d7-3324-4f89-b2de-0dd15275596d",
-                  "material": "d4acd437-82f9-4e21-a3b9-a53eedd941df"
-                },
-                {
-                  "uuid": "2fe9a99f-686d-4823-ab85-2e2c8b556c9c",
-                  "type": "Mesh",
-                  "name": "cup-nico-coffee",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:8",
-                      "bbox": {
-                        "center": [
-                          0.438,
-                          0.1432,
-                          0.089
-                        ],
-                        "size": [
-                          0.0156,
-                          0.0006,
-                          0.0156
-                        ]
-                      },
-                      "region": {
-                        "x": "left",
-                        "y": "top",
-                        "z": "back"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "smallest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [
-                        "cup-nico"
-                      ],
-                      "color": {
-                        "name": "brown",
-                        "base": "brown",
-                        "hex": "#3a2418"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -0.022,
-                    0.0852,
-                    -0.016,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "55fe6189-879a-4da8-a723-06340d9989df",
-                  "material": "7bcdbf18-cbff-4ac0-8a52-8b69f1584403"
-                },
-                {
-                  "uuid": "c955f126-821a-490e-819d-63cd9c63607f",
-                  "type": "Mesh",
-                  "name": "cup-nico-saucer",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:14",
-                      "bbox": {
-                        "center": [
-                          0.438,
-                          0.1318,
-                          0.089
-                        ],
-                        "size": [
-                          0.028,
-                          0.0016,
-                          0.028
-                        ]
-                      },
-                      "region": {
-                        "x": "left",
-                        "y": "top",
-                        "z": "back"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "medium",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [
-                        "table-top",
-                        "cup-nico"
-                      ],
-                      "color": {
-                        "name": "light orange",
-                        "base": "orange",
-                        "hex": "#f3ede2"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -0.022,
-                    0.0738,
-                    -0.016,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "6d4559c2-9e2d-4deb-8f2e-9862f7bb6566",
-                  "material": "982e096c-61c1-4f01-9015-ba600f1c1810"
-                },
-                {
-                  "uuid": "15d7dfd9-7021-4487-8948-2532b1af42e3",
-                  "type": "Mesh",
-                  "name": "cup-maya",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:11",
-                      "bbox": {
-                        "center": [
-                          0.482,
-                          0.137,
-                          0.121
-                        ],
-                        "size": [
-                          0.018,
-                          0.012,
-                          0.018
-                        ]
-                      },
-                      "region": {
-                        "x": "right",
-                        "y": "top",
-                        "z": "front"
-                      },
-                      "shape": "blocky",
-                      "orientation": "horizontal",
-                      "sizeRank": "medium",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [
-                        "table-top",
-                        "cup-maya-coffee",
-                        "cup-maya-saucer"
-                      ],
-                      "color": {
-                        "name": "light orange",
-                        "base": "orange",
-                        "hex": "#f3ede2"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0.079,
-                    0.026,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "5992ce12-9c7a-41a3-8fca-11dd903444a3",
-                  "material": "3052dece-8bfd-4b63-94c7-0ebc9e884023"
-                },
-                {
-                  "uuid": "f7da578d-1250-470f-8363-32265021ce1f",
-                  "type": "Mesh",
-                  "name": "cup-maya-coffee",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:8",
-                      "bbox": {
-                        "center": [
-                          0.482,
-                          0.1432,
-                          0.121
-                        ],
-                        "size": [
-                          0.0156,
-                          0.0006,
-                          0.0156
-                        ]
-                      },
-                      "region": {
-                        "x": "right",
-                        "y": "top",
-                        "z": "front"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "smallest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [
-                        "cup-maya"
-                      ],
-                      "color": {
-                        "name": "brown",
-                        "base": "brown",
-                        "hex": "#3a2418"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0.0852,
-                    0.026,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "9ec2e713-59b3-4c86-864f-73219a3c8829",
-                  "material": "a719accc-12b5-4bec-8290-0c32867f35c0"
-                },
-                {
-                  "uuid": "27995989-2c0d-4437-9450-51b993ee0578",
-                  "type": "Mesh",
-                  "name": "cup-maya-saucer",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:14",
-                      "bbox": {
-                        "center": [
-                          0.482,
-                          0.1318,
-                          0.121
-                        ],
-                        "size": [
-                          0.028,
-                          0.0016,
-                          0.028
-                        ]
-                      },
-                      "region": {
-                        "x": "right",
-                        "y": "top",
-                        "z": "front"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "medium",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [
-                        "table-top",
-                        "cup-maya"
-                      ],
-                      "color": {
-                        "name": "light orange",
-                        "base": "orange",
-                        "hex": "#f3ede2"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0.0738,
-                    0.026,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "a4ac05b8-dd31-41ff-9ed0-ecf5b46635e7",
-                  "material": "1dc71ca1-b744-4421-8496-87f0d2632e73"
-                },
-                {
-                  "uuid": "ddedd33b-3a46-469e-b93a-8a3310597cf3",
-                  "type": "Mesh",
-                  "name": "plate",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:13",
-                      "bbox": {
-                        "center": [
-                          0.448,
-                          0.1318,
-                          0.117
-                        ],
-                        "size": [
-                          0.026,
-                          0.002,
-                          0.026
-                        ]
-                      },
-                      "region": {
-                        "x": "center",
-                        "y": "top",
-                        "z": "center"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "medium",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [
-                        "table-top"
-                      ],
-                      "color": {
-                        "name": "orange",
-                        "base": "orange",
-                        "hex": "#e8e0d0"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0.026,
-                    0.0738,
-                    0,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "55010da4-af24-42e1-98d0-9fdaf5ecc930",
-                  "material": "751b7e6a-ac37-4fbc-9bd6-5c113eddd47e"
-                },
-                {
-                  "uuid": "d9afabf8-ef69-45f5-b273-07e8d5443fea",
-                  "type": "Mesh",
-                  "name": "pastry",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "117:8",
-                      "bbox": {
-                        "center": [
-                          0.448,
-                          0.1405,
-                          0.117
-                        ],
-                        "size": [
-                          0.015,
-                          0.015,
-                          0.015
-                        ]
-                      },
-                      "region": {
-                        "x": "center",
-                        "y": "top",
-                        "z": "center"
-                      },
-                      "shape": "blocky",
-                      "orientation": "horizontal",
-                      "sizeRank": "medium",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "cafe-table",
-                      "adjacency": [],
-                      "color": {
-                        "name": "orange",
-                        "base": "orange",
-                        "hex": "#d99a5b"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0.026,
-                    0.0825,
-                    0,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "6a24256d-4543-4be2-a2ec-e9c29cf308c3",
-                  "material": "9d7a5192-53b3-431f-81e9-a93ed97307f8"
-                }
-              ]
-            },
-            {
-              "uuid": "7c15184c-ac49-4eb6-b9e6-e43c1799f733",
-              "type": "Group",
-              "name": "chair-nico",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "grp:6",
-                  "bbox": {
-                    "center": [
-                      0.375,
-                      0.1005,
-                      0.105
-                    ],
-                    "size": [
-                      0.05,
-                      0.085,
-                      0.05
-                    ]
-                  },
-                  "region": {
-                    "x": "center",
-                    "y": "bottom",
-                    "z": "center"
-                  },
-                  "shape": "blocky",
-                  "orientation": "vertical",
-                  "sizeRank": "medium",
-                  "volume": 0.0002,
-                  "role": "group",
-                  "childCount": 6,
-                  "depth": 1,
-                  "parentName": "CAFE",
-                  "adjacency": [],
-                  "color": {
-                    "name": "red",
-                    "base": "red",
-                    "hex": "#3f8f8c"
-                  },
-                  "materials": [],
-                  "pair": null
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0.46,
-                0.058,
-                0.01999999999999999,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "children": [
-                {
-                  "uuid": "d04261cd-ac2f-4400-8984-38caad14555f",
-                  "type": "Mesh",
-                  "name": "chair-nico-seat",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "24:35",
-                      "bbox": {
-                        "center": [
-                          0.375,
-                          0.098,
-                          0.105
-                        ],
-                        "size": [
-                          0.05,
-                          0.006,
-                          0.05
-                        ]
-                      },
-                      "region": {
-                        "x": "center",
-                        "y": "center",
-                        "z": "center"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "largest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-nico",
-                      "adjacency": [
-                        "chair-nico-leg",
-                        "chair-nico-leg",
-                        "chair-nico-leg",
-                        "chair-nico-leg"
-                      ],
-                      "color": {
-                        "name": "dark teal",
-                        "base": "teal",
-                        "hex": "#3f8f8c"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0.04,
-                    0,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "75c8f531-044f-41d2-8ac7-cce58d0bd599",
-                  "material": "818683f1-25cb-4b92-96e2-abe3d0b23aa5"
-                },
-                {
-                  "uuid": "1475ec58-cf01-40f6-a635-331764800a39",
-                  "type": "Mesh",
-                  "name": "chair-nico-leg",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:20",
-                      "bbox": {
-                        "center": [
-                          0.354,
-                          0.078,
-                          0.126
-                        ],
-                        "size": [
-                          0.005,
-                          0.04,
-                          0.005
-                        ]
-                      },
-                      "region": {
-                        "x": "left",
-                        "y": "bottom",
-                        "z": "front"
-                      },
-                      "shape": "elongated",
-                      "orientation": "vertical",
-                      "sizeRank": "smallest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-nico",
-                      "adjacency": [
-                        "chair-nico-seat"
-                      ],
-                      "color": {
-                        "name": "dark red",
-                        "base": "red",
-                        "hex": "#33292a"
-                      },
-                      "materials": [],
-                      "pair": {
-                        "mateUuid": "257a2ed3-b929-488a-95cd-7cd48580a76c",
-                        "mateName": "chair-nico-leg",
-                        "axis": "x",
-                        "side": "left"
-                      }
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -0.021,
-                    0.02,
-                    -0.021,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "30c06672-6cc8-49d8-8132-dc5e4a46cf94",
-                  "material": "d6a4eef6-e4c1-4a46-9bc9-38ea25f8bf95"
-                },
-                {
-                  "uuid": "257a2ed3-b929-488a-95cd-7cd48580a76c",
-                  "type": "Mesh",
-                  "name": "chair-nico-leg",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:20",
-                      "bbox": {
-                        "center": [
-                          0.354,
-                          0.078,
-                          0.084
-                        ],
-                        "size": [
-                          0.005,
-                          0.04,
-                          0.005
-                        ]
-                      },
-                      "region": {
-                        "x": "left",
-                        "y": "bottom",
-                        "z": "back"
-                      },
-                      "shape": "elongated",
-                      "orientation": "vertical",
-                      "sizeRank": "smallest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-nico",
-                      "adjacency": [
-                        "chair-nico-seat"
-                      ],
-                      "color": {
-                        "name": "dark red",
-                        "base": "red",
-                        "hex": "#33292a"
-                      },
-                      "materials": [],
-                      "pair": {
-                        "mateUuid": "1475ec58-cf01-40f6-a635-331764800a39",
-                        "mateName": "chair-nico-leg",
-                        "axis": "x",
-                        "side": "right"
-                      }
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0.021,
-                    0.02,
-                    -0.021,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "5abdd43e-7e61-4452-9111-acc26871ff2f",
-                  "material": "3e6853e4-41be-4de8-b2a4-5ce59abb6c1e"
-                },
-                {
-                  "uuid": "edc5bab9-3215-43ff-b9a8-6f50df2920b7",
-                  "type": "Mesh",
-                  "name": "chair-nico-leg",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:20",
-                      "bbox": {
-                        "center": [
-                          0.396,
-                          0.078,
-                          0.126
-                        ],
-                        "size": [
-                          0.005,
-                          0.04,
-                          0.005
-                        ]
-                      },
-                      "region": {
-                        "x": "right",
-                        "y": "bottom",
-                        "z": "front"
-                      },
-                      "shape": "elongated",
-                      "orientation": "vertical",
-                      "sizeRank": "smallest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-nico",
-                      "adjacency": [
-                        "chair-nico-seat"
-                      ],
-                      "color": {
-                        "name": "dark red",
-                        "base": "red",
-                        "hex": "#33292a"
-                      },
-                      "materials": [],
-                      "pair": {
-                        "mateUuid": "1ea9d73a-1b6b-4c90-a1d4-ab653a6ea723",
-                        "mateName": "chair-nico-leg",
-                        "axis": "x",
-                        "side": "left"
-                      }
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -0.021,
-                    0.02,
-                    0.021,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "5837ea64-18cc-4d3b-8f51-f7c277395c83",
-                  "material": "813c1cf8-c4b0-4db8-8b6b-d2edc19b8bd9"
-                },
-                {
-                  "uuid": "1ea9d73a-1b6b-4c90-a1d4-ab653a6ea723",
-                  "type": "Mesh",
-                  "name": "chair-nico-leg",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:20",
-                      "bbox": {
-                        "center": [
-                          0.396,
-                          0.078,
-                          0.084
-                        ],
-                        "size": [
-                          0.005,
-                          0.04,
-                          0.005
-                        ]
-                      },
-                      "region": {
-                        "x": "right",
-                        "y": "bottom",
-                        "z": "back"
-                      },
-                      "shape": "elongated",
-                      "orientation": "vertical",
-                      "sizeRank": "smallest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-nico",
-                      "adjacency": [
-                        "chair-nico-seat"
-                      ],
-                      "color": {
-                        "name": "dark red",
-                        "base": "red",
-                        "hex": "#33292a"
-                      },
-                      "materials": [],
-                      "pair": {
-                        "mateUuid": "edc5bab9-3215-43ff-b9a8-6f50df2920b7",
-                        "mateName": "chair-nico-leg",
-                        "axis": "x",
-                        "side": "right"
-                      }
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0.021,
-                    0.02,
-                    0.021,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "6f3bb9a3-9111-41fc-badd-35a188698acd",
-                  "material": "fea7eb29-1a74-4921-8942-a5f77a7d3b69"
-                },
-                {
-                  "uuid": "7cd5fe8f-9cee-42ba-99e5-e4f58f7b4000",
-                  "type": "Mesh",
-                  "name": "chair-nico-back",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "24:33",
-                      "bbox": {
-                        "center": [
-                          0.3525,
-                          0.122,
-                          0.105
-                        ],
-                        "size": [
-                          0.005,
-                          0.042,
-                          0.05
-                        ]
-                      },
-                      "region": {
-                        "x": "left",
-                        "y": "top",
-                        "z": "center"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "medium",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-nico",
-                      "adjacency": [],
-                      "color": {
-                        "name": "dark teal",
-                        "base": "teal",
-                        "hex": "#3f8f8c"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0.064,
-                    -0.0225,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "7187ba4e-4720-4c2e-9085-6586ee867984",
-                  "material": "61b69526-cb40-4c19-b7e8-78c10ef92e4e"
-                }
-              ]
-            },
-            {
-              "uuid": "1192ee3c-a617-4ff3-aad5-54bd08d1e775",
-              "type": "Group",
-              "name": "chair-maya",
-              "userData": {
-                "descriptors": {
-                  "v": 1,
-                  "geomHash": "grp:6",
-                  "bbox": {
-                    "center": [
-                      0.545,
-                      0.1005,
-                      0.105
-                    ],
-                    "size": [
-                      0.05,
-                      0.085,
-                      0.05
-                    ]
-                  },
-                  "region": {
-                    "x": "right",
-                    "y": "bottom",
-                    "z": "center"
-                  },
-                  "shape": "blocky",
-                  "orientation": "vertical",
-                  "sizeRank": "medium",
-                  "volume": 0.0002,
-                  "role": "group",
-                  "childCount": 6,
-                  "depth": 1,
-                  "parentName": "CAFE",
-                  "adjacency": [],
-                  "color": {
-                    "name": "red",
-                    "base": "red",
-                    "hex": "#c4604f"
-                  },
-                  "materials": [],
-                  "pair": null
-                }
-              },
-              "layers": 1,
-              "matrix": [
-                -1,
-                0,
-                -1.2246467991473532e-16,
-                0,
-                0,
-                1,
-                0,
-                0,
-                1.2246467991473532e-16,
-                0,
-                -1,
-                0,
-                0.46,
-                0.058,
-                0.19,
-                1
-              ],
-              "up": [
-                0,
-                1,
-                0
-              ],
-              "children": [
-                {
-                  "uuid": "d4694b5e-5d93-4866-a810-a0e10f113f12",
-                  "type": "Mesh",
-                  "name": "chair-maya-seat",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "24:35",
-                      "bbox": {
-                        "center": [
-                          0.545,
-                          0.098,
-                          0.105
-                        ],
-                        "size": [
-                          0.05,
-                          0.006,
-                          0.05
-                        ]
-                      },
-                      "region": {
-                        "x": "center",
-                        "y": "center",
-                        "z": "center"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "largest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-maya",
-                      "adjacency": [
-                        "chair-maya-leg",
-                        "chair-maya-leg",
-                        "chair-maya-leg",
-                        "chair-maya-leg"
-                      ],
-                      "color": {
-                        "name": "red",
-                        "base": "red",
-                        "hex": "#c4604f"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0.04,
-                    0,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "b672572e-b149-4833-a4d2-888c07246931",
-                  "material": "364ecbf2-a3d8-49bd-a42b-59a661661947"
-                },
-                {
-                  "uuid": "c0fd6bec-ec04-403e-91c6-13f5050ac228",
-                  "type": "Mesh",
-                  "name": "chair-maya-leg",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:20",
-                      "bbox": {
-                        "center": [
-                          0.566,
-                          0.078,
-                          0.084
-                        ],
-                        "size": [
-                          0.005,
-                          0.04,
-                          0.005
-                        ]
-                      },
-                      "region": {
-                        "x": "right",
-                        "y": "bottom",
-                        "z": "back"
-                      },
-                      "shape": "elongated",
-                      "orientation": "vertical",
-                      "sizeRank": "smallest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-maya",
-                      "adjacency": [
-                        "chair-maya-seat"
-                      ],
-                      "color": {
-                        "name": "dark red",
-                        "base": "red",
-                        "hex": "#33292a"
-                      },
-                      "materials": [],
-                      "pair": {
-                        "mateUuid": "949f0775-41c7-47e9-82e8-dc3ec6986ff6",
-                        "mateName": "chair-maya-leg",
-                        "axis": "x",
-                        "side": "right"
-                      }
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -0.021,
-                    0.02,
-                    -0.021,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "ee6b19bd-35d9-4c72-92a4-e2be9be161b1",
-                  "material": "1d462a29-ac4c-413a-a22d-7002ea0cad61"
-                },
-                {
-                  "uuid": "949f0775-41c7-47e9-82e8-dc3ec6986ff6",
-                  "type": "Mesh",
-                  "name": "chair-maya-leg",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:20",
-                      "bbox": {
-                        "center": [
-                          0.566,
-                          0.078,
-                          0.126
-                        ],
-                        "size": [
-                          0.005,
-                          0.04,
-                          0.005
-                        ]
-                      },
-                      "region": {
-                        "x": "right",
-                        "y": "bottom",
-                        "z": "front"
-                      },
-                      "shape": "elongated",
-                      "orientation": "vertical",
-                      "sizeRank": "smallest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-maya",
-                      "adjacency": [
-                        "chair-maya-seat"
-                      ],
-                      "color": {
-                        "name": "dark red",
-                        "base": "red",
-                        "hex": "#33292a"
-                      },
-                      "materials": [],
-                      "pair": {
-                        "mateUuid": "c0fd6bec-ec04-403e-91c6-13f5050ac228",
-                        "mateName": "chair-maya-leg",
-                        "axis": "x",
-                        "side": "left"
-                      }
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0.021,
-                    0.02,
-                    -0.021,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "f0acc85c-1c00-463a-ab49-905517071329",
-                  "material": "9cee7c01-52de-484c-87a6-e81da44b75de"
-                },
-                {
-                  "uuid": "6019cb59-5cf4-421d-b98d-dc53e1071041",
-                  "type": "Mesh",
-                  "name": "chair-maya-leg",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:20",
-                      "bbox": {
-                        "center": [
-                          0.524,
-                          0.078,
-                          0.084
-                        ],
-                        "size": [
-                          0.005,
-                          0.04,
-                          0.005
-                        ]
-                      },
-                      "region": {
-                        "x": "left",
-                        "y": "bottom",
-                        "z": "back"
-                      },
-                      "shape": "elongated",
-                      "orientation": "vertical",
-                      "sizeRank": "smallest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-maya",
-                      "adjacency": [
-                        "chair-maya-seat"
-                      ],
-                      "color": {
-                        "name": "dark red",
-                        "base": "red",
-                        "hex": "#33292a"
-                      },
-                      "materials": [],
-                      "pair": {
-                        "mateUuid": "01e600fe-7e6f-4aab-abc7-5fac63372241",
-                        "mateName": "chair-maya-leg",
-                        "axis": "x",
-                        "side": "right"
-                      }
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    -0.021,
-                    0.02,
-                    0.021,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "d4a8f8d8-c164-454e-a014-b0e8f02d36fb",
-                  "material": "c4463282-65ff-4d8e-99ea-e86eb53f7413"
-                },
-                {
-                  "uuid": "01e600fe-7e6f-4aab-abc7-5fac63372241",
-                  "type": "Mesh",
-                  "name": "chair-maya-leg",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "148:20",
-                      "bbox": {
-                        "center": [
-                          0.524,
-                          0.078,
-                          0.126
-                        ],
-                        "size": [
-                          0.005,
-                          0.04,
-                          0.005
-                        ]
-                      },
-                      "region": {
-                        "x": "left",
-                        "y": "bottom",
-                        "z": "front"
-                      },
-                      "shape": "elongated",
-                      "orientation": "vertical",
-                      "sizeRank": "smallest",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-maya",
-                      "adjacency": [
-                        "chair-maya-seat"
-                      ],
-                      "color": {
-                        "name": "dark red",
-                        "base": "red",
-                        "hex": "#33292a"
-                      },
-                      "materials": [],
-                      "pair": {
-                        "mateUuid": "6019cb59-5cf4-421d-b98d-dc53e1071041",
-                        "mateName": "chair-maya-leg",
-                        "axis": "x",
-                        "side": "left"
-                      }
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0.021,
-                    0.02,
-                    0.021,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "adaf488a-ae74-4a38-bac4-f2b6a9d92617",
-                  "material": "d7b8eae1-98db-4e76-803a-0240a95da27d"
-                },
-                {
-                  "uuid": "9a7098f1-40b1-48d8-a609-4a2d7ae2f634",
-                  "type": "Mesh",
-                  "name": "chair-maya-back",
-                  "userData": {
-                    "descriptors": {
-                      "v": 1,
-                      "geomHash": "24:33",
-                      "bbox": {
-                        "center": [
-                          0.5675,
-                          0.122,
-                          0.105
-                        ],
-                        "size": [
-                          0.005,
-                          0.042,
-                          0.05
-                        ]
-                      },
-                      "region": {
-                        "x": "right",
-                        "y": "top",
-                        "z": "center"
-                      },
-                      "shape": "flat",
-                      "orientation": "horizontal",
-                      "sizeRank": "medium",
-                      "volume": 0,
-                      "role": "leaf",
-                      "childCount": 0,
-                      "depth": 2,
-                      "parentName": "chair-maya",
-                      "adjacency": [],
-                      "color": {
-                        "name": "red",
-                        "base": "red",
-                        "hex": "#c4604f"
-                      },
-                      "materials": [],
-                      "pair": null
-                    }
-                  },
-                  "layers": 1,
-                  "matrix": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0.064,
-                    -0.0225,
-                    1
-                  ],
-                  "up": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "geometry": "75c0fba1-3ab7-4932-95ea-f9b3b7b8b7e3",
-                  "material": "7006f9fc-07b9-4eb5-8c55-9971bfd7a538"
-                }
-              ]
-            },
             {
               "uuid": "d72742a5-3bfc-49f7-8817-fe85e8401b74",
               "type": "Mesh",
@@ -186864,10 +184479,10 @@
                     0,
                     0,
                     0.9928086358538663,
-                    -0.1197122072889195,
+                    -0.11971220728891951,
                     0,
                     0,
-                    0.1197122072889195,
+                    0.11971220728891951,
                     0.9928086358538663,
                     0,
                     0,
@@ -186941,10 +184556,10 @@
                     0,
                     0,
                     0.9928086358538663,
-                    -0.1197122072889195,
+                    -0.11971220728891951,
                     0,
                     0,
-                    0.1197122072889195,
+                    0.11971220728891951,
                     0.9928086358538663,
                     0,
                     0,
@@ -187079,7 +184694,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             },
@@ -187094,12 +184709,12 @@
                 0,
                 0,
                 0,
-                0.9976303284229822,
-                0.06880209161537817,
+                0.997630328422982,
+                0.06880209161537819,
                 0,
                 0,
-                -0.06880209161537817,
-                0.9976303284229822,
+                -0.06880209161537819,
+                0.997630328422982,
                 0,
                 -0.64,
                 0.11,
@@ -187116,7 +184731,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             },
@@ -187153,7 +184768,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             },
@@ -187190,7 +184805,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             },
@@ -187200,17 +184815,17 @@
               "name": "cam06-two-shot",
               "layers": 1,
               "matrix": [
-                1.3322676295501878e-15,
-                5.551115123125783e-17,
-                -0.9999999999999999,
+                1.3322676295501877e-15,
+                2.775557561562891e-17,
+                -1,
                 0,
                 -0.20952908873087328,
                 0.9778024140774095,
-                -2.0816681711721685e-16,
+                -2.636779683484747e-16,
                 0,
-                0.9778024140774094,
-                0.20952908873087328,
-                1.3322676295501878e-15,
+                0.9778024140774095,
+                0.20952908873087325,
+                1.3322676295501877e-15,
                 0,
                 0.74,
                 0.17,
@@ -187227,7 +184842,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             },
@@ -187264,7 +184879,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             },
@@ -187278,9 +184893,9 @@
                 -6.938893903907228e-18,
                 -0.8837879163470623,
                 0,
-                -0.11390684258955774,
+                -0.11390684258955777,
                 0.991659570779678,
-                -0.06030362254741279,
+                -0.06030362254741278,
                 0,
                 0.8764167457849945,
                 0.12888481555661685,
@@ -187301,7 +184916,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             },
@@ -187338,7 +184953,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             },
@@ -187375,7 +184990,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             },
@@ -187386,12 +185001,12 @@
               "layers": 1,
               "matrix": [
                 -4.440892098500625e-16,
-                1.9428902930940235e-16,
+                2.2204460492503126e-16,
                 -0.9999999999999998,
                 0,
-                -0.351123441588392,
-                0.9363291775690439,
-                3.053113317719179e-16,
+                -0.3511234415883919,
+                0.9363291775690438,
+                3.3306690738754676e-16,
                 0,
                 0.9363291775690443,
                 0.3511234415883921,
@@ -187412,7 +185027,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             },
@@ -187423,16 +185038,16 @@
               "layers": 1,
               "matrix": [
                 9.992007221626405e-16,
-                2.77555756156289e-17,
+                -2.77555756156289e-17,
                 -0.9999999999999996,
                 0,
                 -0.27999999999999997,
                 0.9599999999999994,
-                -3.053113317719179e-16,
+                -3.608224830031757e-16,
                 0,
-                0.9599999999999987,
-                0.2799999999999998,
-                9.992007221626397e-16,
+                0.9599999999999986,
+                0.27999999999999975,
+                9.992007221626395e-16,
                 0,
                 0.7,
                 0.18,
@@ -187449,7 +185064,7 @@
               "near": 0.005,
               "far": 60,
               "focus": 10,
-              "aspect": 1.0881578947368422,
+              "aspect": 1.2764976958525345,
               "filmGauge": 35,
               "filmOffset": 0
             }
@@ -187576,13 +185191,13 @@
           "matrix": [
             -0.059375,
             0,
-            -7.271340369937403e-18,
+            -7.271340369937401e-18,
             0,
             0,
             0.059375,
             0,
             0,
-            7.271340369937403e-18,
+            7.271340369937401e-18,
             0,
             -0.059375,
             0,
@@ -187648,21 +185263,21 @@
           },
           "layers": 1,
           "matrix": [
-            1,
+            0.085,
             0,
             0,
             0,
             0,
-            1,
+            0.085,
             0,
             0,
             0,
             0,
-            1,
+            0.085,
             0,
-            1.495628872574585,
-            0,
-            0,
+            0.46,
+            0.09795000000000001,
+            0.105,
             1
           ],
           "up": [
@@ -187722,21 +185337,21 @@
           },
           "layers": 1,
           "matrix": [
-            1,
+            -0.09,
+            0,
+            -1.1021821192326179e-17,
             0,
             0,
+            0.09,
             0,
             0,
-            1,
+            1.1021821192326179e-17,
             0,
+            -0.09,
             0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
+            0.46,
+            0.10300000000000001,
+            0.19,
             1
           ],
           "up": [
@@ -187796,21 +185411,21 @@
           },
           "layers": 1,
           "matrix": [
-            1,
+            0.09,
             0,
             0,
             0,
             0,
-            1,
+            0.09,
             0,
             0,
             0,
             0,
-            1,
+            0.09,
             0,
-            0,
-            0,
-            0,
+            0.46,
+            0.10300000000000001,
+            0.02,
             1
           ],
           "up": [
@@ -187820,10 +185435,518 @@
           ],
           "geometry": "264d2a4c-5ad0-48fd-8e5f-24147e60634a",
           "material": "8e838b63-b071-4908-830b-65fde74c3115"
+        },
+        {
+          "uuid": "3906afc0-df98-48c7-a342-6fe7b732b7f0",
+          "type": "Group",
+          "name": "cafe-table-props",
+          "userData": {
+            "descriptors": {
+              "v": 1,
+              "geomHash": "grp:6",
+              "bbox": {
+                "center": [
+                  0.449,
+                  0.1421,
+                  0.11
+                ],
+                "size": [
+                  0.05,
+                  0.0125,
+                  0.07
+                ]
+              },
+              "region": {
+                "x": "center",
+                "y": "center",
+                "z": "center"
+              },
+              "shape": "blocky",
+              "orientation": "horizontal",
+              "sizeRank": "medium",
+              "volume": 0,
+              "role": "group",
+              "childCount": 6,
+              "depth": 0,
+              "parentName": "Scene",
+              "adjacency": [],
+              "color": {
+                "name": "orange",
+                "base": "orange",
+                "hex": "#f3ede2"
+              },
+              "materials": [],
+              "pair": null
+            }
+          },
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.46,
+            0.06289999999999998,
+            0.105,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "children": [
+            {
+              "uuid": "505ab752-e087-4c7a-b725-7000b154d895",
+              "type": "Mesh",
+              "name": "cup-nico",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "148:11",
+                  "bbox": {
+                    "center": [
+                      0.438,
+                      0.137,
+                      0.089
+                    ],
+                    "size": [
+                      0.018,
+                      0.012,
+                      0.018
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "back"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 2,
+                  "parentName": "cafe-table",
+                  "adjacency": [
+                    "table-top",
+                    "cup-nico-coffee",
+                    "cup-nico-saucer"
+                  ],
+                  "color": {
+                    "name": "light orange",
+                    "base": "orange",
+                    "hex": "#f3ede2"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.022,
+                0.079,
+                -0.016,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "a45153d7-3324-4f89-b2de-0dd15275596d",
+              "material": "d4acd437-82f9-4e21-a3b9-a53eedd941df"
+            },
+            {
+              "uuid": "2fe9a99f-686d-4823-ab85-2e2c8b556c9c",
+              "type": "Mesh",
+              "name": "cup-nico-coffee",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "148:8",
+                  "bbox": {
+                    "center": [
+                      0.438,
+                      0.1432,
+                      0.089
+                    ],
+                    "size": [
+                      0.0156,
+                      0.0006,
+                      0.0156
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "back"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 2,
+                  "parentName": "cafe-table",
+                  "adjacency": [
+                    "cup-nico"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#3a2418"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.022,
+                0.0852,
+                -0.016,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "55fe6189-879a-4da8-a723-06340d9989df",
+              "material": "7bcdbf18-cbff-4ac0-8a52-8b69f1584403"
+            },
+            {
+              "uuid": "c955f126-821a-490e-819d-63cd9c63607f",
+              "type": "Mesh",
+              "name": "cup-nico-saucer",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "148:14",
+                  "bbox": {
+                    "center": [
+                      0.438,
+                      0.1318,
+                      0.089
+                    ],
+                    "size": [
+                      0.028,
+                      0.0016,
+                      0.028
+                    ]
+                  },
+                  "region": {
+                    "x": "left",
+                    "y": "top",
+                    "z": "back"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 2,
+                  "parentName": "cafe-table",
+                  "adjacency": [
+                    "table-top",
+                    "cup-nico"
+                  ],
+                  "color": {
+                    "name": "light orange",
+                    "base": "orange",
+                    "hex": "#f3ede2"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.022,
+                0.0738,
+                -0.016,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "6d4559c2-9e2d-4deb-8f2e-9862f7bb6566",
+              "material": "982e096c-61c1-4f01-9015-ba600f1c1810"
+            },
+            {
+              "uuid": "15d7dfd9-7021-4487-8948-2532b1af42e3",
+              "type": "Mesh",
+              "name": "cup-maya",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "148:11",
+                  "bbox": {
+                    "center": [
+                      0.482,
+                      0.137,
+                      0.121
+                    ],
+                    "size": [
+                      0.018,
+                      0.012,
+                      0.018
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "blocky",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 2,
+                  "parentName": "cafe-table",
+                  "adjacency": [
+                    "table-top",
+                    "cup-maya-coffee",
+                    "cup-maya-saucer"
+                  ],
+                  "color": {
+                    "name": "light orange",
+                    "base": "orange",
+                    "hex": "#f3ede2"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.079,
+                0.026,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "5992ce12-9c7a-41a3-8fca-11dd903444a3",
+              "material": "3052dece-8bfd-4b63-94c7-0ebc9e884023"
+            },
+            {
+              "uuid": "f7da578d-1250-470f-8363-32265021ce1f",
+              "type": "Mesh",
+              "name": "cup-maya-coffee",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "148:8",
+                  "bbox": {
+                    "center": [
+                      0.482,
+                      0.1432,
+                      0.121
+                    ],
+                    "size": [
+                      0.0156,
+                      0.0006,
+                      0.0156
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "smallest",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 2,
+                  "parentName": "cafe-table",
+                  "adjacency": [
+                    "cup-maya"
+                  ],
+                  "color": {
+                    "name": "brown",
+                    "base": "brown",
+                    "hex": "#3a2418"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.0852,
+                0.026,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ec2e713-59b3-4c86-864f-73219a3c8829",
+              "material": "a719accc-12b5-4bec-8290-0c32867f35c0"
+            },
+            {
+              "uuid": "27995989-2c0d-4437-9450-51b993ee0578",
+              "type": "Mesh",
+              "name": "cup-maya-saucer",
+              "userData": {
+                "descriptors": {
+                  "v": 1,
+                  "geomHash": "148:14",
+                  "bbox": {
+                    "center": [
+                      0.482,
+                      0.1318,
+                      0.121
+                    ],
+                    "size": [
+                      0.028,
+                      0.0016,
+                      0.028
+                    ]
+                  },
+                  "region": {
+                    "x": "right",
+                    "y": "top",
+                    "z": "front"
+                  },
+                  "shape": "flat",
+                  "orientation": "horizontal",
+                  "sizeRank": "medium",
+                  "volume": 0,
+                  "role": "leaf",
+                  "childCount": 0,
+                  "depth": 2,
+                  "parentName": "cafe-table",
+                  "adjacency": [
+                    "table-top",
+                    "cup-maya"
+                  ],
+                  "color": {
+                    "name": "light orange",
+                    "base": "orange",
+                    "hex": "#f3ede2"
+                  },
+                  "materials": [],
+                  "pair": null
+                }
+              },
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.0738,
+                0.026,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "a4ac05b8-dd31-41ff-9ed0-ecf5b46635e7",
+              "material": "1dc71ca1-b744-4421-8496-87f0d2632e73"
+            }
+          ]
         }
       ],
       "animations": [
-        "be8bba7e-6cdd-4b9d-97d4-2cfe75e897ae"
+        "00e6ddaf-ded8-47a8-9286-46e7fe37468f"
       ],
       "fog": {
         "type": "Fog",
@@ -229803,7 +227926,7 @@
             "type": "number"
           }
         ],
-        "uuid": "be8bba7e-6cdd-4b9d-97d4-2cfe75e897ae",
+        "uuid": "00e6ddaf-ded8-47a8-9286-46e7fe37468f",
         "blendMode": 2500,
         "userData": "{\"isTimeline\":true}"
       }
