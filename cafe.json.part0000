@@ -14,22 +14,22 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "e6618f05-4081-4c77-98fc-607f5c496767",
+      "uuid": "71bb13d3-bcf5-4b96-b03b-e99cf4f1beef",
       "type": "PerspectiveCamera",
       "name": "Edit Camera",
       "layers": 1,
       "matrix": [
-        -0.9869588118482433,
-        1.734723475976806e-17,
+        -0.9869588118482434,
+        2.4286128663675275e-17,
         -0.16097299063849815,
         0,
         -0.04575979288915926,
-        0.9587442641976829,
-        0.2805627865964813,
+        0.9587442641976828,
+        0.2805627865964814,
         0,
         0.15433193146540755,
         0.284270005220462,
-        -0.9462410998588643,
+        -0.9462410998588645,
         0,
         0.9849393608977248,
         2.593702384329063,
@@ -6618,13 +6618,13 @@
           "interleavedBuffers": {
             "8883c87c-7081-4c9e-bc91-d8d4334c1674": {
               "uuid": "8883c87c-7081-4c9e-bc91-d8d4334c1674",
-              "buffer": "7ca9027e-710c-4524-8fbd-48e7e767850b",
+              "buffer": "5623e631-9a6b-4a68-9cfd-66a2881587ef",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "7ca9027e-710c-4524-8fbd-48e7e767850b": [
+            "5623e631-9a6b-4a68-9cfd-66a2881587ef": [
               1056643921,
               1055955675,
               3177566056,
@@ -41097,13 +41097,13 @@
           "interleavedBuffers": {
             "c60b6ee6-a246-444a-b920-5b070e829c76": {
               "uuid": "c60b6ee6-a246-444a-b920-5b070e829c76",
-              "buffer": "8044139c-8b68-4df2-a341-2018875a6f6e",
+              "buffer": "4c621222-859c-48dd-83b3-cb61a9894041",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "8044139c-8b68-4df2-a341-2018875a6f6e": [
+            "4c621222-859c-48dd-83b3-cb61a9894041": [
               3193701261,
               3152744263,
               1009460256,
@@ -79266,13 +79266,13 @@
           "interleavedBuffers": {
             "45d7bf97-404f-49a6-a431-06b1cbb9fca9": {
               "uuid": "45d7bf97-404f-49a6-a431-06b1cbb9fca9",
-              "buffer": "9ace1a14-6e3f-4c86-ad9b-cf379030c979",
+              "buffer": "bd4f2765-a95d-493b-bbeb-b07750a3d386",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "9ace1a14-6e3f-4c86-ad9b-cf379030c979": [
+            "bd4f2765-a95d-493b-bbeb-b07750a3d386": [
               3193814472,
               3175312227,
               1022531241,
@@ -111765,13 +111765,13 @@
           "interleavedBuffers": {
             "4053482f-96cf-40ab-93a7-5b142764c154": {
               "uuid": "4053482f-96cf-40ab-93a7-5b142764c154",
-              "buffer": "49e8bf11-f188-4daa-8543-da3d4e462d1a",
+              "buffer": "529cde96-d4fe-425c-9522-285410c16f65",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "49e8bf11-f188-4daa-8543-da3d4e462d1a": [
+            "529cde96-d4fe-425c-9522-285410c16f65": [
               3196348043,
               3180928102,
               3176576597,
@@ -152154,13 +152154,13 @@
           "interleavedBuffers": {
             "6b6ce673-ab68-442d-99ff-4760d1599f9c": {
               "uuid": "6b6ce673-ab68-442d-99ff-4760d1599f9c",
-              "buffer": "6c0452b1-cfe6-479e-ab1b-36034ebdebfb",
+              "buffer": "4a9f4cc3-ff20-4845-8284-2c50cd2d818a",
               "type": "Float32Array",
               "stride": 5
             }
           },
           "arrayBuffers": {
-            "6c0452b1-cfe6-479e-ab1b-36034ebdebfb": [
+            "4a9f4cc3-ff20-4845-8284-2c50cd2d818a": [
               1036455115,
               1036226730,
               1048176669,
