@@ -14,29 +14,29 @@
       "generator": "Object3D.toJSON"
     },
     "object": {
-      "uuid": "1db8261a-ca83-4e18-97ed-872f52857bf4",
+      "uuid": "3abade73-9c2f-4fd8-bd73-8b854a6a3ddb",
       "type": "PerspectiveCamera",
-      "name": "cam-side",
+      "name": "cam-wide",
       "userData": {
         "classes": {}
       },
       "layers": 1,
       "matrix": [
-        0.4225294672054316,
-        2.9706938992069e-10,
-        -0.9063491873130873,
+        -0.0001332890863752212,
+        1.1310392622476684e-9,
+        -0.9999999720041567,
         0,
-        -0.11768673951988992,
-        0.9915340396939378,
-        -0.05486419113955888,
+        -0.13216371358329937,
+        0.9912279012246101,
+        0.00001761962793533911,
         0,
-        0.8986760710535646,
-        0.129847018172234,
-        0.41895234954288996,
+        0.9912278733067316,
+        0.13216371475779454,
+        -0.00013211954420166983,
         0,
-        3.652426892766808,
-        1.5,
-        -0.10092259851482302,
+        7.5,
+        2,
+        -0.0010000000474974513,
         1
       ],
       "up": [
@@ -44,7 +44,7 @@
         1,
         0
       ],
-      "fov": 32,
+      "fov": 38,
       "zoom": 1,
       "near": 0.1,
       "far": 200,
@@ -203,7 +203,7 @@
               "itemSize": 4,
               "type": "Uint32Array",
               "array": {
-                "$bin": "assets/pack-df30c03818443d90142e07b6c442648cf58a21ec.bin",
+                "$bin": "assets/pack-b5ebdb2fa6a7e26a9c4e6dda89324491e8ce3392.bin",
                 "dtype": "Uint32Array",
                 "length": 4212,
                 "offset": 0,
@@ -229,7 +229,7 @@
               "itemSize": 2,
               "type": "Uint16Array",
               "array": {
-                "$bin": "assets/pack-df30c03818443d90142e07b6c442648cf58a21ec.bin",
+                "$bin": "assets/pack-b5ebdb2fa6a7e26a9c4e6dda89324491e8ce3392.bin",
                 "dtype": "Uint16Array",
                 "length": 2106,
                 "offset": 16848,
@@ -241,7 +241,7 @@
               "itemSize": 4,
               "type": "Uint8Array",
               "array": {
-                "$bin": "assets/pack-df30c03818443d90142e07b6c442648cf58a21ec.bin",
+                "$bin": "assets/pack-b5ebdb2fa6a7e26a9c4e6dda89324491e8ce3392.bin",
                 "dtype": "Uint8Array",
                 "length": 4212,
                 "offset": 21064,
@@ -253,7 +253,7 @@
           "index": {
             "type": "Uint32Array",
             "array": {
-              "$bin": "assets/pack-df30c03818443d90142e07b6c442648cf58a21ec.bin",
+              "$bin": "assets/pack-b5ebdb2fa6a7e26a9c4e6dda89324491e8ce3392.bin",
               "dtype": "Uint32Array",
               "length": 5088,
               "offset": 25280,
