@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "scene": {
+    "repo": "tejaswigowda/test1",
+    "file": "projectile.json",
+    "branch": "main",
+    "commit": null,
+    "hash": "sha256:35c15345ea1b22a57643b6a5e2e6d0da42a88791a3cecda50381897de922e609"
+  },
+  "render": {
+    "mode": "offline",
+    "deterministic": true,
+    "renderer": "WebGLRenderer",
+    "device": "webgl2",
+    "fps": 30,
+    "frames": 2421,
+    "frame_range": [
+      0,
+      2420
+    ],
+    "duration_s": 80.7,
+    "width": 1280,
+    "height": 720,
+    "seed": null,
+    "exporter": "strata-export/1.0.0",
+    "rendered_at": "2026-10-27T03:59:59.253Z",
+    "time_source_audit": {
+      "document": "guides/TIME_SOURCES.md",
+      "passed": true,
+      "residuals": 3
+    }
+  },
+  "outputs": {
+    "master": "master.m3u8",
+    "renditions": [
+      {
+        "name": "720p30",
+        "width": 1280,
+        "height": 720,
+        "bitrate_kbps": 1800,
+        "playlist": "720p30/index.m3u8",
+        "segments": 14,
+        "max_segment_bytes": 1439969
+      },
+      {
+        "name": "480p30",
+        "width": 854,
+        "height": 480,
+        "bitrate_kbps": 900,
+        "playlist": "480p30/index.m3u8",
+        "segments": 14,
+        "max_segment_bytes": 707691
+      }
+    ],
+    "poster": "poster.jpg",
+    "captions": "captions.vtt"
+  },
+  "checks": {
+    "segments_under_20mb": true,
+    "files_under_100mb": true,
+    "frame_count_matches_duration": true
+  }
+}
