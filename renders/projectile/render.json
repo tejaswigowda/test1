@@ -4,60 +4,108 @@
     "repo": "tejaswigowda/test1",
     "file": "projectile.json",
     "branch": "main",
-    "commit": null,
-    "hash": "sha256:35c15345ea1b22a57643b6a5e2e6d0da42a88791a3cecda50381897de922e609"
+    "commit": "b26c33f0f1defc88889727b3876caf225cb9c580",
+    "hash": "sha256:5321070536d792d1fc1e3c8ec90d5fc4a42a0d9f404d9c738817259dde356f2a"
   },
   "render": {
     "mode": "offline",
-    "deterministic": true,
+    "deterministic": false,
+    "encoder": "software",
     "renderer": "WebGLRenderer",
     "device": "webgl2",
-    "fps": 30,
-    "frames": 2421,
+    "fps": 60,
+    "frames": 4842,
     "frame_range": [
       0,
-      2420
+      4841
     ],
     "duration_s": 80.7,
-    "width": 1280,
-    "height": 720,
+    "width": 1920,
+    "height": 1080,
     "seed": null,
-    "exporter": "strata-export/1.0.0",
-    "rendered_at": "2026-10-27T03:59:59.253Z",
+    "exporter": "strata-export/1.1.0",
+    "rendered_at": "2026-10-27T18:09:13.492Z",
     "time_source_audit": {
       "document": "guides/TIME_SOURCES.md",
       "passed": true,
-      "residuals": 3
-    }
+      "residuals_accepted": [
+        "shell-wall-clock-loops"
+      ]
+    },
+    "not_deterministic_because": [
+      "the scene shows the live end card (a web page rasterised at render time)",
+      "the shot sequence has camera crossfades: frames inside a transition depended on render history when measured",
+      "repeat renders were not byte-identical when tested (frames inside camera crossfades and the end card differed between two renders; cause not found)"
+    ]
   },
   "outputs": {
     "master": "master.m3u8",
     "renditions": [
       {
-        "name": "720p30",
+        "name": "1080p60",
+        "width": 1920,
+        "height": 1080,
+        "bitrate_kbps": 3500,
+        "playlist": "1080p60/index.m3u8",
+        "segments": 14,
+        "max_segment_bytes": 2616349
+      },
+      {
+        "name": "720p60",
         "width": 1280,
         "height": 720,
         "bitrate_kbps": 1800,
-        "playlist": "720p30/index.m3u8",
+        "playlist": "720p60/index.m3u8",
         "segments": 14,
-        "max_segment_bytes": 1439969
+        "max_segment_bytes": 1350740
       },
       {
-        "name": "480p30",
+        "name": "480p60",
         "width": 854,
         "height": 480,
         "bitrate_kbps": 900,
-        "playlist": "480p30/index.m3u8",
+        "playlist": "480p60/index.m3u8",
         "segments": 14,
-        "max_segment_bytes": 707691
+        "max_segment_bytes": 674599
       }
     ],
     "poster": "poster.jpg",
-    "captions": "captions.vtt"
+    "captions": "captions.vtt",
+    "audio": {
+      "name": "English",
+      "language": "en",
+      "codec": "mp4a.40.2",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bitrate_kbps": 128,
+      "playlist": "audio/index.m3u8",
+      "segments": 14,
+      "max_segment_bytes": 75401,
+      "duration_s": 80.704,
+      "source": {
+        "path": "narration.wav",
+        "sha256": "sha256:54cac4298f0b49994d5d13c572cc95a67f96d729a54fab2219a2bc715df15edb",
+        "tool": "dub.webcli.app",
+        "voice": "af_sarah",
+        "model": "onnx-community/Kokoro-82M-v1.0-ONNX@1939ad2a8e416c0acfeecc08a694d14ef25f2231 q8/wasm"
+      },
+      "encoder_delay_samples": 2112
+    },
+    "file": {
+      "path": "projectile.mp4",
+      "bytes": 18394253,
+      "container": "mp4",
+      "video": "copied from the 720p60 rung, not re-encoded",
+      "audio": "aac-lc, 48 kHz stereo, 128 kbps",
+      "captions": "mov_text, a soft track the viewer can switch off",
+      "made_by": "ffmpeg.webcli.app",
+      "command": "ffmpeg -i video.mp4 -i audio.wav -i captions.vtt -map 0:v:0 -map 1:a:0 -map 2:s:0 -c:v copy -c:a aac -b:a 128k -ar 48000 -ac 2 -metadata:s:a:0 language=eng -c:s mov_text -metadata:s:s:0 language=eng -movflags +faststart out.mp4"
+    }
   },
   "checks": {
     "segments_under_20mb": true,
     "files_under_100mb": true,
-    "frame_count_matches_duration": true
+    "frame_count_matches_duration": true,
+    "audio_duration_matches_video": true
   }
 }
