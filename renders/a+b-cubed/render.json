@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "scene": {
+    "repo": "tejaswigowda/test1",
+    "file": "a+b-cubed.json",
+    "branch": "main",
+    "commit": "fdb3a56e4ba0f47081b918b5a95b59f31aeaa5fb",
+    "hash": "sha256:aeaa9bc02b2131153200aafd07b0797ca5bb8c8eed4e730649d05c3303e2e28c"
+  },
+  "render": {
+    "mode": "offline",
+    "deterministic": false,
+    "encoder": "hardware",
+    "renderer": "WebGLRenderer",
+    "device": "webgl2",
+    "fps": 60,
+    "frames": 3072,
+    "frame_range": [
+      0,
+      3071
+    ],
+    "duration_s": 51.2,
+    "width": 1920,
+    "height": 1080,
+    "seed": null,
+    "exporter": "strata-export/1.1.0",
+    "rendered_at": "2026-10-30T03:28:57.256Z",
+    "time_source_audit": {
+      "document": "guides/TIME_SOURCES.md",
+      "passed": true,
+      "residuals_accepted": [
+        "shell-wall-clock-loops"
+      ]
+    },
+    "not_deterministic_because": [
+      "a hardware encoder: its bytes are not promised to repeat",
+      "the scene shows the live end card (a web page rasterised at render time)",
+      "the shot sequence has camera crossfades: frames inside a transition depended on render history when measured",
+      "repeat renders were not byte-identical when tested (frames inside camera crossfades and the end card differed between two renders; cause not found)"
+    ]
+  },
+  "outputs": {
+    "master": "master.m3u8",
+    "renditions": [
+      {
+        "name": "1080p60",
+        "width": 1920,
+        "height": 1080,
+        "bitrate_kbps": 3500,
+        "playlist": "1080p60/index.m3u8",
+        "segments": 9,
+        "max_segment_bytes": 2643357
+      },
+      {
+        "name": "720p60",
+        "width": 1280,
+        "height": 720,
+        "bitrate_kbps": 1800,
+        "playlist": "720p60/index.m3u8",
+        "segments": 9,
+        "max_segment_bytes": 1362582
+      },
+      {
+        "name": "480p60",
+        "width": 854,
+        "height": 480,
+        "bitrate_kbps": 900,
+        "playlist": "480p60/index.m3u8",
+        "segments": 9,
+        "max_segment_bytes": 685302
+      }
+    ],
+    "poster": "poster.jpg",
+    "captions": "captions.vtt",
+    "audio": {
+      "name": "English",
+      "language": "en",
+      "codec": "mp4a.40.2",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bitrate_kbps": 128,
+      "playlist": "audio/index.m3u8",
+      "segments": 9,
+      "max_segment_bytes": 63918,
+      "duration_s": 51.2,
+      "source": {
+        "path": "a-b-cubed_narration.wav",
+        "sha256": "sha256:b6612da3936294c75f80b697097f1a07cbd0937926c172a59aab6d9b15109c9d"
+      },
+      "encoder_delay_samples": 2112
+    }
+  },
+  "checks": {
+    "segments_under_20mb": true,
+    "files_under_100mb": true,
+    "frame_count_matches_duration": true,
+    "audio_duration_matches_video": true
+  }
+}
