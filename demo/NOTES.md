@@ -48,7 +48,16 @@ OBS was not installed on the development machine: FX2 and finished footage
 remain pending. A configured OBS source still needs a human check that it
 captures Chromium and its audio, rather than a different window.
 
-**Verified:** 5 focused operation tests pass. A complete unattended **English**
+**Scene export correction:** Initial rehearsal evidence below predates a visual
+export fix: object matrices were not updated before serialization, and a
+procedural building-geometry rotation did not survive reloading. The GIS
+metadata was correct, but the visible paths collapsed at the origin and the
+building stood vertically. The export now saves object transforms, rotates the
+building mesh, and saves Strata's control center. A reload regression test checks
+every path segment against its stored GIS coordinates and the building's height.
+Earlier speech/operation rehearsals are not evidence of correct scene appearance.
+
+**Verified:** 5 focused operation tests plus the scene reload test pass. A complete unattended **English**
 rehearsal passed: Dub -> actual Whisper transcripts -> Qwen2.5-Coder-1.5B ->
 real ambiguity refusal -> >=3-second visible hold (about 3.5 s) -> clarified canopy on
 `center-walk`. No footage was captured; the full run took about 49 seconds,

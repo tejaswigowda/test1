@@ -35,8 +35,8 @@ const shape = new T.Shape( footprint.geometry.coordinates[ 0 ].map( coordinate =
   const [ x, , z ] = project( coordinate ); return new T.Vector2( x, -z );
 } ) );
 const buildingGeometry = new T.ExtrudeGeometry( shape, { depth: 6, bevelEnabled: false } );
-buildingGeometry.rotateX( -Math.PI / 2 );
 const center = mesh( 'Community center / sourced footprint, assumed 6m height', buildingGeometry, material( '#eee4d0' ), [ 0, 0.05, 0 ] );
+center.rotation.x = -Math.PI / 2;
 center.userData = { source: 'City of Mesa building OBJECTID 53258', modifications: 'Height is representative, not surveyed.' };
 const selected = [
   { objectid: 30121, id: 'center-walk', label: 'Walkway by the community center', aliases: [ 'center-walk', 'community center', 'centro comunitario' ], color: '#d2bc8e' },
@@ -72,10 +72,11 @@ camera.name = 'FutureFlux overview'; camera.position.set( 190, 160, 235 ); camer
 const ops = ( await read( 'ops.mjs' ) ).replace( 'export function', 'function' );
 const panel = ( await read( 'panel.mjs' ) ).replace( 'export function', 'function' );
 const script = `${ops}\n${panel}\nlet disposeFlux;\nfunction init(){disposeFlux=mountFluxPanel(createFluxHost({THREE,scene,camera}),window.editor?.aiEngine);}\nfunction stop(){if(disposeFlux)disposeFlux();}`;
+scene.updateMatrixWorld( true );
 const json = {
   metadata: { type: 'App', version: 1, generator: 'FutureFlux / sourced Mesa scene' },
   project: { renderer: 'WebGLRenderer', shadows: true, shadowType: T.PCFSoftShadowMap, toneMapping: T.ACESFilmicToneMapping, toneMappingExposure: 1 },
-  camera: camera.toJSON(), controls: { target: [ 0, 0, -16 ] }, scene: scene.toJSON(), animations: [],
+  camera: camera.toJSON(), controls: { center: [ 0, 0, -16 ] }, scene: scene.toJSON(), animations: [],
   scripts: { [ scene.uuid ]: [ { name: 'FutureFlux live operations + disclosure panel', source: script } ] },
   history: { undos: [], redos: [] }, backgroundType: 'Color', environmentType: 'None'
 };

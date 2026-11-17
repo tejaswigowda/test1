@@ -1,5 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
 import * as T from 'three';
 import { createFluxHost } from './ops.mjs';
 
@@ -14,6 +15,33 @@ function fixture() {
   return { scene, camera, host: createFluxHost( { THREE: T, scene, camera } ) };
 }
 const answer = proposal => async () => JSON.stringify( proposal );
+
+test( 'exported scene reloads GIS paths at their coordinates and keeps the building horizontal', async () => {
+  const json = JSON.parse( await readFile( new URL( 'scene.json', import.meta.url ), 'utf8' ) );
+  const loader = new T.ObjectLoader(), scene = loader.parse( json.scene ), camera = loader.parse( json.camera );
+  scene.updateMatrixWorld( true );
+  const paths = scene.children.filter( o => o.userData.fluxPath );
+  assert.equal( paths.length, 2 );
+  for ( const path of paths ) {
+    const points = path.userData.fluxPath.points.map( p => new T.Vector3( ...p ) );
+    assert.equal( path.children.length, points.length - 1 );
+    for ( const [ index, segment ] of path.children.entries() ) {
+      const midpoint = points[ index ].clone().add( points[ index + 1 ] ).multiplyScalar( 0.5 );
+      assert.ok( segment.getWorldPosition( new T.Vector3() ).distanceTo( midpoint ) < 1e-6 );
+      const direction = points[ index + 1 ].clone().sub( points[ index ] ).normalize();
+      const axis = new T.Vector3( 0, 0, 1 ).transformDirection( segment.matrixWorld );
+      assert.ok( axis.dot( direction ) > 0.999999 );
+    }
+  }
+  const building = scene.children.find( o => o.name.startsWith( 'Community center /' ) );
+  const size = new T.Box3().setFromObject( building ).getSize( new T.Vector3() );
+  assert.ok( Math.abs( size.y - 6 ) < 1e-5 );
+  assert.ok( size.x > 100 && size.z > 70 );
+  assert.deepEqual( scene.children[ 0 ].position.toArray(), [ 0, -0.6, -10 ] );
+  assert.deepEqual( json.controls.center, [ 0, 0, -16 ] );
+  const host = createFluxHost( { THREE: T, scene, camera } );
+  assert.deepEqual( host.candidates().map( p => p.id ).sort(), [ 'center-walk', 'park-loop' ] );
+} );
 
 test( 'a model guess cannot bypass genuine two-path ambiguity; clarification resolves it', async () => {
   const { host, scene } = fixture();

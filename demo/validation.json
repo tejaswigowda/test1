@@ -1,8 +1,19 @@
 {
   "unitTests": {
     "command": "npm test",
-    "passed": 5,
+    "passed": 6,
     "failed": 0
+  },
+  "sceneExport": {
+    "regression": "Reload test failed against the original published scene and passes after the export correction.",
+    "browserCheck": "Loaded corrected JSON in hosted Strata: camera [190,160,235], control center [0,0,-16], building height 6m; screenshot confirms separated paths, horizontal building and distributed trees.",
+    "checks": [
+      "Every reloaded path segment midpoint and orientation matches the GIS-derived coordinates.",
+      "Reloaded building has 6 metre vertical height and a horizontal footprint.",
+      "Ground position and editor control center survive serialization.",
+      "Both corrected paths intersect the saved camera frustum."
+    ],
+    "historicalRuns": "Runs below predate the export correction; they verify speech and operations, not correct visual site geometry."
   },
   "capture": {
     "recorded": false,
