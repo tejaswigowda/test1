@@ -5,6 +5,46 @@ Local coordinates: origin WGS84 longitude -111.667328704, latitude 33.431791272;
 x east, y up, z south, metres. Longitude is scaled by cos(latitude). This local
 approximation is for a representative site model, not surveying.
 
+## Mesa redistribution permission and conditions
+
+Verified **2026-11-16 (MST)** against the rendered
+[City of Mesa Open Data Terms of Use License Agreement](https://data.mesaaz.gov/stories/s/Terms-of-Use-page/2dcd-j2nx/).
+This is the permission basis for keeping the extracts in `demo/data/` and
+distributing the GIS-derived scene, not merely a link to a reachable endpoint.
+
+- **Section 3(e), Permitted Uses:** the City states that datasets are made
+  available to the public on an open-license basis. It defines that basis as:
+
+  > "there are no restrictions on copying, publishing, distributing, modifying or using the data for a commercial or non-commercial use."
+
+- **Section 3(f), Data Credit:** the City must be listed as the source on all
+  products using the data or derivative work, including maps, reports, displays
+  and applications. Credit must accompany exported footage/stills too, not
+  just the source repository. Use **City of Mesa GIS**; for the footprint,
+  retain its layer credit: **City of Mesa, Information Technology Department,
+  Enterprise GIS**. The tutorial caption/credits and demo panel identify the City.
+- **Section 3(b), additional conditions:** terms embedded in the data or stated
+  at its source also apply. The service and layer descriptions/copyright fields
+  for ParkFinder/19, ParkFinder/16 and CommunityMaps/6 were inspected on the
+  verification date. No additional use restriction was stated in those fields;
+  the footprint's City department credit is retained below. Empty copyright
+  fields are not permission, and do not make the data public domain.
+- **Section 4, Warranty and Disclaimers:** the City disclaims warranties,
+  including accuracy, currency, completeness and fitness for a particular
+  purpose, and supplies data and derivative work as-is, with all faults. The
+  user bears responsibility for checking resulting products and assumes risk.
+  The agreement also contains liability, indemnity and other conditions;
+  this summary does not replace the full agreement.
+- **Sections 3(h) and 3(j):** do not claim ownership of the City's data or
+  derivative work; the City can modify the licence. The linked page is mutable,
+  not an immutable licence snapshot. Recheck the full terms and any source
+  conditions before a new acquisition or reuse.
+
+The same permission-evidence rule applies to Mesa and ASU. Mesa has the
+identified redistribution clause above; ASU's investigated package does not
+yet have verified reuse terms. Fetching at generation time would not itself
+remove licence obligations or make redistribution of the derived scene safe.
+
 ## Mesa mapped pedestrian paths
 
 - **source:** City of Mesa GIS, Parks/ParkFinder/MapServer/19 (Trails).
@@ -13,10 +53,9 @@ approximation is for a representative site model, not surveying.
   spatial relationship intersects, fields OBJECTID/FACILITYID/COMNAME/PathSegmentName/Surface.
   [Query](https://gis.mesaaz.gov/mesaaz/rest/services/Parks/ParkFinder/MapServer/19/query?geometry=-111.6692%2C33.4305%2C-111.6653%2C33.433&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID,FACILITYID,COMNAME,PathSegmentName,Surface&outSR=4326&f=geojson).
 - **licence:** [City of Mesa Data Terms of Use License Agreement](https://data.mesaaz.gov/stories/s/Terms-of-Use-page/2dcd-j2nx/).
-  The published terms grant use and permit copying, publication, distribution,
-  modification, and commercial/noncommercial use of open datasets, with the
-  City's disclaimers. The REST layer itself has an empty copyright field;
-  that is not treated as a public-domain declaration.
+  Redistribution basis: **section 3(e)**, quoted above; City-source credit:
+  **section 3(f)**; additional source terms: **section 3(b)**; disclaimers:
+  **section 4**. The REST layer's empty copyright field is not the licence.
 - **attribution:** City of Mesa GIS, Red Mountain Center and Red Mountain Park.
 - **modifications:** GeoJSON extract; projected to local metres; two existing
   LineStrings retained as candidate centerlines, buffered with assumed 3.3 m
@@ -32,7 +71,8 @@ approximation is for a representative site model, not surveying.
   recreation-center point **geodb_oid 1**, Red Mountain Multigenerational
   Center, 7550 East Adobe; local `data/mesa-center.geojson`.
 - **licence:** same City of Mesa Data Terms of Use.
-- **attribution:** City of Mesa GIS.
+- **attribution:** City of Mesa GIS. Building layer's published credit:
+  **City of Mesa, Information Technology Department, Enterprise GIS**.
 - **modifications:** footprint extruded to **assumed 6 m** height. No surveyed
   heights, facade imagery or real tree inventory is claimed.
 
