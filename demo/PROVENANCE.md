@@ -46,6 +46,14 @@ approximation is for a representative site model, not surveying.
 - **modifications:** terrain, planting, people, lighting, path widths and proposal
   forms are arranged representative assets. Sun is illustrative, not a dated
   solar study. No shade geometry implies quantified cooling.
+- **cinematic look:** original, deterministic 64x64 RGBA grain textures from
+  `surfaces.mjs` (seeds 11, 23, 37, 41, 53 and 67), with procedural paving
+  joints. The texture pixels are embedded in scene JSON; no imagery, external
+  texture downloads, generated images or facade survey is used. Stucco,
+  roofing, foliage and ground finishes are illustrative, not site observations.
+  Warm low-angle key, cool sky/edge fill, shadows and ACES exposure 0.95 are
+  art direction, not a measured date/time or thermal model. GIS coordinates,
+  widths, footprint and height are unchanged.
 - **speech:** user explicitly authorized **Dub-generated synthetic speech** in
   place of the work order's human recordings. On-screen disclosure is permanent.
   Dub currently exposes English voices only; Spanish text through an English

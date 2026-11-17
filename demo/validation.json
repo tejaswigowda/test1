@@ -1,8 +1,24 @@
 {
   "unitTests": {
     "command": "npm test",
-    "passed": 6,
+    "passed": 7,
     "failed": 0
+  },
+  "cinematicRevision": {
+    "geometry": "GIS path coordinates, widths, building footprint and 6m height are unchanged.",
+    "surfaces": "Six seeded 64x64 RGBA images embedded in JSON; texture pixels and settings survive ObjectLoader reload.",
+    "lighting": "Warm low-angle key, cool sky/edge fill, PCF shadows with radius 3, ACES exposure 0.95; illustrative, not a solar study.",
+    "browserCheck": "Loaded revised JSON in hosted Strata and used its actual WebGL Snapshot pipeline at 1920x1080.",
+    "shadowComparison": {
+      "method": "Count pixels where the summed absolute RGB difference between real exports with shadows on/off exceeds 20.",
+      "changedPixels": 158295,
+      "minimumRequired": 1000,
+      "meanChannelDelta": 2.048261156121399
+    },
+    "camera": [130, 115, 160],
+    "topLevelObjects": 32,
+    "noAITutorial": "All seven exact published snippets executed through the hosted JS Shell: 32 objects, 2 reloaded GIS paths, 6m building, 6 embedded images with preserved pixels, environment None, 0 scripts, model not loaded; real 1920x1080 Snapshot exported.",
+    "captureClaim": "Still images only; historical speech rehearsals below were not rerun for this appearance revision."
   },
   "sceneExport": {
     "regression": "Reload test failed against the original published scene and passes after the export correction.",

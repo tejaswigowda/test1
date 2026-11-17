@@ -24,6 +24,15 @@ lighting and camera. This is a representative reconstruction at a real Mesa
 site, not the City's surveyed digital twin or a community-approved proposal.
 Candidate landmark aliases, the prompt and the scene arrangement are authored.
 Host grounding is conservative; the paper's 86% benchmark is not remeasured.
+The cinematic revision adds seeded, embedded procedural gravel, paving, roof,
+stucco and foliage textures, a warm low-angle key, cool sky/edge fill, soft
+shadows and ACES exposure 0.95. These are authored finishes and illustrative
+lighting, not photographs or a solar study. All GIS geometry stays unchanged.
+There are now 32 top-level objects (one additional fill light).
+The authoring installer explicitly applies the saved export settings, and the
+runner selects the viewport's "as render" mode so its preview uses those same
+settings. Loading scene JSON alone does not reliably replace an existing
+editor's renderer preferences.
 
 **Speech is synthetic, explicitly authorized by the requester.** The panel
 discloses that throughout. Original FX3 (human Spanish speech) is **unmet**.
@@ -57,7 +66,11 @@ building mesh, and saves Strata's control center. A reload regression test check
 every path segment against its stored GIS coordinates and the building's height.
 Earlier speech/operation rehearsals are not evidence of correct scene appearance.
 
-**Verified:** 5 focused operation tests plus the scene reload test pass. A complete unattended **English**
+**Verified:** 5 focused operation tests, the scene reload test and the seeded
+surface/shadow serialization test pass (7 total). Actual hosted-Strata Snapshot
+exports at 1920x1080 with shadows on/off differ visibly: 158,295 pixels have a
+summed RGB difference above 20. This is a still-render check, not an OBS take.
+A complete unattended **English**
 rehearsal passed: Dub -> actual Whisper transcripts -> Qwen2.5-Coder-1.5B ->
 real ambiguity refusal -> >=3-second visible hold (about 3.5 s) -> clarified canopy on
 `center-walk`. No footage was captured; the full run took about 49 seconds,

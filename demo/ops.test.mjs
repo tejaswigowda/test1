@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import * as T from 'three';
 import { createFluxHost } from './ops.mjs';
+import { makeSurface } from './surfaces.mjs';
 
 function fixture() {
   const scene = new T.Scene(), camera = new T.PerspectiveCamera( 60, 16 / 9, 0.1, 200 );
@@ -15,6 +16,27 @@ function fixture() {
   return { scene, camera, host: createFluxHost( { THREE: T, scene, camera } ) };
 }
 const answer = proposal => async () => JSON.stringify( proposal );
+
+test( 'seeded surfaces and the shadow rig survive export without external image requests', async () => {
+  const json = JSON.parse( await readFile( new URL( 'scene.json', import.meta.url ), 'utf8' ) );
+  const scene = new T.ObjectLoader().parse( json.scene );
+  const ground = scene.getObjectByName( 'Representative desert ground' );
+  const expected = makeSurface( T, 'test', '#ffffff', [ 36, 36 ], 11, 0.12 );
+  assert.deepEqual( ground.material.map.image.data, expected.map.image.data );
+  assert.equal( ground.material.map, ground.material.bumpMap );
+  assert.equal( ground.material.map.wrapS, T.RepeatWrapping );
+  assert.equal( ground.material.map.generateMipmaps, true );
+  assert.deepEqual( ground.material.map.repeat.toArray(), [ 36, 36 ] );
+  assert.ok( new Set( ground.material.map.image.data ).size > 20 );
+  assert.ok( json.scene.images.every( image => typeof image.url === 'object' && Array.isArray( image.url.data ) ) );
+  const path = scene.children.find( object => object.userData.fluxPath?.id === 'center-walk' );
+  assert.equal( path.children[ 0 ].material.map.image.data, path.children[ 1 ].material.map.image.data );
+  assert.notEqual( path.children[ 0 ].material.map.repeat.y, path.children[ 1 ].material.map.repeat.y );
+  const sun = scene.children.find( object => object.isDirectionalLight && object.castShadow );
+  assert.ok( sun && ground.receiveShadow && path.children.every( object => object.receiveShadow ) );
+  assert.ok( sun.position.y < Math.hypot( sun.position.x, sun.position.z ) );
+  expected.dispose(); expected.map.dispose();
+} );
 
 test( 'exported scene reloads GIS paths at their coordinates and keeps the building horizontal', async () => {
   const json = JSON.parse( await readFile( new URL( 'scene.json', import.meta.url ), 'utf8' ) );

@@ -2,6 +2,10 @@ import { createFluxHost } from './ops.mjs';
 import { mountFluxPanel } from './panel.mjs';
 
 export async function installFlux( editor, THREE ) {
+  const look = editor.scene.userData.flux.look;
+  for ( const key of [ 'shadows', 'shadowType', 'toneMapping', 'toneMappingExposure' ] ) {
+    editor.config.setKey( 'project/renderer/' + key, look[ key ] );
+  }
   const base = location.origin + '/editor/js/commands/';
   const [ { AddObjectCommand }, { RemoveObjectCommand }, { MultiCmdsCommand } ] = await Promise.all( [
     import( base + 'AddObjectCommand.js' ), import( base + 'RemoveObjectCommand.js' ), import( base + 'MultiCmdsCommand.js' )

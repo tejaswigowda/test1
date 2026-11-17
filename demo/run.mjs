@@ -138,6 +138,7 @@ async function prepare( editor ) {
   const sources = await Promise.all( [ 'ops.mjs', 'panel.mjs', 'install.mjs' ].map( name => readFile( path.join( dir, name ), 'utf8' ) ) );
   const code = sources.map( source => source.replace( /^import .*;$/gm, '' ).replace( /^export /gm, '' ) ).join( '\n' );
   await editor.evaluate( async code => new Function( code + '\nreturn installFlux(window.editor,window.THREE);' )(), code );
+  await editor.locator( 'select[title^="as render:"]' ).selectOption( 'render' );
   const paths = await editor.evaluate( () => window.flux.candidates() );
   if ( paths.length !== 2 ) throw new Error( `FX4 failed: expected 2 visible paths, found ${paths.length}.` );
   if ( ! await editor.evaluate( () => window.editor.aiEngine.ready ) ) {
