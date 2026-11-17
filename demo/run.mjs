@@ -133,6 +133,8 @@ async function prepare( editor ) {
   editor.on( 'dialog', dialog => dialog.accept() );
   await editor.goto( 'https://strataeditor.dev/' );
   await editor.waitForFunction( () => window.editor?.aiEngine && window.THREE );
+  await editor.locator( 'select' ).filter( { has: editor.locator( 'option[value="WebGLRenderer"]' ) } ).selectOption( 'WebGLRenderer', { force: true } );
+  await editor.waitForFunction( () => window.editor.config.getKey( 'project/renderer/type' ) === 'WebGLRenderer' );
   const json = JSON.parse( await readFile( path.join( dir, 'scene.json' ), 'utf8' ) );
   await editor.evaluate( async json => { window.disposeFlux?.(); window.editor.clear(); await window.editor.fromJSON( json ); }, json );
   const sources = await Promise.all( [ 'ops.mjs', 'panel.mjs', 'install.mjs' ].map( name => readFile( path.join( dir, name ), 'utf8' ) ) );

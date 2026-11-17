@@ -29,10 +29,12 @@ stucco and foliage textures, a warm low-angle key, cool sky/edge fill, soft
 shadows and ACES exposure 0.95. These are authored finishes and illustrative
 lighting, not photographs or a solar study. All GIS geometry stays unchanged.
 There are now 32 top-level objects (one additional fill light).
-The authoring installer explicitly applies the saved export settings, and the
-runner selects the viewport's "as render" mode so its preview uses those same
-settings. Loading scene JSON alone does not reliably replace an existing
-editor's renderer preferences.
+The runner selects Strata's existing WebGL renderer before loading the scene;
+the authoring installer applies the saved export settings, and the runner
+selects "as render". This avoids a mixed WebGPU/WebGL preview that was observed
+to omit shadows despite correct Snapshot exports. For manual use select
+Settings > Renderer > WebGL before loading the scene. Loading JSON alone does
+not reliably replace an existing editor's renderer preferences.
 
 **Speech is synthetic, explicitly authorized by the requester.** The panel
 discloses that throughout. Original FX3 (human Spanish speech) is **unmet**.

@@ -9,6 +9,7 @@
     "surfaces": "Six seeded 64x64 RGBA images embedded in JSON; texture pixels and settings survive ObjectLoader reload.",
     "lighting": "Warm low-angle key, cool sky/edge fill, PCF shadows with radius 3, ACES exposure 0.95; illustrative, not a solar study.",
     "browserCheck": "Loaded revised JSON in hosted Strata and used its actual WebGL Snapshot pipeline at 1920x1080.",
+    "viewportCheck": "Shared headed Strata tab: switched the standard Renderer control to WebGL before reloading the scene and selected as render; visually confirmed tree/building shadows. Mixed WebGPU/WebGL preview had omitted shadows, so the runner now chooses WebGL before scene loading.",
     "shadowComparison": {
       "method": "Count pixels where the summed absolute RGB difference between real exports with shadows on/off exceeds 20.",
       "changedPixels": 158295,
