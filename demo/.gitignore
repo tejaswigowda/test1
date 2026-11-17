@@ -1,0 +1,6 @@
+node_modules/
+takes/*
+!takes/.gitkeep
+speech/*.wav
+speech/*.report.json
+.browser/

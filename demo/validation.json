@@ -1,0 +1,334 @@
+{
+  "unitTests": {
+    "command": "npm test",
+    "passed": 5,
+    "failed": 0
+  },
+  "capture": {
+    "recorded": false,
+    "reason": "OBS not installed; available display/browser are below 1920x1080"
+  },
+  "heat": {
+    "enabled": false,
+    "reason": "EDI package reuse licence/citation unverified"
+  },
+  "spanish": {
+    "accepted": false,
+    "originalHumanSpeechGate": false,
+    "reason": "English-voice synthetic Spanish was mistranscribed; both real ASR attempts were refused"
+  },
+  "runs": [
+    {
+      "sourceTake": "003-english.json",
+      "beat": "english",
+      "started": "2026-11-17T00:13:25.652Z",
+      "captured": false,
+      "rehearsal": true,
+      "originalFX3": false,
+      "FX7": false,
+      "FX8": "not applicable: heat cut",
+      "audio": [
+        {
+          "file": "english.wav",
+          "sha256": "37469223c680c718a876e44b014911db8508ca035870da19d0d242f9987cc30d"
+        },
+        {
+          "file": "clarify.wav",
+          "sha256": "b6a7fbc100fb760fac856c571717b24670d5ff62f05cf42f2c7090daecbaef43"
+        }
+      ],
+      "browser": {
+        "innerWidth": 1512,
+        "innerHeight": 805,
+        "outerWidth": 1512,
+        "outerHeight": 861,
+        "screenWidth": 1512,
+        "screenHeight": 982,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "model": "Qwen2.5-Coder-1.5B-Instruct-q4f32_1-MLC"
+      },
+      "result": {
+        "transcripts": [
+          "What if we shaded this walkway?",
+          "The one by the community center."
+        ],
+        "refusal": {
+          "at": "2026-11-17T00:13:50.970Z",
+          "ok": false,
+          "reason": "ambiguous-path",
+          "detail": "2 walkways are visible. \"What if we shaded this walkway?\" does not name one uniquely. Which walkway: Walkway by the community center or Walkway along the park loop?",
+          "model": {
+            "op": "refuse",
+            "reason": "ambiguous-path",
+            "detail": "Two paths fit. Which walkway?"
+          },
+          "elapsedMs": 4052.699999988079
+        },
+        "result": {
+          "at": "2026-11-17T00:14:10.969Z",
+          "op": "shade.add",
+          "ok": true,
+          "id": "shade-001",
+          "path": "center-walk",
+          "kind": "canopy"
+        },
+        "refusalHoldMs": 3500,
+        "synthetic": true
+      },
+      "journal": [
+        {
+          "at": "2026-11-17T00:13:50.970Z",
+          "ok": false,
+          "reason": "ambiguous-path",
+          "detail": "2 walkways are visible. \"What if we shaded this walkway?\" does not name one uniquely. Which walkway: Walkway by the community center or Walkway along the park loop?",
+          "model": {
+            "op": "refuse",
+            "reason": "ambiguous-path",
+            "detail": "Two paths fit. Which walkway?"
+          },
+          "elapsedMs": 4052.699999988079
+        },
+        {
+          "at": "2026-11-17T00:14:10.969Z",
+          "op": "shade.add",
+          "ok": true,
+          "id": "shade-001",
+          "path": "center-walk",
+          "kind": "canopy"
+        }
+      ],
+      "completed": true,
+      "finished": "2026-11-17T00:14:14.673Z"
+    },
+    {
+      "sourceTake": "006-english.json",
+      "beat": "english",
+      "started": "2026-11-17T00:26:06.921Z",
+      "captured": false,
+      "rehearsal": true,
+      "originalFX3": false,
+      "FX7": false,
+      "FX8": "not applicable: heat cut",
+      "audio": [
+        {
+          "file": "english.wav",
+          "sha256": "37469223c680c718a876e44b014911db8508ca035870da19d0d242f9987cc30d"
+        },
+        {
+          "file": "clarify.wav",
+          "sha256": "b6a7fbc100fb760fac856c571717b24670d5ff62f05cf42f2c7090daecbaef43"
+        }
+      ],
+      "browser": {
+        "innerWidth": 1512,
+        "innerHeight": 805,
+        "outerWidth": 1512,
+        "outerHeight": 861,
+        "screenWidth": 1512,
+        "screenHeight": 982,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "model": "Qwen2.5-Coder-1.5B-Instruct-q4f32_1-MLC"
+      },
+      "result": {
+        "transcripts": [
+          "What if we shaded this walkway?",
+          "The one by the community center."
+        ],
+        "refusal": {
+          "at": "2026-11-17T00:26:29.246Z",
+          "ok": false,
+          "reason": "ambiguous-path",
+          "detail": "2 walkways are visible. \"What if we shaded this walkway?\" does not name one uniquely. Which walkway: Walkway by the community center or Walkway along the park loop?",
+          "model": {
+            "op": "refuse",
+            "reason": "ambiguous-path",
+            "detail": "Two paths fit. Which walkway?"
+          },
+          "elapsedMs": 1474.0999999940395
+        },
+        "result": {
+          "at": "2026-11-17T00:26:50.322Z",
+          "op": "shade.add",
+          "ok": true,
+          "id": "shade-001",
+          "path": "center-walk",
+          "kind": "canopy"
+        },
+        "refusalHoldMs": 3499,
+        "synthetic": true
+      },
+      "journal": [
+        {
+          "at": "2026-11-17T00:26:29.246Z",
+          "ok": false,
+          "reason": "ambiguous-path",
+          "detail": "2 walkways are visible. \"What if we shaded this walkway?\" does not name one uniquely. Which walkway: Walkway by the community center or Walkway along the park loop?",
+          "model": {
+            "op": "refuse",
+            "reason": "ambiguous-path",
+            "detail": "Two paths fit. Which walkway?"
+          },
+          "elapsedMs": 1474.0999999940395
+        },
+        {
+          "at": "2026-11-17T00:26:50.322Z",
+          "op": "shade.add",
+          "ok": true,
+          "id": "shade-001",
+          "path": "center-walk",
+          "kind": "canopy"
+        }
+      ],
+      "completed": true,
+      "finished": "2026-11-17T00:26:54.055Z"
+    },
+    {
+      "sourceTake": "007-english.json",
+      "beat": "english",
+      "started": "2026-11-17T00:29:43.247Z",
+      "captured": false,
+      "rehearsal": true,
+      "originalFX3": false,
+      "FX7": false,
+      "FX8": "not applicable: heat cut",
+      "audio": [
+        {
+          "file": "english.wav",
+          "sha256": "37469223c680c718a876e44b014911db8508ca035870da19d0d242f9987cc30d"
+        },
+        {
+          "file": "clarify.wav",
+          "sha256": "b6a7fbc100fb760fac856c571717b24670d5ff62f05cf42f2c7090daecbaef43"
+        }
+      ],
+      "browser": {
+        "innerWidth": 1512,
+        "innerHeight": 805,
+        "outerWidth": 1512,
+        "outerHeight": 861,
+        "screenWidth": 1512,
+        "screenHeight": 982,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "model": "Qwen2.5-Coder-1.5B-Instruct-q4f32_1-MLC"
+      },
+      "result": {
+        "transcripts": [
+          "What if we shaded this walkway?",
+          "The one by the community center."
+        ],
+        "refusal": {
+          "at": "2026-11-17T00:30:15.866Z",
+          "ok": false,
+          "reason": "ambiguous-path",
+          "detail": "2 walkways are visible. \"What if we shaded this walkway?\" does not name one uniquely. Which walkway: Walkway by the community center or Walkway along the park loop?",
+          "model": {
+            "op": "refuse",
+            "reason": "ambiguous-path",
+            "detail": "Two paths fit. Which walkway?"
+          },
+          "elapsedMs": 1468.5999999940395
+        },
+        "result": {
+          "at": "2026-11-17T00:30:29.543Z",
+          "op": "shade.add",
+          "ok": true,
+          "id": "shade-001",
+          "path": "center-walk",
+          "kind": "canopy"
+        },
+        "refusalHoldMs": 3501,
+        "synthetic": true
+      },
+      "journal": [
+        {
+          "at": "2026-11-17T00:30:15.866Z",
+          "ok": false,
+          "reason": "ambiguous-path",
+          "detail": "2 walkways are visible. \"What if we shaded this walkway?\" does not name one uniquely. Which walkway: Walkway by the community center or Walkway along the park loop?",
+          "model": {
+            "op": "refuse",
+            "reason": "ambiguous-path",
+            "detail": "Two paths fit. Which walkway?"
+          },
+          "elapsedMs": 1468.5999999940395
+        },
+        {
+          "at": "2026-11-17T00:30:29.543Z",
+          "op": "shade.add",
+          "ok": true,
+          "id": "shade-001",
+          "path": "center-walk",
+          "kind": "canopy"
+        }
+      ],
+      "completed": true,
+      "finished": "2026-11-17T00:30:33.289Z"
+    },
+    {
+      "sourceTake": "004-spanish.json",
+      "beat": "spanish",
+      "started": "2026-11-17T00:14:47.077Z",
+      "captured": false,
+      "rehearsal": true,
+      "originalFX3": false,
+      "FX7": false,
+      "FX8": "not applicable: heat cut",
+      "audio": [
+        {
+          "file": "spanish.wav",
+          "sha256": "37d950e89923c2d5f8493c72d2ca28c4e159c371efb873a6c7ee11872b5f4f48"
+        },
+        {
+          "file": "clarify-es.wav",
+          "sha256": "9ecda498cc6343500e023915cd8fa61a24a6b1234734979e4b983982e6bd4f82"
+        }
+      ],
+      "browser": {
+        "innerWidth": 1512,
+        "innerHeight": 805,
+        "outerWidth": 1512,
+        "outerHeight": 861,
+        "screenWidth": 1512,
+        "screenHeight": 982,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "model": "Qwen2.5-Coder-1.5B-Instruct-q4f32_1-MLC"
+      },
+      "completed": false,
+      "error": "Spanish clarification failed: {\"at\":\"2026-11-17T00:15:56.556Z\",\"ok\":false,\"reason\":\"ambiguous-path\",\"detail\":\"2 walkways are visible. \\\"LDL Centro Communitario\\\" does not name one uniquely. Which walkway: Walkway by the community center or Walkway along the park loop?\",\"model\":{\"op\":\"refuse\",\"reason\":\"ambiguous-path\",\"detail\":\"Two paths fit. Which walkway?\"},\"elapsedMs\":1211.7999999970198}",
+      "finished": "2026-11-17T00:15:56.764Z"
+    },
+    {
+      "sourceTake": "005-spanish.json",
+      "beat": "spanish",
+      "started": "2026-11-17T00:21:30.520Z",
+      "captured": false,
+      "rehearsal": true,
+      "originalFX3": false,
+      "FX7": false,
+      "FX8": "not applicable: heat cut",
+      "audio": [
+        {
+          "file": "spanish.wav",
+          "sha256": "37d950e89923c2d5f8493c72d2ca28c4e159c371efb873a6c7ee11872b5f4f48"
+        },
+        {
+          "file": "clarify-es.wav",
+          "sha256": "9ecda498cc6343500e023915cd8fa61a24a6b1234734979e4b983982e6bd4f82"
+        }
+      ],
+      "browser": {
+        "innerWidth": 1512,
+        "innerHeight": 805,
+        "outerWidth": 1512,
+        "outerHeight": 861,
+        "screenWidth": 1512,
+        "screenHeight": 982,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "model": "Qwen2.5-Coder-1.5B-Instruct-q4f32_1-MLC"
+      },
+      "completed": false,
+      "error": "Spanish clarification failed: {\"at\":\"2026-11-17T00:22:36.027Z\",\"ok\":false,\"reason\":\"ambiguous-path\",\"detail\":\"2 walkways are visible. \\\"LDEL Centro Communitario\\\" does not name one uniquely. Which walkway: Walkway by the community center or Walkway along the park loop?\",\"model\":{\"op\":\"refuse\",\"reason\":\"ambiguous-path\",\"detail\":\"Two paths fit. Which walkway?\"},\"elapsedMs\":1211.5}",
+      "finished": "2026-11-17T00:22:36.223Z"
+    }
+  ]
+}

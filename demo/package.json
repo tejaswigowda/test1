@@ -1,0 +1,16 @@
+{
+  "name": "futureflux-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test ops.test.mjs",
+    "scene": "node create-scene.mjs",
+    "serve": "node serve.mjs",
+    "rehearse": "node run.mjs --beat english --rehearse"
+  },
+  "dependencies": {
+    "obs-websocket-js": "5.0.6",
+    "playwright": "1.56.1",
+    "three": "0.180.0"
+  }
+}
