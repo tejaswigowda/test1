@@ -5,6 +5,50 @@ Local coordinates: origin WGS84 longitude -111.667328704, latitude 33.431791272;
 x east, y up, z south, metres. Longitude is scaled by cos(latitude). This local
 approximation is for a representative site model, not surveying.
 
+## Current root scene: Encanto and land surface temperature
+
+The root `flux.json` includes the Red Mountain site, an Encanto neighborhood
+comparison at its geographic location, and the user's illustrative tree
+proposals. The historical voice-demo operations remain separate; their
+`heat.show` command does not control these scene layers.
+
+- **Encanto boundary:** [City of Mesa registered neighborhoods and HOAs,
+  neighborhood 301](https://services2.arcgis.com/1gVyYKfYgW5Nxb1V/ArcGIS/rest/services/Mesa_Neighborhoods_HOAs/FeatureServer/0).
+  The current boundary was retrieved 2026-11-19; it is not asserted to be the
+  boundary as it existed on the satellite observation date.
+- **Encanto building units:** [City of Mesa CommunityMaps building
+  footprints](https://gis.mesaaz.gov/mesaaz/rest/services/OpenData/CommunityMaps/MapServer/6).
+  The 247 existing building-unit polygons intersecting the boundary are
+  extruded to an **assumed 6 m**; the terrain is illustrative. They are not a
+  complete inventory of every building; none of the returned unit centroids
+  falls within the selected Encanto heat sample. Credit: **City of Mesa,
+  Information Technology Department, Enterprise GIS**. The City terms and
+  conditions are described below.
+- **Heat source:** USGS/NASA Landsat 9 Collection 2 Level-2 surface temperature,
+  [scene LC09_L2SP_037037_20250729_02_T1](https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_037037_20250729_02_T1),
+  acquired 2025-07-29 at 18:03:53 UTC (about 11:04 MST).
+  [Dataset DOI](https://doi.org/10.5066/P9OGBGM6);
+  [USGS redistribution terms](https://www.usgs.gov/faqs/are-there-any-restrictions-use-or-redistribution-landsat-data).
+- **Comparison:** the Red Mountain window `[6541,3000,17,17]` averages
+  51.45 °C; the Encanto window `[6475,3007,17,17]` averages 58.47 °C.
+  Windows are native 30 m product-grid cells in EPSG:32612; all 289 cell
+  centers in the Encanto window fall within the current neighborhood boundary.
+  Both windows exclude ST_B10 DN 0 and QA_PIXEL bits 0–5 (fill, dilated
+  cloud, cirrus, cloud, cloud shadow and snow); all cells passed. Convert with
+  `°C = DN * 0.00341802 + 149 - 273.15`. Native thermal resolution is about
+  100 m. The overlaid colors use a fixed 40–60 °C Viridis scale and blend with
+  the scene.
+- These are equal-sized **samples**, not averages for two whole neighborhoods.
+  They represent one observation of **land surface temperature**, not air
+  temperature, a temperature forecast, or the effect of proposed trees. The
+  displayed tree placements are conceptual, not a mapped tree inventory or
+  an assessed planting plan.
+- **OpenStreetMap:** © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright),
+  [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). The separately
+  attributed [source extract](data/openstreetmap-context.odbl.json) records
+  the source request, way IDs, versions, tags and WGS84 coordinates; keep it
+  with redistribution of the OSM-derived context.
+
 ## Mesa redistribution permission and conditions
 
 Verified **2026-11-16 (MST)** against the rendered
